@@ -1,0 +1,26 @@
+---
+version: 1
+slug: "index-html"
+primary_target: "index.html"
+related_targets: ["programme.html","faculty.html"]
+---
+
+Scope: the IIMB concept prototype, all 15 templates from the audit's section 7.2. Modes by surface: the homepage is Persuade; programme, finder, directory and Exec Ed pages are Operate; ideas, theme, centre and about pages are Read. Build path: code-led (no image generation is available, and the direction is pinned by the brief).
+
+Audience and job: PGP and MBA applicants first (they win ties), on a phone. Then PhD applicants and collaborators, journalists, executives, recruiters, and visitors who need statutory information. The six timed tasks in audit section 7.7 must each take one or two steps.
+
+Constraints: facts render from the data register with source and date; one newsroom data set; events expire automatically; no carousels, autoplay, animated counters, "Read more" links, stock photos or decorative gradients; "Prototype, not the official IIMB website" on every page; placeholders instead of invented values.
+
+## Direction contract
+
+THESIS: The site is walked like Doshi's campus, as a sequence of long stone bands separated by thresholds of shade, with the named idea standing in the light. It refuses the category default: a ranking banner over a carousel and a grid of same-size cards.
+
+OWN-WORLD: Granite-dust ground (#E0DFDB, a low-chroma warm grey; the first value, #E7E4DD, read as cream and was lowered in chroma, not hue), reading stone (#F4F3F1) and deep corridor shade (#1C1A17) carry the page. One accent, the red of IIMB's official sun symbol (#B12322, sampled from the logo), is used only as light. On shade it is lifted to #EC6A61 for rules, the active state and the focus ring; on stone it is the brand red itself. Amber (#F2A900 / #7D5200) is reserved for prototype annotations only: the banner and unconfirmed-fact placeholders. The official IIMB logo, reversed on shade, sets the masthead and footer (user request, 11 Oct 2026). Anek Latin and Anek Devanagari, at condensed widths, set the stone-cut display type. Martel sets the reading column. Hairline bay rules, like pergola beams, mark the 12-column colonnade grid as a short strip at the top of inner-page shade heads. Full-height rules crossed the headlines, so they were cut back, and they are omitted from the homepage lead and the article head. No rounded cards and no shadows except the menu panel.
+
+STORY: The visitor meets a current idea with a named person and a real place. They learn that facts here are owned, dated and sourced. They act through a career-stage corridor that routes them to the right programme, then a key-facts block that answers fee, dates and the CAT route without a PDF.
+
+FIRST VIEWPORT: On a shade band, the institution's name, "Indian Institute of Management Bangalore", is the H1 across bays 1 to 7 at display scale, set in two lines. The user asked for the page to talk about IIMB first (11 Oct 2026). Below it come a positioning line naming the questions IIMB works on, three sourced facts as a ruled list, the primary action (Find your programme, red) and an About link. The pergola-corridor photograph fills bays 8 to 12, bleeding to the band's top and right edges, with a place caption. Along the bottom edge runs the career-stage corridor: six bays (one per routing audience from the audit: undergraduate, two-year MBA, one-year MBA, weekend MBA and Exec Ed, public policy, research). It is visible at 1440x900, with the first two stages visible at 360 px (on phones the photo moves below the corridor). The named research idea (WP 745, featuring Prof. Chetan Subramanian) leads the "From our research" band further down.
+
+FORM: Open Corridor (campus-architectural plus a disciplined editorial slice), pinned by the audit brief. It is position 1 on the brief's own list. Seed key: none (the direction is brief-pinned, so concept-seed was not run, as new-work.md allows). Signature interaction: the career-stage corridor. Choosing a stage lights the bays of the programmes you are eligible for, on the homepage and in the finder. Motion grammar, with one focal moment: on arrival the corridor photo opens through six colonnade shutters, like light entering the bays. The shutters are already half open at first paint and fully open by about 0.75 s. The fact ticks draw in, and a single pulse of light travels along the six career-stage bays (growing from the left, releasing to the right) to direct the eye to the router. The sequence plays once per session, and the name, facts and actions are never hidden. Supporting motion is limited to feedback and continuity: route cards arrive as a list; menu panels open downward from the masthead with instant exits; the finder's best-fit wash transitions; chart bars grow from the baseline on entering view; source lines appear in place; threshold rules extend as their band enters view; and cross-page view transitions keep the masthead still while the page changes. Everything runs from an already-visible default. Reduced motion removes all spatial movement and keeps the colour and opacity feedback.
+
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

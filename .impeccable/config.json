@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "assets/css/site.css"
+        ],
+        "createdAt": "2026-10-11T07:02:12.681Z",
+        "reason": "Build decision (not user-confirmed): .stage::before is a 3px TOP rule on career-stage router buttons, the direction contract's signature 'light' device, not a side border on a card. Flagged to finish reviewer, who reviewed it."
+      }
+    ]
+  }
+}
