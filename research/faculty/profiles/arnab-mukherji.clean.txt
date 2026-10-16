@@ -1,0 +1,65 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/arnab-mukherji.jpg}
+#### Arnab
+Mukherji
+##### Connect with Faculty
+[https://www.linkedin.com/in/arnabmukherji]
+-->
+[/] Home
+[/faculty] Faculty
+Arnab Mukherji
+Professor
+Public Policy
+Chairperson, Master of Management Studies (Public Policy) – PGPPM
+IIMB Chair of Excellence
+Connect with Faculty
+[https://www.linkedin.com/in/arnabmukherji]
+[mailto:arnab@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+arnab@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/arnab-mukherji/ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2024-06/arnabmukherji_resume_iimb-2024.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/arnab-mukherji/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+“Arnab Mukherji is an applied microeconomist whose work focusses on the economics of healthcare and governance. He actively collaborates on international, and inter-disciplinary research teams such as [javascript:confirmDeletee('https://mmduke.wixsite.com/sehatstudy')] SEHAT [Duke University] and [javascript:confirmDeletee('https://www.prosperedproject.com/')] PROSPERED [McGill University]. His work on Bihar was published in a book edited by N. K. Singh and N. Stern titled “The Story of New Bihar: Rekindling: Governance and Development” and released by the President of India. His research has been published in international journals such as the American Journal of Public Health , BMJ , Economic Development and Cultural Change , Journal of Applied Econometrics , Journal of Development Studies , Journal of Health Economics , and World Development . Some of his work has been cited in the media in places as diverse as the Wall Street Journal , Knowledge@Wharton , Business Standard, and the World Bank Blog. He also writes popular pieces in the Hindu Business Line and has been a part of the organizing committee for the IIMB Policy Hackathon since its inception. He has been a consultant with the Government of Karnataka, Bihar, the World Bank, and the Asian Development Bank from time to time.”
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Dr. Mukherji is interested in how survey and administrative data can be used to inform public policy. He has been using this in the context of health where he has been studying the impact of social policy on health outcomes and also in the context of how governance impacts economic growth.
+Selected Journal Articles :
+Wagner, Zachary, Manoj Mohanan, Rushil Zutshi, Arnab Mukherji, and Neeraj Sood. "What drives poor quality of care for child diarrhea? Experimental evidence from India." Science 383, no. 6683 (2024): eadj9986.
+Barnes, K., Arnab Mukherji, P. Mullen, and N. Sood (2017) Financial Risk Protection from Social Health Insurance, Journal of Health Economics , 55(9):14-29.
+Arnab Mukherji, S. Roychoudhury, P. Ghosh and S. Brown, Estimating Healthcare Demand for an Aging Population: A Flexible and Robust Bayesian Joint Model, Journal of Applied Econometrics , 31(6): 1140–1158.
+A. Ghosh and Arnab Mukherji, (2014) Air Pollution and Respiratory Ailments among Children in Urban India: Exploring Causality, Economic Development and Cultural Change , 63(1): 191-222
+N. Sood, E. Bendavid, Arnab Mukherji, Z. Wagner, S. Nagpal, and P. Mullen, (2014) Can Insurance Improve Health? A Quasi-Experimental Evaluation of a Government Health Insurance Program For the Poor in India. BMJ , 349, g5114
+Work in Progress: :
+M. Rao and Arnab Mukherji, [javascript:confirmDeletee('https://drive.google.com/file/d/1H4GUSeJlVa5SdVE6V7hv4ws_R3FF-UcO/view')] UHC Index: A district-level narrative
+Selected Research Proposals
+Development Epidemiology: identifying evidence-based interventions for population health and promoting health equity, an international collaboration led from McGill University and funded by the Canadian Institute of Health Research. 2017-2021.
+Health Economics: Theory and Policy in Fragmented Markets (PGP)
+Inferences in Observational Settings (FPM)
+Evaluating Public Policy (PGPPM)
+Member, Research and Publication Committee, IIM Bangalore
+Member, PGPPM Academic Committee, IIM Bangalore
+Member, FPM Review Committee, IIM Bangalore
+Member, Board of Governors, Adharshila Charitable Trust
+Dr. Mukherji has consulted on a number of impact evaluations conducted for the World Bank, the Asian Development Bank and also on public policy related matters funded by international organizations and different state governments in India. He has also consulted for a number of non-profit and for profit companies that have data analytical needs, particularly in the social sector.
+[http://www.iimb.ac.in/node/5290] Karnataka Innovation Report
+Ph.D., Policy Analysis, Pardee RAND Graduate School
+MPhil, Policy Analysis, Pardee RAND Graduate School
+MA Economics, Jawaharlal Nehru University
+BA Economics, Ramjas College, University of Delhi
+Ph.D. Scholarship, International Water Management Institution
+Kip and Mary Ann Hagopian Fellowship, Pardee RAND Graduate School
+Donald and Susan Rice Fellowship, Pardee RAND Graduate Fellowship
+Sir Ratan Tata Travel Grant, Sir Ratan Tata Trust
+Anuj Mehta Best Student of the Year, Ramjas College, University of Delhi

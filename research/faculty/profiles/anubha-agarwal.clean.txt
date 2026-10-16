@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-09/Prof.%20Anubha%20Agarwal.jpg}
+#### Anubha
+Agarwal
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Anubha Agarwal
+Assistant Professor
+Economics
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:anubha.agarwal@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+anubha.agarwal@iimb.ac.in
+Curriculum Vitae
+[https://www.anubhaagarwal.com ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-05/Anubha_Agarwal_CV_May-2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.anubhaagarwal.com ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+I am a macroeconomist with a focus on firm dynamics, innovation, economic growth, and market power. I study the sources and implications of firm growth; the interplay between firm cash holdings, mergers and acquisitions (M&A), firm concentration, and growth; and the welfare effects of product market power. My research involves developing general equilibrium models and leveraging microdata to explore how interactions among heterogeneous agents influence macroeconomic outcomes.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Macroeconomics, Firm Dynamics, Innovation, Economic Growth, Market Power
+Working Papers:
+Firm Dynamics, Geographic Expansion and Local Competition
+Stockpiling Liquidity to Acquire Innovation (with Mark Rempel)
+To Worry or Not: Accounting for the Diverging Trends in National and Local Market Concentration in the United States
+Ph.D. in Economics, University of Toronto
+M.A. Economics, Delhi School of Economics, University of Delhi
+B.A. (Hons.) Economics, Shri Ram College of Commerce, University of Delhi

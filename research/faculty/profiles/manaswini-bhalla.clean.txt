@@ -1,0 +1,60 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Prof-Manaswini_bhalla.jpg}
+#### Manaswini
+Bhalla
+##### Connect with Faculty
+[https://www.linkedin.com/in/manaswini-bhalla-9883a97/]
+[https://www.twitter.com/ManaswiniBhalla]
+-->
+[/] Home
+[/faculty] Faculty
+Manaswini Bhalla
+Professor
+Economics
+Chairperson, Master of Business Administration (MBA), Two-year fulltime programme
+Chairperson, Master of Business Administration (Business Analytics), (MBA(BA)), Two-year fulltime programme
+Connect with Faculty
+[https://www.linkedin.com/in/manaswini-bhalla-9883a97/]
+[https://www.twitter.com/ManaswiniBhalla]
+[mailto:manaswinib@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+manaswinib@iimb.ac.in
+Curriculum Vitae
+[https://manaswinibhalla.weebly.com/ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://manaswinibhalla.weebly.com/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Manaswini Bhalla is Professor in the Economics area at Indian Institute of Management. Her primary area of interest lies in information economics with a focus on issues in pricing, corporate culture and political economy. She uses empirical and game theoretic tools in her research.
+In a series of working papers, she is exploring the role of culture on economic outcomes in the context of corporate boards, entrepreneurship, legal system and real estate.
+In the field of pricing, her work explores the use of prices and other instruments by firms to influence learning process of consumers to their advantage. Some of her work in this area have been published in journals like Journal of Economic Theory and Journal of Industrial Economics.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Published Papers
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0305750X19303857')] Impact of Use of Technology on Student Learning Outcomes- Evidence from a Large-Scale Experiment in India , with Gopal Naik, Chetan Chitre and Jothsna Ranjan. World Development , Volume 127, 104736, 2020
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S1090944316302368')] Strategic Dissent in the Hotelling-Downs model with Sequential Entry and Private Information , with Siddhartha Bandyopadhyay, Kalyan Chatterjee, and Jaideep Roy. (Invited Article) Research in Economics , Volume 71(1): 51-66, 2017
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0022053116300424')] Social Learning and Delay in a Dynamic Model of Price Competition, with Masaki Aoyagi and Hikmet Gunay. Journal of Economic Theory , Volume 165: 565-600, 2016
+[javascript:confirmDeletee('https://onlinelibrary.wiley.com/doi/full/10.1111/joie.12013')] Waterfall versus Sprinkler Product Launch Strategy: Influencing the Herd, Journal of Industrial Economics , Volume 61(1): 138-165, 2013
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S1090944311000044')] Endogenous Order and Information Aggregation, Research in Economics , Volume 65(4): 319-331, 2011
+Working Papers
+[javascript:confirmDeletee('https://manaswinibhalla.weebly.com/uploads/4/8/9/2/489264/leadership.pdf')] Social Reform as a Path to Political Leadership: A Dynamic Model, with Kalyan Chatterjee and Souvik Dutta
+[javascript:confirmDeletee('https://manaswinibhalla.weebly.com/uploads/4/8/9/2/489264/bgkz.pdf')] Firms of a Feather Merge Together: Cultural Proximity and M&A Outcomes, with [javascript:confirmDeletee('http://manishagoel.weebly.com/')] Manisha Goel , [https://research.pomona.edu/michelle-zemel/] Michelle Zemel , and Krishna Teja
+[javascript:confirmDeletee('https://manaswinibhalla.weebly.com/uploads/4/8/9/2/489264/zeroratingpaper.pdf')] Role of Digital Divide in Optimal Zero Rating Policy, with Shubhajyoti Bandyopadhyay and Neena Pandey
+Cultural Homophily in Corporate Boards and Firm Outcomes, with [http://manishagoel.weebly.com/] Manisha Goel , [javascript:confirmDeletee('https://www.insead.edu/faculty-research/faculty/balagopal-vissa')] Balagopal Vissa and Suresh Bhargavatula
+Set Aside Auctions in Vertically Differentiated Market, with Achal Goyal
+Sequential Auctions of More Than Two Objects with Synergies, with Pranjal Chandrakar and Shubhabrata Das
+Professor Bhalla currently teaches Managerial Economics and Strategic Thinking: Game Theory for Managers to PGP students. She also conducts executive education programmes on managerial economics and game theory for senior managers.
+Telecom Regulatory Authority of India
+Indian Pharmaceutical Alliance
+Waste Ventures (Hasirudala)
+PhD (Economics), The Pennsylvania State University, USA
+MA (Economics), Delhi School of Economics, Delhi University, India
+BA (Economics), Lady Shri Ram College, Delhi University, India
+She received the Bates and White Graduate Research Fellowship, Fall 2006 - Spring 2007 from Bates Whites LLC, Washington D C, USA. She received the Young Research Fellow Award from the Indian Institute of Management Bangalore in 2011.

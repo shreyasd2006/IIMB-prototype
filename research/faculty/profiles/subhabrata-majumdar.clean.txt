@@ -1,0 +1,51 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-01/Subhabrata_Majumdar.jpg}
+#### Subhabrata
+Majumdar
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Subhabrata Majumdar
+Assistant Professor
+Decision Sciences
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:subhabrata.majumdar@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+subhabrata.majumdar@iimb.ac.in
+Curriculum Vitae
+[https://shubhobm.github.io ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-01/Subhabrata-Majumdar-cv-2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://shubhobm.github.io ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Subhabrata Majumdar received his PhD in Statistics from the University of Minnesota Twin Cities and holds bachelor's and master's degrees in Statistics from Indian Statistical Institute, Kolkata. Prior to joining IIMB, he was Co-founder and Head of AI at Vijil, a US-based AI startup that helps enterprises build and operate trustworthy AI agents. Before that, he was a senior scientist in the security research team at Splunk and the Data Science and AI Research team at AT&T Labs.
+Dr Majumdar has pioneered the use of trustworthy AI methods in multiple companies, and authored a book Practicing Trustworthy Machine Learning . His work in the data for good space has driven policy changes in organizations such as UNICEF Office of Innovation and Chicago Department of Public Health, and has received global recognition through outlets such as MIT Tech Review. He is a recipient of the International Indian Statistical Association (IISA) Early Career Award in Statistics and Data Sciences.
+Dr Majumdar’s research interests are broadly in the areas of trustworthy AI and statistical machine learning. He is particularly interested in the theoretical foundations of AI security and alignment .
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Trustworthy AI, AI Security, AI Alignment , Statistical Machine Learning
+Selected Publications
+Please refer to his [https://scholar.google.com/citations?user=wED36bwAAAAJ&hl=enl] Google Scholar for a full list.
+S. Majumdar , B. Pendleton, A. Gupta. Red Teaming AI Red Teaming. Conference on Applied Machine Learning in Information Security , 2025.
+H. Raj, V. Gupta, D. Rosati, S. Majumdar. Improving Consistency in Large Language Models through Chain of Guidance. Transactions on Machine Learning Research , 2025.
+D. Rosati, J. Wehner, K. Williams, L. Bartoszcze, D. Atanasov, R. Gonzales, S. Majumdar , C. Maple, H. Sajjad, F. Rudzicz. Representation Noising: A Defence Mechanism Against Harmful Finetuning. Advances in Neural Information Processing Systems, 37, 12636-12676, 2024.
+M.A. Ayub, S. Majumdar . Embedding-based classifiers can detect prompt injection attacks. Conference on Applied Machine Learning in Information Security , 2024.
+R. Rustamov, S. Majumdar . Intrinsic Sliced Wasserstein Distances for Comparing Collections of Probability Distributions on Manifolds and Graphs. International Conference on Machine Learning , 29388-29415, 2023.
+F.T. Brito, V.A.E. Farias, C. Flynn, J.C. Machado, S. Majumdar , D. Srivastava. Global and Local Differentially Private Release of Count-Weighted Graphs. Proceedings of the ACM on Management of Data, 1 (2), 1-25, 2023.
+V.A.E. Farias, F.T. Brito, C. Flynn, J.C. Machado, S. Majumdar , D. Srivastava. Local Dampening: Differential Privacy for Non-numeric Queries via Local Sensitivity. The VLDB Journal , 32, 1191–1214, 2023.
+S. Majumdar , S. Chatterjee. On weighted multivariate sign functions. Journal of Multivariate Analysis , 105013, 2022.
+S. Majumdar , S. Chatterjee. Feature Selection using e-values. International Conference on Machine Learning , 14753-14773, 2022.
+S. Majumdar , G. Michailidis. Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models. Journal of Machine Learning Research , 23(1), 1-53, 2022.
+A. Ghosh, S. Majumdar . Ultrahigh-dimensional Robust and Efficient Sparse Regression using Non-Concave Penalized Density Power Divergence. IEEE Transactions on Information Theory , 66(12), 7812-7827, 2020.
+Working Papers
+Limits of Convergence-Rate Control for Open-Weight Safety.
+garak: A framework for security probing large language models (arXiv:2406.11036).
+Generalized Multivariate Signs for Nonparametric Hypothesis Testing in High Dimensions (arXiv:2107.01103).
+Ph.D, School of Statistics, University of Minnesota Twin Cities, USA.
+M.Stat, Indian Statistical Institute, Kolkata, India.
+B.Stat (Hons), Indian Statistical Institute, Kolkata, India.

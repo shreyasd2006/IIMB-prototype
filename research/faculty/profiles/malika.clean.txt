@@ -1,0 +1,31 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Malika.jpg}
+#### Malika
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Malika
+Assistant Professor
+Marketing
+Connect with Faculty [mailto:malika@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+malika@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-01/Malika-CV-Jan-2023.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Malika is an Assistant Professor in the Department of Marketing at IIM Bangalore. Prior to joining, she was an Assistant Professor/Faculty Fellow in the Department of Marketing at the Stern School of Business. She earned her Ph.D. in Management from Indian School of Business, her M.Phil. in Social and Developmental Psychology from University of Cambridge and her M.A. and B.A. in Psychology from Panjab University. Her research focuses on individual differences and cultural differences in interpersonal and consumer context.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Global marketing, Financial decision making, Cross-cultural psychology, Branding.
+2020 FPM Marketing , Indian School of Business, India
+2011 M.Phil. Social Psychology , University of Cambridge, United Kingdom
+2010 M.A. Psychology , Panjab University, India
+2008 B.A. Psychology (Honors), Panjab University, India

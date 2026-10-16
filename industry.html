@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry partnerships — IIM Bangalore</title>
+<meta name="description" content="Recruit, develop leaders, partner on research or back founders with IIMB.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="industry" data-section="industry">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>Industry</li></ol>
+  <div class="grid"><h1 class="t-1">Bring a question. Build knowledge.</h1><p class="deck">Six routes to working with IIMB, each pointing to the office that handles it.</p></div>
+</div></header>
+<section class="section" style="padding-top:48px" aria-labelledby="routesH">
+  <div class="wrap"><h2 id="routesH" class="sr-only">Routes to collaboration</h2><ul class="route-rows" id="routes"></ul></div>
+</section>
+<section class="section on-paper2" aria-labelledby="partH">
+  <div class="wrap grid" style="row-gap:40px">
+    <div style="grid-column:1/span 6"><h2 id="partH" class="t-2" style="margin-bottom:24px">Partners named by IIMB</h2><ul class="plain-list" id="partners"></ul><p class="src" style="margin-top:8px">From the About page and 2026 news releases.</p></div>
+    <div style="grid-column:8/span 5"><h2 class="t-3" style="margin-bottom:20px">Partnership news</h2><ul class="story-list" id="partnerNews"></ul></div>
+  </div>
+</section>
+<section class="section on-red" aria-labelledby="enqH">
+  <div class="wrap grid" style="row-gap:40px">
+    <div style="grid-column:1/span 5"><h2 id="enqH" class="t-1">Start a conversation.</h2><p class="muted-red" style="margin-top:20px">Tell us what you have in mind. This concept site doesn’t send anything itself: it drafts an email to the right IIMB office, which you send from your own mail app.</p></div>
+    <form id="enquiry" class="enquiry" style="grid-column:7/span 6" novalidate>
+      <label>Your name<input id="eName" autocomplete="name" required></label>
+      <label>Organisation<input id="eOrg" autocomplete="organization" required></label>
+      <label class="full">I’m interested in<select id="eType"><option value="recruit">Recruiting graduates</option><option value="exec">Executive education</option><option value="research">A research partnership</option><option value="ventures">Startups and NSRCEL</option><option value="cases">Teaching cases</option><option value="give">Giving</option><option value="other">Something else</option></select></label>
+      <label class="full">Message<textarea id="eMsg" required></textarea></label>
+      <p class="err full" id="eErr" role="alert"></p>
+      <div class="full" style="display:flex;flex-wrap:wrap;gap:16px;align-items:center"><button class="btn" type="submit">Draft my email <svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button><span class="small" id="eDone" aria-live="polite"></span></div>
+    </form>
+  </div>
+</section>
+<section class="section" style="padding-top:48px"><div class="wrap" id="indSources"></div></section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

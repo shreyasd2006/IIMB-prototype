@@ -1,0 +1,102 @@
+URL: https://www.iimb.ac.in/cdpg/
+FINAL: https://www.iimb.ac.in/cdpg/
+TITLE: Centre for Digital Public Goods | CDPG | IIMB
+
+-
+Home
+-
+About US
+- About the Center
+- Research & Repositories
+- People & Partnerships
+-
+Digest
+-
+Projects
+-
+ONCM
+-
+Resources
+- Readings
+- Videos
+- Practice Papers in Media
+-
+Media
+-
+Events
+- Upcoming Events
+- Past Events
+-
+Contact
+Read more
+Read more -->
+Caption Two
+Caption Three
+❮
+❯
+# Advancing knowledge, practical learning, and implementation of digital public goods.
+The Global Center of Excellence on Digital Public Goods (CDPG) at IIM Bangalore is a knowledge and research Center focused on digital public infrastructure and digital public goods. In partnership with iSPIRT, the Center documents, evaluates, and advances learning from India’s experience with DPGs.
+CDPG brings together research, case evidence, and practical insights to support policymakers, practitioners, researchers, and innovators working with digital public infrastructure across sectors and geographies.
+India's groundbreaking initiatives in creating digital public infrastructure (DPI) have not only revolutionized the way our nation operates but have also garnered global attention. The immense knowledge, experience, and data generated through these initiatives have the potential to benefit not only India but also think tanks, policymakers, practitioners, and researchers worldwide.
+The need of the hour is to harness this wealth of tacit knowledge and undocumented experiences, originating not only from India but also from various corners of the world. The CDPG at IIM Bangalore aims to bridge this gap by serving as a dedicated repository of knowledge on digital public infrastructure. Through our rigorous research efforts, we intend to evaluate the efficacy of DPI initiatives and provide thought leadership for future endeavors in India and beyond.
+The CDPG intends to
+- Provide Policy support (domestic and global)
+- Build and maintain a DPG/ DPI data repository – provide access to IIMB research and become a global data repository
+- Build and maintain a knowledge repository – write a variety of case studies on DPI and DPGs, and become the CoE for spawning teaching and applied research. The knowledge repository would also support start-ups looking to innovate on these platforms.
+- Develop an experience repository – codify tacit knowledge of DPI and DPG to be able to provide consulting and implementation support for other countries/ contexts that would like to replicate (with or without local adaptions)
+## CDPG in the News
+Centre for Digital Public Goods (CDPG) at IIMB convenes multi-stakeholder roundtable to design Open Network for Carbon Markets
+IIM Bangalore and Protean release the inaugural ‘State of DPI in India’ report
+## Partner
+## Contact
+### Srinivasan R, Professor of Strategy and Chairperson – Centre for Digital Public Goods
+Indian Institute of Management Bangalore, Bannerghatta Road, Bangalore 560076. INDIA.
+Email: cdpg[at]iimb[dot]ac[dot]in
+-
+Copyright © 2009-2026 Indian Institute of Management Bangalore. All Rights Reserved.
+
+== IMAGES ==
+https://www.iimb.ac.in/cdpg/assets/images/home01/home-pallax.jpg
+https://www.iimb.ac.in/cdpg/images/CDPG-logo.png
+https://www.iimb.ac.in/cdpg/images/Product_Nation.png
+https://www.iimb.ac.in/cdpg/images/State-India-DPI-Report-2026.jpg
+https://www.iimb.ac.in/cdpg/images/TEAM-CDPG.jpeg
+https://www.iimb.ac.in/cdpg/images/iSPIRT_Logo.png
+https://www.iimb.ac.in/sites/default/files/2025-12/DPI.png
+https://www.iimb.ac.in/sites/default/files/2026-03/Group%20Photo%20.jpg
+https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png
+== YOUTUBE ==
+
+== MP4 ==
+
+== LINKS ==
+https://www.iimb.ac.in
+https://www.iimb.ac.in/cdpg/about-cdpg.php
+https://www.iimb.ac.in/cdpg/assets/css/animate.css
+https://www.iimb.ac.in/cdpg/assets/css/bootstrap.min.css
+https://www.iimb.ac.in/cdpg/assets/css/flexslider.css
+https://www.iimb.ac.in/cdpg/assets/css/font-awesome.min.css
+https://www.iimb.ac.in/cdpg/assets/css/jquery.nstSlider.css
+https://www.iimb.ac.in/cdpg/assets/css/lightcase.css
+https://www.iimb.ac.in/cdpg/assets/css/responsive.css
+https://www.iimb.ac.in/cdpg/assets/css/rtl.css
+https://www.iimb.ac.in/cdpg/assets/css/style.css
+https://www.iimb.ac.in/cdpg/assets/css/swiper.min.css
+https://www.iimb.ac.in/cdpg/assets/fonts/flaticon.css
+https://www.iimb.ac.in/cdpg/assets/images/favicon.ico
+https://www.iimb.ac.in/cdpg/center.php
+https://www.iimb.ac.in/cdpg/contact.php
+https://www.iimb.ac.in/cdpg/digest
+https://www.iimb.ac.in/cdpg/events.php
+https://www.iimb.ac.in/cdpg/index.php
+https://www.iimb.ac.in/cdpg/media.php
+https://www.iimb.ac.in/cdpg/oncm.php
+https://www.iimb.ac.in/cdpg/past-events.php
+https://www.iimb.ac.in/cdpg/people-partnerships.php
+https://www.iimb.ac.in/cdpg/practice-papers-media.php
+https://www.iimb.ac.in/cdpg/projects.php
+https://www.iimb.ac.in/cdpg/reading.php
+https://www.iimb.ac.in/cdpg/research.php
+https://www.iimb.ac.in/cdpg/videos.php
+https://www.iimb.ac.in/iimb-protean-release-state-dpi-india-report
+https://www.iimb.ac.in/node/14665

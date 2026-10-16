@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-09/Professor%20Sachin%20Kumar%20Panda.JPG}
+#### Panda Kumar
+Sachin
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Panda Kumar Sachin
+Assistant Professor
+Information Systems
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:sachinkumar.panda@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sachinkumar.panda@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-08/PKumarSachin_CV.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Professor Sachin's researcher of Information Systems (IS) and hold a PhD in IS from the Terry College of Business, University of Georgia. My primary interest is in how firms can use IS for effective knowledge creation and sharing, better decision making, and innovative problem-solving. Methodologically, I am comfortable with both quantitative and qualitative approaches. My work has been published in premier IS outlets such as Journal of the Association for Information Systems (JAIS, ABDC A*).
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Artificial Intelligence, Online Communities, Decision Making, Creativity, Problem Solving.
+Working Papers:
+Experts Vs Algorithms: Algorithmic Control Of Communication Visibility And Its Impact On Socializing Newcomers In Online Communities (Under Review At Mis Quarterly)
+From Ownership To Co-Ownership: Examining The Impact Of Llm Augmentation On Psychological Ownership In Crowdwork (Under Review at JAIS)
+Generation to Generalization: Appreciation Spillovers in Algorithm Ecosystems (Under Review at MIS Quarterly)
+B-Tech, National Institute of Science and Technology, Berhampur
+MBA, Terry College of Business, University of Georgia
+PhD, Terry College of Business, University of Georgia

@@ -1,0 +1,32 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/siddharth-mahajan.JPG}
+#### Siddharth
+Mahajan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Siddharth Mahajan
+Associate Professor
+Production & Operations Management
+Connect with Faculty [mailto:siddharth.mahajan@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+siddharth.mahajan@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile5] EDUCATION
+Professor Mahajan’s research interests are Supply Chain Management and Retail Inventory Management. His other assignments include Modell's Sporting Goods: Productivity Analysis using DEA of a Chain of Sporting Goods and GM: Managing Popular Car Configurations for Custom Delivery.
+His areas of specialisation are production and operations management.
+PhD, The Wharton School, University of Pennsylvania, USA
+MA, The Wharton School, University of Pennsylvania, USA
+MS, Texas A&M University, USA
+BTech, IIT Delhi, India

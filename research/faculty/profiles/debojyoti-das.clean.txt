@@ -1,0 +1,58 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Debojyoti%20Das.JPG}
+#### Debojyoti
+Das
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Debojyoti Das
+Assistant Professor
+Finance & Accounting
+Connect with Faculty [mailto:debojyoti.das@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+debojyoti.das@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/debojyoti/home?authuser=0 ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2020-09/Debojyoti_CV.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/debojyoti/home?authuser=0 ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Debojyoti Das holds a Doctoral degree in Finance from the Indian Institute of Management Raipur and a Master’s degree specializing in Finance from St. Xavier’s College, Kolkata. The UGC awarded him the Junior Research Fellowship in 2012. He is also an awardee of Certificate of Merit from the Goenka College of Commerce, Government of West Bengal, for his performance in the undergraduate course. He has several research papers to his credit. His current research interests are contemporary issues in accounting and corporate finance. He has also participated in reputed national and international finance conferences.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Current Research
+Work-in-progress
+Creditor's rights and corporate risk-taking behavior: Further evidence from a quasi-natural experiment in an emerging market.
+Past Research
+In the past, I have published in the areas of Energy Finance, Cryptocurrencies and Emerging Equity Markets. Some of my selected research contributions are indicated as below:
+Das, D., Maitra, M., Dutta, A., and Basu, S. Financial stress and crude oil implied volatility: new evidence from continuous wavelet transformation framework. Energy Economics. (Accepted). [2022]. (ABDC Ranking - A*, ABS Ranking - 3)
+Dutta, A., Soytas, U., Das, D., and Bhattacharyya, A. In search of time-varying jumps during the turmoil periods: Evidence from crude oil futures markets. Energy Economics. (Vol. 114 , No.106275). [2022]. (ABDC Ranking: A*, ABS Ranking: 3)
+Dutta, A., and Das, D. Forecasting realized volatility: New evidence from time‐varying jumps in VIX. [2022]. Journal of Futures Markets. (ABDC Ranking: A, ABS Ranking: 3)
+Das, D., Bhatia, V., Kumar, S. B., and Basu, S. Do precious metals hedge crude oil volatility jumps? (Vol. 83 , No.102257). [2022]. International Review of Financial Analysis . (ABDC Ranking: A, ABS Ranking: 3)
+Jana, R. K., Ghosh. I., and Das, D. A differential evolution-based regression framework for forecasting Bitcoin price (Vol. 306 , No.1, p. 295-320). [2021]. Annals of Operations Research . (ABDC Ranking: A, ABS Ranking: 3)
+Jana, R. K., Ghosh. I., Das, D., and Dutta, A. Determinants of electronic waste generation in Bitcoin network: Evidence from the machine learning approach (Vol. 173 , No.121101). [2021]. Technological Forecasting and Social Change. (ABDC Ranking: A, ABS Ranking: 3)
+Das, D., and Dutta, A. Bitcoin’s energy consumption: Is it the Achilles heel to miner’s revenue? (Vol. 1 86 , No.108530). [2020]. Economics Letters. (ABDC Ranking: A, ABS Ranking: 3)
+Das, D., and Kumar, S.B. International economic policy uncertainty and stock prices revisited: Multiple and Partial wavelet approach (Vol. 164 , p.100-108). [2018]. Economics Letters (ABDC Ranking: A, ABS Ranking: 3)
+Accounting for Decisions
+Financial Statement Analysis
+Corporate Finance
+Valuation
+Ph.D., Finance and Accounting, Indian Institute of Management Raipur, India
+M. Com., Accounting and Finance, St. Xavier’s College, Kolkata, University of Calcutta, India
+B. Com. (Hons.), Accounting and Finance, Goenka College of Commerce and Business Administration, University of Calcutta, India
+1. IIMB Young Faculty Research Chair
+Awarded by: Indian Institute of Management Bangalore
+Year: 2020-2023
+2. Junior Research Fellowship
+Awarded by: University Grants Commission
+Year: 2012
+3. Certificate of Merit
+Awarded by: Goenka College of Commerce and Business Administration, Government of WB
+Year: 2011

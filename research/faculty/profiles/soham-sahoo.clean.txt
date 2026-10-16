@@ -1,0 +1,57 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/soham-sahoo-460_0.jpg}
+#### Soham
+Sahoo
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Soham Sahoo
+Associate Professor
+Public Policy
+Chairperson, Public Policy
+Connect with Faculty [mailto:soham.sahoo@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+soham.sahoo@iimb.ac.in
+Curriculum Vitae
+[https://www.sites.google.com/site/sohamsahoo/ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.sites.google.com/site/sohamsahoo/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Soham Sahoo is an Associate Professor in the Public Policy Area at IIM Bangalore. He holds a PhD in Quantitative Economics from the Indian Statistical Institute, Delhi. He has previously held research and teaching positions at the London School of Economics, Loughborough University, the University of Goettingen, and the University of Warwick. He is currently affiliated with the Institute of Labor Economics (IZA), the Global Action for Policy Initiative at Northeastern University, and J-PAL as an Invited Researcher.
+Soham’s research and teaching interests lie at the intersection of economics and public policy, with a focus on education, labour, health, and political economy. His work has been published in leading academic journals and supported by several international research funders.
+He currently serves as an Associate Editor at Economics of Education Review and as an Associate Data Editor at Economic Inquiry .
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile5] EDUCATION
+Research Interests: Development Economics, Economics of Education, Labour Economics, Political Economy
+Published Papers:
+Some key publications are listed below. A complete list is available on Soham’s [javascript:confirmDeletee('https://sites.google.com/site/sohamsahoo/research')] personal website .
+“First-Generation Status as a Criterion for Affirmative Action: Education and Labour Market Effects of a Tuition Waiver in India”, with Gopinath Annadurai, Journal of Economic Behavior and Organization , 249, 107722 (2026) [ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0167268126003094')] Link ]
+“Does Restricting Access to Credit Affect Learning Outcomes? Evidence from a Regulatory Shock to Microfinance in India”, with Muneer Kalliyil, Journal of Development Economics , 182, 103790 (2026) [ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0304387826000738')] Link ]
+“Caste Identity and Teachers’ Biased Expectations: Evidence from Bihar, India”, with Ritwik Banerjee, Satarupa Mitra, and Ashmita Gupta, Journal of Development Economics , 179, 103650 (2026) [ [javascript:confirmDeletee('https://doi.org/10.1016/j.jdeveco.2025.103650')] Link ]
+“The Political Economy of Privatization of Education: Role of Local Politicians in India”, with Muneer Kalliyil, Journal of Economic Behavior and Organization , 241, 107325 (2026) [ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0167268125004421')] Link ]
+“When Criminality Begets Crime: The Role of Elected Politicians in India”, with Nishith Prakash, Deepak Saraswat, and Reetika Sindhi, Journal of Law, Economics, and Organization , 42(1), 61–89 (2026) [ [javascript:confirmDeletee('https://doi.org/10.1093/jleo/ewae021')] Link ]
+“Biased Teachers and Gender Gap in Learning Outcomes: Evidence from India”, with Sonali Rakshit, Journal of Development Economics , 161, 103041 (2023) [ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0304387822001833')] Link ]
+“The impact of educated leaders on economic development: Evidence from India”, with Chandan Jain, Shagun Kashyap, and Rahul Lahoti, Journal of Comparative Economics , 51(3), 1068–1093 (2023) [ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0147596723000355')] Link ]
+“Gender Segregation in Education: Evidence from Higher Secondary Stream Choice in India”, with Stephan Klasen, Demography , 58(3), 987–1010 (2021) [ [javascript:confirmDeletee('https://doi.org/10.1215/00703370-9101042')] Link ]
+“Are Educated Leaders Good for Education? Evidence from India”, with Rahul Lahoti, Journal of Economic Behavior and Organization , 176, 42–62 (2020) [ [javascript:confirmDeletee('https://doi.org/10.1016/j.jebo.2020.03.026')] Link ]
+“Employment Transitions of Women in India: A Panel Analysis”, with Sudipa Sarkar and Stephan Klasen, World Development , 115, 291–309 (2019) [ [javascript:confirmDeletee('https://doi.org/10.1016/j.worlddev.2018.12.003')] Link ]
+“Intra-Household Gender Disparity in School Choice: Evidence from Private Schooling in India”, Journal of Development Studies , 53:10, 1714–1730 (2017) [ [javascript:confirmDeletee('https://dx.doi.org/10.1080/00220388.2016.1265943')] Link ]
+“Does Access to Secondary Education Affect Primary Schooling? Evidence from India”, with Abhiroop Mukhopadhyay, Economics of Education Review , 54, 124–142 (2016) [ [javascript:confirmDeletee('https://doi.org/10.1016/j.econedurev.2016.07.003')] Link ]
+Doctoral Courses
+Education Economics and Policy
+Econometrics II
+PGP Courses
+Business, Government, and Society
+Development Economics
+Education Policy
+Evaluation of Public Policy
+PhD , Quantitative Economics, Indian Statistical Institute, Delhi
+MA , Economics, Jadavpur University, Kolkata
+BA , Economics, Jadavpur University, Kolkata

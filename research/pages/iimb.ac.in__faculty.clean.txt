@@ -1,0 +1,114 @@
+id="main-content">
+Combine fields filter
+Advance Search
+Corporate Strategy & Policy
+Decision Sciences
+Economics
+Finance & Accounting
+Finance & Control
+Information Systems
+Management Communication
+Marketing
+NSRCEL
+Organizational Behavior & Human Resources Management
+Production
+Production & Operations Management
+Public Policy
+Quantitative Methods & Information Systems
+Strategy
+Faculty Last name (field_faculty_last_name)
+[/user/245/athira-a] view {IMG /sites/default/files/2024-12/prof-a-athira_1.jpg}
+[/user/245/athira-a] view
+[/user/245/athira-a] view Athira A
+Finance & Accounting
+Athira
+[/user/273/anubha-agarwal] view {IMG /sites/default/files/2026-09/Prof.%20Anubha%20Agarwal.jpg}
+[/user/273/anubha-agarwal] view
+[/user/273/anubha-agarwal] view Anubha Agarwal
+Economics
+Anubha
+[/user/50/v-ravi-anshuman] view {IMG /sites/default/files/2025-01/v-ravi-anshuman%20copy.jpg}
+[/user/50/v-ravi-anshuman] view
+[/user/50/v-ravi-anshuman] view V. Ravi Anshuman
+Finance & Accounting
+V. Ravi
+[/user/215/sarvesh-bandhu] view {IMG /sites/default/files/2025-01/Sarvesh-Bandhu.jpg}
+[/user/215/sarvesh-bandhu] view
+[/user/215/sarvesh-bandhu] view Sarvesh Bandhu
+Economics
+Sarvesh
+[/user/232/swati-bandi] view {IMG /sites/default/files/2026-02/Swati-Bandi.jpg}
+[/user/232/swati-bandi] view
+[/user/232/swati-bandi] view Swati Bandi
+Management Communication
+Swati
+[/user/53/ritwik-banerjee] view {IMG /sites/default/files/2025-11/Ritwik-Banerjee.JPG}
+[/user/53/ritwik-banerjee] view
+[/user/53/ritwik-banerjee] view Ritwik Banerjee
+Economics
+Ritwik
+[/user/206/shankhadeep-banerjee] view {IMG /sites/default/files/2025-01/Shankhadeep-Banerjee.jpeg}
+[/user/206/shankhadeep-banerjee] view
+[/user/206/shankhadeep-banerjee] view Shankhadeep Banerjee
+Information Systems
+Shankhadeep
+[/user/56/sankarshan-basu] view {IMG /sites/default/files/2026-02/sankarshan-basu.jpg}
+[/user/56/sankarshan-basu] view
+[/user/56/sankarshan-basu] view Sankarshan Basu
+Finance & Accounting
+Sankarshan
+[/user/256/neha-bellamkonda] view {IMG /sites/default/files/2025-01/Neha-Bellamkonda.jpg}
+[/user/256/neha-bellamkonda] view
+[/user/256/neha-bellamkonda] view Neha Bellamkonda
+Organizational Behavior & Human Resources Management
+Neha
+[/user/57/suresh-bhagavatula] view {IMG /sites/default/files/2025-01/Suresh_Bhagavatula.jpg}
+[/user/57/suresh-bhagavatula] view
+[/user/57/suresh-bhagavatula] view Suresh Bhagavatula
+NSRCEL
+Suresh
+[/user/58/manaswini-bhalla] view {IMG /sites/default/files/2025-01/Prof-Manaswini_bhalla.jpg}
+[/user/58/manaswini-bhalla] view
+[/user/58/manaswini-bhalla] view Manaswini Bhalla
+Economics
+Manaswini
+[/user/295/raja-reddy-bujunoori] view {IMG /sites/default/files/2026-08/raja-reddy-bujunoori.jpg}
+[/user/295/raja-reddy-bujunoori] view
+[/user/295/raja-reddy-bujunoori] view Raja Reddy Bujunoori
+Finance & Accounting
+Raja Reddy
+[/user/209/deepak-chandrashekar] view {IMG /sites/default/files/2025-01/Deepak-Chandrashekar.jpg}
+[/user/209/deepak-chandrashekar] view
+[/user/209/deepak-chandrashekar] view Deepak Chandrashekar
+Strategy
+Deepak
+[/user/225/reshma-chirayil-chandrasekharan] view {IMG /sites/default/files/2025-01/reshma.jpg}
+[/user/225/reshma-chirayil-chandrasekharan] view
+[/user/225/reshma-chirayil-chandrasekharan] view Reshma Chirayil Chandrasekharan
+Decision Sciences
+Reshma
+[/user/207/debojyoti-das] view {IMG /sites/default/files/2025-01/Debojyoti%20Das.JPG}
+[/user/207/debojyoti-das] view
+[/user/207/debojyoti-das] view Debojyoti Das
+Finance & Accounting
+Debojyoti
+#### Faculty list Area-Wise
+[https://www.iimb.ac.in/faculty/decision-sciences] Decision Sciences
+[https://www.iimb.ac.in/faculty-economics] Economics
+[https://www.iimb.ac.in/faculty/entrepreneurship] Entrepreneurship
+[https://www.iimb.ac.in/faculty/finance-account] Finance & Accounting
+[https://www.iimb.ac.in/faculty/information-systems] Information Systems
+[https://www.iimb.ac.in/faculty/communication-management] Management Communication
+[https://www.iimb.ac.in/faculty/marketing] Marketing
+[https://www.iimb.ac.in/faculty/obhrm] Organizational Behavior & Human Resources Management
+[https://www.iimb.ac.in/faculty/production-operations] Production & Operations Management
+[https://www.iimb.ac.in/faculty/public-policy] Public Policy
+[https://www.iimb.ac.in/faculty/strategy] Strategy
+#### Institute Heads
+[https://www.iimb.ac.in/user/70/u-dinesh-kumar] Director-in-charge
+[https://www.iimb.ac.in/user/119/venkatesh-panchapagesan] Dean Administration
+[https://www.iimb.ac.in/user/145/vasanthi-srinivasan] Dean Alumni Relations & Development
+[https://www.iimb.ac.in/user/106/sourav-mukherji] Dean Faculty
+[https://www.iimb.ac.in/user/86/mukta-kulkarni] Dean Programmes
+[https://www.iimb.ac.in/faculty] Faculty list A to Z
+[https://www.iimb.ac.in/sites/default/files/faculty-profile-2026/#p=1] Faculty Profile Book

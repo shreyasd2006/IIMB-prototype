@@ -1,0 +1,79 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-12/Sreelata.jpg}
+#### Sreelata
+Jonnalagedda
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sreelata Jonnalagedda
+Professor
+Marketing
+Connect with Faculty [mailto:sreelata@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sreelata@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-05/Resume-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Sreelata Jonnalagedda is a Professor in the Marketing area at Indian Institute of Management Bangalore. Dr. Jonnalagedda’s research interests are in the areas of market design, freemium pricing, and digital marketing. Through her research she aims to understand incentive structures that drive buyer/seller behavior and functioning of markets. Her recent work includes structuring and framing prices for digital, technology, and agri-markets. Her work has been published in leading journals such as Management Science, Manufacturing & Service Operations Management, and the IIM B Management Review. She held IIMB chair of Excellence, 2016-2019. Professor Jonnalagedda has worked on case studies/consulting engagements on pricing and marketing innovations, including pricing information products such as InMobi, Red Force Labs, and Amable. Most recently she has consulted with the Tea Board of India for restructuring tea auctions. Professor Jonnalagedda holds a PhD from The University of Texas, Austin, Master of Science from the New Jersey Institute of Technology, and Bachelor of Technology from the Indian Institute of Technology, Madras. Prior to completing her Ph.D., she worked as a consultant with Supply Chain Consultants, Inc (now Arkieva).
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+“Designing freemium and free trials for digital subscriptions,” with Ian Weaver and Vineet Kumar, Preparing for submission.
+“Impact of auction closing mechanism on price discovery: Evidence from teaaAuctions in India,” with Madhu Vishwanathan and Ravikanth Vazrapu. Preparing for submission
+“Can critics continue to be critical? Evidence from the movie industry,” with Vedha Ponappan and Ashish Kumar. Preparing for submission
+“Response to entry in subscription markets for information Goods: A game-theoretic model.” With Deepika Jain and Subodha Kumar. Revision invited at Information Systems Research
+"In–Out Algorithm for assortment planning under a ranking-based consumer choice model," with Honhon, D., and X. Pan. Operations Research Letters 48.3 (2020): 309-316.
+“To Adapt or Design: The Emerging Market Dilemma for Automakers,” with Saranga, H. POM Journal , Vol. 28, No. 3, March 2019, pp. 550–569
+“Commonality Decisions when Designing for Multiple Markets,” with Saranga, H., European Journal of Operational Research , 2017, 258, 902-911
+“Design for the Environment: Impact of Regulatory Policies on Product Development,” with Gouda, S.K., and H. Saranga. European Journal of Operational Research, 2016, 248, 558-570
+"Optimal Algorithms for Assortment Selection under ranking based consumer choice models," with Honhon, D and X. Pan Manufacturing & Service Operations Management , Vol 14(2), 2012.
+"Durable Products, Time Inconsistency and Lock-in," with Gilbert, S.A. Management Science , Vol. 57. 2011.
+"Revenue Generation in the Information era: Opportunities and Challenges " IIM B Management Review , Vol. 23. 2010
+RESEARCH PRESENTATIONS
+“Can critics continue to be critical? Evidence from the movie industry,” Presented at Indian School of Business, July 2023.
+“Can critics continue to be critical? Evidence from the movie industry,” Presented at University of Leeds, May 2023.
+“Impact of Auction Closing Mechanism on Price Discovery: Evidence from Tea Auctions in India,” with Madhu Vishwanathan and Ravikanth Vazrapu. Presented at EMAC 2023, Denmark
+“Can critics continue to be critical? Evidence from the movie industry.” Presented at Chicago BoothQuantitative Marketing conference, Dec 2018
+"Pricing in the Information Era: Opportunities and Challenges." Invited talk at ISB’s Service Science Workshop, Sep 2013
+"Targeting using Word-of-Mouth Agents." Presented at Marketing Science 2013, Istanbul
+"Targeting using Word-of-Mouth Agents." Invited talk at SMU Marketing Conference, Singapore, Jan 2013
+STUDENT ADVISING
+Thesis advisor of Ravikanth Vazrapu (Mahindra University), DAC member of Subhankar Saha (Ahmedabad University), DAC member of Srikanth K (IIM Kozhikode), DAC member of Vedha Ponappan (IIM Udaipur), Thesis Advisor of Deepika Jain (IIM Rohtak, Initial placement), DAC Member of Prashant Baliga(defended), Aruna Divya T(Norwegian School of Economics), DAC Member of Praveen K (IIM Kozhikode), Sirish Kumar Gowda (now faculty at IIM Trichy).
+COURSES
+Strategy, Tactics, and Economics of Pricing taught across PGP/PGSEM/ePGP programs/EEP
+Market Design for GNAM students
+Marketing Management – Core Course for PGP(MBA) & EGMP(Executive) Students
+Marketing Models: Course for Doctoral Students
+CASES AND TEACHING MATERIAL
+Satyajit Roy and Jonnalagedda, S. “Business Model Innovation at Log9” IIM B case, Jan 2025 : HBS Press: IM053B-PDF-ENG
+B. Mahadevan and Jonnalagedda, S. “Redesigning Tea Auctions in India” IIM B case, Jun 2021: HBS Press: IMB853-PDF-ENG
+Jonnalagedda, S. and Ami S. “Telma: Creating and Defending a Market Leader” IIMB case Jun 2021: HBS Press: IMB521-PDF-ENG
+Jonnalagedda, S. and Suhuruta K. “Amable: Marketing Innovative Education” IIMB case Jul 2015 : HBS Press: IMB517-PDF-ENG
+Jonnalagedda, S. “Tears with them, Tears without: Onion Prices Make India Cry” IIMB Case, Jan 2015 : HBS Press: IMB487-PDF-ENG
+Jonnalagedda, S. “Red Force Labs: Securing Online Transactions, at what Price?” IIMB Case, Aug 2012 : HBS Press: IMB487-PDF-ENG
+Jonnalagedda, S. “The Mother of all Challenges: Marketing Formula Milk” IIMB Case
+Jonnalagedda, S . and enParadigm Learning Solutions “Brand Quest: A product positioning and pricing game”. A simulation exercise designed for MBA students. Pricing course (in 2011, 2012 and 2013)
+CONSULTING & TRAINING : Tea Board of India, Verb Studio, Purna Organics, Maxim Inc, InMobi, Amable, Genpact.
+INTERVIEWS/VIDEOS
+"Prof. Sreelata Jonnalagedda conducts workshop on 'Pricing Experiments in Retail' at the one-day AI conference 'Target MultiplAI' on July 12 | IIM Bangalore." IIM Bangalore , 27 July 2022, [https://www.iimb.ac.in/prof-sreelata-workshop-target-multiplai] https://www.iimb.ac.in/prof-sreelata-workshop-target-multiplai
+"Prof. Sreelata Jonnalagedda discusses Experiments For Digital Businesses: Designing For Scale." Jagdish Sheth School of Management , [javascript:confirmDeletee('https://jagsom.edu.in/isdsi2022/dr-sreelata-jonnalagedda/')] https://jagsom.edu.in/isdsi2022/dr-sreelata-jonnalagedda/
+"PhD Programme at IIMB: Chairperson Prof. Sreelata Jonnalagedda, Marketing area." YouTube , 23 Dec. 2022, [javascript:confirmDeletee('https://www.youtube.com/watch?v=jNTzgSgtCOY')] https://www.youtube.com/watch?v=jNTzgSgtCOY
+“CAA, NRC and the idea of India , under the aegis of the Centre for Public Policy (CPP) at IIMB. Members of Parliament M.V. Rajeev Gowda and Swapan Dasgupta shared their views, and the dialogue was moderated by Prof. Sreelata Jonnalagedda, faculty from the Marketing area, at IIMB.” 21 January 2020. Suvada @ IIMB . YouTube. Retrieved from [javascript:confirmDeletee('http://www.youtube.com/watch?v=pCcow4QixPk')] https://www.youtube.com/watch?v=pCcow4QixPk
+MEDIA MENTIONS
+AUTOCAR, 07 June 2025, “ [https://www.autocarpro.in/opinion-blogs/why-leasing-dominates-indias-commercial-ev-market-126883] Why Leasing Dominates India’s Commercial EV Market .” Jonnalagedda, S., & Satyajit Roy.
+Deccan Herald, 17 June 2020, “ [https://www.deccanherald.com/opinion/a-relook-into-alcohol-policy-850720.html] A relook into alcohol policy .” Jonnalagedda, S., & A. Prahalad.
+Forbes India, 28 May 2020, " [https://www.forbesindia.com/article/iim-bangalore/invoking-gandhi-for-business-strategy-in-the-postcovidworld/59673/1] Invoking Gandhi for business strategy in the post-Covid-world. " Jonnalagedda, S., & Saranga, H.
+Forbes India, 29 Apr 2020, " [https://www.forbesindia.com/article/iim-bangalore/making-social-distancing-work/59071/1] Making social distancing work. "
+indiabusinesstrade.in, 21 May, 2020, [https://www.indiabusinesstrade.in/blogs/marketing-post-covid-be-mindfully-digital-practise-cautious-hibernation/] Marketing Post-COVID: Be Mindfully Digital & Practise Cautious Hibernation
+Forbes India, 18 May 2017, “ [https://www.forbesindia.com/article/iim-bangalore/product-dealerships-and-service-providers-the-standard-problem-with-their-frontlines/47007/1] Product dealerships and service providers: The standard problem with their frontlines. ”
+Economic Times, 25 June 2015, [https://economictimes.indiatimes.com/industry/services/retail/newest-discount-on-e-shopping-etailers-mobile-wallets-to-offer-cashback-to-retain-customers/articleshow/47807754.cms] Newest Discount on E-Shopping: Etailers, Mobile Wallets to Offer Cashback to Retain Customers
+Economic Times, 24 June 2015, [http://tech.economictimes.indiatimes.com/news/startups/startups-use-cashback-service-to-woo-customers/47794886] Startups use cashback service to woo customers
+Economic Times, 10 July 2015, [http://epaperbeta.timesofindia.com/NasData/PUBLICATIONS/THEECONOMICTIMES/BANGALORE/2015/07/10/PagePrint/10_07_2015_007_c6fe0d3ab0fd9138b9b4bb7f25bb635e.pdf] Seller's Carnival

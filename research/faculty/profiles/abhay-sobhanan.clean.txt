@@ -1,0 +1,41 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-08/Prof.%20Abhay-Sobhanan.jpg}
+#### Abhay
+Sobhanan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Abhay Sobhanan
+Assistant Professor
+Decision Sciences
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:abhay.sobhanan@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+abhay.sobhanan@iimb.ac.in
+Curriculum Vitae
+[https://abhaysobhanan.github.io ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-07/CV_Abhay-Sobhanan-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://abhaysobhanan.github.io ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Abhay Sobhanan completed his Ph.D. in Industrial Engineering at the University of South Florida in 2025. His research focuses on the optimization of transportation networks and supply chain operations, with an emphasis on practical concerns such as equitable workload allocation. He employs a range of methodologies, including integer programming, neural combinatorial optimization, machine learning, and heuristic approaches. His work has been published in leading journals such as Transportation Science , Computers & Operations Research , and Annals of Operations Research , and has been recognized at international conferences, including being a finalist for the Best Paper Award at the 2024 IISE Annual Conference.
+## Accomplishments
+[#home2] RESEARCH
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Research Interests: Integer Programming, Neural Combinatorial Optimization, Heuristics, Machine Learning Applications
+Working Papers
+Sobhanan, A., Charkhgard, H., & Dayarian, I. Equity-Driven Workload Allocation for Crowdsourced Last-Mile Delivery.
+Publications
+Mahmoudinazlou, S., Sobhanan, A., Charkhgard, H., Eshragh, A., & Dunn, G. (2025). Deep Reinforcement Learning for Dynamic Order Picking in Warehouse Operations. Computers & Operations Research, 107112.
+Sobhanan, A., Park, J., Park, J., & Kwon, C. (2025). Genetic Algorithms with Neural Cost Predictor for Solving Hierarchical Vehicle Routing Problems. Transportation Science, 59(2), 322-339.
+Golui, S., Pal, C., Manikandan, R., & Sobhanan, A. (2024). Optimal control of a dynamic production-inventory system with various cost criteria. Annals of Operations Research, 337(1), 75-103.
+Ph.D. in Industrial Engineering, University of South Florida, USA – 2025.
+BS-MS Mathematics, National Institute of Technology Agartala, India – 2019.
+Summer Dissertation Completion Fellowship ($10,000) from the Office of Graduate Studies, University of South Florida, May-July 2025.
+Best Paper Award Finalist, Operations Research Division, Institute of Industrial and Systems Engineers Annual Conference & Expo 2024.
+USF Graduate Fellowship ($ 9,923) from the University of South Florida in August 2020.

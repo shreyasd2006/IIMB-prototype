@@ -1,0 +1,38 @@
+id="main-content">
+# Centre for Software and Information Technology Management
+## Overview
+The Centre for Software and Information Technology Management (CSITM) is the IIMB’s centre of excellence on digital technology management. It fosters close links with the burgeoning IT sector in India, especially with the technology hub of Bengaluru. It is also connected globally with management researchers from top universities, practitioners from global tech companies, volunteer driven organizations and start-ups, reputed policymakers of India, and expert intellectuals from different parts of the world.
+For more than two decades, CSITM has been using its global network and resources to serve as a hub for open exchange of information among academia, government, and industry on the evolving nature and impact of contemporary technologies on business, government, and society. To this end, CSITM has conducted numerous events in the form of seminars, panel discussions, conferences, and workshops. Also, for dissemination and application of the collected knowledge, it has also been conducting training, research, and consulting activities on managing digital technologies in organizations.
+## Focus Areas
+Artificial Intelligence
+Digital Transformation
+Product Management
+Digital Governance & Policy Healthcare Technology
+IT Outsourcing
+Cloud Computing
+Agile Development
+Digital Platforms
+Digital Payments
+Techno-ethics, and Emerging Technologies (Blockchain, Extended Reality, IoT, RPA, etc.)
+Generative AI
+## Recent Events
+{IMG https://www.iimb.ac.in/sites/default/files/2024-12/event1.jpg}
+{IMG https://www.iimb.ac.in/sites/default/files/2024-12/event2.jpg}
+‘Software Product Management India Summit 2021’ in association with the International Software Product Management Association (ISPMA)
+Expert Panel discussions under ‘Technology and Society’ series in partnership with Software Freedom Law Centre (SFLC.in) on several current topics of debate (Encryption, Internet Shutdowns, etc.)
+‘Ethics in AI Talk Series: A Conversation on Information Regulation, Artificial Intelligence, and Governance’ in partnership with the Centre for Law and Policy Research
+## Upcoming Events
+5 th
+Dec 2024
+Centre for Software and IT Management to host Information Systems seminar on 5 December.
+Dr. Tathagat Varma, Global TechOps Leader, Walmart Global Tech, to lead the session
+[#] Register now > [#] Add to my calendar
+-->
+## Contact
+For more queries, please contact:
+Centre for Software and Information Technology Management (CSITM)
+Indian Institute of Management Bangalore
+Bannerghatta Road, Bengaluru, India
+Pin Code: 560076
+{IMG /sites/default/files/inline-images/phone_in_talk.svg} +91-80-2699 3353
+{IMG /sites/default/files/inline-images/forward_to_inbox2.svg} [mailto:csitm@iimb.ac.in] csitm[at]iimb[dot]ac[dot]in

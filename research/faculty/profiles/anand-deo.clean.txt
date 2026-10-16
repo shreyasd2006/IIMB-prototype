@@ -1,0 +1,38 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Dr-Anand-Avinash-Deo.jpg}
+#### Anand
+Deo
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Anand Deo
+Assistant Professor
+Decision Sciences
+Connect with Faculty [mailto:anand.deo@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+anand.deo@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/anands-webpage/home ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-02/Anand-CV-IIMB-2023.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/anands-webpage/home ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Anand Deo received his Ph.D. from the Tata Institute of Fundamental Research Mumbai in 2021. His research interests lie in statistics, applied probability, operations research and financial engineering. His current work focuses on data driven optimisation models and algorithms with an emphasis on achieving robust performance in the presence of extreme risks. Outside of work he is interested in music and is a classically trained pianist.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Stochastic Modelling and Simulation, Non(Semi)-Parametric Statistics, Uncertainty Quantification, Extreme Value Theory, Rare Event Modelling
+Selected Publications:
+Credit Risk: Simple Closed Form Approximate Maximum Likelihood Estimator - Anand Deo and Sandeep Juneja (Operations Research, 2021): Best paper award at CRISIL Doctoral Symposium, 2017
+Achieving Efficiency in Black-box Simulation of Distribution Tails with Self-structuring Importance Samplers - Anand Deo and Karthyek Murthy (Under Revision at Operations Research): 3rd prize at INFORMS JFIG, 2021
+Optimizing tail risks using an importance sampling based extrapolation for heavy-tailed objectives Anand Deo and Karthyek Murthy (Control and Decision Conference, 2020)
+Working Papers
+Data efficient estimation of tail expectations of heavy tailed losses: applications to decision making in presence of extreme risks
+Asymptotic analysis of product distribution networks: large deviations and efficient simulation
+Targeted Error Correction using De-biasing: Applications to managing Extreme Risks: Extended abstract available upon request
+M.Sc. + Ph.D. - Tata Institute of Fundamental Research, Mumbai - 2021. Area of Specialisation: Operations Research and Financial Engineering
+B.E. Electronics Engineering - Mumbai University, 2015

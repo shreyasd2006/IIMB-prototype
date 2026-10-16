@@ -1,0 +1,194 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/dinesh-kumar.jpg}
+#### U
+Dinesh Kumar
+Director-in-charge, IIMB
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+U Dinesh Kumar
+Professor
+Decision Sciences
+Chairperson, Data Centre and Analytics Lab
+Connect with Faculty [mailto:director@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+director@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile4] CONSULTING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+RESEARCH AREAS:
+U Dinesh Kumar’s research interest includes Business Analytics and Big Data, Artificial Intelligence, Machine Learning, Deep Learning Algorithms, Stochastic models (Reinforcement Learning Algorithms), Reliability, Optimization, Six Sigma and Performance Based Logistics. He has published several research articles in reputed academic journals such as European Journal of Operational Research, Annals of Operations Research, International Journal of Production Economics, The Journal of Operational Research Society, Computers and Operations Research, IEEE Transactions on Reliability, International Journal of Reliability, Quality and Safety Engineering and so on.
+He has published more than thirty case studies on Business Analytics and Machine Learning Algorithms based on Indian and multinational organizations such as Aavin Milk Dairy, Akshaya Patra Foundation, Apollo Hospitals, Bigbasket, Bollywood, Flipkart.com, Hewlett and Packard, iD Fresh Food, Larsen & Toubro, Manipal Hospitals, Mission Hospital, Hindustan Aeronautics Limited, Indian Premier League, Shubham Housing Development Finance Company and VMWare at the Harvard Business Publishing’s case portal.
+He has provided analytics consulting services to organizations such as Boston Consulting Group, GE Healthcare, General Motors, Hindustan Aeronautics Limited, Indian Army, TVS Motors, Wipro and so on.
+He has conducted in-house training program on Analytics for several organizations including Accenture, Aditya Birla Group, Allianz Benelux, Ashok Leyland, Bank of America, CISCO, Fidelity, Honeywell and ITC Infotech.
+He has authored a book titled, “Business Analytics – The Science of Data Driven Decision Making”, published by Wiley in 2017.
+Significant Publications:
+BOOKS:
+Sharada Sringeswara, Purvi Tiwari and U Dinesh Kumar, “Data Visualization and Storytelling with Data”, Wiley, 2022
+U Dinesh Kumar, “Business Analytics – The Science of Data Driven Decision Making”, 2nd Edition, Wiley, 2021
+Kumar Rahul and U Dinesh Kumar, “Machine Learning Using Python”, Wiley, 2021.
+Manaranjan Pradhan and U Dinesh Kumar, “Machine Learning Using Python”, Wiley, 2019
+U Dinesh Kumar, “Business Analytics – The Science of Data Driven Decision Making”, Wiley, 2017.
+Dinesh Kumar, U., Crocker, J., Chitra, T., and Saranga, H., (2006), Reliability and Six Sigma , Springer, USA
+Dinesh Kumar, U., Knezevic, J., Crocker J., and El-Haram, M., (2000), Reliability, Maintenance and Logistic Support - A Life Cycle Approach , Kluwer Academic Publishers, USA
+BOOK CHAPTERS:
+Dinesh Kumar, U., (2008), "Six Sigma: Status and Trends", in Handbook of Performability Engineering (Ed. K B Misra), Springer, UK
+Dinesh Kumar, U., and Crocker, J., (2002), "Maintainability and Maintenance - A Case Study on Mission Critical Aircraft Components and Engines", in Case Studies in Reliability and Maintenance (Eds. Blischke W and Murthy D N P), John Wiley, USA
+EDITED VOLMES:
+Knezevic, J., Dinesh Kumar, U., and Nicholas, C. (Editors), (1999), Proceedings of the 9th International MIRCE Symposium on System Operational Effectiveness, December 1999.
+Knezevic, J., Dinesh Kumar, U., and Nicholas, C., (Editors), (1999), Proceedings of the 15th International SOLE Congress, May 1999.
+Dinesh Kumar, U., Knezevic, J., and Nicholas, C., (Editors), (1998), Proceedings of the 8th International M.I.R.C.E Symposium on System Operational Effectiveness, Exeter, December 1998.
+CASE STUDIES DISTRIBUTED THROUGH HARVARD BUSINESS PUBLISHING
+Indira IVF: AI-Driven Support for Couples on the Road to Parenthood (Case Number IM099B), Coauthors: Antra
+Funding Green Hydrogen from Waste: Can Social Projects Make Financial Sense (Case Number IM019B). Co-authors: Ranjani KS and Chirag Rawat
+Drishya AI Labs: Enhancing Alarm Intelligence Through Machine Learning (Case Number IM007B). Coauthors: Rajarajan Rathina, Neha Rajput, Padmavati Sridhar and Lokesh Babu
+Data Storytelling: What are the Alternatives to Crop Residue Burning in India (IMB 959). Co-authors: Sharada Sringeswara, Sreedevi Gattu and Purvi Tiwari.
+Shri Ram Temple – A Fintech Solution for Large Scale Project (CASE Number IMB 955). Co-authors: Ranjani KS, Neeraj Pandey, Sumi Jha, Poonam Singh, Upasna Agarwal, Vivek Khanzode and Manoj K Tiwari.
+Champo Carpets: Improving Business to Business Sales Using Machine Learning Algorithms (Case Number IMB 879). Co-author(s): Priyank Goyal, Puneet Kapoor, Gyanesh Jain and Ashish Sethia.
+Supply Chain Analytics to Manage Blood at VHS Blood Bank (Case Number IMB 819). Co-author(s): Aayushi Kalra and Shailaja Grover
+Supply Chain Analytics to Manage Blood at VHS Blood Bank (Case Number IMB 819). Co-author(s): Aayushi Kalra and Shailaja Grover
+Fantasy Sports: A Game of Skill or Chance (Case Number IMB 781). Co-author(s): Shailaja Grover and Sharada Sringeswara
+Improving Lead Generation at Eureka Forbes Using Machine Learning Algorithms (Case Number IMB 779). Co-author(s): Nandini Seth, Manaranjan Pradhan and Manupriya Agrawal
+Using Markov Chain to Forecast Sales Booking (Case Number IMB757), Co-authors: Maneesh Bhandari and Pramod Kumar Bagri
+Enhancing Visitor Experience at ISKCON Using Text Analytics (Case Number IMB765), Co-authors: R Vinodhini and S R Vigneshwaran
+Analytics Empowering Agriculture – Jayalaxmi Agro Tech (Case Number IMB 731). Co-authors: Purvi Tiwari, Shailaja Grover and Suhruta Kulkarni
+Data Enabled Insights from Sericulture: Jayalaxmi Agro Tech (Case Number IMB 735). Co-author(s): Giriraj A
+Marketing Transformation Using Social Network on Digital Media: How BJP Used WhatsApp to Create a Successful WOM Campaign (IMB 629). Co-author(s): Ami Shah
+Predicting Net Promoter Score (NPS) to Improve Patient Experience at Manipal Hospitals (IMB 649). Co-authors(s): Rahul Kumar and Sandhya Shenoy
+Demand Forecasting for Perishable Short Shelf Life Home Made Foods at iD Fresh Food (IMB 653). Co-author(s): Raman Narasimhan, Amardeep Sibia, Shirsa Ray Chadhuri, S R Vigneshwaran
+Testing Marketing Hypotheses at WSES (IMB 693)
+Machine Learning Algorithms to Drive CRM in the Online E-commerce Site at VMWare (IMB 621). Co-author(s): Kiran R and Arunabha Mukhopadhyay
+Improving customer engagement at VMWare through Analytics (IMB 623). Co-author(s): Nandini Seth
+Marketing Transformation Using Social Network on Digital Media: How BJP Used WhatsApp to Create Successful WOM Campaign (IMB 629). Co-author(s): Ami Shah
+Branding and Bollywood: Behavioural Route to Branding Films (IMB 611). Co-author(s): Ami Shah and S Ramesh Kumar
+Predicting Earnings Manipulation by Indian Firms Using Machine Learning Algorithms (IMB 577): Co-authors: Tousif Ahmed Inayath Syed and Suresh Ganeshan
+BMR Advisors – Competing on Quality (IMB 559). Co-author(s): Suhruta Kulkarni
+Customer analytics and bigbasket – Product Recommendations (IMB 573). Co-author(s): Paul Abraham, Manaranjan Pradhan, Lakshminarayanan S, Ganesh Iyer
+Markdown Optimization for an Indian Apparel Retailer (IMB 561). Co-author(s): Deepak George, Karthik Kuram, Ramalakshmi Subramanian and Sumad Singh
+Customer Analytics at Flipkart.Com (IMB 555). Co-author(s): Naveen Bhansali, Jitendra Rudravaram and Shailaja Grover
+HR Analytics at ScaleneWorks: Behavioural Modelling to Predict Renege (IMB 551). Co-author(s): Rahul Kumar
+Science of Social Influence - HP BrandClout (IMB 516). Co-authors: Srujana H M, Sudip Chatterjee and Kratika Shakya
+Package Pricing at Mission Hospital (IMB 527). Co-authors: Sriram T K, Shailaja Grover and Satyabala Hariharan
+Marketing Head’s Conundrum (IMB 541), Co-authors: Maneesh Bhandari and Pramod Kumar Bagri
+A Dean's Dilemma: Selection of Students for the MBA Program (IMB 483). Co-author(s): Dhimant Ganatra
+Era of Quality at the Akshaya Patra Foundation (IMB 493). Co-author(s): Srujana HM and Haritha Saranga
+Managing Linen at Apollo Hospital (IMB 495). Co-author(s): Apoorva Sara Prakash and Muthu Solaiyappan
+Larsen and Toubro: Spare Parts Forecasting (IMB 499). Co-author(s): Suhruta Kulkarni, Prakash Hegde, and Ruchi Jaiswal
+Forecasting Demand for Food at Apollo Hospitals (Case Number IMB 463). Co-authors: Sujoy Roychowdhury and Alok Srivastava
+Breaking Barriers: Micro-Mortgage Analytics (IMB 445). Co-authors: Jitendra Rudravaram, Naveen Bhansali, Swetha Murthy and Sutirtha Roy
+Central Parking Solutions Private Limited (IMB 451). Co-authors: Abhishek Srivastav and Tanmay Gupta
+Dosa King: A Standardized Masala Dosa for Every Indian (IMB 439)
+1920 Evil Returns - Bollywood and Social Media Marketing (IMB 437). Co-authors: Suhruta Kulkarni and Karthika A S
+Apollo Hospitals: Differentiation Through Hospitality (Case Number IMB 425). Co-authors: Suhruta Kulkarni and Kripa Makhija
+Consumer Choice Between House Brands and National Brands in Detergent Purchases at Reliance Retail (Case Number IMB415). Co-authors: K J Jeeson and Avadhoot Jathar
+A game of two-halves: In-play betting in football (Case Number IMB 401). Co-authors: V Sandeep and H Satyabala
+Pricing of Players in the Indian Premier League (Case Number IIMB 379). Co-author(s): Kshitiz Ranjan.
+Delivering Doors in a Window: Supply Chain Management at Hindustan Aeronautics Ltd. (Case Number IMB 305). Co-authors: Arun Manohar and G N Sripriya.
+Supply Chain Optimization at Madurai Aavin Milk Dairy. (Case Number IMB 341). Co-authors: P Arun Pandian and S P Nachiappan.
+PUBLICATIONS IN REFEREED JOURNALS:
+Antra, U Dinesh Kumar, Gaurav Loria and Yogamaya Nayak, “Beyond the Alarm: Proactive Predictions for Cardiac Arrest Incidents in Hospitals Using Interpretable Machine Learning Models”, Journal of the Operational Research Society, Vol 79 (9), 1866-1879, 2025.
+Aishvarya, Tirthatanmoy Das and U Dinesh Kumar, "Decision Support System for Policy Making: Quantifying Skill and Chance in Daily Fantasy Sports", Decision Support Systems , Vol. 182, 1-13, 2024.
+Pradipta Patra and U Dinesh Kumar, “Availability Contracts Under Hierarchical Maintenance”, Annals of Operations Research , Forthcoming.
+Aishvarya, Sharada Sringeswara, Shailaja Grover and U Dinesh Kumar, “Online Gaming: A Data-Driven Regulatory Framework”, Economic and Political Weekly , Vol 58 (21), 43-50, 2023.
+Tushar Tanwar, U Dinesh Kumar and Navonil Mustafee, “Optimal Package Pricing in Healthcare Services”, Journal of the Operational Research Society, 71(11), 1860-1872, 2020
+Pradipta Patra, U Dinesh Kumar , David R Nowicki and Wesley S Randall, “Effective Management of Performance Based Contracts for Sustainment Dominant Systems”, International Journal of Production Economics, Vol 208, 369-382, 2019
+H S Pannu, U Dinesh Kumar and J Farooquie (2011), "Efficiency and Productivity Analysis of Indian Pharmaceutical Industry using Data Envelopment Analysis", International Journal of Operational Research, 10, 121-136
+U Dinesh Kumar, Anirban B Roy, H Saranga and K Singal (2010), "Analysis of Hedge Fund Strategies Using Slack Based DEA Models", Journal of Operational Research Society, Vol 61 (12), 1746-1760.
+U Dinesh Kumar and H Saranga, (2010) "Optimal selection of obsolescence mitigation strategies using a restless bandit model", European Journal of Operational Research, Vol 200, 170-180.
+D Nowicki, U Dinesh Kumar, H J Steudel and D Verma, (2008) ‘Spares Provisioning under performance based logistic contract: profit centric approach,' Journal of Operational Research Society, Vol. 59, 342-352.
+U Dinesh Kumar, José E. Ramírez-Márquez, D Nowicki and D Verma, (2008), ‘On the Optimal Selection of Process Alternatives in a Six Sigma Implementation', International Journal of Production Economics, Vol. 111, 456-467.
+U Dinesh Kumar, Haritha Saranga, José E. Ramírez-Márquez, and D Nowicki, (2007), ‘Six Sigma Project Selection Using Data Envelopment Analysis', TQM Magazine, Vol. 19, No. 5, 419-441.
+U Dinesh Kumar, José E. Ramírez-Márquez, D Nowicki and D Verma, (2007), ‘A Goal Programming Model for Optimizing Reliability, Maintainability and Supportability under Performance Based Logistics', International Journal of Reliability, Quality and Safety Engineering, Vol. 14, No. 3, 251-261.
+U Dinesh Kumar, José E. Ramírez-Márquez, D Nowicki and D Verma, (2007), ‘Reliability and Maintainability Allocation to Minimize the Total Cost of Ownership in a Series-Parallel System', Journal of Risk and Reliability, Vol. 221, No. 2, 133-140.
+T Bhaskar and U Dinesh Kumar (2006), A cost model for N-version programming under imperfect debugging, Journal of Operational Research Society, Vol. 57, 986-994.
+H Saranga, and U Dinesh Kumar (2006), Optimization of aircraft maintenance and support infrastructure using genetic algorithms - level of repair analysis, Annals of Operations Research, Vol. 143, 91-106.
+J Crocker and U Dinesh Kumar, (2000), Age-related Maintenance Versus Reliability Centred Maintenance - A Case Study on Aero Engines, Reliability Engineering and System Safety, Vol. 67, 113-118.
+Oded Berman and U Dinesh Kumar, (1999), Optimisation Models for Recovery Block Schemes, European Journal of Operational Research, Volume 115, No. 2, 368-379.
+Oded Berman and U Dinesh Kumar, (1999), Optimisation Models for Complex Recovery Block Schemes, Computers and Operations Research, Vol. 26, No. 5, 525-544.
+U Dinesh Kumar and M N Gopalan, (1999), On the Utilization of a Merge Production System Under ‘Make-to-Order' Policy - Semi-Regenerative Modelling," OPSEARCH, Vol. 36, No. 1, 10-25.
+U Dinesh Kumar, (1999), New Trends in Reliability and Maintenance Measures,' Journal of Quality in Maintenance Engineering, Vol. 5, No. 4, 287-295.
+U Dinesh Kumar, J Knezevic and John Crocker, (1999), Maintenance Free Operating Period - An Alternative Measure to MTBF and Failure Rate for Specifying Reliability?, Reliability Engineering and System Safety, Vol. 64, No. 1, 127-131.
+Oded Berman and U Dinesh Kumar, (1998), Reliability Analysis of Communicating Recovery Blocks, IEEE Transactions on Reliability, Vol. 47, No. 3, 245-254.
+U Dinesh Kumar, (1998), Reliability Analysis of Fault Tolerant Recovery Blocks, OPSEARCH, Vol. 35, No. 4, 281-294.
+U Dinesh Kumar and J Knezevic, (1998), Availability Based Spare Optimisation Using Renewal Process, Reliability Engineering and System Safety, Vol. 59, 217-223.
+A Brenner and U Dinesh Kumar, (1997), Performance/Dependability Modelling Using Stochastic Reward Models: Transient Behaviour, Microelectronics and Reliability, Vol. 38, No. 3, 449-454.
+M N Gopalan and U Dinesh Kumar, (1995), On the Utilization of a Split Production System with Inter-Stage Inspection, International Journal of Production Economics, Vol. 38, No. 2, 107-116.
+M N Gopalan and U Dinesh Kumar, (1994), On the Transient Behaviour of a Merge Production System with an End Buffer, International Journal of Productions Economics, Vol. 34, 157-165.
+PUBLICATIONS IN REFEREED CONFERENCES:
+U Dinesh Kumar and G Chattopadhyay (2004), Mathematical Models for Analysis of Extended Warranty, Proceedings of the Fifth Asia Pacific Conference on Industrial Engineering and Management Systems, Cairns, 12-15 December 2004, Australia.
+U Dinesh Kumar, G Chattopadhyay and H S Pannu (2004), Total Cost of Ownership for Railway Assets - A Case Study on Wagons, Proceedings of the Fifth Asia Pacific Conference on Industrial Engineering and Management Systems, Cairns, 12-15 December 2004, Australia.
+U Dinesh Kumar and H Saranga, (2004), Multi-Echelon Multi-Indenture Models for Aircraft Spare Parts Inventory and Availability Optimization, IASTED Conference on Modeling, Identification and Control, 23-25 February 2004, Switzerland.
+U Dinesh Kumar, J Crocker, J Knezevic, (1999), Evolutionary Maintenance for Aircraft Engines,' Proceedings of the Annual Reliability and Maintainability Symposium, 62-68.
+U Dinesh Kumar, (1999), Spares Forecasting and Constant Failure Rate - The Magic and the Myth,' Proceedings of the 15th International Logistics Congress,' Exeter, UK, 91-96.
+U Dinesh Kumar, (1997), Spares Modelling Using Alternating Renewal Process, Proceedings of the 7th International M.I.R.C.E Symposium on System Operational Effectiveness, Exeter.
+U Dinesh Kumar and J Crocker, (1997), Review of Spare Optimisation Models, Paper Presented at 36 ORS Conference, Bath, UK.
+U Dinesh Kumar, R. K. Jain and J. Knezevic, (1996), Optimal Maintenance Policies for r-out-of-n: G Systems," Proceedings of the sixth International MIRCE Symposium, University of Exeter, UK, 153-164.
+M N Gopalan and U Dinesh Kumar, (1993), On the Expected Queue Length of a n-Unit Cold-Standby System with Single Repair Facility, Proceedings of the XXXV Annual Convention of Indian Institution of Industrial Engineering, Hyderabad, 414-423.
+ACADEMIC POSITIONS:
+IIM Bangalore, July 2006-present
+Visiting Professor (on leave from IIM Calcutta), Department of Systems Engineering and Engineering Management, Stevens Institute of Technology, USA, September 2005-July 2006
+Professor, Operations Management, IIM Calcutta, India, March 2005-August 2005
+Visiting Fellow, School of Engineering, Queensland University of Technology, Australia, June 2004-December 2004
+Visiting Professor, National Graduate School of Management, Australian National University, Australia, June 2004
+Associate Professor, Operations Management, IIM Calcutta, India, January 2000-March 2001
+Assistant Professor, Operations Management, IIM Calcutta, India, January 2000- March 2001
+Lecturer, School of Engineering, University of Exeter, United Kingdom, September 1996-January 2000
+Post Doctoral Fellow, School of Management, University of Toronto, Canada, October 1995-September 1996
+Research Associate, Reliability Laboratory, Swiss Federal Institute of Technology, Zurich, Switzerland, February 1995-April 1995
+Senior Research Fellow, Department of Mathematics, IIT Bombay, October 1994-September 1995
+RECENT CONSULTING:
+Healthcare Asset Management Using Analytics (GE Healthcare)
+Warranty Prediction and Optimization (TVS Motors)
+Problem Resolution Tracking System Knowledge Discovery (General Motors)
+Identifying early adopters of digital channel for a financial services organization (The Boston Consulting Group (India) Private Limited)
+Healthcare Analytics (Mission Hospital, Durgapur)
+Airline Operations Management (Wipro India Limited)
+Strengthening Supply Chain Management for HIV country Programme (World Health Organization)
+Developing Under Writing and Early Warning System in Financial Services (The Boston Consulting Group (India) Private Limited)
+Partnering for Success: Advancing Sustainability Research and Education in India (Obama-Singh Grant)
+Life Time Sustenance for Weapon Systems and Equipment Being Procured Ex Import (Army Management Studies Board (AMSB), India)
+Development of framework for implementation of performance based logistics contracts (Hindustan Aeronautics Limited)
+Weapon system acquisition and management using performance based logistics (Army Management Studies Board (AMSB), India)
+Total cost of ownership of a Weapon system (Army Management Studies Board (AMSB), India)
+CURRENT PROJECTS:
+Weapon system acquisition and management using performance based logistics, Army Management Studies Board (AMSB), India
+PROFESSIONAL APPOINTMENTS:
+Associate Editor, OPSEARCH - The Journal of Operational Research Society of India
+Editorial Board Member, International Journal of Advanced Operations Management
+Editorial Board Member, Journal of Science and Technology
+Area Editor, IIMB Management Review
+Editorial Board Member, International Journal of Performability Engineering
+Editorial Member, The International Journal of Reliability and Risk
+Editorial Member, International Journal Communications in Dependability and Quality Management
+Secretary, SOLE - The International Society of Logistics, Southwest Chapter, England
+Co-ordinator of the 6th International MIRCE Symposium on Logistics, University of Exeter, UK, December 10-12, 1996
+Co-ordinator of the 7th International MIRCE Symposium on System Operational Effectiveness, University of Exeter, UK, December 8-10, 1997
+Co-Chair of the 8th International MIRCE Symposium on System Operational Effectiveness, University of Exeter, UK, December 7-9, 1998
+Referee, International Journal of Production Economics
+Referee, European Journal of Operational Research
+Referee, Asia Pacific Journal of Operational Research
+Referee, Journal of Quality in Maintenance Engineering
+Referee, Reliability Engineering and System Safety
+Referee, IMA Journal of Applied Industrial Mathematics
+Referee, Journal of Indian Association for Productivity, Quality and Reliability
+Referee, International Journal of Reliability, Quality and Safety Engineering
+Referee, IEEE Transactions on Reliability
+Referee, OPSEARCH
+Referee, IIE Transactions
+PhD (Mathematics), IIT Bombay, India, 1994
+MSc (Applied Sciences-Operations Research), PSG College of Technology, Coimbatore, India, 1990
+BSc, Coimbatore Institute of Technology, India, 1987
+Best Young Teacher Award by the Association of Indian Management Schools, 2003
+Visiting Fellowship, Queensland University of Technology, 2004

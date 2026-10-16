@@ -1,0 +1,31 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/kunal-dasgupta.jpg}
+#### Kunal
+Dasgupta
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Kunal Dasgupta
+Associate Professor
+Economics
+Connect with Faculty [mailto:kunal.dasgupta@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+kunal.dasgupta@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/site/dasguptakunal/home ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/site/dasguptakunal/home ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Kunal Dasgupta joined the Economics area of IIM Bangalore in December 2018. Prior to joining IIMB, he was a faculty member in the economics department at the University of Toronto. Kunal’s primary research areas are international trade and economic geography. His current research focuses on trade barriers facing firms engaged in international trade, and the role of trade and production networks in shaping the spatial distribution of economic activity. Kunal has consulted for international organizations such as ERIA, the World Bank as well as the Government of India. He holds a PhD in Economics from Princeton University, a MA in economics from Indian Statistical Institute, Delhi and a BS in economics from Presidency College, Kolkata.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: International Trade, Economic Geography
+BSc in Economics (Presidency College, Kolkata)
+MS in Quantitative Economics (Indian Statistical Institute, Delhi)
+PhD in Economics (Princeton University)

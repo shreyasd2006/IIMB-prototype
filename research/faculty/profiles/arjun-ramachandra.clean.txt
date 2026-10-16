@@ -1,0 +1,49 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Prof.%20Arjun%20Ramachandra%203.jpg}
+#### Arjun
+Ramachandra
+##### Connect with Faculty
+[https://www.linkedin.com/in/arjun-ramachandra-41698a47/]
+-->
+[/] Home
+[/faculty] Faculty
+Arjun Ramachandra
+Assistant Professor
+Decision Sciences
+IIMB Young Faculty Research Chair
+Connect with Faculty
+[https://www.linkedin.com/in/arjun-ramachandra-41698a47/]
+[mailto:arjun.ramachandra@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+arjun.ramachandra@iimb.ac.in
+Curriculum Vitae
+[https://www.arjunramachandra.com ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-10/Arjun_Curriculum_Vitae_Oct_2023_0.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.arjunramachandra.com ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Arjun Ramachandra is an Assistant Professor in the Decision Sciences area at the Indian Institute of Management Bangalore. My research interests broadly lie in optimization under uncertainty at the interface of operations research, probability theory and computer science focusing on leveraging tools from these areas to efficiently solve or derive performance guarantees to complex optimization problems. Specific thrust areas with an interdisciplinary flavour include distributionally robust optimization, data-driven tail risk estimation, theory of negative dependence, correlation gap analysis with weak independence, approximation guarantees with submodularity and derandomization with small sample space constructions. My current research is aimed at analyzing challenging discrete optimization problems to develop novel insights into the behaviour of structured function classes under realistic notions of randomness. My work has found applications in areas such as bottleneck combinatorial optimization, data-driven portfolio optimization and project evaluation and review techniques (PERT) for managers.
+I hold a joint Ph.D. in Operations Research from the National University of Singapore and Singapore Institute of Technology and Design. Prior to my doctoral stint, I have several years of undergraduate teaching experience after graduating with an Integrated Master’s degree in Maths and Computing from the Indian Institute of Technology, Kharagpur. Aside from work, you can find me immersed in meditation, soulful singing (accompanied by the harmonium), philosophical contemplation or a jolly good daddy's day out entertaining my kids!
+## Accomplishments
+[#home2] RESEARCH
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Research Interests: Distributionally robust optimization, data-driven tail risk estimation, theory of negative dependence, correlation gap analysis with weak independence, approximation guarantees with submodularity, and derandomization with small sample space constructions.
+Publications:
+Extremal Probability Bounds in Combinatorial Optimization, with Divya Padmanabhan, Selin Damla Ahipasaoglu and Karthik Natarajan, SIAM Journal on Optimization, 32(4), 2828-2858, 2022.
+Tight Probability Bounds with Pairwise Independence, with Karthik Natarajan, SIAM Journal on Discrete Mathematics, 37(2), 516-555, 2023.
+Probability bounds for n random events under (n-1)-wise independence, with Karthik Natarajan and Colin Tan, Operations Research Letters, 51(1), 116-122, 2023.
+Working Papers:
+Submodularity and pairwise independence, with Karthik Natarajan, preprint available on arXiv (2209.08563).
+Robust Conic Satisficing, with Napat Rujeerapaiboon and Melvyn Sim, preprint available on arXiv (2107.06714).
+Ph.D. in Operations Research from the National University of Singapore and Singapore Institute of Technology and Design, 2021
+Integrated Master’s degree in Maths and Computing from the Indian Institute of Technology, Kharagpur, 2008
+Teaching Awards
+Outstanding Teaching Assistant award from the Engineering Systems and Design pillar at the Singapore University of Technology and Design for my role in teaching a course on Game Theory in Summer, 2022.
+Fellowships
+Presidents Graduate Fellowship (PGF) awarded by the Ministry of Education (MoE), Govt.of Singapore to facilitate graduate study and research.
+Junior Research Fellowship (JRF) awarded by the Council of Scientific and Industrial Research (CSIR), Govt. of India to undertake advanced research in fundamental sciences.
+Kishore Vaigyanik Protsahan Yojana (KVPY) young scientist merit scholarship awarded by the Indian Institute of Science to facilitate undergraduate study and research.

@@ -1,0 +1,37 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Nitin-Vishen_0.jpg}
+#### Nitin
+Vishen
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Nitin Vishen
+Assistant Professor
+Finance & Accounting
+Connect with Faculty [mailto:nitin.vishen@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+nitin.vishen@iimb.ac.in
+Curriculum Vitae
+[https://www.nitinvishen.com/ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-12/Nitin_Vishen_Resume-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.nitinvishen.com/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+I am an empirical researcher in Finance, focusing on Banking area. My current research projects examine the finances of low-income households, and the interaction between firms and banks. I am also interested in understanding how broader policy decisions impact these agents.
+I completed my joint-doctoral studies in Finance from the Indian School of Business and Deakin University in 2023. I earned a Master’s degree in Finance from the University of Amsterdam, the Netherlands in 2016 and a Bachelor’s degree in Engineering from the Indian Institute of Technology, Delhi in 2011.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Banking and Financial Intermediation, Household Finance
+Working Papers
+Does Social Capital Positively Influence Loan Performance Even During a Crisis? - with Sumit Agarwal and Prasanna Tantri
+Do Firms Have A Preference Order While Repaying Lenders? Relationship vs Transaction Banking
+Transparency in Loan Pricing And Interest Rates – with Prasanna Tantri
+Doctor of Philosophy (Finance), Deakin University
+Fellow Program in Management (Financial Economics), Indian School of Business
+Master of Science (International Finance), University of Amsterdam
+Bachelor of Technology, Indian Institute of Technology, Delhi

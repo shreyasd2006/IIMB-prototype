@@ -1,0 +1,35 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/shashidhar-murthy.jpg}
+#### Shashidhar
+Murthy
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Shashidhar Murthy
+Professor
+Finance & Accounting
+Connect with Faculty [mailto:shashidhar.murthy@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+shashidhar.murthy@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Shashidhar Murthy is Professor in the Finance and Control Area. Before IIMB, he held positions at Rutgers University and Pace University, USA.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile5] EDUCATION
+His research interests include Asset Pricing and Investor Heterogeneity. He is currently working on projects on Dynamic Spanning, Liquidity, Credit Risk, and Volatility.
+Significant Publications:
+"Equilibrium asset prices and no-arbitrage with portfolio constraints", The Review of Financial Studies, 1997 (with J. Detemple)
+"Intertemporal Asset Pricing with Heterogeneous Beliefs", Journal of Economic Theory, 1994 (with J. Detemple)
+His teaching is in the area of finance and control.
+PhD (Finance), Columbia University, New York, USA
+BTech (Civil Engineering), IIT Madras, India

@@ -1,0 +1,62 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Spurthy-Dharanikota.jpg}
+#### Spurthy
+Dharanikota
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Spurthy Dharanikota
+Assistant Professor
+Information Systems
+Connect with Faculty [mailto:spurthy.dharanikota@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+spurthy.dharanikota@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2022-07/CV_SD_IIMB3.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Spurthy Dharanikota, Ph.D., serves as an Assistant Professor in the Information Systems (IS) Area. Her current research interests include exploring, identifying, and resolving complex problems in the Human-Artificial Intelligence Collaboration and Health Informatics disciplines, using a combination of behavioral and analytical frameworks. Specifically, her most recent research models the collaboration between developers and bots in knowledge-intensive virtual communities like open-source software. In the healthcare informatics realm, her work on clinical trials for intelligent diagnostics has partly been funded by the Seattle Flu Study, Gates Ventures.
+Dr. Spurthy has presented her research at major international conferences in the IS area and Health Informatics, including DESRIST, AMCIS, and AMIA. With experience in using quantitative and qualitative research methodologies to design research studies, she led and co-authored publications in peer reviewed IS and health informatics journals. She also actively engages in practical service to her area of interest as a reviewer for several major IS conferences and journals.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Human-AI collaboration in knowledge intensive virtual communities and organizations
+Behavioral modeling in voluntary and mandatory AI delegation contexts at individual, team and organizational levels of analysis.
+Conceptualization and operationalization of behavioral coordination constructs in open-source software development communities, specifically Kubernetes
+Modeling the role of agentic AI systems in the dynamics of human group interaction
+Designing efficient natural language interfaces between machines and humans to deal with autism spectrum disorder
+Working papers
+Human-AI collaboration
+Developing a theoretical model to examine the psychological and agentic effects of dyadic delegation between human developers and bots on open-source software projects, specifically Kubernetes
+Operationalizing “OSS identity” as a measure to capture the profile, experience, contribution, and reputation of OSS community members in the context of Kubernetes
+Investigating the role of task-specific judgment self-efficacy on individuals’ performance and learning outcomes in voluntary and mandatory AI delegation contexts
+Healthcare Informatics
+How do patients’ perceptions toward human-AI interaction in healthcare influence their knowledge exploitation and knowledge validation tasks [AI context: Natural language processing enabled mobile applications]
+Designing a technology personalization artifact (real-time voice conversion algorithm) and a controlled experiment to evaluate the artifact in patients with autism spectrum disorder (ASD)
+Addressing the Challenges of Telemedicine Implementation Using a Critical Success Model Approach at a large scale Telestroke network in Arkansas, USA
+Journal publications
+Dharanikota S , LeRouge CM, Lyon V, Durneva P, Thompson M Identifying Enablers of Participant Engagement in Clinical Trials of Consumer Health Technologies: Qualitative Study of Influenza Home Testing J Med Internet Res 2021;0(0):e0 URL: https://www.jmir.org/2021/0/e0/ DOI: 10.2196/26869
+Esmaeilzadeh, Pouyan, Tala Mirzaei, and Spurthy Dharanikota . "The impact of data entry structures on perceptions of individuals with chronic mental disorders and physical diseases towards health information sharing." International journal of medical informatics 141 (2020): 104157.
+Esmaeilzadeh, Pouyan, Spurthy Dharanikota , and Tala Mirzaei. "The role of patient engagement in patient-centric health information exchange (HIE) initiatives: an empirical study in the United States." Information Technology & People (2021).
+Esmaeilzadeh, Pouyan, Tala Mirzaei, and Spurthy Dharanikota. " Patients' perceptions toward human-Artificial Intelligence (AI) interaction in healthcare: an experimental study" Journal of Medical Internet Research (2022)
+Conference presentations
+Dharanikota, Spurthy, and George M. Marakas. "Does AI Reliance lead to Performance? A Task-Technology Fit Theory Perspective." (2021). AMCIS
+Esmaeilzadeh, Pouyan, Tala Mirzaei, and Spurthy Dharanikota. "Does Data Entry Structure Influence Sharing Health Information of Patients with Chronic Health Impairment? An Experimental Study." (2020). AMCIS
+Bouayad, L., Bhattacherjee, A., Agrawal, M., Dharanikota, S., & Durneva, P. (2020, December). Technology Personalization in Health Applications for Patients with Autism Spectrum Disorder: Artifact Design and a Controlled Experiment. In International Conference on Design Science Research in Information Systems and Technology (pp. 75-80). Springer, Cham. DESRIST
+Tulu, B., LeRouge, C., King, N., & Dharanikota, S. (2019). Addressing the Challenges of Telemedicine Implementation Using a Critical Success Model Approach. In AMIA.
+Professional Service
+Conference Reviews (4)
+AMCIS (2021), ICIS (2020), ECIS (2021), ICIS (2021)
+Journal Reviews (2)
+Database for Advances in Information Systems
+Internet Research
+Ph.D. in Information Systems and Business Analytics, Florida International University, Miami, Florida, USA (2022)
+Masters in Business Administration (MBA), Florida International University, Miami, Florida, USA (2017)
+Bachelor of Engineering (BE), Chaitanya Bharathi Institute of Technology, Osmania University, Hyderabad, India (2012)

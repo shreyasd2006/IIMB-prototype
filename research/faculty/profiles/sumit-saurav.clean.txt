@@ -1,0 +1,35 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/sumit-saurav.jpg}
+#### Sumit
+Saurav
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sumit Saurav
+Assistant Professor
+Finance & Accounting
+Connect with Faculty [mailto:sumit.saurav@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sumit.saurav@iimb.ac.in
+Curriculum Vitae
+[https://sumitsaurav009.github.io/index.html ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-03/Sumit_Saurav_2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sumitsaurav009.github.io/index.html ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Sumit Saurav is an Assistant Professor in the Finance and Accounting area of Indian Institute of Management Bangalore (IIMB). He has received his doctoral degree from the Indian Institute of Management Ahmedabad. He holds an MBA from Indian Institute of Management Visakhapatnam, and a B-Tech from the National Institute of Foundry and Forge Technology, Ranchi. He works in the field of asset pricing, options, and banking. His teaching interest lies in topics related to financial markets.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Asset Pricing, Options, and Banking
+Working Papers
+Impact of Embedded Leverage on Trading Activity in Stock, Options, and Futures Markets, with Sobhesh Kumar Agarwalla, and Jayanth R. Varma
+Effect of Continuous Disclosure Requirement on Information Leakage Around Earnings Announcements, with Sobhesh Kumar Agarwalla, Ajay Pandey, and Jayanth R. Varma
+Natural Disasters, Interest Rate Dynamics, and Economic Activities, Abhiman Das, and Tanmoy Majilla
+PhD, Indian Institute of Management Ahmedabad
+MBA, Indian Institute of Management Visakhapatnam
+B-Tech, National Institute of Foundry and Forge Technology Ranchi

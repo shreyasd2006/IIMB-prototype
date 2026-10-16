@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News & events — IIM Bangalore</title>
+<meta name="description" content="Search IIMB news and upcoming events by topic and month.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="news" data-section="news">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>News & events</li></ol>
+  <div class="grid"><h1 class="t-1">News, ideas and encounters.</h1><p class="deck">Every IIMB news release from June to October 2026 and the institute’s announced events. Search them, or browse by month.</p></div>
+</div></header>
+<section class="section" style="padding-top:32px" aria-label="Newsroom">
+  <div class="wrap">
+    <div class="tabs" role="tablist" aria-label="News or events">
+      <button role="tab" id="tab-news" data-tab="news" aria-controls="panel-news" aria-selected="true">News</button>
+      <button role="tab" id="tab-events" data-tab="events" aria-controls="panel-events" aria-selected="false" tabindex="-1">Events</button>
+    </div>
+    <div class="toolbar" style="border-top:0">
+      <div class="field grow"><label class="label" for="nSearch">Search</label><input id="nSearch" type="search" placeholder="e.g. ranking, NSRCEL, conference"></div>
+      <div class="field" id="catField"><label class="label" for="nCat">Category</label><select id="nCat"></select></div>
+    </div>
+    <div class="news-layout" style="margin-top:32px">
+      <aside class="months" aria-label="Browse by month"><p class="label" style="margin-bottom:10px">Browse by month</p><ol id="months"></ol></aside>
+      <div>
+        <div class="count-line" id="nCount" aria-live="polite" style="padding-top:0"></div>
+        <div id="panel-news" role="tabpanel" aria-labelledby="tab-news"><ul class="news-items" id="newsItems"></ul></div>
+        <div id="panel-events" role="tabpanel" aria-labelledby="tab-events" hidden>
+          <ul class="event-list" id="evUpcoming"></ul>
+          <div id="evPastWrap" hidden><h2 class="t-3" style="margin:48px 0 16px">Past events</h2><ul class="event-list" id="evPast"></ul></div>
+        </div>
+        <div class="empty-state" id="nEmpty" hidden><p class="t-3">Nothing matches.</p><p>Try another word, choose “All months”, or clear the category.</p></div>
+        <div id="newsSources"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

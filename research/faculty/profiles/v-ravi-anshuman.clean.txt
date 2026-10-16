@@ -1,0 +1,30 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/v-ravi-anshuman%20copy.jpg}
+#### V. Ravi
+Anshuman
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+V. Ravi Anshuman
+Professor
+Finance & Accounting
+Connect with Faculty [mailto:anshuman@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+anshuman@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile4] CONSULTING
+[#profile5] EDUCATION
+Professor Anshuman's research interests cover the areas of Market Microstructure, Capital Markets, and Corporate Financial Management Issues in Emerging Markets. His publications have appeared in the Review of Financial Studies, Journal of Financial Economics, Journal of Financial Markets, etc. He has co-authored a book titled Valuation – Analyzing Global Investment Opportunities .
+In addition to experience in academia, he has consulted with various blue-chip companies. He is a member of the Certification Formulation and Testing Committee (CFTC) and Futures & Options (F&O) Executive Committee of the National Stock Exchange (NSE).
+PhD (Finance), University of Utah, USA
+BTech (Mechanical Engineering), IIT Kanpur, India

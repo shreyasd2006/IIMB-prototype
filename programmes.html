@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programmes — IIM Bangalore</title>
+<meta name="description" content="Compare IIM Bangalore's degree, doctoral, undergraduate and executive programmes.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="programmes" data-section="programmes">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>Programmes</li></ol>
+  <div class="grid"><h1 class="t-1">Learn to lead, with perspective.</h1><p class="deck">Eleven programmes, from four-year honours degrees to the PhD. Compare duration, format and experience, then open a programme for eligibility, curriculum and how to apply.</p></div>
+</div></header>
+<section class="section" style="padding-top:40px" aria-label="Programme finder">
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="field grow"><label class="label" for="progSearch">Search programmes</label><input id="progSearch" type="search" placeholder="e.g. weekend, analytics, public policy"></div>
+      <div class="field"><span class="label" id="lvlL">Level</span><div class="chips" id="levelChips" role="group" aria-labelledby="lvlL"></div></div>
+    </div>
+    <div class="count-line" id="progCount" aria-live="polite"></div>
+    <div class="table-scroll"><table class="programme-table"><thead><tr><th>Programme</th><th>Level</th><th>Duration</th><th>Format</th><th>Work experience</th></tr></thead><tbody id="progTable"></tbody></table></div>
+    <div class="empty-state" id="progEmpty" hidden><p class="t-3">No programme matches that search.</p><p>Try “MBA”, “online” or “doctoral”, or clear the level filter.</p></div>
+    <div id="progSources"></div>
+  </div>
+</section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

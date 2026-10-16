@@ -1,0 +1,92 @@
+URL: https://www.iimb.ac.in/gnam/
+FINAL: https://www.iimb.ac.in/gnam/
+TITLE: IIMB & GNAM
+
+-
+About
+-
+Global Network Week
+-
+Contact
+
+== IMAGES ==
+https://www.iimb.ac.in/gnam/images/Map-1.jpg
+https://www.iimb.ac.in/gnam/images/gnam_logo.png
+https://www.iimb.ac.in/gnam/images/iimb-logo.jpg
+https://www.iimb.ac.in/gnam/images/menu.png
+https://www.iimb.ac.in/gnam/images/school-logos/AIM.png
+https://www.iimb.ac.in/gnam/images/school-logos/Berkelyhaas.png
+https://www.iimb.ac.in/gnam/images/school-logos/ESMT.png
+https://www.iimb.ac.in/gnam/images/school-logos/Egade.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/FGV.png
+https://www.iimb.ac.in/gnam/images/school-logos/GSB.png
+https://www.iimb.ac.in/gnam/images/school-logos/HKUST.png
+https://www.iimb.ac.in/gnam/images/school-logos/I-ebusiness.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/ICS.png
+https://www.iimb.ac.in/gnam/images/school-logos/IMD.png
+https://www.iimb.ac.in/gnam/images/school-logos/INCAE.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/INSEAD.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/KOC.png
+https://www.iimb.ac.in/gnam/images/school-logos/LBS.png
+https://www.iimb.ac.in/gnam/images/school-logos/MBA-UC.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/NUS.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/RENMIN.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/UBC.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/UGBS.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/YSOM.png
+https://www.iimb.ac.in/gnam/images/school-logos/feui.png
+https://www.iimb.ac.in/gnam/images/school-logos/fudan_final.png
+https://www.iimb.ac.in/gnam/images/school-logos/lse.png
+https://www.iimb.ac.in/gnam/images/school-logos/technion.jpg
+https://www.iimb.ac.in/gnam/images/school-logos/ucd.jpg
+== YOUTUBE ==
+
+== MP4 ==
+
+== LINKS ==
+http://advancedmanagement.net/
+http://advancedmanagement.net/event/2017/04/deans-and-directors-meeting
+http://advancedmanagement.net/event/2017/04/global-network-advanced-management-fifth-anniversary-symposium
+http://bschool.nus.edu.sg/
+http://eaesp.fgvsp.br/en
+http://escueladeadministracion.uc.cl/en/mba/
+http://gsb.snu.ac.kr
+http://ie.technion.ac.il/
+http://mba.yale.edu/
+http://mbaen.rbs.org.cn/index.php
+http://ugbs.ug.edu.gh/
+http://www.aim.edu/schools-programs
+http://www.bm.ust.hk/web/en-US/
+http://www.egade.mx/wps/wcm/connect/EBS/EGADE+Business+School/Academic+Programs
+http://www.esmt.org
+http://www.fdsm.fudan.edu.cn/en/
+http://www.fe.ui.ac.id/
+http://www.gsb.uct.ac.za/
+http://www.haas.berkeley.edu
+http://www.hec.fr
+http://www.ics.hit-u.ac.jp
+http://www.ie.edu/business/
+http://www.iimb.ac.in/
+http://www.imd.org/
+http://www.incae.edu/en/
+http://www.insead.edu/home/
+http://www.lbs.edu.ng
+http://www.sauder.ubc.ca
+http://www.smurfitschool.ie
+http://www2.lse.ac.uk/management/home.aspx
+https://globalnetwork.io/members
+https://globalnetwork.io/resources/toolkit
+https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+https://twitter.com/advancedmgmt
+https://www.facebook.com/Advancedmanagement
+https://www.iimb.ac.in/gnam/css/animate.css
+https://www.iimb.ac.in/gnam/css/bootstrap.css
+https://www.iimb.ac.in/gnam/css/jquery.fancybox.css
+https://www.iimb.ac.in/gnam/css/menu.css
+https://www.iimb.ac.in/gnam/css/responsive.css
+https://www.iimb.ac.in/gnam/css/slider.css
+https://www.iimb.ac.in/gnam/css/style.css
+https://www.iimb.ac.in/gnam/css/tessa.css
+https://www.linkedin.com/groups/4409572/profile
+https://www.youtube.com/user/advancedmgmt
+javascript:void(0);

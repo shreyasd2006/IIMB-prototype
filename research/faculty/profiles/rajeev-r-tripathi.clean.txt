@@ -1,0 +1,78 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-05/Rajeev-Tripathi.JPG}
+#### Rajeev R.
+Tripathi
+##### Connect with Faculty
+[https://www.linkedin.com/in/rajeev-r-tripathi/]
+-->
+[/] Home
+[/faculty] Faculty
+Rajeev R. Tripathi
+Associate Professor
+Production & Operations Management
+Chairperson, Supply Chain Management Centre
+Chairperson, Production & Operations Management
+Connect with Faculty
+[https://www.linkedin.com/in/rajeev-r-tripathi/]
+[mailto:rajeev.tripathi@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+rajeev.tripathi@iimb.ac.in
+Curriculum Vitae
+[https://rrtripathi.com ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://rrtripathi.com ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Rajeev R Tripathi is an Associate Professor in the Production and Operations Management area at IIM Bangalore. His academic and professional interests lie at the intersection of sustainable operations, game theory, and supply chain economics.
+He teaches across IIM Bangalore’s MBA and doctoral programs, offering courses on Game Theory, Responsible Business Operations, and Operations Management. His excellence in teaching has been recognized within the institution. His research has been published in top-tier journals such as the European Journal of Operational Research, Journal of the Operational Research Society, and Operations Research Letters, and has received best paper awards at multiple academic conferences.
+Prior to academia, Rajeev worked with Ford Motor Company as part of the Global Data Insights and Analytics group, where he focused on advanced operational analytics, smart mobility, and enterprise risk.
+He holds a Ph.D. from IIT Madras and a B.Tech. from Cochin University of Science and Technology.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Research interests:
+Cooperative game theory — coalition formation under market externalities and risky payoff situations, and payoff allocation in a fair and stable manner
+Responsible business operations — socially and environmentally responsible practices in business operations and global supply chains
+Supply chain economics — competitive and cooperative dynamics in supply chain management with focus areas such as healthcare, telecom, and digital platforms
+Journal publications :
+Channel choice and incentives in the cadaveric organ supply chain. European Journal of Operational Research , 302(3), 1202-1214, 2022 ( with Akansha Misra and Haritha Saranga)
+A pricing mechanism to improve capacity utilization in ridesharing. Journal of the Operational Research Society , 73(4), 741-753, 2022 ( with Srikanth Krishnaprasad)
+Equivalence nucleolus for coalitional games with externalities. Operations Research Letters , 44(2), 219-224, 2016 ( with R K Amit)
+Optimal shelf-space stocking policy using stochastic dominance under supply-driven demand uncertainty. European Journal of Operational Research , 246(1), 339-342, 2015 ( with R K Amit and Peeyush Mehta)
+PGP courses :
+Competition and Cooperation in Business Ecosystems (elective)
+Responsible Business Operations (elective)
+Operations Management (core)
+Responsible Business and Sustainability (core)
+Doctoral courses :
+Introduction to Game Theory (core)
+Optimization Models for Operations Management (core)
+Cooperative Game Theory and Applications (elective)
+Executive education :
+Leadership for Net-Zero Economy
+Ecosystem Strategy for Business Leaders
+Bargaining and Negotiations
+Dynamics of Competition
+Operations Management
+Supply Chain Management
+Chairperson - Supply Chain Management Centre, IIM Bangalore, April 2025 – present
+Doctoral Programme Coordinator , Production and Operations Management area, IIM Bangalore, 2021 – present, 2019 – 2021
+Jury member – ET EDGE Supply Chain Management Fest 2025 (Business event by the Times Group)
+Conference Chair: 8th Biennial Supply Chain Management Conference, 2025, IIM Bangalore
+Conference Co-Chair : 13th IMR Doctoral Conference, 2022, IIM Bangalore
+Conference Co-Chair : 14th IMR Doctoral Conference, 2023, IIM Bangalore
+Conference organizing committee member : 17th Annual International Conference of the Society of Operations Management; 5th International Conference on Management Research
+Referee service : European Journal of Operational Research, Annals of Operations Research, Computers and Operations Research, IIMB Management Review, International Journal of Revenue Management, Sadhana – Academy Proceedings in Engineering Sciences (Indian Academy of Sciences), OPSEARCH – Journal of the Operational Research Society of India
+Indian Institute of Technology Madras, Chennai
+Ph.D., Operations Management, 2016
+Cochin University of Science and Technology, Kochi
+B.Tech., Mechanical Engineering, 2011
+IIMB Young Faculty Research Chair, 2017-2020, IIM Bangalore
+Emerald Best Doctoral Research Paper Award, 4th PAN IIM World Management Conference, 2016, IIM Ahmedabad
+Best Research Paper Award (2nd Prize), 24th International Conference of the Society of Operations Management, XLRI Jamshedpur, 2021

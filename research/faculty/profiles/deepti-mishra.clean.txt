@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-01/Deepti-Mishra.jpg}
+#### Deepti
+Mishra
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Deepti Mishra
+Assistant Professor
+NSRCEL
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:deepti.mishra@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+deepti.mishra@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Deepti Mishra is an Assistant Professor in the Entrepreneurship area at the Indian Institute of Management Bangalore, India. She holds a PhD in Strategic Management from the Indian Institute of Management Calcutta and an M.Tech. degree from the Indian Institute of Technology Delhi. She is also a recipient of the University Gold Medal for undergraduate studies at the Dr. APJ Abdul Kalam Technical University.
+Deepti’s research interests cut across strategic entrepreneurship, market categories, and strategy process. She is particularly interested in exploring how entrepreneurial ventures, investors, regulators, and customers participate in processes of category emergence and change, and how these processes shape the strategy and organization of high-growth ventures. Her research combines conventional qualitative research techniques with machine learning techniques to draw out novel insights on entrepreneurial dynamics in novel or nascent market categories. Her research has been presented at prestigious global conferences in strategy and entrepreneurship and has been accepted for publication in the Strategic Management Journal.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Strategic Entrepreneurship, Market Categories, and Strategy Process
+Published Papers:
+“Label Claims and Category Work: The Appropriation of the ‘Digital’ Label in the IT Services Industry” (with Shailendra Kumar and Anirvan Pant), Strategic Management Journal, (forthcoming).
+PhD, Strategic Management, Indian Institute of Management Calcutta
+M.Tech, Indian Institute of Technology (IIT) Delhi
+B.Tech, Dr. APJ Abdul Kalam Technical University, Uttar Pradesh

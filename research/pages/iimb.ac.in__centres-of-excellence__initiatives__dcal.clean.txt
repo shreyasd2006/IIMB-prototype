@@ -1,0 +1,53 @@
+id="main-content">
+# Data Centre and Analytics Lab
+The Data Centre & Analytics Lab (DCAL) is a centre of excellence in analytics set up by Indian Institute of Management, Bangalore in 2012. IIMB was one of the first institutions in the country to venture into analytics training, in 2010. Housed in the IIMB Campus, DCAL is a dedicated research and training lab to support interdisciplinary empirical research using data on Indian and other emerging markets.
+## DCAL is a three-point platform:
+State of the art research in the field of analytics and artificial intelligence.
+Building advanced analytics solutions.
+An analytics teaching and training hub.
+## WHAT WE DO:
+We develop Analytical Models and provide innovative solutions driven by AI algorithms.
+We collaborate with industry, academia as well as various government and social sectors to identify and work on diverse business problems.
+Our short-term and long-term training programmes, workshops along with several symposiums, conferences and masterclasses on analytics help both academia and practitioners to excel in business analytics and data science and develop an analytical mindset.
+Collaboration with industry has helped DCAL create several application-based teaching case studies for practical learning.
+## CORPORATE COLLABORATION:
+We help business get a clear view of business data. IIMB’s core team of business consultants and data scientists come together to provide an end-to-end analytics solution. This unique combination of business and data modelling expertise sets us apart.
+We can offer an objective insight into any business problem. Our analytics reports do not just help identify the problem areas but also bring out the root causes of those problems. We are talking about problems that may not be readily apparent to the naked eye. We use data aggregation and mining to tell what has happened and why it happened, our statistical models will state what could happen and our optimization algorithms will advise on what should be done. We can handle volume, variety and velocity to offer actionable insights.
+Our proven methodology provides the foundation for data-backed decision-making and helps one stay ahead of the game. We like to call it the 'Data Focused Decision'.
+We can also help deploy analytics solution and promote an evidence based decision-making culture. Be it big data, difficult data or dark data, DCAL has the expertise.
+## OUR DECISION SCIENTISTS:
+Our team of decision scientists excel at drawing information from not just structured but also unstructured and non-traditional data. Their knowledge, coupled with real-life experience, makes them an invaluable tool to find meaning in the chaos of data. DCAL's quantitative horsepower and business domain expertise are unparalleled in providing context driven and customized solutions.
+[https://www.iimb.ac.in/sites/default/files/DCAL-Brochure-2022/] Click here for DCAL Brochure 2022
+[https://dcal.iimb.ac.in/DCAL-Activity-Report-2025-26/#p=1] Click here for DCAL Activity Report 2025-26
+[https://dcal.iimb.ac.in/] Click here for DCAL Website
+[/user/70/u-dinesh-kumar] view
+{IMG /sites/default/files/2025-01/dinesh-kumar.jpg}
+[/user/70/u-dinesh-kumar] view
+[/user/70/u-dinesh-kumar] view
+[/user/70/u-dinesh-kumar] view U Dinesh Kumar
+Decision Sciences
+U
+[/user/180/ananth-krishnamurthy] view
+{IMG /sites/default/files/2025-01/ananth-krishnamurthy.jpg}
+[/user/180/ananth-krishnamurthy] view
+[/user/180/ananth-krishnamurthy] view
+[/user/180/ananth-krishnamurthy] view Ananth Krishnamurthy
+Decision Sciences
+Ananth
+[/user/80/sreelata-jonnalagedda] view
+{IMG /sites/default/files/2025-01/sreelata-jonnalagedda.jpg}
+[/user/80/sreelata-jonnalagedda] view
+[/user/80/sreelata-jonnalagedda] view
+[/user/80/sreelata-jonnalagedda] view Sreelata Jonnalagedda
+Marketing
+Sreelata
+[/user/258/maya-ganesh] view
+{IMG /sites/default/files/2024-12/Prof.%20Maya%20ganesh%20-2.jpg}
+[/user/258/maya-ganesh] view
+[/user/258/maya-ganesh] view
+[/user/258/maya-ganesh] view Maya Ganesh
+Production & Operations Management
+Maya
+{IMG /sites/default/files/inline-images/Sharada%20Sringeswara_0.JPG}
+Sharada Sringeshwara
+Year 2022 marks a decade for DCAL. The above video summarises our journey.

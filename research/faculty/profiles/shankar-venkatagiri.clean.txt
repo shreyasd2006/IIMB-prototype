@@ -1,0 +1,70 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/shankar-venkatagiri.jpg}
+#### Shankar
+Venkatagiri
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Shankar Venkatagiri
+Professor
+Information Systems
+Decision Sciences - Secondary Member
+Connect with Faculty [mailto:shankar@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+shankar@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Shankar Venkatagiri has been a faculty in the Information Systems area at IIM Bangalore since 2002.
+Prior to joining IIMB, Shankar worked in the IT industry around Cambridge, USA. At Sapient, he consulted with clients in energy and healthcare. He then moved to Curl Corporation, an MIT start-up, where he built bandwidth-efficient applets. At Reuters Consulting, he worked with financial firms as a solutions architect.
+Shankar has strived to extend the reach of education with technology. He has anchored a program for school mathematics called Topper TV. His MOOCs on business statistics are featured on edX. As the IT Chair during the pandemic, he helped repurpose IIMB classrooms to reach students everywhere.
+Shankar is interested in data science, healthcare, and agile methods. He teaches courses in big data analytics and information systems management. He currently directs the DSAI program, which focuses on data science. He has created and directed the GMHE program, which is aimed at healthcare professionals.
+Shankar holds a doctorate in mathematics and a masters in computer science from Georgia Tech. He is also an alumnus of IIT Kharagpur and the University of Southern California.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Articles
+Saxena, A., Venkatagiri, S., Bandi, R.K. Conflict management in agile distributed development: evidence from product development and services engagements. Information Technology and Management (2023) 24:247–266
+S.Venkatagiri. Empowering the bottom of the pyramid from the sky: a case for satellite-based services. Dr.Madhavan Nair in conversation with S.Venkatagiri. IIMB Management Review pp.57-67 (Volume 17, September 2005)
+S. Venkatagiri. Shikshan – a hybrid framework to augment instructional video. IIMB Management Review pp.111-116 (2004)
+L.A.Bunimovich and S.Venkatagiri. On one mechanism of transition to chaos in lattice dynamical systems. Physics Reports pp. 81-100 (1997)
+L.A.Bunimovich and S.Venkatagiri. Onset of chaos in coupled map lattices via the peak-crossing bifurcation. Nonlinearity pp.1281-1298 (1996)
+Cases
+Shankar Venkatagiri and Jayanth Jayarm. Suki AI: The Doctor will see you. HBP-IMB Case 073B/074B (2025)
+Shankar Venkatagiri, Mohan Adhyam and Kanika Sood Sharma. Ganga Hospital: Innovating with Scale. HBP IMB Case 997/998 (2024)
+Shankar Venkatagiri, Mohan Adhyam and Kanika Sood Sharma. Ganga Hospital: Building Culture. HBP IMB Case 003B/004B (2024)
+Shankar Venkatagiri and Mohan Adhyam. Ganga Hospital: A Model for Growth. HBP IMB Case 975/976 (2023)
+Shankar Venkatagiri. Udaan Capital: Building Resilience. HBP IMB Case 869/870 (2021)
+Jayanth Jayaram and Shankar Venkatagiri. Fiesta Gifts: Mending the Spending. HBP IMB Case 761/762 (2019)
+Debolina Dutta and Shankar Venkatagiri. EdGE Networks: Making HR Intelligent. HBP-IMB Case 607/608 (2017)
+Shankar Venkatagiri and Yalla Veera Prakash. Wooqer: Making business social. HBP-IMB Case 411/413 (2013)
+Nicole R.D. Haggerty, Shankar Venkatagiri, Ramasastry Chandrasekhar. Mudra Communications: Ivey Publishing Case 9B11E030 (2011)
+Nicole R.D. Haggerty, Shankar Venkatagiri, Ramasastry Chandrasekhar. Mercedes-Benz India: Ivey Publishing Case 9B11E009 (2011)
+Conferences
+Venkatagiri, S., Kumar, G., and Kaushik, M. Bus schedule rationalisation an analysis of trip completion times. VEHITS (2018).
+Lynn, T., Kilroy, S., van der Werff, L., Healy, P., Hunt, G., Venkatagiri, S. Morrison, J. Towards a general research framework for social media research using big data. Proceedings of the IEEE International Professional Communication Conference (2015)
+S. Venkatagiri. Teach Project Management, Pack an Agile Punch. Proceedings of the 24th IEEE-CS Conference on Software Engineering Education & Training, Hawaii pp. 351-360 (2011)
+S. Venkatagiri. Promoting collaborative e-learning with the SPLINE framework. Proceedings of the IADIS International Conference on Applied Computing, Salamanca pp. 479-483 (2007)
+S. Venkatagiri. Engineering the Software Requirements of Non-profits - a Service-learning Approach. Proceedings of the 28th International Conference on Software Engineering, Shanghai pp.643-648 (2006)
+MBA Program: Big Data Analysis with Networks, Managing Software Projects, Statistics and Optimisation
+Doctoral Program: Mathematical Methods for Management Research, Multivariate Statistics, Preparatory Mathematics
+MOOCs: Statistics for Business I and II on the edX platform
+Besides this, Shankar teaches extensively in IIMB's executive programs each year on topics related to information systems, analytics, technology-driven leadership and negotiation skills. He has coordinated several programs for companies in the IT sector.
+Chairperson, Post Graduate Program in Software Enterprise Management (2007-2009)
+Designed distributed classrooms at Bangalore & Chennai for the PGSEM program (2005-2007)
+Established the Moodle learning management system at IIM Bangalore (2004)
+Shankar has trained teams at Swiss Singapore Overseas, Philips Healthcare, State Bank of India, NDS (now Cisco), HAL on topics related to analytics, negotiation skills, agile methodologies
+Ph.D. in Mathematics from Georgia Tech (1996)
+M.S. in Computer Science from Georgia Tech (1995)
+M.A. in Mathematics from U. of Southern California (1992)
+M.Sc. (Integrated) in Mathematics from IIT Kharagpur (1990)

@@ -1,0 +1,56 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/nishant-kumar-verma.JPG}
+#### Nishant Kumar
+Verma
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Nishant Kumar Verma
+Associate Professor
+Production & Operations Management
+Chairperson, Career Development Services
+Connect with Faculty [mailto:nishant.verma@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+nishant.verma@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Nishant K Verma is a Fellow of the Indian Institute of Management Calcutta. He also holds a Bachelor of Engineering degree (B. E.) in Electronics and Communication Engineering from Birla Institute of Technology, Mesra, Ranchi. His doctoral research included the analysis of various flexibility issues in supply chains. This includes the study of flexible replenishment policies in the context of Vendor Managed Inventory and the flexibility requirements of manufacturing firms in general and manufacturing start-ups in particular. His other research interests include ‘Event Studies in Operations Management’ and issues in Supply Chain Management.
+## Accomplishments
+[#home2] RESEARCH
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Publications:
+Understanding a battery's environmental footprint across its lifecycle: Should governments support the development of battery management systems? (2026), Decision Sciences Journal
+Optimizing Product Reusability under Supply Risk and Outsourced Refurbishment (2025), IISE Transactions . [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5842963')] https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5842963
+Managing Product-Reusability Under Supply Disruptions (2025). Production and Operations Management . [javascript:confirmDeletee('https://doi.org/10.1177/10591478251318493')] https://doi.org/10.1177/10591478251318493
+Chowdhury, S & Verma, N.K. (2024). Walking a tightrope: Impact of adopting voluntary right-to-repair policy on firm profit and consumer welfare. International Journal of Production Economics. [javascript:confirmDeletee('https://doi.org/10.1016/j.ijpe.2024.109253')] https://doi.org/10.1016/j.ijpe.2024.109253
+Jha, A.K., & Verma, N. K. (2023). Social Media Platforms and User Engagement: A Multi-Platform Study on One-way Firm Sustainability Communication. Information Systems Frontier . [javascript:confirmDeletee('https://doi.org/10.1007/s10796-023-10376-8')] https://doi.org/10.1007/s10796-023-10376-8
+Verma, N. K., & Chatterjee, A. K. (2023). Process flexibility in the presence of product modularity: Does modularity help?. International Journal of Production Economics . [javascript:confirmDeletee('https://doi.org/10.1016/j.ijpe.2022.108723')] https://doi.org/10.1016/j.ijpe.2022.108723 .
+Verma, N. K., Jha, A.K., Bose, I., & Ngai E.W.T. (2023). A Market Value Analysis of Buyer-Supplier Relationship Building Awards. IEEE Transactions on Engineering Management . [javascript:confirmDeletee('https://doi.org/10.1109/TEM.2022.3230079')] https://doi.org/10.1109/TEM.2022.3230079 .
+Basu, D., Mitra, S., & Verma, N. K. (2022). Mitigating credit risk: modelling and optimizing coinsurance in loan pricing. Applied Economics . [javascript:confirmDeletee('https://doi.org/10.1080/00036846.2022.2115000')] https://doi.org/10.1080/00036846.2022.2115000 .
+Jha, A. K., Verma, N. K., Bose, I. (2022). Measuring and managing digital supply chain performance. In MacCarthy, B. & Ivanov, D. (Ed.). The digital supply chain (pp.199-209). Elsevier.
+Jha, A.K., Verma, N.K. Social Media Sustainability Communication: An Analysis of Firm Behaviour and Stakeholder Responses. Information Systems Frontier (2022). [javascript:confirmDeletee('https://doi.org/10.1007/s10796-022-10257-6')] https://doi.org/10.1007/s10796-022-10257-6
+Srinivasan, R., Jha, A.K., Verma, N.K. To talk or not?: An analysis of firm-initiated social media communication's impact on firm value preservation during a massive disruption across multiple firms and industries. Decision Sciences (2022). [javascript:confirmDeletee('https://doi.org/10.1111/deci.12563')] https://doi.org/10.1111/deci.12563
+Verma, N. K., & Chatterjee, A. K. (2017). A multiple-retailer replenishment model under VMI: Accounting for the retailer heterogeneity. Computers & Industrial Engineering , 104 , 175-187.
+Verma, N. K., Chakraborty, A., & Chatterjee, A. K. (2014). Joint replenishment of multi retailer with variable replenishment cycle under VMI. European Journal of Operational Research , 233 (3), 787-789.
+Working Papers:
+Prashant Chintapalli and Nishant K Verma. “Handling Supply Disruption Through Modularity and Remanufacturing: A Competitive and Cooperative Analysis”
+Ashish K Jha and Nishant K Verma. “Social Media Sustainability Communication: An Analysis of Firm Behaviour and Stakeholder Responses”.
+Select Conferences:
+‘Giving the Right Signals: Empirical Investigation of the Efficacy of Supplier Awards as Market Signal Mechanism’ XIX Annual International Conference of Society of Operations Management. Kolkata, India. December 2015
+‘Generalized joint replenishment model for multi-retailer scenario under VMI’ 27th European Conference on Operational Research. Glasgow, England, July 2015.
+‘Exclusive outlets & E-tailing - Manufacturer's strategic instruments’ OR/MS Conference, INFORMS Annual Meeting 2014, San Francisco, California, USA
+Reviewer: Decision Support Systems
+Reviewer: Annual International Conference of Society of Operations Management
+FPM, Indian Institute of Management Calcutta
+BE, Birla Institute of Technology, Mesra, Ranchi
+Highest CGPA in the FPM coursework at IIM Calcutta

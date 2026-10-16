@@ -1,0 +1,68 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Prof.%20Rajluxmi%20V%20Murthy%201.jpg}
+#### Rajluxmi V
+Murthy
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Rajluxmi V Murthy
+Professor
+Decision Sciences
+Chairperson, Student Welfare
+Connect with Faculty [mailto:rvm@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+rvm@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Professor Murthy's research and teaching interests are in the field of Optimization and Simulation, especially in their applications to logistics management and service industries.
+Research Areas:
+Applications of Optimization Methods and Simulation in Logistics Management, Service Industry, and Sustainability
+Significant Publications:
+Antennae Location Methodology for a Telecom Operator in India, with H.D. Gadi, R.M. Shankar and V. Nagadevara, Working Paper, 2013, IIMB.
+Evaluating the Impact of Government Policies and Regulation on M-Commerce in India: A System Dynamics Modelling Approach, with D. Sharma and D. K. Sundar, International Journal of Business Management, Vol 7, No. 23, 2012, pp. 54-80.
+NREGA Surveys in Anantapur, Adilabad, Raichur and Gulbarga (2007-08), Report - Study Commissioned by Ministry of Rural Development and UNDP, August, 2008, with Kamath, R., and Sastry, T.
+A Scheduling Model Incorporating Information on Daily Availability of Personnel, Working Paper, 2006, IIM Bangalore.
+A Zonal Procurement and Distribution Policy for Food Corporation of India, with T.V. Ramanayya, Working Paper, 2006, IIM Bangalore.
+Routing Strategies for BMTC Buses - Decision Evaluation Using Simulation, with T.V. Ramanayya, Working Paper, 2006, IIM Bangalore.
+Improving Quality of Patient Care with Optimal Resource Allocation and Utilization, Working Paper, 2006, IIM Bangalore.
+Food Grain Movement: Karnataka Food and Civil Supplies Corporation - A Case Study, 2006, IIM Bangalore
+Management Flight Simulator for Software Project Management with V.B. Kaujalgi, Working Paper, March 2000, IIM Bangalore.
+Routing and Sceduling of Mail Motor Service Vans for the Bangalore City Postal Department, Working Paper, May 2000, IIM Bangalore.
+Cooptex: Reorganizing the Distribution with T.R. Madan Mohan, Case Study, May 2000, IIM Bangalore.
+A Second Order Upper Bound on the Expectation of Sub-linear Polyhedral Functions, with J.H. Dulá, Operations Research, 40, 5 pp. 914-922.
+A Direct Simplex Algorithm for Network Flow Problems with Convex Piecewise Linear Costs, with R.V. Helgason, Optimization Methods & Software, 4, pp. 191-207.
+Solution of Convex Cost Network Flow Problems via Linear Approximation, with R.V. Helgason, Technical Report, 92-CSE-29, CSE Department, SMU.
+A Heuristic for Finding Local Minima of Network Flow Problems with Piecewise Linear Non-convex Cost Functions, with R.V. Helgason, Technical Report, CSE Department, SMU.
+Dr. Rajluxmi V Murthy’s research and teaching interests are in the fields of Analytics, Optimization and Simulation, especially in their applications to Public Transport and Logistics Management, Service Industry and Sustainability. She teaches courses and topics in these areas to postgraduate and doctoral students and to Executive Education Programme participants. She has conducted consultancy and research studies in related areas.
+Academic Positions:
+IIM Bangalore, 1996-present
+Adjunct Faculty, Department of Management Science, Cox School of Business, SMU, Dallas, TX, USA, Spring 1991 and 1992
+Research and Teaching Assistant at FSU and SMU, Dallas, USA, 1986-1993
+Other Assignments:
+Systems Analyst, MCI Telecommunications, Dallas, TX, USA, February 1994-March 1995
+Consultant at GTE, Dallas, Texas, USA, May 1993-May 1994
+Professional Associations:
+Member, Operational Research Society of India
+Member, Production and Operations Management Society
+Prior to joining IIMB, Professor Murthy worked as an Operations Research and System Analyst at MCI Telecommunications, Dallas, and helped build Decision Support Systems for the management of the company's telecommunications network. She was also a consultant to GTE at Dallas and an Adjunct Faculty at the Southern Methodist University.
+Recent Consulting:
+NREGA Surveys in Gulbarga, Raichur, Anantapur and Adilabad districts, Study Commissioned by Ministry of Rural Development and UNDP, with T. Sastry, and R. Kamath.
+Warehousing and Distribution Management at Co-optex, a Handloom Cooperative in Tamil Nadu.
+Construction of Godowns and Railway Siding by Food Corporation of India.
+PhD (Operations Research), Southern Methodist University, Texas, USA, 1994.
+MS (Applied Mathematics), Florida State University, Tallahassee, Florida, USA, 1988.
+MSc (Mathematics), IIT Roorkee (Univ. of Roorkee), Roorkee, India, 1984.
+BA (English, Mathematics, and Economics), Garhwal University, Dehradun, 1982.

@@ -1,0 +1,144 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/pulak-ghosh.jpg}
+#### Pulak
+Ghosh
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Pulak Ghosh
+Professor
+Decision Sciences
+Centre for Public Policy (CPP) - Secondary Member
+Finance & Accounting Area - Secondary Member
+Curriculum Vitae
+[https://sites.google.com/view/pulakghosh ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/pulakghosh ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+I am a tenured Professor in the Decision Sciences area, with appoinment with department of Finance and Center of Public Policy at IIM Bangalore. I was an IIMB Chair Professor of Excellence. I did serve in the editorial boards of several top journals including the Journal of the American statistical Association, Journal of the Royal statistical Society (A) and Biometrics. I am a fellow of ABFER, academic fellow of Louhan Academy, and Programme co-Director "Tech, Digital Markets and AI" for ABFER.
+My research focuses on Fintech, Household finance, Development Finance and AI and has been published in Journals like Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Sciences, Science Advances, Journal of the American statistical Association, Biometrika among others. My research has also been cited by World Bank, various departments of Government of India, Niti Aayog, Reserve Bank of India as well as in various industry reports.
+My research has a strong interdisciplinary focus and aim to explore how technology, digital intelligence, algorithm, and social science can transform corporates, policy and humanity. My research interest utilizing the above core strength span several topics in Fintech AI, Household finance, Sustainability. I use a data-based approach and exploit policy shocks in emerging markets like India, to study the above-mentioned topics and its impact on consumer behaviour. The research has implications for business, government agencies and monetary authorities in India. I work closely with them to use the results of my research towards practical implications.
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile5] EDUCATION
+[#profile7] PROFESSIONAL APPOINTMENTS
+[#profile8] EDITORIAL POSITION
+[#profile9] EXTERNAL GRANTS
+Professor Ghosh’s research interest areas are:
+Big Data, Machine Learning & Artificial Intelligence:
+Business Analytics, Artificial Intelligence, Statistical learning, Machine Learning, Deep Learning, Bayesian Optimization, Models for Big Data.
+Fintech, Finance & Economics
+​FinTech, Blockchain, Financial Inclusion, Digital Economy, Household Finance, Advanced Econometrics, Macroeconometrics
+Public Policy
+Big data for Data Gap, Analytics in Policy & Social Value Creation, Data Driven Policy Making and Evaluation, Big data in development
+Statistics
+High-Dimensional Regression, Sparse Model, Bayesian Modeling, Nonparametric Bayes, Scalable Hierarchical Bayesian Models, Bayesian Network, Copula, Survival analysis, Statistical Model for unique data structures, Joint Modeling.
+Publications
+Selected Working paper:
+Banking the Unbanked: What do 280 Million New Bank Accounts Reveal about Financial Access? new version (2022) [ [/sites/default/files/inline-files/jdy-September-2022.pdf] pdf ]
+How costly are cultural Biases- Evidence from Fintech (with Francesco D’Acunto, Rajiv Jain and Alberto Rossi)
+Privacy versus Convenience: Customer Response to Data Breaches of their Information (with Sumit agarwal, Tianyue Ruan and Yinqi Zhang)
+Digital Payments and Consumption: Evidence from the 2016 Demonetization in India (with Sumit Agarwal, Jing Li and Tianyue Ruan)
+Financial Inclusion and Alternate Credit Scoring: Role of Big data and Machine Learning in Fintech (with Sumit Agarwal, Shahswat Alok and Sudip Gupta)
+Firm Integration and supply Chains (with Shresth Garg and Brandon Tan)
+Fintech Lending and Cashless Payments (with Boris Valle and Yao Zeng)
+Accepted/Published
+2021+
+A Semiparametric Bayesian Approach for the analysis of longitudinal data from multiple time-varying related groups. Journal of the American Statistical Association (with Kiranmoy Das and Mike Daniels)
+Saving Behavior and Health: A High-Dimensional Bayesian analysis of British Panel Data, European Journal of Finance (with Sarah Brown, Daniel Gray, Bhuvanesh Pareek and Jennifer Roberts)
+2020:
+A semi-parametric quantile regression approach to zero-inflated and incomplete longitudinal outcomes, Advances in Statistical Analysis , 104, 261-283. (with J. Biswas and Kiranmoy Das)
+A Large-scale Constrained Joint Modeling Approach For Predicting User Activity, Engagement and Churn with Application To Freemium Mobile Games. Journal of the American Statistical Association, 115, 538-554. (with Trambak Banerjee, Gourab Mukherjee and Shantanu Dutta)
+2019:
+Ask Your Doctor if This Product is Right for You: A Bayesian Zero Infated Multinomial Joint Model for Drug Requests and Physicians' Prescriptions. Journal of the Royal Statistical Society: Series A , 182, 197-193. (with Bhuvanesh Pareek, Liu, Q)
+2018:
+Real-Time Consumer Experience Tracking and the Dynamics of Brand Choice: An Application to the UK General Elections. Journal of the American Statistical Association , 113, 1457-1475. (with Bhuvanesh Pareek, Wilson, H, and Macdonalds, E)
+A Bayesian two-stage regression approach of analysing longitudinal outcomes with endogeneity and incompleteness, Statistical Modelling ,19, 157-173. (with Bhuyan, P, Biswas, J, and Kiranmoy Das)
+Bhuyan, P., Biswas, J., ,Ghosh, P., and Das, K., A Bayesian two-stage regression approach of analysing longitudinal outcomes with endogeneity and incompleteness, Statistical Modelling (Accepted: Available Online)
+Pareek, B, Liu, Q., Ghosh, P., Ask Your Doctor if This Product is Right for You: A Bayesian Zero Inflated Multinomial Joint Model for Drug Requests and Physicians' Prescriptions. Journal of Royal Statistical Society: Series A,
+(Accepted)
+Pareek, B., Ghosh, P., Wilson, H., Macdonalds, E., Real-Time Consumer Experience Tracking and the Dynamics of Brand Choice: An Application to the UK General Elections, Journal of the American Statistical Association
+(Accepted: Available Online)
+2017:
+Voleti, S., Srinivasan, S., and Ghosh, P. An Approach to Improve the Predictive Power of Choice-Based Conjoint Analysis. International Journal of Research in Marketing, 34 (2), 325-335.
+2016:
+Bhagat, S., Ghosh, P., Rangan, S. Economic Policy Uncertainty and Economic Growth in India, Economic and Political Weekly, Vol 51, 72-81.
+Sriram, K, Ramamoorthi, R.V., and Ghosh, P.. Simultaneous Bayesian Estimation of Multiple Quantiles with an Extension to Hierarchical Models Sankhya, 78, 87-104
+Brown, S., Ghosh, P., Taylor, K., Household Finances and Social Interaction: Bayesian Analysis of Household Panel Data, Review of Income and Wealth, 62, 467-488.
+Mukherji, A., Roychowdhury, S., and Ghosh, P. , Brown, S., A Bayesian Joint Model for Hospitalization and Out-of-Pocket Expenditures with Application to Aging Population, Journal of Applied Econometrics, 31, 1140-1158.
+Sriram, K, Shi, P., and Ghosh, P. Insurance Production Costs: An Examination Using a Bayesian Semiparametric Quantile Regression, Journal of Royal Statistical Society: Series A, 177-202 .
+2015:
+Brown, S., Ghosh, P., and Taylor, K., Modelling Household Finances: A Bayesian Approach to a Multivariate two-part model, Journal of Empirical Finance (Accepted)
+Stober, J., Czado, C., Hong, G., and Ghosh, P. Modeling Multiple Chronic Diseases in the Elderly: Longitudinal Patterns Identified by Copula Design for Mixed Responses, Computational Statistics & Data Analysis (Accepted)
+Durham, G., Geweke, J., Ghosh, P. A Note on Consistent Estimation of a Dynamic Jump Intensity Model with Implications for Option Pricing. Journal of Financial Economics, 115, 210-214.
+Voleti, S., Kopalle, P., and Ghosh, P. A Dynamic Measure of Attribute Based Inter-Product Competition: An Application to the Category Profit Maximization Problem, Management Science (Marketing Section) (Accepted)
+Sriram, K, Shi, P., and Ghosh, P. Insurance Production Costs: An Examination Using a Bayesian Semiparametric Quantile Regression, Journal of Royal Statistical Society: Series A, (Accepted)
+Brown, S., Ghosh, P., and Taylor, K. Household Finances and Social Interaction: Bayesian Analysis of Household Panel Data, Review of Income and Wealth,
+​ (Accepted)
+Mukherji, A., Roychowdhury, S., and Ghosh, P. , and Brown, S. A Bayesian Joint Model for Hospitalization and Out-of-Pocket Expenditures with Application to Aging Population, Journal of Applied Econometrics, (Accepted)
+Hong, G., Ryan, Yue., and Ghosh, P. Bayesian Estimation of Long-Term Health Consequences of Obese and Normal-Weight Elderly. Journal of Royal Statistical Society: Series A, (Accepted)
+Stanley I., M. Ko, Chong, T. L., and Ghosh, P . Dirichlet Process Hidden Markov Multiple Change-Point Model, Bayesian Analysis, (Accepted)
+2014:
+Brown, S., Ghosh, P., and Taylor, K. The Existence and Persistence of Household Financial Hardship: A Bayesian Multivariate Dynamic Logit Framework, Journal of Banking and Finance, 46: 285–298.
+Farcomeni, A., Pareek, B., and Ghosh, P. Invited Discussion on the paper “Joint Modeling of Survival and Longitudinal Non-Survival Data: Current Methods and Issues”, By Gould et al. Statistics in Medicine, (Accepted)
+Yu, B., O’ Malle, A. J., and Ghosh, P. Linear Mixed Models for Multiple Outcomes using Extended Multivariate Skew-t Distributions, Statistics and Interface, 101-111 .
+Hong, G., Roychowdhury, S., and Ghosh, P. The Joint Assessment of Longitudinal Multidimensional Functioning’s in Overweight and Obese Elderly with a Time Varying Covariates, Statistics and Interface, 297-305.
+Voleti, S. and Ghosh, P. A Non-Parametric Model of Residual Brand Equity in Hierarchical Branding Structures with Application to US Beer Data, Journal of the Royal Statistical Society: Series A, 177, 135–152.
+Ausin, C. M., Galeano, P., and Ghosh, P. A Semiparametric Bayesian Approach to the Analysis of Financial Time Series with Applications to Value at Risk Estimation, European Journal of Operations Research, 232, 350–358.
+2013:
+Wai, M., Tu, W., Ghosh, P. , and Tiwari, R. A Nested Dirichlet Process Analysis of Cluster Randomized Trial Data with Application in Geriatric Care Assessment, Journal of the American Statistical Association, 108, 48–68.
+Voleti, S. and Ghosh, P . A Robust Model to Measure Equity in Hierarchical Branding Structures, Quantitative Marketing and Economics, 11, 289–319.
+Sriram, K., Ramamoorthi, R.V., and Ghosh, P. Posterior Consistency of Bayesian Quantile Regression based on the Misspecified Asymmetric Laplace Density, Bayesian Analysis, 8, 479–504.
+Muthukumarana, S., and Ghosh, P. A Semiparametric Bayesian Approach for Mark-Recapture Estimation, Model Assisted Statistics and Applications, 8, 29–39.
+Statistics for business, Big data, Applied Bayesian analytics, Fintech, Machine learning, Predictive analytics, Big data for Policy
+PhD, Statistics, Oakland University, Michigan, USA
+BSc and MSc, Statistics, University of Calcutta, India
+Distinguished Alumni Award- Oakland University, MI, USA — April 2016
+Prof. P. C. Mahalanobis Medal for outstanding contribution to Econometrics — January 2016
+Given by Indian Econometric Society
+Professor C.R. Rao National Award in Statistics — 2015, for outstanding contribution in the field of Statistics. Given by the Ministry of Planning & Programme Implementation, Government of India.
+Named among the Top 10 Most influential Analytics Leaders in India (Only Academician in the list), by Analytics India Magazine — 2015
+Chair of Panel Discussion on “Future Trends of Analytics in India", 4th Business Analytics Conference, IIMA —April 2015
+Panel Discussant on Optimizing Financial Services Delivery in India, Geo-Spatial Analysis in the Inclusive Finance India Summit, New Delhi — December 9, 2014
+Invited as a Keynote Speaker, Talk on Big Data, Bayesian and Consumer Conference on “Recent Advances in Statistics", University of Pune, India — January 2, 2015
+Best Paper Award, 2013, 7th China Summer Workshop on Information Management (CSWIM) for the paper, "Do Household TV Viewing Patterns Demonstrate Efficiency and Concentration?"
+Awarded Young Scientist Award, 2011 by International Indian Statistical Association for outstanding contribution in the Statistical Applications. The award recognizes outstanding contribution and innovative work on applied statistics area by someone under the age of 45 years.
+Member, four member committee to study different aspects of Television Ratings Points (TRP)- November, 2020- Present
+Senior Visiting Fellow- Center for Advanced Financial Research & Learning (CAFRAL) under Reserve Bank of India. October 2019- Present
+Member, National Statistics Commission, Govt. of India, August 2019-Present
+Member, Information Technology Sub-Committee (ITSC) of the Central Board of the Reserve Bank of India, April 2018- Present
+Chairman of the Task group for preparaing the Vision and Plan for Usage of Big Data in Governance" for the State of Karnataka. 2018- Present
+Member of the High-Powered Committee to set up National Policy on Artificial Intelligence (Niti Aayog) From 2017- Present
+Member Karnataka Knowledge Commission, 2017-Present
+Board Member, 2017- Present Reserve Bank of India Academy- A New Institute set up by RBI
+Member of Fintech Committee, 2017-Present High Powered International Advisory Committee on fintech related issues, Securities Exchange Board of India
+Member of taskforce to look at Employment growth figures in India with directive from the Honorable Prime Minister of India: 2017
+Under the Chairmanship of Vice-Chairman Niti Aayog
+Senior Fellow, Niti Aayog- Formerly Planning Commission
+Govt. of India's Highest Policy making Body: January 2017- Present
+Advisor to Federation of Indian Commerce & Industry (FICCI), 2016-Present
+on higher Education, Start-up and health
+Member, Technical Advisory Board- 2016- Present
+National Stock Exchange-India
+Member of the UN Secretary-General's Big Data Privacy Advisory Group United Nation (UN) Big Data Group; UN Global Pulse, 2014-2016 (Only Resident Indian to be in the committee)
+Advisor of Knowledge Commission- UNESCO - MGIEP 2015
+Member, 73rd National Sample Survey Surveying unincorporated non-agricultural enterprises in manufacturing, trade and other services (excluding construction) Ministry of Statistics & Programme Implementation; Govt. of India
+Academic Fellow, 2014- 2016
+Centre for Advanced Financial Research & Learning, Reserve Bank of India
+External Advisory Board Member, 2014- Present, Institute for Economic Analysis of Decision-making (InstEAD) The University of Sheffield
+Associate Editor, (2015 -2018), Biometrics
+Associate Editor, (2014 - 2018), Journal of the Royal Statistical Society: Series A
+Associate Editor, (2009 -2013), Journal of the American Statistical Association
+Co- Editor, ( 2013 - 2018), Electronic Commerce Research and Applications
+Associate Editor, ( 2009- 2012), Journal of Applied Probability and Statistics
+Project funded on "Demand and Inventory Prediction for Perishable Goods in Indian market" Funded by the University of Chicago Centre in Delhi. Joint with Bhuvanesh Pareek and Pradeep Chintagunta
+NSE - NYU Stern Grant on "Studying Indian Capital Markets" (2012-)---(with Jayant Kale and Venky Panchapagesan)
+A Unified Joint Modeling of Multivariate Longitudinal Measurement and Time to Event data using a Bayesian Approach"-- Funded by the Department of Science and Technology, Govt. of India (2011-2014)-PI
+-->

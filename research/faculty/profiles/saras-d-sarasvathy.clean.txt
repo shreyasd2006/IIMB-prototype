@@ -1,0 +1,28 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/saras-saraswaty.jpg}
+#### Saras D
+Sarasvathy
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Saras D Sarasvathy
+Visiting Faculty
+NSRCEL
+Jamuna Raghavan Chair in Entrepreneurship, NSRCEL
+Connect with Faculty [mailto:saras.sarasvathy@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+saras.sarasvathy@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#profile5] EDUCATION
+PhD, Carnegie Mellon University, USA
+MSIA, Carnegie Mellon University, USA
+BCom, University of Bombay, India

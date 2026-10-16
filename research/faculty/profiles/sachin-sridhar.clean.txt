@@ -1,0 +1,38 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-06/Sachin-Sridhar.jpg}
+#### Sachin
+Sridhar
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sachin Sridhar
+Assistant Professor
+Marketing
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:sachin.sridhar@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sachin.sridhar@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Sachin Sridhar is an Assistant Professor of Marketing at IIM Bangalore. His research lies in extracting behavioral insights from consumer activity on digital platforms, using statistical and machine learning methods. His teaching interests include Marketing Analytics, Digital Marketing, and Database Marketing. Sachin holds a bachelor’s in Engineering from National Institute of Technology Puducherry (Pondicherry), a master’s in Statistics from Harvard University, and a Ph.D. in Marketing from the University of Texas at Austin.
+He has presented his work at national and international conferences such as Theory and Practice in Marketing (TPM), IMRC at IIM Ahmedabad, and the IIM Calcutta–Chicago Booth Quantitative Marketing Conference (2025). In December 2025, his research study was awarded the Best Paper Award at the India Management Research Conference (IMRC), IIM Ahmedabad. In 2026, he received the inaugural Distinguished Alumni Award (Excellence in Academics) from NIT Puducherry.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Online Reviews, Services Marketing, Digital Platforms, CRM, Retail Analytics
+Working Papers
+“When Every Rating is a Five: Extracting Signals of Expert Service Quality from Real Estate Agent Reviews” with Rex Du
+“Markers of a High Value-Add Listing Agent: Evidence from over 1.2 million Homes Sold” with Rex Du
+Ph.D. Marketing, University of Texas at Austin
+M.S. Marketing, University of Texas at Austin
+A.M. Statistics, Harvard University
+B.Tech Electronics and Communication Engineering, National Institute of Technology Puducherry (Pondicherry)

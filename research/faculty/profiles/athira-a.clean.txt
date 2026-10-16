@@ -1,0 +1,37 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2024-12/prof-a-athira_1.jpg}
+#### Athira
+A
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Athira A
+Assistant Professor
+Finance & Accounting
+Connect with Faculty [mailto:athira.a@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+athira.a@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-05/Athira__CV.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Athira A is an Assistant Professor of Accounting at the Indian Institute of Management Bangalore (IIMB). Athira’s primary research interests include corporate tax management, principal-agent problems, audit quality, earnings management and changes in tax policies. Athira holds a PhD (FPM) in finance and accounting from IIM Kozhikode.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Corporate tax management, principal-agent problems, audit quality, earnings management and changes in tax policies
+Research Articles
+[javascript:confirmDeletee('https://www.tandfonline.com/doi/full/10.1080/23322039.2021.1938379')] Audit partner rotation, and its impact on audit quality: Evidence from India , P Mohapatra, A Dayanandan, S Kuntluru, Taylor and Francis 9 (1), 1938379, 2021
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0969593123000434')] COVID-19 and corporate tax avoidance: International evidence , A Athira, V K Ramesh, International Business Review , 2023
+[javascript:confirmDeletee('https://www.researchgate.net/profile/Athira-Azhuvanchery/publication/352775596_Literature_Review_on_Methodological_Aspects_of_Audit_Independence_Materiality_Perspective/links/6108ceba0c2bfa282a1a4576/Literature-Review-on-Methodological-Aspects-of-Audit-Independence-Materiality-Perspective.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail')] Literature Review on Methodological Aspects of Audit Independence & Materiality Perspective , A Athira, PK Baag, AIMS International Journal of Management 15 (2), 2021
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/abs/pii/S0927538X23001610')] Do common institutional owners' activisms deter tax avoidance? Evidence from an emerging economy , A Athira, PJJ Lukose, Pacific-Basin Finance Journal 80, 102090, 2023
+[javascript:confirmDeletee('https://www.emerald.com/insight/content/doi/10.1108/IJMF-10-2022-0428/full/html')] Geopolitical risk and corporate tax behavior: international evidence , VK Ramesh, A Athira, International Journal of Managerial Finance, 2023
+[javascript:confirmDeletee('https://onlinelibrary.wiley.com/doi/full/10.1002/mde.3707')] Real effects of social trust on firm performance during COVID‐19 , VK Ramesh, A Athira, Managerial and Decision Economics 44 (1), 671-693, 2023
+PhD (FPM) in finance and accounting from IIM Kozhikode
+CA-Final Group-I from ICAI

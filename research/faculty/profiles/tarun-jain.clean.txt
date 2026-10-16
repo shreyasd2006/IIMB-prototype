@@ -1,0 +1,100 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/tarun-jain.JPG}
+#### Tarun
+Jain
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Tarun Jain
+Professor
+Production & Operations Management
+Chairperson, Doctor of Philosophy (PhD), Five-year fulltime programme
+Connect with Faculty [mailto:tarun.jain@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+tarun.jain@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Tarun Jain is a Professor in the Production and Operations Management Area at the Indian Institute of Management Bangalore. His research interests include strategic sourcing, operational issues in cloud computing, management of digital technologies, smart city operations, urban mobility, and pricing issues in service supply chains. His work has been published in journals such as Production and Operations Management, IISE Transactions, Naval Research Logistics, Decision Sciences, Service Science, European Journal of Operational Research, IEEE Transactions on Engineering Management, Journal of Product Innovation Management, Journal of Operational Research Society, PLOS One, Journal of Revenue and Pricing Management and International Journal of Production Economics. Prior to joining IIMB, he served as Assistant Professor at the Indian Institute of Management Udaipur.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+His research interests are in the areas of strategic sourcing, operational issues in cloud computing, management of digital technologies, smart city operations, and pricing issues in service supply chains. He has refereed publications in Production and Operations Management, Naval Research Logistics, European Journal of Operational Research, IEEE Transactions on Engineering Management, Service Science, Journal of Revenue and Pricing Management, and International Journal of Production Economics .
+List of Journal Publications:
+Jakhu, G., & Jain, T. (2026). Impact of pre-installation on firm profits, application functionality and welfare. Journal of the Operational Research Society (forthcoming)
+Jain, T ., Hazra, J., & Gopal, R. (2025). Procuring cloud services: An economic analysis of multi-cloud strategy. Production and Operations Management , 34 (9), 2793-2813.
+Jain, T., & Mukherjee, S. (2025). How does distance from competitors impact online quality ratings? Empirical analysis of data from Zomato. Information & Management , 104237.
+Jakhu, G., & Jain, T. (2025). Economics of Content Aggregation: Pricing and Advertising Competition in a Multi‐Channel Structure. Naval Research Logistics , 72 (5), 713-734.
+Kamat, S, Mukherjee, S, and Jain, T. "Network centralities and traffic safety in transportation networks: Evidence from the Amtrak railways." Journal of Transport Geograph y 126 (2025): 104246.
+Arora, S., Jain, T., & Kiran, K. (2025). Cost reduction collaboration between firm and social planner: An economic analysis. International Transactions in Operational Research , 32 (2), 973-1001.
+Arora, A., & Jain, T. (2024). Data Sharing Between Firms and Social Planners: An Economic Analysis of Regulation, Privacy, and Competition. Service Science , 16 (3), 202-222.
+Jain, T., Hazra, J., & Gopal, R. (2024). 3D printing-as-a-service: An economic analysis of pricing and cocreation. Production and Operations Management , 33 (7), 1437-1456.
+Arora, A., & Jain, T. (2024). Data sharing between platform and seller: An analysis of contracts, privacy, and regulation. European Journal of Operational Research , 313 (3), 1105-1118.
+Mandal, P., & Jain, T. (2023). When do competing retailers benefit from sourcing through an intermediary?. International Journal of Production Economics , 266 , 109045.
+Katewa, S., & Jain, T. (2023). Wait or invest early? An analysis of product cocreation in online platforms. IEEE Transactions on Engineering Management , 71, 4862-4875.
+Mukherjee, S., & Jain, T . (2023). Social brokerage and productivity of users in online innovation networks. Journal of Product Innovation Management , 40(2), 231-254.
+Jain, T. , Hazra, J., & Cheng, T. C. E. (2023). New product Design decisions and Free Sharing of Patents with Rivals Journal of the Operational Research Society , 74 (1), 59-80.
+Jain, T. , Hazra, J., & Cheng, T. C. E. (2023). Analysis of upstream pricing regulation and contract structure in an agriculture supply chain Annals of Operations Research , 320, 85–122.
+Katewa, S. & Jain, T. (2022). Mobile Application’s Quality and Pricing Decisions Under Competition Decision Sciences, 53(5), 896-931
+Mukherjee, S., & Jain, T. (2022). Impact of COVID-19 on the mobility patterns: An investigation of taxi trips in Chicago. PLOS One , 17(5), e0267436.
+Mukherjee, S., & Jain, T. (2021). Does the mobility patterns for urban taxi cabs impact road safety? IISE Transactions , 53(12), 1324-1336. (also featured in IISE’s Industrial and Systems Engineer magazine)
+Jain, T. , Hazra, J., & Cheng, T. C. E. (2021). IT Outsourcing and Vendor Cost Improvement Strategies under Asymmetric Information Decision Sciences , 52(5), 1109-1136.
+Mukherjee, S., & Jain, T. (2022) Social embeddedness in User Innovation Networks: Evidence from Stackoverflow.com Economics of Innovation and New Technology, 31(3), 191-208.
+Mandal, P., & Jain, T. (2021). Partial Outsourcing from a Rival: Quality Decision under Product Differentiation and Information Asymmetry European Journal of Operational Research 292(3), 886-908.
+Mandal, P., Jain, T. & Chakraborty, A. (2021). Quality Collaboration Contracts under Product Pricing Strategies Annals of Operations Research , 302, 231–264
+Jain, T ., Hazra, J., & Cheng, T. C. E. (2020). Illegal Content Monitoring on Social Platforms Production and Operations Management , 29(8), 1837-1857.
+Jain, T. , Hazra, J., & Cheng, T. C. E. (2020). Bidding for outsourcing contracts with capacity investments and cost asymmetry. Journal of Operational Research Society, 71(12), 1986-2012.
+Jain, T. , & Hazra, J. (2020). Optimal regulation and sustainable product design under uncertainties. International Journal of Production Economics , 225, 107574.
+Jain, T ., Hazra, J. & Cheng, T.C.E. (2020). Strategic Sourcing under Supplier Development Investments. IEEE Transactions on Engineering Management , 67(3), 902-917.
+Jain, T. , & Hazra, J. (2019). Hybrid Cloud Computing Investment Strategies. Production and Operations Management , 28(5), 1272-1284. (also featured in IIM Udaipur Business Review)
+Jain, T ., Hazra, J., Swaminathan, J.M. (2019). Excess procurement strategies by a dominant buyer under constrained supply. Naval Research Logistics , 66(3), 272–280
+Jain, T. , & Hazra, J. (2019). Vendor’s Strategic Investments Under IT Outsourcing Competition. Service Science , 11(1), 16-39.
+Jain, T ., & Hazra, J. (2019) “On-demand” pricing and capacity management in cloud computing. Journal of Revenue and Pricing Management , 18(3), 228-246.
+Jain, T. , Hazra, J., & Cheng, T. C. E. (2018). Sourcing under overconfident buyer and suppliers. International Journal of Production Economics , 206, 93-109.
+Basu, A., Jain, T ., & Hazra, J. (2018). Supplier selection under production learning and process improvements. International Journal of Production Economics , 204, 411-420.
+Mandal, P., Kaul, R., & Jain, T. (2018). Stocking and pricing decisions under endogenous demand and reference point effects. European Journal of Operational Research , 264(1), 181-199.
+Jain, T. , & Hazra, J. (2017). Sourcing strategies under agglomeration economies, capacity risks and retail competition. International Journal of Production Economics , 191, 311-322.
+Mahadevan, B., Hazra, J., & Jain, T. (2017). Services outsourcing under asymmetric cost information. European Journal of Operational Research , 257(2), 456-467.
+Jain, T., & Hazra, J. (2017). Dual sourcing under suppliers' capacity investments. International Journal of Production Economics , 183, 103-115.
+Jain, T. & Hazra J. (2016), Sourcing under Incomplete Information and Negative Capacity-Cost Correlation, Journal of Operational Research Society , 67, 437-449
+Sharma, M., Jain, T. , Singh, S., & Pandey, O. P. (2012). “Photocatalytic degradation of organic dyes under UV–visible light using capped ZnS nanoparticles”, Solar Energy , 86(1), 626-633. (undergraduate research work)
+Sharma, M., Jain, T. , Singh, S., & Pandey, O. P. (2012). “Tunable emission in surface passivated Mn-ZnS nanophosphors and its application for Glucose sensing”, American Institute of Physics Advances , 2(1), 012183. (undergraduate research work)
+List of Teaching Case Publications:
+Ferrero Group: Securing Supply Chain for Hazelnuts, IIMB Case and Teaching Note, Harvard Business Publishing
+Sattva eTech: Managing Uncertainties in the Project Network, IIMB Case and Teaching Note, Harvard Business Publishing
+Sattva eTech: Contract Selection in Component Procurement, IIMB Case and Teaching Note, Harvard Business Publishing
+Vinyas: To be contract manufacturer or sell through own channel? IIMB Case and Teaching Note, Harvard Business Publishing
+Sattva eTech: Enhancing Component Sourcing Flexibility, IIMB Case and Teaching Note, Harvard Business Publishing
+Sattva eTech: Supplier selection for component sourcing, IIMB Case and Teaching Note, Harvard Business Publishing
+Sattva eTech: Challenges in Embedded New Product Development, IIMB Case and Teaching Note, Harvard Business Publishing
+He teaches Operations Management, Revenue Management, and Operations Strategy at the postgraduate level, and Advanced Supply Chain Management at the doctoral level. He has also taught in executive education programmes for leading companies such as Asian Paints, KPMG, ICAI, Hindustan Unilever, Food Corporation of India, Tata Motors, GE HealthCare, GlobalFoundries, Pernod Ricard, and Applied Materials. He is the Programme Director for the Certificate Programme in Digital Operations and Supply Chain Management (2023–current) and the programme Digital Supply Chains: From Strategy to Execution.
+Institutional service:
+Chair, Production and Operations Management area (2023-current)
+Chair, Supply Chain Management Centre (2023-25)
+Committee membership: Research and Publication (2024-current), Doctoral Program (2022-2024)
+Other professional activities:
+Vice-President, Education and Research, POMS India Chapter Board (2026-27)
+External Member, Board of Studies, School of Management & Entrepreneurship (SME), Shiv Nadar University
+Referee Services for academic journals: Management Science, Information Systems Research, Naval Research Logistics, European Journal of Operational Research, IEEE Transactions on Engineering Management, Decision Sciences, International Journal of Production Economics, Journal of Operational Research Society, Annals of Operations Research, Computers & Industrial Engineering, Managerial and Decision Economics, Journal of Revenue and Pricing Management, Scientific Reports, International Journal of Production Research, Transportation Research Part E: Logistics and Transportation Review, and IIMB Management Review.
+Executive education:
+Programme Director - Certificate Programme in Digital Operations and Supply Chain Management (2023- current)
+Programme Director - Digital Supply Chains: From Strategy to Execution (2025- current)
+Fellow, Indian Institute of Management Bangalore, India
+BTech, Thapar Institute of Engineering & Technology, India
+IIMB Chair of Excellence (2024-2026)
+2021 Basant Kumar Birla Distinguished Research Scholar Award (Joint Winner of the Third Prize)
+IIM Udaipur Professor of The Year Award for year 2019 awarded by InsideIIM.com
+Airbus Group Scholar, IIM Bangalore, 2015-2017
+2014 POMS Emerging Economies Doctoral Student Award, Production and Operations Management Society, USA, 2014
+Canara Bank Award, IMR Doctoral Conference, IIM Bangalore, India, 2015
+Emerald best research paper award, Society of Operations Management, IIM Calcutta, India, 2015

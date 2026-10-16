@@ -1,0 +1,38 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Dr.%20Nilam%20Kaushik%20.jpg}
+#### Nilam
+Kaushik
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Nilam Kaushik
+Assistant Professor
+Strategy
+Connect with Faculty [mailto:nilam.kaushik@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+nilam.kaushik@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/nilamkaushik/ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2024-03/NilamKaushik_CV-2024.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/nilamkaushik/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Dr. Nilam Kaushik is an Assistant Professor in Strategy at Indian Institute of Management Bangalore (IIMB). She earned her PhD from the UCL School of Management in London, England in 2019. She received her Bachelors in Communications Engineering from Carleton University in Ottawa, Canada in 2007 and pursued her Master’s degree in Electrical and Computer Engineering from the University of Waterloo.
+Dr. Kaushik was recognised among the “Best 40 Under 40 MBA Professors” by Poets and Quants in 2023. She is the first Professor from an Indian Business school to receive this recognition. In 2024 she has also received the “Young Woman Researcher In Innovation Management” award at the 9th Venus International Women Awards.
+Prior to pursuing her doctoral studies, she worked as a Software Developer at BlackBerry (formerly Research In Motion) and has a patent to her credit from her work there. During her time as a doctoral student, she was also a Visiting Scholar at the D’Amore-McKim School of Business at Northeastern University from 2016 to 2017.
+Dr. Nilam Kaushik’s interests lie broadly in innovation and entrepreneurship. In her work, she combines interdisciplinary methods and techniques such as text-mining, information retrieval and econometrics, and also uses field experiments. She is a Research Affiliate of the IoT Open Innovation Lab at Northeastern University and continues to be an Honorary Research Associate at the UCL School of Management.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Innovation Management, Product Development, Technology Strategy, Team-based interdisciplinary work, Technology Entrepreneurship, University-Industry Collaboration
+Publications:
+Kaushik N and Gokpinar B (2023). Sequential Innovation in Mobile App Development. Manufacturing & Service Operations Management. 2023 Jan;25(1):182-99.
+Boudreau, K.J. and Kaushik, N (2023). Differences in Responses to Competitive Organization? A Field Experiment on Differences Between STEM and Non-STEM Fields from an Internet-of-Things Platform. Organization Science 34(6):2119-2142.
+Ph.D. Management, University College London (2019)
+MASc, Electrical and Computer Engineering, University of Waterloo (2012)
+B.Eng, Communications Engineering, Carleton University (2007)

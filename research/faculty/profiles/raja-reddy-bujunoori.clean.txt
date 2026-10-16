@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-08/raja-reddy-bujunoori.jpg}
+#### Raja Reddy
+Bujunoori
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Raja Reddy Bujunoori
+Assistant Professor
+Finance & Accounting
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:raja.bujunoori@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+raja.bujunoori@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-06/CV_Raja-2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Raja Reddy Bujunoori is an Assistant Professor in the Finance and Accounting area at the Indian Institute of Management Bangalore (IIMB). His research focuses on information economics, financial intermediation, and monetary policy. He completed his doctoral studies in Finance at the Indian School of Business. He also holds a Post Graduate Diploma in Business Management from XLRI Jamshedpur and a bachelor’s degree from the Indian Institute of Technology Hyderabad.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Information Economics, Financial Intermediation, Monetary Policy
+Working Papers
+Complementarities in Information Acquisition: Evidence from Mandatory Portfolio Disclosures
+Stock Price and Economic Efficiency: Effects of Disclosure of Bank Special Audit Results (with Prasanna Tantri)
+Do Intermediaries Help Mitigate the Contagious Effects of Runs? (with Nishant Kashyap, Prasanna Tantri, and Vikrant Vig)
+Fellow Program in Management, Financial Economics, Indian School of Business
+Post Graduate Diploma in Business Management, XLRI Jamshedpur
+Bachelor of Technology, Indian Institute of Technology, Hyderabad

@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T12:00:00Z",
+  "title": "Design System: IIM Bangalore: The Architectural Institution",
+  "extensions": {
+    "colorMeta": {
+      "iimb-red": {
+        "role": "primary",
+        "displayName": "IIMB Red",
+        "canonical": "oklch(49.6% 0.178 27)",
+        "tonalRamp": [
+          "#2E0000",
+          "#570000",
+          "#820005",
+          "#B02221",
+          "#D1544B",
+          "#F17F74",
+          "#FFA99D",
+          "#FFD4C8"
+        ]
+      },
+      "iimb-red-deep": {
+        "role": "primary",
+        "displayName": "Deep Red",
+        "canonical": "oklch(42.3% 0.152 27)",
+        "tonalRamp": [
+          "#2C0000",
+          "#540000",
+          "#7E0B0E",
+          "#A33831",
+          "#C36157",
+          "#E2897F",
+          "#FFB1A7",
+          "#FFDBD2"
+        ]
+      },
+      "red-wash": {
+        "role": "primary",
+        "displayName": "Red Wash",
+        "canonical": "oklch(93.0% 0.017 35)",
+        "tonalRamp": [
+          "#0D0A0A",
+          "#282423",
+          "#46403F",
+          "#675F5D",
+          "#89807D",
+          "#AEA29F",
+          "#D3C6C2",
+          "#FAEBE7"
+        ]
+      },
+      "olive": {
+        "role": "secondary",
+        "displayName": "Courtyard Olive",
+        "canonical": "oklch(56.8% 0.062 113)",
+        "tonalRamp": [
+          "#0C0D00",
+          "#25270B",
+          "#424524",
+          "#61653E",
+          "#82865D",
+          "#A5A983",
+          "#C9CDAA",
+          "#EEF2D3"
+        ]
+      },
+      "olive-ink": {
+        "role": "secondary",
+        "displayName": "Olive Ink",
+        "canonical": "oklch(47.2% 0.055 114)",
+        "tonalRamp": [
+          "#0B0D00",
+          "#25270B",
+          "#424524",
+          "#616540",
+          "#828664",
+          "#A4A88A",
+          "#C8CCB1",
+          "#EEF1D9"
+        ]
+      },
+      "bronze": {
+        "role": "tertiary",
+        "displayName": "Sunlit Bronze",
+        "canonical": "oklch(65.9% 0.082 73)",
+        "tonalRamp": [
+          "#160700",
+          "#342003",
+          "#563C1A",
+          "#7A5B32",
+          "#9F7B4C",
+          "#C39E6E",
+          "#E5C398",
+          "#FFE9C3"
+        ]
+      },
+      "bronze-ink": {
+        "role": "tertiary",
+        "displayName": "Bronze Ink",
+        "canonical": "oklch(51.4% 0.079 74)",
+        "tonalRamp": [
+          "#180600",
+          "#362000",
+          "#583C10",
+          "#7B5A2A",
+          "#9C7C50",
+          "#BDA078",
+          "#DFC4A1",
+          "#FFEBCC"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(21.3% 0.000 90)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(28.1% 0.004 85)",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262523",
+          "#434240",
+          "#62615F",
+          "#838280",
+          "#A6A5A3",
+          "#CAC9C8",
+          "#EFEEED"
+        ]
+      },
+      "soft-white": {
+        "role": "neutral",
+        "displayName": "Soft White",
+        "canonical": "oklch(97.0% 0.005 95)",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252524",
+          "#424240",
+          "#62615F",
+          "#838280",
+          "#A6A5A2",
+          "#CAC9C6",
+          "#EFEEEA"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Paper 2",
+        "canonical": "oklch(94.3% 0.008 91)",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#262523",
+          "#434240",
+          "#62615E",
+          "#83827E",
+          "#A6A5A0",
+          "#CBC9C4",
+          "#F0EEE8"
+        ]
+      },
+      "granite": {
+        "role": "neutral",
+        "displayName": "Cut Granite",
+        "canonical": "oklch(88.3% 0.013 87)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#262522",
+          "#44423E",
+          "#63615C",
+          "#85827C",
+          "#A8A59D",
+          "#CDC9C0",
+          "#F2EEE5"
+        ]
+      },
+      "stone-400": {
+        "role": "neutral",
+        "displayName": "Stone 400",
+        "canonical": "oklch(70.0% 0.017 86)",
+        "tonalRamp": [
+          "#0D0B07",
+          "#272520",
+          "#45423B",
+          "#656159",
+          "#868278",
+          "#A9A59A",
+          "#CDC9BF",
+          "#F2EEE5"
+        ]
+      },
+      "stone-600": {
+        "role": "neutral",
+        "displayName": "Stone 600",
+        "canonical": "oklch(51.5% 0.013 85)",
+        "tonalRamp": [
+          "#0D0B07",
+          "#27251F",
+          "#45423B",
+          "#656159",
+          "#86827A",
+          "#A8A59E",
+          "#CCC9C2",
+          "#F1EEE8"
+        ]
+      },
+      "stone-700": {
+        "role": "neutral",
+        "displayName": "Stone 700",
+        "canonical": "oklch(41.7% 0.011 85)",
+        "tonalRamp": [
+          "#0D0B08",
+          "#272520",
+          "#44423C",
+          "#64615B",
+          "#85827D",
+          "#A7A5A0",
+          "#CBC9C4",
+          "#F0EEEA"
+        ]
+      },
+      "night-stone": {
+        "role": "neutral",
+        "displayName": "Night Stone",
+        "canonical": "oklch(21.3% 0.000 90)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "night-text": {
+        "role": "neutral",
+        "displayName": "Night Text",
+        "canonical": "oklch(93.7% 0.010 87)",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262523",
+          "#43423F",
+          "#63615D",
+          "#84827E",
+          "#A7A59F",
+          "#CBC9C3",
+          "#F1EEE7"
+        ]
+      },
+      "night-muted": {
+        "role": "neutral",
+        "displayName": "Night Muted",
+        "canonical": "oklch(73.3% 0.017 86)",
+        "tonalRamp": [
+          "#0D0B08",
+          "#272520",
+          "#45423B",
+          "#646159",
+          "#868279",
+          "#A9A59A",
+          "#CDC9BE",
+          "#F2EEE5"
+        ]
+      },
+      "granite-stone-700": {
+        "role": "neutral",
+        "displayName": "Granite Stone 700 (deepened)",
+        "canonical": "oklch(35.4% 0.009 81)",
+        "tonalRamp": [
+          "#0D0B08",
+          "#272520",
+          "#45423D",
+          "#64615C",
+          "#85827D",
+          "#A7A5A1",
+          "#CBC9C5",
+          "#F0EEEB"
+        ]
+      },
+      "granite-bronze-ink": {
+        "role": "tertiary",
+        "displayName": "Granite Bronze Ink (deepened)",
+        "canonical": "oklch(44.2% 0.071 75)",
+        "tonalRamp": [
+          "#170700",
+          "#362000",
+          "#573C13",
+          "#785C33",
+          "#987D59",
+          "#B9A180",
+          "#DBC6A9",
+          "#FEEBD3"
+        ]
+      },
+      "granite-olive-ink": {
+        "role": "secondary",
+        "displayName": "Granite Olive Ink (deepened)",
+        "canonical": "oklch(40.9% 0.048 113)",
+        "tonalRamp": [
+          "#0B0D00",
+          "#25270E",
+          "#424527",
+          "#616447",
+          "#82856A",
+          "#A5A88F",
+          "#C9CCB6",
+          "#EEF1DE"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "rgba(25, 25, 25, .16)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "rule-granite": {
+        "role": "neutral",
+        "displayName": "Rule on Granite",
+        "canonical": "rgba(25, 25, 25, .2)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "rule-night": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "rgba(237, 234, 227, .22)",
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262523",
+          "#43423F",
+          "#63615D",
+          "#84827E",
+          "#A7A59F",
+          "#CBC9C3",
+          "#F1EEE7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page H1s."
+      },
+      "headline-2": {
+        "displayName": "Headline 2",
+        "purpose": "Section heads; pull statements drop to 200."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Sub-sections, index-row names, tabs and the search input."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Small headings, person names and board names."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Years, dates, values, counts and steps, in Bronze Ink."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Page decks and section briefs."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Buttons and links; nav runs at 520 weight and 90% width."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, table heads, footer heads, definition terms and search group heads. Never above a heading."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "The single system ease, for state transitions (0.2–0.45s) and reveals."
+      },
+      {
+        "name": "ease-in",
+        "value": "cubic-bezier(.5, 0, .75, 0)",
+        "purpose": "Declared exit ease; reserved."
+      },
+      {
+        "name": "pergola-reveal",
+        "value": "mask sweep intersected with 9%-pitch bars, 1.35s; settle scale 1.045 to 1 over 1.6s",
+        "purpose": "The signature entry for images and ambient video. It is skipped under reduced motion or without mask-composite, and never hides images already on screen."
+      },
+      {
+        "name": "hero-open",
+        "value": "--p 0 to 1 over the first 55% of viewport scroll; video scale 1.06 to 1",
+        "purpose": "The hero frame opens from the gutter inset to full-bleed. The scale is off under reduced motion."
+      },
+      {
+        "name": "hero-rise",
+        "value": "translateY(18px) and blur(6px) to none, 1.1s, 80ms stagger",
+        "purpose": "The hero copy entrance; a plain 0.4s fade under reduced motion."
+      },
+      {
+        "name": "rule-grow",
+        "value": "scaleX 0 to 1 from the left, 0.35–0.45s",
+        "purpose": "The nav underline, door top bar and centre bottom bar."
+      },
+      {
+        "name": "ambient-pause",
+        "value": "IntersectionObserver; plays above 25% visibility",
+        "purpose": "The campus film and ambient videos pause off-screen."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "520px"
+      },
+      {
+        "name": "md",
+        "value": "640px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "980px"
+      },
+      {
+        "name": "nav-trim",
+        "value": "1180px"
+      },
+      {
+        "name": "max",
+        "value": "1440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The light: the one primary action in a region, square, with an SVG arrow.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Explore programmes <svg class=\"ds-arr\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M2 8h11M9 4l4 4-4 4\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 22px;font:560 15px/1 'Anek Latin',system-ui,sans-serif;font-stretch:92%;letter-spacing:.02em;text-decoration:none;background:#B12322;color:#fff;border:1px solid #B12322;border-radius:0;transition:background-color .2s cubic-bezier(.16,1,.3,1),border-color .2s cubic-bezier(.16,1,.3,1)}.ds-btn:hover{background:#8F1A19;border-color:#8F1A19}.ds-btn:focus-visible{outline:2px solid #B12322;outline-offset:3px}.ds-arr{width:16px;height:16px;transition:transform .3s cubic-bezier(.16,1,.3,1)}.ds-btn:hover .ds-arr{transform:translateX(4px)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action: a currentColor outline that fills with ink on hover.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">About IIMB</a>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 22px;font:560 15px/1 'Anek Latin',system-ui,sans-serif;font-stretch:92%;letter-spacing:.02em;text-decoration:none;background:transparent;color:#191919;border:1px solid currentColor;border-radius:0;transition:background-color .2s cubic-bezier(.16,1,.3,1),color .2s cubic-bezier(.16,1,.3,1)}.ds-btn-ghost:hover{background:#191919;color:#F6F5F1;border-color:#191919}.ds-btn-ghost:focus-visible{outline:2px solid #B12322;outline-offset:3px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "A ruled text link: UI type on a 1px currentColor bottom rule, red on hover.",
+      "html": "<a class=\"ds-link\" href=\"#\">All research</a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:10px;font:560 15px/1.3 'Anek Latin',system-ui,sans-serif;font-stretch:92%;text-decoration:none;color:#191919;padding-block:6px;border-bottom:1px solid currentColor;transition:color .2s}.ds-link:hover{color:#B12322}.ds-link:focus-visible{outline:2px solid #B12322;outline-offset:3px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Square outlined filter with a quiet count; pressed fills with ink.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"false\">Finance <span class=\"ds-n\">14</span></button> <button class=\"ds-chip\" aria-pressed=\"true\">Strategy <span class=\"ds-n\">9</span></button>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 14px;border:1px solid rgba(25,25,25,.16);background:transparent;color:#191919;border-radius:0;font:520 14px/1 'Anek Latin',system-ui,sans-serif;font-stretch:92%;cursor:pointer;transition:border-color .2s,background-color .2s,color .2s}.ds-chip:hover{border-color:#191919}.ds-chip[aria-pressed=true]{background:#191919;border-color:#191919;color:#F6F5F1}.ds-n{color:#6B675F;font-variant-numeric:tabular-nums}.ds-chip[aria-pressed=true] .ds-n{color:#ADA89D}.ds-chip:focus-visible{outline:2px solid #B12322;outline-offset:3px}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Olive outlined category label, set beside or after the title it classifies.",
+      "html": "<span class=\"ds-tag\">PGP</span>",
+      "css": ".ds-tag{display:inline-block;font:560 12px/1 'Anek Latin',system-ui,sans-serif;font-stretch:87.5%;letter-spacing:.08em;text-transform:uppercase;color:#5B5F3A;padding:6px 8px;border:1px solid currentColor;border-radius:0;white-space:nowrap}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Square 48px field on a 1px rule; focus draws an ink border and a red outline.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Search</span><input placeholder=\"Name, area or topic\"></label>",
+      "css": ".ds-field{display:grid;gap:6px}.ds-label{font:560 12.5px/1.3 'Anek Latin',system-ui,sans-serif;font-stretch:87.5%;letter-spacing:.09em;text-transform:uppercase;color:#6B675F}.ds-field input{min-height:48px;min-width:180px;border:1px solid rgba(25,25,25,.16);background:#F6F5F1;color:#191919;padding:0 14px;border-radius:0;font:400 17px 'Anek Latin',system-ui,sans-serif;transition:border-color .2s}.ds-field input::placeholder{color:#6B675F}.ds-field input:hover{border-color:#6B675F}.ds-field input:focus{border-color:#191919;outline:2px solid #B12322;outline-offset:0}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link-active",
+      "description": "Header nav: a red underline grows from the left on hover; the current page is red.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">About</a><a href=\"#\" aria-current=\"page\">Programmes</a><a href=\"#\">Research</a><a href=\"#\">Faculty</a></nav>",
+      "css": ".ds-nav{display:flex;gap:26px;padding:20px 0;border-bottom:1px solid rgba(25,25,25,.16);background:#F6F5F1}.ds-nav a{position:relative;font:520 15px/1 'Anek Latin',system-ui,sans-serif;font-stretch:90%;text-decoration:none;color:#191919;padding:10px 0}.ds-nav a::after{content:'';position:absolute;left:0;right:0;bottom:2px;height:2px;background:#B12322;transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-nav a:hover::after,.ds-nav a[aria-current=page]::after{transform:scaleX(1)}.ds-nav a[aria-current=page]{color:#B12322}.ds-nav a:focus-visible{outline:2px solid #B12322;outline-offset:3px}"
+    },
+    {
+      "name": "Index Row",
+      "kind": "card",
+      "refersTo": "",
+      "description": "A ruled ledger row in place of a card; hover and active turn the name red, and active adds a bronze rule.",
+      "html": "<ul class=\"ds-index\"><li><a class=\"ds-row ds-active\" href=\"#\"><span class=\"ds-nm\">Post Graduate Programme in Management</span><span class=\"ds-meta\">Two years · Full time</span><span class=\"ds-tag2\">PGP</span></a></li><li><a class=\"ds-row\" href=\"#\"><span class=\"ds-nm\">Doctoral Programme</span><span class=\"ds-meta\">Full time</span><span class=\"ds-tag2\">PhD</span></a></li></ul>",
+      "css": ".ds-index{list-style:none;margin:0;padding:0;border-top:1px solid #191919}.ds-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 24px;align-items:center;padding:22px 0;border-bottom:1px solid rgba(25,25,25,.16);text-decoration:none;color:#191919}.ds-nm{font:300 26px/1.32 Martel,Georgia,serif;letter-spacing:-.02em;transition:color .2s}.ds-meta{grid-column:1;font:400 14.5px 'Anek Latin',system-ui,sans-serif;color:#6B675F}.ds-tag2{grid-row:1/span 2;grid-column:2;font:560 12px/1 'Anek Latin',system-ui,sans-serif;font-stretch:87.5%;letter-spacing:.08em;text-transform:uppercase;color:#5B5F3A;padding:6px 8px;border:1px solid currentColor}.ds-row:hover .ds-nm,.ds-active .ds-nm{color:#B12322}.ds-active{border-bottom-color:#B18A58}.ds-row:focus-visible{outline:2px solid #B12322;outline-offset:3px}"
+    },
+    {
+      "name": "Timeline Numeral",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "A bronze Martel 200 year on a bronze hairline: the Mineral Numeral Rule.",
+      "html": "<div class=\"ds-tl\"><span class=\"ds-y\">1973</span><p>The institute is established in Bangalore.</p></div>",
+      "css": ".ds-tl{display:grid;grid-template-columns:2fr 5fr;gap:32px;padding:28px 0;border-top:1px solid rgba(177,138,88,.5)}.ds-y{font:200 56px/1 Martel,Georgia,serif;letter-spacing:-.04em;color:#82602F;font-variant-numeric:lining-nums}.ds-tl p{margin:0;font:400 18px/1.6 'Anek Latin',system-ui,sans-serif;color:#4F4C46}"
+    },
+    {
+      "name": "Monogram",
+      "kind": "custom",
+      "refersTo": "monogram",
+      "description": "A consent-safe stand-in for a portrait: initials in Martel on granite.",
+      "html": "<a class=\"ds-person\" href=\"#\"><span class=\"ds-mono\">SJ</span><span><span class=\"ds-pn\">Sreelata Jonnalagedda</span><span class=\"ds-pr\">Professor, Marketing</span></span></a>",
+      "css": ".ds-person{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px;align-items:center;padding:18px 0;border-bottom:1px solid rgba(25,25,25,.16);text-decoration:none;color:#191919}.ds-mono{width:56px;height:56px;display:grid;place-items:center;background:#DAD6CC;font:300 20px/1 Martel,Georgia,serif;letter-spacing:-.02em}.ds-pn{display:block;font:400 18px/1.3 Martel,Georgia,serif;transition:color .2s}.ds-pr{display:block;font:400 14px/1.4 'Anek Latin',system-ui,sans-serif;color:#6B675F}.ds-person:hover .ds-pn{color:#B12322}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Stone and Light",
+    "overview": "The site is built the way Doshi built the campus: soft white stone, cut granite and night stone, divided by fine rules, with light falling through pergola bars. IIMB red is that light. It is never a paint colour for the building; it appears where the visitor acts, where they are, and where the keyboard focus is. The rest of the palette stays mineral: olive for the courtyard greenery, which marks categories, and bronze for sunlit stone, which carries numerals and the quiet rules of active states.\n\nDensity is editorial and asymmetric. Headings sit in the left columns of a 12-column grid, and short briefs answer them on the right. Lists are ruled ledgers, not card stacks. Negative space works as the courtyard between blocks. Martel at its lightest weights (200 and 300) gives the voice a carved, quiet authority. Anek Latin, a variable-width face, handles every working surface and narrows its width axis as the text gets smaller and more functional.\n\nDepth comes from changes of ground (soft white to granite to night stone), not from elevation. Motion has one signature, the pergola reveal, and everything else is a short colour or rule transition on a single long-tailed ease.",
+    "keyCharacteristics": [
+      "Soft white ground, granite cut bands, night stone bands for film, architecture and the footer.",
+      "IIMB red only as light: primary actions, active navigation, focus, hover and the one drenched band on Industry.",
+      "Square corners everywhere, 1px rules, no shadows, no side stripes.",
+      "Martel 200/300 display with Devanagari, and Anek Latin UI on its width axis.",
+      "Pergola reveal on images, and a hero frame that opens from inset to full-bleed on scroll."
+    ],
+    "rules": [
+      {
+        "name": "The Light Rule",
+        "body": "Red is light, not paint. If an element is neither an action, a current location, focus, hover, nor the Industry band, it is not red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mineral Numeral Rule",
+        "body": "Numerals belong to bronze. Years, dates, values, counts and steps are set in Bronze Ink, never red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Deepened Granite Rule",
+        "body": "On a granite band, the text tokens deepen locally (stone-600 to `#4F4C46`, stone-700 to granite-stone-700, bronze-ink to granite-bronze-ink, olive-ink to granite-olive-ink, rule to rule-granite) so that contrast holds. Fields inside granite bands keep a soft white fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Kicker Rule",
+        "body": "Nothing sits above a heading. Categories, tags and dates follow the headline (`meta-line after`), and a section head pairs the heading with a brief on its right instead of a label above it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width-Axis Rule",
+        "body": "The smaller and more functional the text, the narrower Anek runs. Don't fake hierarchy with letter-spacing alone.",
+        "section": "typography"
+      },
+      {
+        "name": "The Motto Rule",
+        "body": "Devanagari is set in Martel 300 at letter-spacing 0, and never in a fallback face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ground-Change Rule",
+        "body": "To separate a region, change the stone (granite or night), never lift it. A band is full-bleed, and the next band is a different ground.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep IIMB red to actions, the current location, focus, hover and the one red band on Industry.",
+      "Do set every numeral (year, date, value, count, step) in Martel with lining figures in Bronze Ink.",
+      "Do set categories and tags in Olive Ink, after or beside the headline.",
+      "Do separate regions by changing ground: soft white, granite (with deepened text tokens) or night stone.",
+      "Do open every list, table and toolbar with a solid ink 1px rule and separate rows with the 16% rule.",
+      "Do mark active states with colour plus a 1px bronze rule.",
+      "Do bring new photographs in through the pergola reveal, with its reduced-motion path.",
+      "Do use initials monograms for people. Never use portraits without consent.",
+      "Do use the one ease, `cubic-bezier(.16, 1, .3, 1)`, for state transitions of 0.2–0.45s."
+    ],
+    "donts": [
+      "Don't put a kicker, eyebrow or uppercase label above any heading.",
+      "Don't use shadows of any kind for elevation, or for the scrolled header.",
+      "Don't mark state with a vertical side stripe or a coloured left border on rows, lists or cards.",
+      "Don't round a corner.",
+      "Don't set numerals in red.",
+      "Don't use red as a background except for the primary button and the single Industry band.",
+      "Don't set display, headline or numeral sizes above Martel 300, or render the Devanagari motto in a fallback face.",
+      "Don't compose with stacks of equal cards. Use ruled ledgers and asymmetric splits."
+    ]
+  }
+}

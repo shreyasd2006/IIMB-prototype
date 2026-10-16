@@ -1,0 +1,396 @@
+id="main-content">
+# GIFT Finance Olympiad: National Student Case Challenge 2026
+Organized by the Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City
+14 October, 2026, Bengaluru : The [https://www.iimb.ac.in/ccmrm/] Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City, invites postgraduate students across India to participate in the GIFT Finance Olympiad: National Student Case Challenge 2026. The competition offers students an opportunity to engage with a real-world case drawn from GIFT City’s financial infrastructure and develop practical, evidence-based solutions to questions shaping India’s international financial markets.
+Registrations are open from 14 th October 2026 . Interested students are requested to review the instructions below and complete the registration using the following link: [https://forms.cloud.microsoft/r/gw1ppghMx9] CCMRM, IIM Bangalore × GIFT City Finance Competition 2026 – Fill in form
+The competition will unfold in three stages: a national online case challenge, in-person regional finals in Bengaluru, Delhi, Kolkata and Mumbai, and a Grand Finale at GIFT City, Gandhinagar. Through this progression, participants will have the opportunity to apply their academic learning, examine real market and institutional trade-offs, and present and defend their recommendations before a panel of academic and industry experts.
+About the Competition
+GIFT City’s International Financial Services Centre (IFSC) is emerging as a gateway for offshore banking, capital markets, aircraft leasing, fund management and sustainable finance. As its institutions evolve and engage with global financial centres, questions of market design, product innovation, governance and institutional strategy become increasingly important.
+The GIFT Finance Olympiad invites students to examine these questions through an applied case centred on GIFT City’s financial ecosystem. Participants are expected to go beyond conceptual solutions and assess the commercial rationale, technical feasibility, implementation challenges and risks associated with their recommendations. The emphasis is on sound analysis, independent thinking and solutions that strengthen GIFT IFSC’s long-term credibility and competitiveness.
+Eligibility
+The competition is open to postgraduate students enrolled in any recognized college, university or B-school in India, irrespective of discipline.
+Each team must comprise four students, with interdisciplinary teams particularly encouraged. Students from finance, economics, technology, data and related fields are welcome to collaborate. Each student may participate in only one team.
+Why participate?
+Engage with a live, real-world question facing India's offshore financial centre.
+Present before exchange officials, bankers and academics.
+Interact with practitioners from GIFT IFSC institutions and IIM Bangalore faculty.
+Compete for cash prizes and national recognition.
+City winners will advance to the Grand Finale at GIFT City, Gandhinagar.
+Competition Format
+The competition will be conducted in three stages.
+Stage I: National Case Challenge (Online)
+Teams will solve a real-world GIFT City financial infrastructure case.
+Teams will choose one of two analytical tracks.
+Each team will submit a deck comprising one title slide and up to four content slides.
+Submissions will be evaluated by a panel comprising academics and industry practitioners.
+Stage II: Regional Finals (In-Person)
+Regional Finals will be held in four cities. Shortlisted teams will compete in a single-day, in-person round comprising a case extension and a live presentation with judge Q&A. The winning team from each regional city will advance to the Grand Finale at GIFT City.
+21 st November 2026 – Delhi
+28 th November 2026 – Bengaluru
+30 th November 2026 – Kolkata
+5 th December 2026 – Mumbai
+Stage III: Grand Finale – GIFT City, Gandhinagar
+The four regional winners will be invited to GIFT City, Gandhinagar for the Grand Finale. Finalist teams will receive a fresh, more detailed case extension on the same theme, to be solved under time constraints and presented live to the judging panel, including a Q&A.
+The date of the Grand Finale will be announced separately.
+Analytical Tracks
+Track 1 – Markets & Product Design
+GIFT Nifty has successfully consolidated offshore trading interest in Nifty index derivatives onto an IFSC platform. Building on this, suppose NSE IX is evaluating the launch of single-stock futures on a basket of large Indian companies (via depository receipt-linked structures) for trading by global investors out of GIFT IFSC.
+Your proposal should clearly identify and justify:
+Target participants and eligibility (FPIs, NRIs, global institutions).
+Contract design (underlying, lot size, settlement type – cash vs physical).
+Clearing, margining and counterparty risk framework.
+Liquidity-provision mechanism (market makers, incentives).
+Interoperability with onshore Indian markets and existing GIFT Nifty infrastructure.
+Operational challenges and expected benefits to GIFT IFSC's positioning.
+Track 2 – Institutional Strategy & Governance
+Global exchanges, custodians and clearing corporations are evaluating deeper partnerships, cross-listing arrangements or equity stakes in GIFT IFSC market infrastructure institutions. Develop a governance and strategy framework for how a GIFT IFSC exchange or clearing corporation should evaluate and structure such partnerships.
+Your framework should consider:
+Strategic rationale (liquidity access, technology, credibility) versus risks of dependence.
+Governance structure and board representation for foreign partners.
+Data-sharing and cybersecurity considerations.
+Competitive positioning against Singapore Exchange, Nasdaq Dubai and Hong Kong Exchanges.
+Long-term sustainability of the partnership beyond an initial liquidity boost.
+Exit/renegotiation provisions and accountability mechanisms.
+What will the jury look for?
+Teams should evaluate not only whether their proposed solution is commercially and technically feasible, but also whether it strengthens GIFT IFSC's long-term credibility as a financial centre.
+Does the proposed expansion address a genuine market need, or merely chase volume/headlines?
+Is the proposed approach necessary, or could the same objective be achieved with a simpler design?
+Do the anticipated benefits justify the additional risks taken on?
+Under what conditions would the proposal strengthen investor trust, market integrity and GIFT IFSC's global standing over the next decade?
+Teams should clearly state all assumptions underlying their recommendations and justify the rationale for their proposed design choices.
+Evaluation criterion
+Weight
+Quality and originality of analysis
+30%
+Depth of market or institutional strategy thinking (per chosen track)
+25%
+Feasibility and implementability of recommendations
+20%
+Understanding of market and strategic trade-offs
+15%
+Clarity and quality of presentation
+10%
+AI Use Disclosure
+Teams may use AI tools to support research and drafting. However, submissions must include a brief disclosure slide or footnote identifying the tools used and explaining how they were used. Submissions that rely on AI-generated analysis without genuine engagement with GIFT City-specific facts, figures and trade-offs will score poorly against the evaluation criteria, particularly on originality and feasibility. Selection for the regional stage will further test teams' ability to defend and extend their own analysis live, in person.
+Important Dates
+Milestone
+Date
+Stage I – Submissions Open
+14 October 2026
+Stage I – Submissions Close
+31 October 2026, 11:59 PM IST
+Stage II – Regional Finals: Delhi
+21 November 2026
+Stage II – Regional Finals: Bengaluru
+28 November 2026
+Stage II – Regional Finals: Kolkata
+30 November 2026
+Stage II – Regional Finals: Mumbai
+5 December 2026
+Stage III – Grand Finale: GIFT City, Gandhinagar
+Date to be announced
+Registration and Submissions
+Registrations open on 14 th October 2026 . Interested students should register through the official registration form and submit their final PDF presentation in accordance with the instructions published on the competition webpage.
+Official case and competition page: The official CCMRM webpage will serve as the central source for the complete case, submission guidelines, registration details and competition updates.
+For any queries, please contact: [mailto:ccmrm@iimb.ac.in] ccmrm@iimb.ac.in
+{IMG /sites/default/files/inline-images/1791979092852.jpeg}
+28 November 2026
+Add to Calendar
+2026-11-28 05:30:00
+2026-10-16 10:02:12
+GIFT Finance Olympiad: National Student Case Challenge 2026
+Organized by the Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City
+14 October, 2026, Bengaluru: The Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City, invites postgraduate students across India to participate in the GIFT Finance Olympiad: National Student Case Challenge 2026. The competition offers students an opportunity to engage with a real-world case drawn from GIFT City’s financial infrastructure and develop practical, evidence-based solutions to questions shaping India’s international financial markets.
+Registrations are open from 14th October 2026. Interested students are requested to review the instructions below and complete the registration using the following link: CCMRM, IIM Bangalore × GIFT City Finance Competition 2026 – Fill in form
+The competition will unfold in three stages: a national online case challenge, in-person regional finals in Bengaluru, Delhi, Kolkata and Mumbai, and a Grand Finale at GIFT City, Gandhinagar. Through this progression, participants will have the opportunity to apply their academic learning, examine real market and institutional trade-offs, and present and defend their recommendations before a panel of academic and industry experts.
+About the Competition
+GIFT City’s International Financial Services Centre (IFSC) is emerging as a gateway for offshore banking, capital markets, aircraft leasing, fund management and sustainable finance. As its institutions evolve and engage with global financial centres, questions of market design, product innovation, governance and institutional strategy become increasingly important.
+The GIFT Finance Olympiad invites students to examine these questions through an applied case centred on GIFT City’s financial ecosystem. Participants are expected to go beyond conceptual solutions and assess the commercial rationale, technical feasibility, implementation challenges and risks associated with their recommendations. The emphasis is on sound analysis, independent thinking and solutions that strengthen GIFT IFSC’s long-term credibility and competitiveness.
+Eligibility
+The competition is open to postgraduate students enrolled in any recognized college, university or B-school in India, irrespective of discipline.
+Each team must comprise four students, with interdisciplinary teams particularly encouraged. Students from finance, economics, technology, data and related fields are welcome to collaborate. Each student may participate in only one team.
+Why participate?
+Engage with a live, real-world question facing India's offshore financial centre.
+Present before exchange officials, bankers and academics.
+Interact with practitioners from GIFT IFSC institutions and IIM Bangalore faculty.
+Compete for cash prizes and national recognition.
+City winners will advance to the Grand Finale at GIFT City, Gandhinagar.
+Competition Format
+The competition will be conducted in three stages.
+Stage I: National Case Challenge (Online)
+Teams will solve a real-world GIFT City financial infrastructure case.
+Teams will choose one of two analytical tracks.
+Each team will submit a deck comprising one title slide and up to four content slides.
+Submissions will be evaluated by a panel comprising academics and industry practitioners.
+Stage II: Regional Finals (In-Person)
+Regional Finals will be held in four cities. Shortlisted teams will compete in a single-day, in-person round comprising a case extension and a live presentation with judge Q&A. The winning team from each regional city will advance to the Grand Finale at GIFT City.
+21st November 2026 – Delhi
+28th November 2026 – Bengaluru
+30th November 2026 – Kolkata
+5th December 2026 – Mumbai
+Stage III: Grand Finale – GIFT City, Gandhinagar
+The four regional winners will be invited to GIFT City, Gandhinagar for the Grand Finale. Finalist teams will receive a fresh, more detailed case extension on the same theme, to be solved under time constraints and presented live to the judging panel, including a Q&A.
+The date of the Grand Finale will be announced separately.
+Analytical Tracks
+Track 1 – Markets & Product Design
+GIFT Nifty has successfully consolidated offshore trading interest in Nifty index derivatives onto an IFSC platform. Building on this, suppose NSE IX is evaluating the launch of single-stock futures on a basket of large Indian companies (via depository receipt-linked structures) for trading by global investors out of GIFT IFSC.
+Your proposal should clearly identify and justify:
+Target participants and eligibility (FPIs, NRIs, global institutions).
+Contract design (underlying, lot size, settlement type – cash vs physical).
+Clearing, margining and counterparty risk framework.
+Liquidity-provision mechanism (market makers, incentives).
+Interoperability with onshore Indian markets and existing GIFT Nifty infrastructure.
+Operational challenges and expected benefits to GIFT IFSC's positioning.
+Track 2 – Institutional Strategy & Governance
+Global exchanges, custodians and clearing corporations are evaluating deeper partnerships, cross-listing arrangements or equity stakes in GIFT IFSC market infrastructure institutions. Develop a governance and strategy framework for how a GIFT IFSC exchange or clearing corporation should evaluate and structure such partnerships.
+Your framework should consider:
+Strategic rationale (liquidity access, technology, credibility) versus risks of dependence.
+Governance structure and board representation for foreign partners.
+Data-sharing and cybersecurity considerations.
+Competitive positioning against Singapore Exchange, Nasdaq Dubai and Hong Kong Exchanges.
+Long-term sustainability of the partnership beyond an initial liquidity boost.
+Exit/renegotiation provisions and accountability mechanisms.
+What will the jury look for?
+Teams should evaluate not only whether their proposed solution is commercially and technically feasible, but also whether it strengthens GIFT IFSC's long-term credibility as a financial centre.
+Does the proposed expansion address a genuine market need, or merely chase volume/headlines?
+Is the proposed approach necessary, or could the same objective be achieved with a simpler design?
+Do the anticipated benefits justify the additional risks taken on?
+Under what conditions would the proposal strengthen investor trust, market integrity and GIFT IFSC's global standing over the next decade?
+Teams should clearly state all assumptions underlying their recommendations and justify the rationale for their proposed design choices.
+Evaluation criterion
+Weight
+Quality and originality of analysis
+30%
+Depth of market or institutional strategy thinking (per chosen track)
+25%
+Feasibility and implementability of recommendations
+20%
+Understanding of market and strategic trade-offs
+15%
+Clarity and quality of presentation
+10%
+AI Use Disclosure
+Teams may use AI tools to support research and drafting. However, submissions must include a brief disclosure slide or footnote identifying the tools used and explaining how they were used. Submissions that rely on AI-generated analysis without genuine engagement with GIFT City-specific facts, figures and trade-offs will score poorly against the evaluation criteria, particularly on originality and feasibility. Selection for the regional stage will further test teams' ability to defend and extend their own analysis live, in person.
+Important Dates
+Milestone
+Date
+Stage I – Submissions Open
+14 October 2026
+Stage I – Submissions Close
+31 October 2026, 11:59 PM IST
+Stage II – Regional Finals: Delhi
+21 November 2026
+Stage II – Regional Finals: Bengaluru
+28 November 2026
+Stage II – Regional Finals: Kolkata
+30 November 2026
+Stage II – Regional Finals: Mumbai
+5 December 2026
+Stage III – Grand Finale: GIFT City, Gandhinagar
+Date to be announced
+Registration and Submissions
+Registrations open on 14th October 2026. Interested students should register through the official registration form and submit their final PDF presentation in accordance with the instructions published on the competition webpage.
+Official case and competition page: The official CCMRM webpage will serve as the central source for the complete case, submission guidelines, registration details and competition updates.
+For any queries, please contact: ccmrm@iimb.ac.in
+IIM Bangalore
+communications@iimb.ac.in
+Asia/Kolkata
+public
+28
+Nov 2026
+# GIFT Finance Olympiad: National Student Case Challenge 2026
+Add to Calendar
+2026-11-28 05:30:00
+2026-10-16 10:02:12
+GIFT Finance Olympiad: National Student Case Challenge 2026
+Organized by the Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City
+14 October, 2026, Bengaluru: The Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City, invites postgraduate students across India to participate in the GIFT Finance Olympiad: National Student Case Challenge 2026. The competition offers students an opportunity to engage with a real-world case drawn from GIFT City’s financial infrastructure and develop practical, evidence-based solutions to questions shaping India’s international financial markets.
+Registrations are open from 14th October 2026. Interested students are requested to review the instructions below and complete the registration using the following link: CCMRM, IIM Bangalore × GIFT City Finance Competition 2026 – Fill in form
+The competition will unfold in three stages: a national online case challenge, in-person regional finals in Bengaluru, Delhi, Kolkata and Mumbai, and a Grand Finale at GIFT City, Gandhinagar. Through this progression, participants will have the opportunity to apply their academic learning, examine real market and institutional trade-offs, and present and defend their recommendations before a panel of academic and industry experts.
+About the Competition
+GIFT City’s International Financial Services Centre (IFSC) is emerging as a gateway for offshore banking, capital markets, aircraft leasing, fund management and sustainable finance. As its institutions evolve and engage with global financial centres, questions of market design, product innovation, governance and institutional strategy become increasingly important.
+The GIFT Finance Olympiad invites students to examine these questions through an applied case centred on GIFT City’s financial ecosystem. Participants are expected to go beyond conceptual solutions and assess the commercial rationale, technical feasibility, implementation challenges and risks associated with their recommendations. The emphasis is on sound analysis, independent thinking and solutions that strengthen GIFT IFSC’s long-term credibility and competitiveness.
+Eligibility
+The competition is open to postgraduate students enrolled in any recognized college, university or B-school in India, irrespective of discipline.
+Each team must comprise four students, with interdisciplinary teams particularly encouraged. Students from finance, economics, technology, data and related fields are welcome to collaborate. Each student may participate in only one team.
+Why participate?
+Engage with a live, real-world question facing India's offshore financial centre.
+Present before exchange officials, bankers and academics.
+Interact with practitioners from GIFT IFSC institutions and IIM Bangalore faculty.
+Compete for cash prizes and national recognition.
+City winners will advance to the Grand Finale at GIFT City, Gandhinagar.
+Competition Format
+The competition will be conducted in three stages.
+Stage I: National Case Challenge (Online)
+Teams will solve a real-world GIFT City financial infrastructure case.
+Teams will choose one of two analytical tracks.
+Each team will submit a deck comprising one title slide and up to four content slides.
+Submissions will be evaluated by a panel comprising academics and industry practitioners.
+Stage II: Regional Finals (In-Person)
+Regional Finals will be held in four cities. Shortlisted teams will compete in a single-day, in-person round comprising a case extension and a live presentation with judge Q&A. The winning team from each regional city will advance to the Grand Finale at GIFT City.
+21st November 2026 – Delhi
+28th November 2026 – Bengaluru
+30th November 2026 – Kolkata
+5th December 2026 – Mumbai
+Stage III: Grand Finale – GIFT City, Gandhinagar
+The four regional winners will be invited to GIFT City, Gandhinagar for the Grand Finale. Finalist teams will receive a fresh, more detailed case extension on the same theme, to be solved under time constraints and presented live to the judging panel, including a Q&A.
+The date of the Grand Finale will be announced separately.
+Analytical Tracks
+Track 1 – Markets & Product Design
+GIFT Nifty has successfully consolidated offshore trading interest in Nifty index derivatives onto an IFSC platform. Building on this, suppose NSE IX is evaluating the launch of single-stock futures on a basket of large Indian companies (via depository receipt-linked structures) for trading by global investors out of GIFT IFSC.
+Your proposal should clearly identify and justify:
+Target participants and eligibility (FPIs, NRIs, global institutions).
+Contract design (underlying, lot size, settlement type – cash vs physical).
+Clearing, margining and counterparty risk framework.
+Liquidity-provision mechanism (market makers, incentives).
+Interoperability with onshore Indian markets and existing GIFT Nifty infrastructure.
+Operational challenges and expected benefits to GIFT IFSC's positioning.
+Track 2 – Institutional Strategy & Governance
+Global exchanges, custodians and clearing corporations are evaluating deeper partnerships, cross-listing arrangements or equity stakes in GIFT IFSC market infrastructure institutions. Develop a governance and strategy framework for how a GIFT IFSC exchange or clearing corporation should evaluate and structure such partnerships.
+Your framework should consider:
+Strategic rationale (liquidity access, technology, credibility) versus risks of dependence.
+Governance structure and board representation for foreign partners.
+Data-sharing and cybersecurity considerations.
+Competitive positioning against Singapore Exchange, Nasdaq Dubai and Hong Kong Exchanges.
+Long-term sustainability of the partnership beyond an initial liquidity boost.
+Exit/renegotiation provisions and accountability mechanisms.
+What will the jury look for?
+Teams should evaluate not only whether their proposed solution is commercially and technically feasible, but also whether it strengthens GIFT IFSC's long-term credibility as a financial centre.
+Does the proposed expansion address a genuine market need, or merely chase volume/headlines?
+Is the proposed approach necessary, or could the same objective be achieved with a simpler design?
+Do the anticipated benefits justify the additional risks taken on?
+Under what conditions would the proposal strengthen investor trust, market integrity and GIFT IFSC's global standing over the next decade?
+Teams should clearly state all assumptions underlying their recommendations and justify the rationale for their proposed design choices.
+Evaluation criterion
+Weight
+Quality and originality of analysis
+30%
+Depth of market or institutional strategy thinking (per chosen track)
+25%
+Feasibility and implementability of recommendations
+20%
+Understanding of market and strategic trade-offs
+15%
+Clarity and quality of presentation
+10%
+AI Use Disclosure
+Teams may use AI tools to support research and drafting. However, submissions must include a brief disclosure slide or footnote identifying the tools used and explaining how they were used. Submissions that rely on AI-generated analysis without genuine engagement with GIFT City-specific facts, figures and trade-offs will score poorly against the evaluation criteria, particularly on originality and feasibility. Selection for the regional stage will further test teams' ability to defend and extend their own analysis live, in person.
+Important Dates
+Milestone
+Date
+Stage I – Submissions Open
+14 October 2026
+Stage I – Submissions Close
+31 October 2026, 11:59 PM IST
+Stage II – Regional Finals: Delhi
+21 November 2026
+Stage II – Regional Finals: Bengaluru
+28 November 2026
+Stage II – Regional Finals: Kolkata
+30 November 2026
+Stage II – Regional Finals: Mumbai
+5 December 2026
+Stage III – Grand Finale: GIFT City, Gandhinagar
+Date to be announced
+Registration and Submissions
+Registrations open on 14th October 2026. Interested students should register through the official registration form and submit their final PDF presentation in accordance with the instructions published on the competition webpage.
+Official case and competition page: The official CCMRM webpage will serve as the central source for the complete case, submission guidelines, registration details and competition updates.
+For any queries, please contact: ccmrm@iimb.ac.in
+IIM Bangalore
+communications@iimb.ac.in
+Asia/Kolkata
+public
+Organized by the Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City
+14 October, 2026, Bengaluru : The [https://www.iimb.ac.in/ccmrm/] Centre for Capital Markets and Risk Management (CCMRM) at IIM Bangalore, in collaboration with GIFT City, invites postgraduate students across India to participate in the GIFT Finance Olympiad: National Student Case Challenge 2026. The competition offers students an opportunity to engage with a real-world case drawn from GIFT City’s financial infrastructure and develop practical, evidence-based solutions to questions shaping India’s international financial markets.
+Registrations are open from 14 th October 2026 . Interested students are requested to review the instructions below and complete the registration using the following link: [https://forms.cloud.microsoft/r/gw1ppghMx9] CCMRM, IIM Bangalore × GIFT City Finance Competition 2026 – Fill in form
+The competition will unfold in three stages: a national online case challenge, in-person regional finals in Bengaluru, Delhi, Kolkata and Mumbai, and a Grand Finale at GIFT City, Gandhinagar. Through this progression, participants will have the opportunity to apply their academic learning, examine real market and institutional trade-offs, and present and defend their recommendations before a panel of academic and industry experts.
+About the Competition
+GIFT City’s International Financial Services Centre (IFSC) is emerging as a gateway for offshore banking, capital markets, aircraft leasing, fund management and sustainable finance. As its institutions evolve and engage with global financial centres, questions of market design, product innovation, governance and institutional strategy become increasingly important.
+The GIFT Finance Olympiad invites students to examine these questions through an applied case centred on GIFT City’s financial ecosystem. Participants are expected to go beyond conceptual solutions and assess the commercial rationale, technical feasibility, implementation challenges and risks associated with their recommendations. The emphasis is on sound analysis, independent thinking and solutions that strengthen GIFT IFSC’s long-term credibility and competitiveness.
+Eligibility
+The competition is open to postgraduate students enrolled in any recognized college, university or B-school in India, irrespective of discipline.
+Each team must comprise four students, with interdisciplinary teams particularly encouraged. Students from finance, economics, technology, data and related fields are welcome to collaborate. Each student may participate in only one team.
+Why participate?
+Engage with a live, real-world question facing India's offshore financial centre.
+Present before exchange officials, bankers and academics.
+Interact with practitioners from GIFT IFSC institutions and IIM Bangalore faculty.
+Compete for cash prizes and national recognition.
+City winners will advance to the Grand Finale at GIFT City, Gandhinagar.
+Competition Format
+The competition will be conducted in three stages.
+Stage I: National Case Challenge (Online)
+Teams will solve a real-world GIFT City financial infrastructure case.
+Teams will choose one of two analytical tracks.
+Each team will submit a deck comprising one title slide and up to four content slides.
+Submissions will be evaluated by a panel comprising academics and industry practitioners.
+Stage II: Regional Finals (In-Person)
+Regional Finals will be held in four cities. Shortlisted teams will compete in a single-day, in-person round comprising a case extension and a live presentation with judge Q&A. The winning team from each regional city will advance to the Grand Finale at GIFT City.
+21 st November 2026 – Delhi
+28 th November 2026 – Bengaluru
+30 th November 2026 – Kolkata
+5 th December 2026 – Mumbai
+Stage III: Grand Finale – GIFT City, Gandhinagar
+The four regional winners will be invited to GIFT City, Gandhinagar for the Grand Finale. Finalist teams will receive a fresh, more detailed case extension on the same theme, to be solved under time constraints and presented live to the judging panel, including a Q&A.
+The date of the Grand Finale will be announced separately.
+Analytical Tracks
+Track 1 – Markets & Product Design
+GIFT Nifty has successfully consolidated offshore trading interest in Nifty index derivatives onto an IFSC platform. Building on this, suppose NSE IX is evaluating the launch of single-stock futures on a basket of large Indian companies (via depository receipt-linked structures) for trading by global investors out of GIFT IFSC.
+Your proposal should clearly identify and justify:
+Target participants and eligibility (FPIs, NRIs, global institutions).
+Contract design (underlying, lot size, settlement type – cash vs physical).
+Clearing, margining and counterparty risk framework.
+Liquidity-provision mechanism (market makers, incentives).
+Interoperability with onshore Indian markets and existing GIFT Nifty infrastructure.
+Operational challenges and expected benefits to GIFT IFSC's positioning.
+Track 2 – Institutional Strategy & Governance
+Global exchanges, custodians and clearing corporations are evaluating deeper partnerships, cross-listing arrangements or equity stakes in GIFT IFSC market infrastructure institutions. Develop a governance and strategy framework for how a GIFT IFSC exchange or clearing corporation should evaluate and structure such partnerships.
+Your framework should consider:
+Strategic rationale (liquidity access, technology, credibility) versus risks of dependence.
+Governance structure and board representation for foreign partners.
+Data-sharing and cybersecurity considerations.
+Competitive positioning against Singapore Exchange, Nasdaq Dubai and Hong Kong Exchanges.
+Long-term sustainability of the partnership beyond an initial liquidity boost.
+Exit/renegotiation provisions and accountability mechanisms.
+What will the jury look for?
+Teams should evaluate not only whether their proposed solution is commercially and technically feasible, but also whether it strengthens GIFT IFSC's long-term credibility as a financial centre.
+Does the proposed expansion address a genuine market need, or merely chase volume/headlines?
+Is the proposed approach necessary, or could the same objective be achieved with a simpler design?
+Do the anticipated benefits justify the additional risks taken on?
+Under what conditions would the proposal strengthen investor trust, market integrity and GIFT IFSC's global standing over the next decade?
+Teams should clearly state all assumptions underlying their recommendations and justify the rationale for their proposed design choices.
+Evaluation criterion
+Weight
+Quality and originality of analysis
+30%
+Depth of market or institutional strategy thinking (per chosen track)
+25%
+Feasibility and implementability of recommendations
+20%
+Understanding of market and strategic trade-offs
+15%
+Clarity and quality of presentation
+10%
+AI Use Disclosure
+Teams may use AI tools to support research and drafting. However, submissions must include a brief disclosure slide or footnote identifying the tools used and explaining how they were used. Submissions that rely on AI-generated analysis without genuine engagement with GIFT City-specific facts, figures and trade-offs will score poorly against the evaluation criteria, particularly on originality and feasibility. Selection for the regional stage will further test teams' ability to defend and extend their own analysis live, in person.
+Important Dates
+Milestone
+Date
+Stage I – Submissions Open
+14 October 2026
+Stage I – Submissions Close
+31 October 2026, 11:59 PM IST
+Stage II – Regional Finals: Delhi
+21 November 2026
+Stage II – Regional Finals: Bengaluru
+28 November 2026
+Stage II – Regional Finals: Kolkata
+30 November 2026
+Stage II – Regional Finals: Mumbai
+5 December 2026
+Stage III – Grand Finale: GIFT City, Gandhinagar
+Date to be announced
+Registration and Submissions
+Registrations open on 14 th October 2026 . Interested students should register through the official registration form and submit their final PDF presentation in accordance with the instructions published on the competition webpage.
+Official case and competition page: The official CCMRM webpage will serve as the central source for the complete case, submission guidelines, registration details and competition updates.
+For any queries, please contact: [mailto:ccmrm@iimb.ac.in] ccmrm@iimb.ac.in
+{IMG /sites/default/files/inline-images/1791979092852.jpeg}

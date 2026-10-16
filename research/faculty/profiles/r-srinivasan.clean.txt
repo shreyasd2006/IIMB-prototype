@@ -1,0 +1,85 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/R-Srinivasan.jpg}
+#### R
+Srinivasan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+R Srinivasan
+Professor
+Strategy
+Chairperson, Centre for Digital Public Goods
+Connect with Faculty [mailto:srini@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+srini@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[https://r-srini.in/ ] Blog
+-->
+[/sites/default/files/2026-05/Srinivasan-r-cv-2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[https://r-srini.in/ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Srinivasan received his doctoral degree (Fellow Programme in Management) from the Indian Institute of Management Ahmedabad. He is Professor of Strategy and Chairperson, Center for Digital Public Goods (CDPG) at IIM Bangalore.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile3] SERVICE
+[#profile5] EDUCATION
+His areas of research include digital public goods & digital public infrastructures, protocols and open networks, platform strategy, and competitive strategies.
+Srinivasan has published multiple editions of his book on Platform Business Models (including a textbook edition-2025; a German language translation-2024; an executive edition-2022; first edition-2021). He has also published books on strategy and knowledge management.
+He has published papers in international journals on DPGs & DPIs, platforms, and strategy.
+He has authored a number of cases on platform organisations, business models, strategy, and knowledge management.
+## Recent Books
+Srinivasan, R. 2025. Platform Business Models: Text and cases, Third Edition, Singapore: Springer Nature.
+Srinivasan R, Pranjal Sharma, and Anirban Sarma, Eds., 2025. Decoding Digital Public Infrastructure: Scripting Inclusive Digital Futures, July 2025, Observer Research Foundation (available at https://www.iimb.ac.in/cdpg/reading.php).
+Srinivasan, R. 2023. Plattform-Geschäftsmodelle: Rahmenwerke, Konzepte und Design, Singapore: Springer Gabler (German translation).
+Srinivasan, R. 2022. Platform Business Models for Executives, Second Edition, Singapore: Springer Nature.
+Srinivasan, R. 2021. Platform Business Models: Frameworks, concepts and design, Singapore: Springer Nature.
+## Recent journal publications
+Mahadevan, B. and Srinivasan, R., (2026), The case for network-level interoperability of QR codes in India’s digital payments ecosystem, Journal of Digital Banking , 10, 4, 347-368.
+Kurtz, J., Srinivasan, R., and Roth, A., (2025), Digital Public Goods as an avenue for digital platform design: Insights from India, Journal of Services Management Research , 9, 2, 75-91.
+Mahadevan, B., and Srinivasan, R. (2025). Combinatorial innovation: unpacking the genius of India’s Unified Payments Interface, Journal of Payments Strategy & Systems , 19,3, 291-308.
+Agarwala, R., Satyanarayana, H.S., Chandrashekar, D., and Srinivasan, R. (2025). How does a digital business-to-business platform transform logistics management in manufacturing firms? – An examination, Technovation , 141.
+Ahsan, F., Sinha, A., and Srinivasan, R. 2020. Exploring Firm-Level Antecedents that Drive Motives of Internationalization: A Study of Knowledge Intensive Indian Firms, Management and Organization Review , Apr. 2020.
+Abdelkafi, N., Raasch, C., Roth, A. and Srinivasan R., 2019. Multi-sided platforms, Electronic Markets , 29 (4). Guest Editors’ Introduction.
+## Recent cases (available on Harvard Business Impact)
+Prabhu, VN., and Srinivasan, R. 2026. UPI: Crafting the ecosystem
+Prabhu, VN., and Srinivasan, R. 2026. Venture Center: Growing the ecosystem
+Prabhu, VN., and Srinivasan, R. 2026. Medical Valley: Strengthening the ecosystem
+Bhoi, C., and Srinivasan, R. 2026. Beckn Protocol: Orchestrating our digital future.
+Tewari, S., Karthika, S., and Srinivasan R. 2025. Arya.ag: Filling institutional voids by leveraging technology.
+Srinivasan, R. and Saxena, A. 2025. AuctionBazaar.com: Lubricating the NPA process.
+Srinivasan, R. and Satya Nandini, A. 2024. DriveU: Platform design.
+Srinivasan, R. and Saxena, A. 2023. Apollo Hospitals: The journey of digital transformation.
+Srinivasan, R., Joseph, P.K., and Lakshmipathy, S., 2023. Satyukt: Platformization of AI in Agriculture
+Srinivasan, R., Satya Nandini, A., and Srividya, V. 2023. Knolskape: Transforming learning dynamics
+Karthika, S., and Srinivasan, R. 2021. Digital disruption at the Vikatan Group: A case of adaptation and strategic persistence
+He teaches courses on competitive strategy and platform business models for the MBA classes, and strategy process research for the doctoral students.
+He has designed and coordinated executive education programmes on strategy for senior managers; and policy planning and implementation for senior bureaucrats and government officers. He has conducted customized workshops on visioning, strategizing and strategic planning, and strategic performance management for various multinational, government, public and private organizations.
+Chairperson – CDPG (2024-), IIM Bangalore
+Member FDEC (Feb 2024-Feb 2026), IIM Bangalore
+Member EEP Committee (2020-), IIM Bangalore
+Member BDE Committee (2022-), IIM Bangalore
+Member IRB (2022-), IIM Bangalore
+Chairperson – PGP & PGPBA (2021-24), IIM Bangalore
+Member, IIMB Committee for Future Directions, 2018-19, IIM Bangalore
+Chairperson – EEP (2016-20), IIM Bangalore
+Chairperson – Admissions, Scholarships, and Financial Aid (2010-12), IIM Bangalore
+Chairperson – Alumni affairs (2005-06), IIM Lucknow
+Chairperson – Placement (2003-05), IIM Lucknow
+He has undertaken consulting projects for various large organizations and startups on strategic planning and restructuring.
+He is leading the efforts in publishing the annual “ [https://www.iimb.ac.in/cdpg/pdf/State-India-DPI_Report.pdf] State of DPI in India ” report, by CDPG in partnership with Protean e-Gov Technologies.
+He also works with the governments to design, develop, and deploy population-scale digital public infrastructures (DPI) and digital public goods (DPG), as part of the CDPG.
+## Recent DPI/ DPG projects:
+Design and development of the detailed project report for launching the Bharat Taxi Co-operative Ltd.; a driver-owned cooperative society built on the Beckn Protocol and launched operations in late 2025, for the Ministry of Cooperation, Government of India.
+Detailed Paper for the design and development of the Digital Address Code (DIGIPIN) for the Department of Posts, Ministry of Communications, Government of India.
+## Ongoing projects
+Design and ground-up development of the Open Network for Carbon Markets ( [https://www.iimb.ac.in/cdpg/oncm.php] ONCM ), with Networks for Humanity (Beckn and Finternet) and other stakeholders including Bureau of Energy Efficiency (BEE), Ministry of Power, GOI; Central Electricity Regulatory Commission (CERC); Indian Institute of Forest Management, Bhopal; Ministry of Environment, Forests, and Climate Change (MoEFCC), GOI; and other stakeholders.
+Study of eCommerce’s impact on small and medium enterprises – for the DPIIT, Ministry of Commerce, GOI
+Fellow (Doctoral degree), IIM Ahmedabad, India
+Post Graduation in Forestry Management (PGDFM), Indian Institute of Forest Management (IIFM), Bhopal, India
+BSc (Mathematics), Ayya Nadar Janaki Ammal College, Sivakasi, Madurai Kamaraj University, India

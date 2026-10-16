@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centres — IIM Bangalore</title>
+<meta name="description" content="IIMB centres of excellence, NSRCEL and research initiatives.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="centres" data-section="centres">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>Centres</li></ol>
+  <div class="grid"><h1 class="t-1">Where disciplines come together.</h1><p class="deck">Centres of excellence and initiatives draw on faculty across areas to work with government, industry and society on focused questions.</p></div>
+</div></header>
+<section class="section" style="padding-top:40px" aria-label="Centres directory">
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="field grow"><label class="label" for="cSearch">Search centres</label><input id="cSearch" type="search" placeholder="e.g. health, governance, startups"></div>
+      <div class="field"><span class="label" id="kindL">Type</span><div class="chips" id="kindChips" role="group" aria-labelledby="kindL"></div></div>
+    </div>
+    <div class="count-line" id="cCount" aria-live="polite"></div>
+    <h2 class="sr-only">Centres and initiatives</h2><div id="cGrid"></div>
+    <div class="empty-state" id="cEmpty" hidden><p class="t-3">No centres match.</p><p>Try a broader word, or choose “All”.</p></div>
+    <div id="cenSources"></div>
+  </div>
+</section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

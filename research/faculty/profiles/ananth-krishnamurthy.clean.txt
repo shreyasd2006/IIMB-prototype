@@ -1,0 +1,33 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/ananth-krishnamurthy.jpg}
+#### Ananth
+Krishnamurthy
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Ananth Krishnamurthy
+Professor
+Decision Sciences
+Connect with Faculty [mailto:ananthk@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+ananthk@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Professor Ananth Krishnamurthy’s research focuses on stochastic modelling and optimization techniques and their applications in industry. Topics of interest include supply chain competitiveness, warehousing and logistics, biomanufacturing, and energy supply chains. His research has been supported by government agencies as well as industry. Dr. Krishnamurthy has served as the Director of the Center for Quick Response Manufacturing at the University of Wisconsin-Madison.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests
+Design and Analysis of Supply Chains, Warehousing and Logistics, Biomanufacturing, Energy Supply Chains, Manufacturing Systems and Competitiveness, Quick Response Manufacturing,
+Queuing Theory, Stochastic Models and Optimization, Simulation
+Ph.D. Industrial Engineering, 2002, University of Wisconsin – Madison
+M.S. Manufacturing Systems Engineering, December 2001, University of Wisconsin – Madison
+B. Tech - M. Tech (5-Year Integrated), 1996, Indian Institute of Technology, Bombay

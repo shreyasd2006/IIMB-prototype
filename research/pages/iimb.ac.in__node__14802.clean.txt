@@ -1,0 +1,16 @@
+id="main-content">
+# Journal Article: 'First-generation status as a criterion for affirmative action: Education and labour market effects of a tuition waiver in India' Prof. Soham Sahoo
+{IMG /sites/default/files/2026-09/soham-sahoo.jpg}
+Abstract: We evaluate the First-Generation Graduate Scholarship scheme implemented in the Indian state of Tamil Nadu, which waives tuition fees for first-generation college students in technical education. The scheme represents a large-scale non-identity-based affirmative action policy in higher education, using first-generation status as the basis for eligibility. Using household survey data in difference-in-differences (DiD) and synthetic DiD frameworks, we find substantial improvements in enrollment, stream choice, and graduation in technical courses, with downstream effects on regular employment, occupational choices, and household welfare. Male students gained more than female students. The scheme also increased reliance on education loans to cover residual costs. The findings suggest that policies based on first-generation status can promote intergenerational mobility by expanding higher education access and improving labour market outcomes.
+Authors’ Names: Gopinath Annadurai, [https://www.iimb.ac.in/user/134/soham-sahoo] Soham Sahoo
+Journal Name: Journal of Economic Behavior & Organization
+URL: [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0167268126003094')] https://www.sciencedirect.com/science/article/pii/S0167268126003094
+Journal Name
+Journal of Economic Behavior & Organization
+# Journal Article: 'First-generation status as a criterion for affirmative action: Education and labour market effects of a tuition waiver in India' Prof. Soham Sahoo
+Abstract: We evaluate the First-Generation Graduate Scholarship scheme implemented in the Indian state of Tamil Nadu, which waives tuition fees for first-generation college students in technical education. The scheme represents a large-scale non-identity-based affirmative action policy in higher education, using first-generation status as the basis for eligibility. Using household survey data in difference-in-differences (DiD) and synthetic DiD frameworks, we find substantial improvements in enrollment, stream choice, and graduation in technical courses, with downstream effects on regular employment, occupational choices, and household welfare. Male students gained more than female students. The scheme also increased reliance on education loans to cover residual costs. The findings suggest that policies based on first-generation status can promote intergenerational mobility by expanding higher education access and improving labour market outcomes.
+Authors’ Names: Gopinath Annadurai, [https://www.iimb.ac.in/user/134/soham-sahoo] Soham Sahoo
+Journal Name: Journal of Economic Behavior & Organization
+URL: [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0167268126003094')] https://www.sciencedirect.com/science/article/pii/S0167268126003094
+{IMG /sites/default/files/2026-09/soham-sahoo.jpg}
+-->

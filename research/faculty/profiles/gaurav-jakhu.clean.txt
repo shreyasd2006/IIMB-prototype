@@ -1,0 +1,45 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-02/Gaurav-Jakhu.JPG}
+#### Gaurav
+Jakhu
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Gaurav Jakhu
+Associate Professor
+Economics
+Connect with Faculty [mailto:gaurav.jakhu@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+gaurav.jakhu@iimb.ac.in
+Curriculum Vitae
+[https://www.gauravjakhu.in/ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.gauravjakhu.in/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Dr. Gaurav Jakhu is an Associate Professor in the Economics area at the Indian Institute of Management Bangalore. His current research focuses on antitrust and regulatory issues in digital markets. He uses game-theoretic modelling to study strategic interactions among economic agents in digital markets and its impact on competition, innovation, and welfare.
+He has a PhD in Economics from Indian Statistical Institute, Master’s in Economics from Delhi School of Economics, and a Bachelor of Arts in Economics from Shri Ram College of Commerce. Before his doctoral studies, he worked as an Economist at the Competition Commission of India, New Delhi.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile5] EDUCATION
+RESEARCH INTERESTS: Industrial Organization, Digital Economics, and Antitrust Economics
+Published
+Gaurav Jakhu (2025). “Integrating a Free Online Service: Advertisements and Competitive Implications.” Journal of Economics & Management Strategy . [javascript:confirmDeletee('https://doi.org/10.1111/jems.70012')] https://doi.org/10.1111/jems.70012
+Gaurav Jakhu and Prabal Roy Chowdhury (2025). “Endogenous Data Collection in Platform Markets: Privacy and Welfare.” Production and Operations Management , 34(9): 2700-2719. [javascript:confirmDeletee('https://doi.org/10.1177/10591478251325742')] https://doi.org/10.1177/10591478251325742
+Gaurav Jakhu and Tarun Jain (2025). “Economics of Content Aggregation: Pricing and Advertising Competition in a Multi-Channel Structure.” Naval Research Logistics , 72: 713-734. [javascript:confirmDeletee('https://doi.org/10.1002/nav.22248')] https://doi.org/10.1002/nav.22248
+Gaurav Jakhu and Tarun Jain (2026). “Impact of Pre-Installation on Firm Profits, Application Functionality and Welfare.” Journal of the Operational Research Society , 1–38. [javascript:confirmDeletee('https://doi.org/10.1080/01605682.2025.2605227')] https://doi.org/10.1080/01605682.2025.2605227
+Gaurav Jakhu (2025). “Data Protection and Empowering Users to Control Data.” Marketing Letters , 36: 17–48. [javascript:confirmDeletee('https://doi.org/10.1007/s11002-024-09719-5')] https://doi.org/10.1007/s11002-024-09719-5
+Working Papers
+Gaurav Jakhu (2024). “Sabotage in Digital Markets with Endogenous Homing.”
+Gaurav Jakhu (2025). “On the Implications of Cost of Anonymity in Advertising Financed Two-Sided Markets.”
+Gaurav Jakhu and Manaswini Bhalla (2025). “Optimal Payments to News Publishers, Snippet Length and News Aggregation.”
+Gaurav Jakhu and Akhil Ilango (2025). “Application Compatibility in the Presence of Presence for Variety.”
+Gaurav Jakhu currently teaches Managerial Economics, Business Strategy and Competition Policy, and Theatre for Executive Presence to MBA students and Advanced Microeconomics to doctoral students. He also teaches Managerial Economics and conducts theatre-based collaboration and leadership training in executive education programmes.
+PhD (Economics), Indian Statistical Institute, Delhi Centre, India
+MA (Economics), Delhi School of Economics, University of Delhi, India
+BA (Economics Hons.), Shri Ram College of Commerce, University of Delhi, India

@@ -1,0 +1,42 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Sarvesh-Bandhu.jpg}
+#### Sarvesh
+Bandhu
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sarvesh Bandhu
+Associate Professor
+Economics
+Connect with Faculty [mailto:sarvesh.bandhu@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sarvesh.bandhu@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/sarveshbandhu ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/sarveshbandhu ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Dr. Sarvesh Bandhu is an Associate Professor in the Economics area at the Indian Institute of Management Bangalore (IIMB). He holds a PhD from the Indian Statistical Institute, Delhi, under the supervision of Prof. Arunava Sen. He completed his master’s and bachelor’s degrees at the Delhi School of Economics and Shri Ram College of Commerce, respectively. He is a recipient of the UGC–UKIERI Scholarship for a research visit to a UK institution and the Research Fellowship at ISI, among other awards and distinctions.
+His primary research interests lie in theoretical and applied microeconomics, with a focus on mechanism design, evolutionary game theory, and platform economics. His research has been published in leading international journals, such as Production and Operations Management, Economic Theory, Journal of Economic Behavior & Organization, and Social Choice and Welfare.
+Teaching constitutes a central pillar of his academic profile. With over a decade of teaching experience spanning undergraduate, postgraduate, doctoral, and executive education programmes at premier institutions, Dr. Bandhu has consistently been among the top-rated faculty at IIM Bangalore. Prior to joining IIMB, he taught at Ashoka University, the Delhi School of Economics, the Indian Statistical Institute, and Shri Ram College of Commerce.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Game theory, behavioral economics, political economy and mechanism design.
+Published Papers:
+[javascript:confirmDeletee('https://journals.sagepub.com/doi/10.1177/10591478251405713')] Shiva Shekhar, Sarvesh Bandhu, and Marshall Van Alstyne. "Platform Transformation Risk and the Role of Hosting Rivals". Production and Operations Management (2025).
+[javascript:confirmDeletee('https://doi.org/10.1016/j.jebo.2025.107046')] Sarvesh Bandhu and Ratul Lahkar. "Implementing efficiency with equality". Journal of Economic Behavior & Organization (2025).
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0165176524000326?via%3Dihub')] Sarvesh Bandhu and Rohit Kumar. "A characterization of unanimity with status quo: Fixed vs variable population." Economics Letters (2024).
+[javascript:confirmDeletee('https://link.springer.com/article/10.1007/s00355-023-01491-1')] Sarvesh Bandhu, Abhinaba Lahiri, and Anup Pramanik. "Stochastic same-sidedness in the random voting model." Social Choice and Welfare (2023).
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/abs/pii/S0165176523001386')] Sarvesh Bandhu, and Ratul Lahkar. "Survival of altruistic preferences in a large population public goods game". Economics Letters (2023).
+[javascript:confirmDeletee('https://link.springer.com/article/10.1007/s00199-022-01474-w')] Sarvesh Bandhu, and Ratul Lahkar. "Evolutionary robustness of dominant strategy implementation." Economic Theory (2022)
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S016517652100433X')] Sarvesh Bandhu, Bishwajyoti Mondal, and Anup Pramanik. "Strategy-proofness of the unanimity with status-quo rule over restricted domains." Economics Letters (2021)
+[javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S0165176520301221?casa_token=BsQjUCdAEDQAAAAA:elymr3na8-Pz1s0zHH3elp6QHsQ6mLha5pdFHfyAzsSYlotYotNURhQmVBfsO7t_FRZJPItG')] Sarvesh Bandhu, Abhinaba Lahiri, and Anup Pramanik. "A characterization of status quo rules in the binary social choice model." Economics Letters (2020): 109154.
+Ph.D., Economics, Indian Statistical Institute, Delhi Centre.
+M.A. Economics, Delhi School of Economics, University of Delhi.
+B.Com.(Hons.), Sri Ram College of Commerce, University of Delhi.

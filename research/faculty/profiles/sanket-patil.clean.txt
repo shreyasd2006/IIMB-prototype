@@ -1,0 +1,40 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Prof.%20Patil%20Sanket%20.jpg}
+#### Sanket
+Patil
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sanket Patil
+Assistant Professor
+Economics
+Connect with Faculty [mailto:sanket.patil@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sanket.patil@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/sanketrpatil ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-11/CV_Sanket-Patil-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/sanketrpatil ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+My research is in microeconomic theory. I focus on incorporating non-Bayesian information processing into models of mechanism and information design.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Publications
+Undominated Monopoly Regulation , with Debasis Mishra, accepted at Journal of Economic Theory
+We characterize undominated regulatory mechanisms for a regulator who lacks confidence in her prior.
+Optimal Sample Sizes and Statistical Decision Rules , with Yuval Salant, Theoretical Economics , 19 (2024), No. 2, 583–604
+Intuitive statistical decision rules such as simple majority, reverse unanimity emerge when an interested designer strategically chooses sample sizes to influence a decision maker.
+Working Papers
+Robust Procurement Design, with Debasis Mishra and Alessandro Pavan
+How should a buyer design a procurement contract in an environment where he faces uncertainty over the product's demand and the seller's cost? We propose an approach rooted in the adage "preparing for the worst and hoping for the best."
+Strategic Justifications
+How effective is the ex-post scrutiny by a generalist auditor in aligning the interests of a specialist expert and her clients?
+Ph.D. in Managerial Economics and Strategy (Kellogg SOM, Northwestern University)
+M.S. in Quantitative Economics (ISI Delhi)
+B.Tech. (Hons) + M.Tech. in Metallurgical and Materials Engineering (IIT Kharagpur)

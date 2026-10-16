@@ -1,0 +1,51 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2024-12/deepak-malaghan.jpg}
+#### Deepak
+Malghan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Deepak Malghan
+Associate Professor
+Public Policy
+Connect with Faculty [mailto:dmalghan@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+dmalghan@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Deepak Malghan is a chemical engineer and ecological economist at the interface of thermodynamics and scale theory. Among other recognitions for his contributions to scale theory, Malghan received the [javascript:confirmDeletee('https://www.thehindu.com/todays-paper/tp-national/tp-karnataka/social-scientist-from-city-wins-award/article17337460.ece')] 2015 VKRV Rao Prize in Social Sciences and the [javascript:confirmDeletee('https://tnk.atree.org/')] 2023 T N Khoshoo Memorial Award . Malghan was an editor at the field's flagship, Ecological Economics (2018-26), where he is now on the editorial board.
+Malghan is an affiliated researcher at the [javascript:confirmDeletee('https://www.sei.org/people/deepak-malghan/')] Stockholm Environment Institute , where he conducts translational research on [javascript:confirmDeletee('http://bangalore.urbanmetabolism.asia/')] urban hydrology .
+Beyond ecological economics, Malghan's Ecological Political Economy group at IIMB has pioneered [javascript:confirmDeletee('https://scroll.in/article/979318/what-is-the-extent-of-caste-segregation-in-indian-villages-today-new-data-gives-us-an-idea')] new methods for characterizing ethnic inequality and stratification by combining tools and insights from economics, demography, and political science. His current projects apply these methods to study classical and emerging problems in ethnic politics and environmental injustice.
+As a historian, Malghan is the co-author of an intellectual biography of J. C. Kumarappa (1892-160), a pioneering Indian ecological thinker and political philosopher ( [javascript:confirmDeletee('https://global.oup.com/academic/product/the-web-of-freedom-9780199460816?cc=in&lang=en&')] Oxford University Press, 2016 ). He is currently working on a book project ( Citius, Altius, Fortius: A History of How the World Became Efficient ) that develops the global history of the modern idea of efficiency.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Articles (2021 —)
+Bhagwati, R., Banerji, A., Charani, E., Malghan, D , […] & Batheja, D. (2026). Understanding the Socio-economic and Environmental Determinants of Antimicrobial Resistance. Public Humanities, 2, e107. [ [javascript:confirmDeletee('https://doi.org/10.1017/pub.2025.10101')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/wjoul3icsj8kxthx9v506/PERM_amrGenderCasteClimate.pdf?rlkey=2cpn0aabi41gsljx1glcat2lh&dl=0')] preprint ]
+Shah, A., Sugathan, A., Malghan, D., Kim, R., & Subramanian, S. V. (2025). Spatiotemporal changes in heat stress exposure in India, 1981-2023. Nature Communications, 16, 9496. [ [javascript:confirmDeletee('https://doi.org/10.1038/s41467-025-64840-x')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/h8roqckud0vao04aozn4b/PERM_NATCOM2025_utciIndiaDistricts.pdf?rlkey=nwe9ghq3grokc9ozoh7hm6z0d&dl=0')] preprint ]
+Shah, A., Thapliyal, S., Sugathan, A., Mishra, V., & Malghan, D. (2025). Caste inequality in occupational exposure to heat waves in India. Demography, 62(1), 35-60. [ [javascript:confirmDeletee('https://doi.org/10.1215/00703370-11803010')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4878568')] preprint ]
+Sugathan, A., Shah, A., & Malghan, D. (2025). Washed Away: Industrial Capital, Labor, and Floods. Environmental Research Letters 20, 024023. [ [javascript:confirmDeletee('https://doi.org/10.1088/1748-9326/ad9d5c')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5040733')] preprint ]
+Shah, A., Sugathan, A., Bharathi, N., Rahman, A., Garg, A., & Malghan, D. (2025). On measuring Muslim segregation in urban India. Urban Studies , 62(8), 1650-1668. [ [javascript:confirmDeletee('https://doi.org/10.1177/00420980241296998')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4964464')] preprint ]
+Vivek, V., Kar, T., Meka, S., & Malghan, D. (2024). Combining price and non-price interventions for water conservation. Environmental Research Letters , 19, 104066. [ [javascript:confirmDeletee('https://doi.org/10.1088/1748-9326/ad747b')] reprint [javascript:confirmDeletee('https://krea.edu.in/ifmrgsb/wp-content/uploads/2024/09/Vivek-etal2024.pdf')] preprint ]
+Bharathi, N., Malghan, D., Mishra, S., & Rahman, A. (2024). Status Inequality and Public Goods. World Development , 176, 106526. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.worlddev.2023.106526')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4676881')] preprint ]
+Rothler, Y., Blakeslee, D., Malghan, D., & Fishman, R. (2024). Economic factors mediate the impact of drought on farmer suicides in India. Global Environmental Change, 86, 102844. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.gloenvcha.2024.102844')] reprint [javascript:confirmDeletee('http://www.davidsblakeslee.net/uploads/1/1/4/4/114438143/suicides_india.pdf')] preprint ]
+Bharathi, N., Malghan, D., & Rahman, A. (2023). Ethnic diversity and economic development with spatial segregation. Economics Letters , 222, 110951. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.econlet.2022.110951')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4286132')] preprint ]
+Bharathi, N., Malghan, D., Mishra, S., & Rahman, A. (2022). Residential segregation and public services in urban India. Urban Studies , 59(4), 2912-2932. [ [javascript:confirmDeletee('https://doi.org/10.1177%2F00420980211072855')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/ymf6mm53hhz2euv6g8aez/PERM_USJ2021_waterSanitation147.pdf?rlkey=l0j15acwcuakg0yk2jm4atqu6&dl=0')] preprint ]
+Blakeslee, D., Chaurey, R., Fishman, R., Malghan, D., & Malik, S. (2021). In the heat of the moment: Economic and non-economic drivers of the weather-crime relationship, Journal of Economic Behavior & Organization, 192, 832-856. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.jebo.2021.11.003')] reprint [javascript:confirmDeletee('http://www.davidsblakeslee.net/uploads/1/1/4/4/114438143/crime_2021.pdf')] preprint ]
+Malghan, D., & Swaminathan, H. (2021). Global trends in intra-household gender inequality, Journal of Economic Behavior & Organization, 189, 515-546. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.jebo.2021.07.022')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3881712')] preprint ]
+Vivek, V., Malghan, D. & Mukherjee, K. (2021). Toward achieving persistent behavior change in household water conservation. Proceedings of the National Academy of Sciences of the United States of America (PNAS) , 118(24), e2023014118 . [ [javascript:confirmDeletee('https://doi.org/10.1073/pnas.2023014118')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/6929wjqffq7wv6nuus2xx/PERM_PNAS2021_NonPriceVivekEtAl.pdf?rlkey=8tu5alswegkx6e8g37z8r5byi&dl=0')] preprint ]
+Bharathi, N., Malghan, D., Mishra, S., & Rahman, A. (2021). Fractal urbanism: City size and residential segregation in India. World Development , 141, 105397. [ [javascript:confirmDeletee('https://doi.org/10.1016/j.worlddev.2021.105397')] reprint [javascript:confirmDeletee('https://osf.io/preprints/socarxiv/3ycrb/')] preprint ]
+Malghan, D., (2021). (Un)flatten the curve: A simple model of sink capacity, Ecological Economics , 182, 106826 . [ [javascript:confirmDeletee('https://doi.org/10.1016/j.ecolecon.2020.106826')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/7s0qunt46spo6bp0ulof1/PERM_EE2021_expo.pdf?rlkey=7wq74kc2ja857btcqxir4dgkj&dl=0')] preprint ]
+Bharathi, N., Malghan, D., & Rahman, A. (2021). A permanent cordon sanitaire: intra-village spatial segregation and social distance in India. Contemporary South Asia , 29(2), 212-219. [ [javascript:confirmDeletee('https://doi.org/10.1080/09584935.2020.1859991')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/ifhqlas1d980z1o8vlrss/PERM_CSA2021_pcs.pdf?rlkey=bstewsxm6uapsc0v3ub5nhoml&dl=0')] preprint ]
+Tomer, S. K., Sekhar, M., Balakrishnan, K., Malghan, D., Thiyaku, S., Gautam, M., & Mehta, V. K. (2021). A model-based estimate of the groundwater budget and associated uncertainties in Bengaluru, India. Urban Water Journal , 18(1), 1-11. [ [javascript:confirmDeletee('http://dx.doi.org/10.1080/1573062X.2020.1836237')] reprint [javascript:confirmDeletee('https://www.dropbox.com/scl/fi/z5r8308qmj4ia77zxjat9/PERM_UWJ2021_groundwaterBudgetModel.pdf?rlkey=ewvxgu80ri1am8ggpaxug1nhv&dl=0')] preprint ]
+Bharathi, N., Malghan, D., Mishra, S., & Rahman, A. (2021). Diversity deficit and scale-flip. The Journal of Development Studies , 57(4), 695-713. [ [javascript:confirmDeletee('https://doi.org/10.1080/00220388.2020.1802011')] reprint [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3651319')] preprint ]
+PhD, University of Maryland
+MPA, Princeton University

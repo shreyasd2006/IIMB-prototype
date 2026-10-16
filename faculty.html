@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faculty directory — IIM Bangalore</title>
+<meta name="description" content="Search IIM Bangalore faculty by name, area, position and research interests.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="faculty" data-section="faculty">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>Faculty</li></ol>
+  <div class="grid"><h1 class="t-1">Meet the minds behind the work.</h1><p class="deck">The full-time faculty listed on IIMB’s eleven area pages. Search names, areas and the text of their official profiles.</p></div>
+</div></header>
+<section class="section" style="padding-top:40px" aria-label="Faculty directory">
+  <div class="wrap">
+    <form class="toolbar" role="search" onsubmit="return false">
+      <div class="field grow"><label class="label" for="fSearch">Search</label><input id="fSearch" type="search" placeholder="Name, area or topic — e.g. game theory"></div>
+      <div class="field"><label class="label" for="fArea">Area</label><select id="fArea"></select></div>
+      <div class="field"><label class="label" for="fRank">Position</label><select id="fRank"></select></div>
+      <div class="field"><label class="label" for="fSort">Sort</label><select id="fSort"><option value="last">Surname</option><option value="first">First name</option><option value="area">Area</option></select></div>
+    </form>
+    <div class="count-line" id="fCount" aria-live="polite"></div>
+    <ul class="directory" id="fList"></ul>
+    <div class="empty-state" id="fEmpty" hidden><p class="t-3">No faculty match these filters.</p><p>Check the spelling, try a single word, or clear the area and position filters.</p></div>
+    <div id="facSources"></div>
+  </div>
+</section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

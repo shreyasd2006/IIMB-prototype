@@ -1,0 +1,33 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/reshma.jpg}
+#### Reshma
+Chirayil Chandrasekharan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Reshma Chirayil Chandrasekharan
+Assistant Professor
+Decision Sciences
+Connect with Faculty [mailto:reshma.chirayil@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+reshma.chirayil@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2021-08/Reshma_CV_IIMB.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Reshma Chirayil Chandrasekharan completed her PhD in Industrial Engineering from the department of Computer Science, KU Leuven, Belgium in 2021. Her current research interests broadly lie in designing decomposition based algorithms for large combinatorial optimization problems. Specifically she is interested in matheuristics, a class of algorithms that hybridize Mathematical Programming and heuristics. She has been able to apply her research in applications such as sports scheduling, personnel scheduling and also in more general problems such as the graph vertex coloring problem. She holds a BSMS dual degree in Science from IISER, Pune India and believes in inquiry based learning. She aspires to be a versatile educator and likes collaborating with industry and working on inter-disciplinary projects.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Decomposition-based techniques for very large combinatorial optimization prioblems, matheuristics, graph vertex coloring, personnel scheduling
+Working Papers
+Chandrasekharan, R. C., Wauters, T., A constructive matheuristic approach for the graph vertex coloring problem
+PhD (2016-2021), Dept. of Computer Science, KU Leuven, Belgium.
+BS MS dual degree (2010 – 2015), Indian Institute of Science Education and Research (IISER) Pune, India

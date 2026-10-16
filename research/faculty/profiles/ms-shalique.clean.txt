@@ -1,0 +1,37 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/shaliqus-ms.jpg}
+#### MS
+Shalique
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+MS Shalique
+Assistant Professor
+Production & Operations Management
+Connect with Faculty [mailto:shalique.ms@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+shalique.ms@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2024-01/Shalique_MS_CV-Jan2024.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Shalique M.S is an Assistant Professor in the Production and Operations Management Area at the Indian Institute of Management Bangalore. His research explores how insights from economics and psychology can be applied to understand and influence behaviour of individuals or groups. His research has applications in several areas including sustainability in the lower-tiers of supply chains, online retail, healthcare, and other areas of consequential decision making. He holds a PhD in Quantitative Methods and Operations Management from the Indian Institute of Management Kozhikode. His work has been published in journals such as International Journal of Production Research. Prior to pursuing PhD, he served as Operations Officer in Indian Oil Corporation Ltd for 3.5 years.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: His research interests are in the areas of behavioural operations, sustainable supply chains, online retail, and applications of neuro science in business. He has a refereed publication in the International Journal of Production Research.
+Working Papers
+Shalique M.S, Sidhartha S Padhi, Stephen Wagner, “Decision Reversal among Small and Medium Sustainable Suppliers: A Behavioral Investigation”
+Shalique M.S, Sidhartha S Padhi, Nagesh Murthy, “Inter-temporal Decision-making among Sustainable Suppliers: A Behavioral Investigation”
+Shalique M.S and Sidhartha S Padhi, “Bayesian Hierarchical Modeling of Risk and Ambiguity Preference of Sustainable Suppliers.”
+Shalique M.S and Sidhartha S Padhi, “Incentives and Ambiguity Aversion: Can Machine Learning Models Offer Better Prediction of Consumer Behaviour”
+Shalique M.S and Sidhartha S Padhi, “Consumer Preferences for Bundled Goods: Insights from Field Experiments.”
+Shalique M.S and Sidhartha S Padhi, “Using Artificial Intelligence in experiments to decipher consumer emotions.”
+PhD, Indian Institute of Management, Kozhikode
+BTech, College of Engineering, Trivandrum

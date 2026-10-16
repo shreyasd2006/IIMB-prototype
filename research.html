@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — IIM Bangalore</title>
+<meta name="description" content="IIMB research themes, the working paper series and recent faculty journal articles.">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/martel-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anek-latin-wdth-wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script defer src="data/institute.js"></script>
+<script defer src="data/photos.js"></script>
+<script defer src="data/faculty.js"></script>
+<script defer src="data/news.js"></script>
+<script defer src="data/events.js"></script>
+<script defer src="data/publications.js"></script>
+<script defer src="assets/js/pages.js"></script>
+<script defer src="assets/js/core.js"></script>
+</head>
+<body data-page="research" data-section="research">
+<main id="main" tabindex="-1">
+<header class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="index.html">Home</a></li><li>Research</li></ol>
+  <div class="grid"><h1 class="t-1">Inquiry with consequence.</h1><p class="deck">Faculty research across every functional area of management, published as journal articles and through IIMB’s working paper series on SSRN.</p></div>
+</div></header>
+<section class="section" style="padding-top:56px" aria-labelledby="themeH">
+  <div class="wrap">
+    <h2 id="themeH" class="t-3" style="margin-bottom:20px">Browse by theme</h2>
+    <div class="themes" id="themes" role="group" aria-label="Filter working papers by theme"></div>
+  </div>
+</section>
+<section class="section" style="padding-top:0" aria-labelledby="wpH">
+  <div class="wrap split">
+    <div class="side"><div class="sticky"><h2 id="wpH" class="t-2">Working papers</h2><p class="muted" id="wpNote" style="margin-top:16px"></p></div></div>
+    <div>
+      <div class="toolbar">
+        <div class="field grow"><label class="label" for="wpSearch">Search titles and authors</label><input id="wpSearch" type="search" placeholder="e.g. inflation, caste, Majumdar"></div>
+        <div class="field"><label class="label" for="wpYear">Year</label><select id="wpYear"></select></div>
+      </div>
+      <div class="count-line" id="wpCount" aria-live="polite"></div>
+      <ul class="entries" id="wpList"></ul>
+      <div class="empty-state" id="wpEmpty" hidden><p class="t-3">No working papers match.</p><p>Try a broader word or another year, or clear the theme.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section on-paper2" aria-labelledby="jaH">
+  <div class="wrap split">
+    <div class="side"><div class="sticky"><h2 id="jaH" class="t-2">Faculty in journals</h2><p class="muted" style="margin-top:16px">Recent journal articles highlighted on IIMB’s research page.</p></div></div>
+    <ul class="entries" id="jaList"></ul>
+  </div>
+</section>
+<section class="section" aria-labelledby="rpH">
+  <div class="wrap split">
+    <div class="side"><h2 id="rpH" class="t-2">Seminars, workshops, conferences</h2></div>
+    <div><ul class="event-list" id="rpEvents"></ul><div id="resSources"></div></div>
+  </div>
+</section>
+</main>
+<noscript><div class="wrap" style="padding:24px 0"><p>This concept site builds its directories from data files with JavaScript. Please enable JavaScript, or visit <a href="https://www.iimb.ac.in/">iimb.ac.in</a>.</p></div></noscript>
+</body>
+</html>

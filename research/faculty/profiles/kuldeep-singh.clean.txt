@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Kuldeep_Singh.jpeg}
+#### Kuldeep
+Singh
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Kuldeep Singh
+Assistant Professor
+Economics
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:kuldeep.singh@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+kuldeep.singh@iimb.ac.in
+Curriculum Vitae
+[https://kuldeepsingh-econ.github.io/ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2024-08/CV_Aug_2024_KuldeepSingh.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://kuldeepsingh-econ.github.io/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+I am a macroeconomist focusing on issues related to developing economies. In my research, I build quantitative macroeconomic models featuring rich heterogeneity and market frictions, disciplined by micro data, to answer various macroeconomic questions. My work includes studying the aggregate and distributional implications of large-scale policies and examining the impact of financial frictions on development.
+Prior to joining IIM Bangalore , I graduated with a PhD in Economics from Washington University in St. Louis in 2024.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Macroeconomics, Macroeconomic Development
+Working Papers
+Universal Basic Income for Developing Economies
+Risky Business and the Process of Development (with Paco Buera , Jeremy Majerovitz , Yongseok Shin)
+PhD in Economics, Washington University in St. Louis
+M.S. in Quantitative Economics, Indian Statistical Institute, Delhi
+B.A (Hons) in Economics, University of Delhi

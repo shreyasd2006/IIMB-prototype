@@ -1,0 +1,35 @@
+id="main-content">
+# IIMB Areas
+[https://www.iimb.ac.in/faculty/decision-sciences] {IMG /sites/default/files/inline-images/area-11.png}
+### [https://www.iimb.ac.in/faculty/decision-sciences] Decision Sciences
+[https://www.iimb.ac.in/faculty/decision-sciences] Read more
+[https://www.iimb.ac.in/economics-area] {IMG /sites/default/files/inline-images/area-2.png}
+### [https://www.iimb.ac.in/economics-area] Economics
+[https://www.iimb.ac.in/economics-area] Read more
+[https://www.iimb.ac.in/entrepreneurship-area] {IMG /sites/default/files/inline-images/area-3.png}
+### [https://www.iimb.ac.in/entrepreneurship-area] Entrepreneurship
+[https://www.iimb.ac.in/entrepreneurship-area] Read more
+[https://www.iimb.ac.in/finance-accounting-area] {IMG /sites/default/files/inline-images/area-4.png}
+### [https://www.iimb.ac.in/finance-accounting-area] Finance & Accounting
+[https://www.iimb.ac.in/faculty/finance-account] Read more
+[https://www.iimb.ac.in/faculty/information-systems] {IMG /sites/default/files/inline-images/area-5.png}
+### [https://www.iimb.ac.in/faculty/information-systems] Information Systems
+[https://www.iimb.ac.in/faculty/information-systems] Read more
+[https://www.iimb.ac.in/cencomm/index.php] {IMG /sites/default/files/inline-images/area-6.png}
+### [https://www.iimb.ac.in/cencomm/index.php] Management Communication
+[https://www.iimb.ac.in/cencomm/index.php] Read more
+[https://www.iimb.ac.in/faculty/marketing] {IMG /sites/default/files/inline-images/area-7.png}
+### [https://www.iimb.ac.in/faculty/marketing] Marketing
+[https://www.iimb.ac.in/faculty/marketing] Read more
+[https://www.iimb.ac.in/faculty/obhrm] {IMG /sites/default/files/inline-images/area-8.png}
+### [https://www.iimb.ac.in/faculty/obhrm] Organizational Behavior & Human Resources Management
+[https://www.iimb.ac.in/faculty/obhrm] Read more
+[https://www.iimb.ac.in/faculty/production-operations] {IMG /sites/default/files/inline-images/area-9.png}
+### [https://www.iimb.ac.in/faculty/production-operations] Production & Operations Management
+[https://www.iimb.ac.in/faculty/production-operations] Read more
+[https://www.iimb.ac.in/centres-of-excellence/cpp/people] {IMG /sites/default/files/inline-images/area-10.png}
+### [https://www.iimb.ac.in/centres-of-excellence/cpp/people] Public Policy
+[https://www.iimb.ac.in/centres-of-excellence/cpp/people] Read more
+[https://www.iimb.ac.in/faculty/strategy] {IMG /sites/default/files/inline-images/area-1_0.png}
+### [https://www.iimb.ac.in/faculty/strategy] Strategy
+[https://www.iimb.ac.in/faculty/strategy] Read more

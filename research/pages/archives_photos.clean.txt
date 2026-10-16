@@ -1,0 +1,48 @@
+Photographs
+[index.php] {IMG https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png}
+###### IIMB Archives
+[index.php] Home
+Photographs
+# Photographs
+[bannerghatta-inauguration.php]
+{IMG images/photo/Bannerghatta-Inauguration1.jpg}
+#### [bannerghatta-inauguration.php] Inauguration of IIMB
+[campus-1.php]
+{IMG images/photo/Old-Campus1.jpeg}
+#### [campus-1.php] City Campus 1973 - 1982
+[guddali-pooja.php]
+{IMG images/photo/guddali-pooja-8.png}
+#### [guddali-pooja.php] Ground Breaking Ceremony - Bannerghatta Road Campus
+[bannergatta-campus.php]
+{IMG images/photo/banneratta-12.jpg}
+#### [bannergatta-campus.php] Bannerghatta Road Campus - Under Construction
+[early-convocation.php]
+{IMG images/photo/early-1.png}
+#### [early-convocation.php] Convocation - Early years
+[fellowship-programme.php]
+{IMG images/photo/fellowship-programme-2.png}
+#### [fellowship-programme.php] Inauguration : Fellowship Programme 1976
+[sugar-industry-programme.php]
+{IMG images/photo/sugar-industry-1.png}
+#### [sugar-industry-programme.php] OBP - Management of Sugar Industry 1976
+[annual-convocation-1980.php]
+{IMG images/photo/annual-1.png}
+#### [annual-convocation-1980.php] 5th Annual Convocation 1980
+[bannergatta.php]
+{IMG images/photo/banneratta-4.png}
+#### [bannergatta.php] Bannerghatta Road Campus Today
+[making-campus-iimb.php]
+{IMG images/photo/making-campus-photo1.jpg}
+#### [making-campus-iimb.php] The Making of a Campus: IIM Bangalore
+[donor-reception.php]
+{IMG images/photo/Donor-Reception1.jpg}
+#### [donor-reception.php] Donor Reception – Profs. Indira Rajaraman, Shyamal Roy, S. Venkatesh
+IIMB Archives
+Indian Institute of Management Bangalore
+Bannerghatta Road
+Bengaluru 560 076
+[emailto:archives@iimb.ac.in] archives[at]iimb[dot]ac[dot]in
+Get regular updates on our events in your inbox
+SIGN UP
+-->
+Copyright © 2009- 2026 Indian Institute of Management Bangalore. All Rights Reserved.

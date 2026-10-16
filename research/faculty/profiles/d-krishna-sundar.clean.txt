@@ -1,0 +1,85 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/krishna-sundar.jpg}
+#### D
+Krishna Sundar
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+D Krishna Sundar
+Professor
+Production & Operations Management
+Connect with Faculty [mailto:diatha@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+diatha@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Research Areas
+Operations Strategy, Supply Chain Management, Sustainability, Manufacturing Strategy, E-Business Management, IT Strategy, Digital Inclusion & Innovation
+Research Papers Published
+Journal Papers Published
+“Adoption of cashless payment systems in the bottom‑of‑the‑pyramid retail supply chains in India: A technology‑organization‑environment framework perspective” Ravi Srinivasan, Krishna Sundar Diatha , Shubham Singh, Electronic Commerce Research , published online: 22 January 2024
+[javascript:confirmDeletee('https://doi.org/10.1007/s10660-023-09803-4')] https://doi.org/10.1007/s10660-023-09803-4
+How does the adoption of digital payment technologies influence unorganized retailers’ performance? An investigation in an emerging market” Anirban Adhikary, Krishna Sundar Diatha, Sourav Bikash Borah & Amalesh Sharma, Journal of the Academy of Marketing Science (JAMS) Vol.49, pp. 882–902 (2021)
+[javascript:confirmDeletee('https://link.springer.com/article/10.1007/s11747-021-00778-y')] https://link.springer.com/article/10.1007/s11747-021-00778-y
+Impact of buyer-supplier network complexity on firms’ greenhouse gas (GHG) emissions: An empirical investigation” Anirban Adhikary, Amalesh Sharma, Krishna Sundar Diatha , Jayanth Jayaram, International Journal of Production Economics , Vol.230, December 2020, [javascript:confirmDeletee('https://doi.org/10.1016/j.ijpe.2020.107864')] https://doi.org/10.1016/j.ijpe.2020.107864
+“Corporate social responsibility: Governance through a conceptual blockchain framework” Sriraghav Srinivasan; Tanuj Arora; Krishna Sundar Diatha, Shashank Garg; International Journal of Electronic Governance , Vol. 12, No. 3, 2020
+[javascript:confirmDeletee('https://doi.org/10.1504/IJEG.2020.109836')] https://doi.org/10.1504/IJEG.2020.109836
+“Intention to Use a Mobile-Based Information Technology Solution nfor Tuberculosis Treatment Monitoring – Applying a UTAUT Model”, Ravi Seethamraju1, Krishna Sundar Diatha , Shashank Garg, Information Systems Frontiers , Vol.20, 2018, pp.163–181 [javascript:confirmDeletee('https://doi.org/10.1007/s10796-017-9801-z')] https://doi.org/10.1007/s10796-017-9801-z
+“The distribution free newsboy problem with partial information” Diatha Krishna Sundar, K.Ravikumar, Siddharth Mahajan, International Journal of Operational Research, Vol. 33, No. 4, 2018 pp.481-496 [javascript:confirmDeletee('https://doi.org/10.1504/IJOR.2018.096488')] https://doi.org/10.1504/IJOR.2018.096488
+“Transient Analysis of a Non-Preemptive Priority Queueing System” V. S. S. Yadavalli, Diatha Krishna Sundar, Swaminathan Udayabaskaran and C. T. Dora Pravina, Applied Mathematics & Information Sciences, Vol,12, No. 3, 2018, pp.645-654.
+[javascript:confirmDeletee('http://dx.doi.org/10.18576/amis/120321')] http://dx.doi.org/10.18576/amis/120321
+“(s, Q) Inventory System with Delayed Working Vacations”, V.S.S. Yadavalli, K. Jeganathan, D. Krishna Sundar , S. Saravanan, Journal of Control and Systems Engineering , Vol. 5 Issue. 1, 2017, pp.18-36
+“Two substitutable perishable product disaster inventory systems”, VSS Yadavalli, Diatha Krishna Sundar , S. Udayabaskaran, Annals of Operations Research , Vol.233, 2015, pp.517–534. [javascript:confirmDeletee('https://link.springer.com/article/10.1007/s10479-014-1783-3')] https://link.springer.com/article/10.1007/s10479-014-1783-3
+“An age-dependent branching process model of a stochastic renewable resource and the problem of optimal harvesting”, VSS Yadavalli, Diatha Krishna Sundar, Swaminthan Udayabaskaran, Indian Journal of Mathematics , Vol 57, No.1, April 2015, pp 121-133 [javascript:confirmDeletee('http://www.amsallahabad.org/pdf/ijm571.pdf')] http://www.amsallahabad.org/pdf/ijm571.pdf
+11. “An actor–critic algorithm for multi-agent learning in queue-based stochastic games” Diatha Krishna Sundar and K.Ravikumar, Neurocomputing , Vol. 127, March 2014, pp.258–265 [javascript:confirmDeletee('https://doi.org/10.1016/j.neucom.2013.07.020')] https://doi.org/10.1016/j.neucom.2013.07.020
+“A Mobile Solution for an Inclusive Public Distribution System in India” Diatha Krishna Sundar and Shashank Garg, Electronic Journal of E-Governance , Acad.Publishing, Volume 11, Issue 2, December 2013, pp 210-228
+“An application of the extended Technology Acceptance Model in understanding technology-enabled financial service adoption in South Africa”, John P Wentzel, Krishna Sundar Diatha & VSS Yadavalli, Development Southern Africa, Taylor & Francis, Vol.30, Nos.4-5, 2013 pp. 659-673; [javascript:confirmDeletee('https://doi.org/10.1080/0376835X.2013.830963')] https://doi.org/10.1080/0376835X.2013.830963
+“Influence of ERP systems on business process agility”, Ravi Seethamraju and Diatha Krishna Sundar , IIMB Management Review, Elsevier, Vol. 25, September 2013, pp.137-149; [javascript:confirmDeletee('https://doi.org/10.1016/j.iimb.2013.05.001')] https://doi.org/10.1016/j.iimb.2013.05.001
+“A comparison of financial service adoption propensity across three channels at the bottom of the pyramid in South Africa” John P Wentzel, V S Sarma Yadavalli, Diatha Krishna Sundar ; Management Dynamics, Southern African Institute for Management Scientists, Vol.22, No.1, January 2013, pp.26-37
+“Evaluating the impact of government policies and regulations on M-Commerce in India: A System Dynamics Modeling Approach” Deepali Sharma, Diatha.Krishna Sundar , Rajluxmi V.Murty; International Journal of Business Management , Canadian Center of Science and Education; Vol.7, No.23, 2012, pp.54-76 URL: [javascript:confirmDeletee('http://dx.doi.org/10.5539/ijbm.v7n23p54')] http://dx.doi.org/10.5539/ijbm.v7n23p54
+“A Periodic Tabular Policy for Scheduling of a Single Stage Production-Inventory System” Shashank Garg, D.Krishna Sundar , K.Ravi Kumar; Computers and Industrial Engineering, Vol.62, Issue 1, February 2012, pp. 21-28
+[javascript:confirmDeletee('https://doi.org/10.1016/j.cie.2011.08.013')] https://doi.org/10.1016/j.cie.2011.08.013
+“Indian Manufacturing – Where are we heading”, D. Krishna Sundar , Janat Shah; Round Table, IIMB Management Review , June 2001, Vol.13, No.2, pp. 71-90
+“Electronic Commerce – The Future Challenges” D. Krishna Sundar , Shashank Garg, The Journal of Indian management & Strategy, Vol.3, No.3.
+“Outsourcing”, D. Krishna Sundar & M.R Gopalan, IIMB Management Review , Vol.8, No.2
+“Computer Integrated Blast Schedule Planning and Shiftwise Production Planning”, Diatha Krishna Sundar and Damodar Acharya, Computers & Industrial Engineering , Vol.28, No.24, pp.927-935; [javascript:confirmDeletee('https://doi.org/10.1016/0360-8352(94)00221-8')] https://doi.org/10.1016/0360-8352(94)00221-8
+IIMB Working Papers (Published by IIMB)
+Learning Algorithms for Price Control in an Internet-Based Dutch Auction, IIMB Working Paper Series - Diatha Krishna Sundar & K.Ravikumar, 2001, Working Paper no.177
+Integrated Virtual Logistics Network for Quick Responses, IIMB Working Paper Series - Diatha Krishna Sundar , 2001, Working Paper no.178
+Creating e-Chains to enable E-Governance through Embedded technologies, IIMB Working Paper Series - Diatha Krishna Sundar & Shashank Garg, 2002, Working Paper no 193
+Multi-Agent Learning in Dynamic Pricing Games of Service Markets, IIMB Working Paper Series - Diatha Krishna Sundar & K.Ravikumar, 2003, Working Paper no 210:
+The Distribution Free Newsboy Problem with Partial Information; IIMB Working Paper Series - Diatha Krishna Sundar & K.Ravikumar, 2004, Working Paper no.220
+Book Chapter(s)
+Diatha Krishna Sundar , Shashank Garg and Isha Garg “A mobile electronic data capture solution for application in Public Health” in “Public Health in India – Technology, Governance and Service Delivery” ed. Diatha Krishna Sundar et al., Routledge 2015, pp140-158;
+Krishna Sundar D and Shashank Garg, “The Role of Mobile Computing & Communication Technologies in Mobile Governance" in Handbook of Research on Enterprise Systems Elliot Bendoly, Sanjay Kumar, Jose Esteves (Eds), SAGE Publications (New York, London, Singapore and New Delhi), 2010
+Krishna Sundar D , Isha Garg and Shashank Garg, “Rural Empowerment: An Integrated Disease Surveillance System Based on Mobile Technologies” in IT and Rural Health Care M D Tiwari and K N Agarwala (Eds), IIIT Allahabad Series on E-Government, 2009 pp.141-167
+Book(s)
+“Public Health in India – Technology, Governance and Service Delivery”
+Ed. Diatha Krishna Sundar , Shashank Garg and Isha Garg,
+Publisher: Routledge (Taylor & Francis Group), 2015 ;
+ISBN:978-1-138-89839-4 (hbk), ISBN:978-1-315-68436-9 (ebk)
+“Changing Contours of Microfinance in India”
+Ed. Jayadev M and Diatha Krishna Sundar
+Publisher: Routledge (Taylor & Francis Group), 2016 ;
+ISBN:978-1-138-21956-4 (hbk), ISBN:978-1-315-61977-4 (ebk)
+Operations Management, Operations Strategy, Business Planning for International Markets, ERP & E Business
+Krishna Sundar has setup “India Japan Study Centre (IJSC)” in 2017 September at IIMB & was Chairperson till July 2023. In 2019, he could secure the largest endowment (so far in IIMB) from Mizuho Bank, IJSC has been rechristened as “Mizuho India Japan Study Centre (MIJSC)”. He held, twice, the position of chairperson of Production & Operations Management Department at IIMB. He also held the positions of Chairperson-ERP Centre at IIMB; Chairperson-CFC (Central Computing Facilities/ Computers Facilities Committee), was a member of Advisory Committee on PSUs to SAP India, Advisory Committee of Microsoft-NISG e-Governance Innovation Centre, was a member of Advisory Committee on e-Governance of Karnataka Government.
+Krishna Sundar was a retainer consultant to CDFI, South African Postbank, SA; Nimbus India (Nimbus UK subsidiary), Canara Bank, SAPO-South African Post Office, National Horticulture Board, Govt. of India, Ordnance Factories Board, Ministry of Defence Production, Govt. of India; Winsoft Inc.,-Colorado, USA; Merino Group of Industries, India, Orissa Mining Corporation, Bharat Logistics Pvt. Ltd.; CMPFO, Ministry of Mines, Govt. of India; Tanning Technology Corporation, Denver-USA; Web Infotech Pvt Ltd., India; PercepEnz(Fortays)-Madison, USA;
+Professional Services Extended to Organizations (an indicative list)
+Indian Oil Corporation Ltd (IOCL), JKO (JK Group), Anand Group of Industries, Wipro Technologies; National Thermal Power Corporation (NTPC); Reliance Industries Ltd., (RIL); Siemens India Ltd., Jubilant group (Dominos); Steel Authority of India (SAIL); National Academy of Defence Production (NADP); Center for Good Governance (CGG); Coal Mines Provident Fund Organization (CMPFO); Aditya Birla-Nuao Group etc.,
+PhD, IIT Kharagpur, India
+MTech, National Institute of Technology, Calicut, India
+BE, Andhra University, India

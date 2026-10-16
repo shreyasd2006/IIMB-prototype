@@ -1,0 +1,45 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Anirudh-Dhawan.jpg}
+#### Anirudh
+Dhawan
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Anirudh Dhawan
+Assistant Professor
+Finance & Accounting
+Connect with Faculty [mailto:anirudh.dhawan@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+anirudh.dhawan@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2026-09/Anirudh-CV-2026.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Anirudh Dhawan is an Assistant Professor of Finance at the Indian Institute of Management Bangalore. He holds a PhD in Finance from the University of Technology Sydney. His primary research interests include behavioral finance, financial markets, and cryptocurrencies. His research has been published in international academic journals including the Review of Finance , Journal of Business Finance & Accounting , Abacus , and has been covered by financial news outlets such as the Australian Financial Review and Yahoo Finance. He serves as a Subject Editor for the Journal of International Financial Markets, Institutions and Money .
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Behavioral Finance, Financial Markets, Cryptocurrencies
+## Published Papers
+“ [javascript:confirmDeletee('https://onlinelibrary.wiley.com/doi/10.1111/abac.70049')] What you watch in markets matters: Attention to information versus attention to prices ” (with Talis Putnins), Abacus , 2026.
+[javascript:confirmDeletee('https://onlinelibrary.wiley.com/doi/10.1111/jbfa.70073')] “Unveiling synergy gains in divestitures using options market information” (with Vinay Patel and David Michayluk), Journal of Business Finance & Accounting , 2026.
+“ [javascript:confirmDeletee('https://academic.oup.com/rof/advance-article/doi/10.1093/rof/rfac051/6655707')] A new wolf in town? Pump-and-dump manipulation in cryptocurrency markets ” (with Talis Putnins), Review of Finance , vol. 27(3), May 2023.
+“ [javascript:confirmDeletee('https://www.sciencedirect.com/science/article/pii/S1815566920300059?via%3Dihub')] Effect of corporate tax avoidance activities on firm bankruptcy risk ” (with Maria Kim and Liangbo Ma), Journal of Contemporary Accounting and Economics , vol. 16(2), August 2020.
+## Working Papers
+“ [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7223898')] A turbulent honeymoon: Volatility in Trump 2.0’s first 100 days compared to predecessors ” (with Roshan Ali)
+“Can positive frictions improve trading performance?” (with Benjamin Loos, Marco Navone, and Talis Putnins)
+“ [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4506293')] Contagious crime: How cryptocurrency manipulation spills into stocks ” (with Talis Putnins and Atiqur Rasel)
+“Firm complexity and post-disclosure ambiguity” (with Debaleena Goswami)
+“Firm complexity and post-disclosure investor disagreement”
+“Governance through media: Stock price manipulation and spillovers in Indian markets” (with Mirko Benischke, Ajay Bhaskarabhatla, and Mareeswaran M)
+“The ethics of shadow trading: New evidence from ETF options” (with Vinay Patel)
+“Rounding under uncertainty: How investors sample the option strike grid” (with Rajlakshmi Chavan, Aishwarya Krishna, and Sumit Saurav)
+“ [javascript:confirmDeletee('https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5110191')] Splitting the spoils: Exploring the economics of Ransomware as a Service ” (with Sean Foley and Vito Mollica)
+Ph.D., Finance, University of Technology Sydney
+B.Com. (Hons.), Finance and Accounting, University of Wollongong

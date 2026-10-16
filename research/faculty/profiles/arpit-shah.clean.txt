@@ -1,0 +1,41 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Arpit-Shah.jpg}
+#### Arpit
+Shah
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Arpit Shah
+Assistant Professor
+Public Policy
+Connect with Faculty [mailto:arpit.shah@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+arpit.shah@iimb.ac.in
+Curriculum Vitae
+[https://sites.google.com/view/arpit-shah/home ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2021-07/Arpit%20Shah_CV_0.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://sites.google.com/view/arpit-shah/home ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Arpit Shah is an Assistant Professor in the Public Policy Area at IIM Bangalore. He earned his PhD and PGDM from IIM Ahmedabad and completed his B.E.(Hons) degree from BITS Pilani Goa Campus. Prior to his PhD, he worked as a Strategy Consultant with the Monitor Group for four years, including spending significant time with its social sector practice. His research interests are in the areas of climate policy, urban sustainability and sustainable transport. He employs both quantitative and qualitative methods in his research, including the use of spatial data analysis.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Research Interests: Climate policy, urban sustainability, sustainable transport
+Published papers
+Mittal, H., & Shah, A. (2021). Discursive politics and policy (im)mobility: Metro-TOD policies in India. Environment and Planning C: Politics and Space. DOI: [javascript:confirmDeletee('https://doi.org/10.1177%2F23996544211029295')] https://doi.org/10.1177/23996544211029295
+Shah, A., Garg, A., & Mishra, V. (2021). Quantifying the local cooling effects of urban green spaces: Evidence from Bengaluru, India. Landscape and Urban Planning , 209, 104043. DOI: [javascript:confirmDeletee('https://doi.org/10.1016/j.landurbplan.2021.104043')] https://doi.org/10.1016/j.landurbplan.2021.104043
+Shah, A., & Mathur, N. (2019). Contestations around water allocation during a climate crisis in India: The case of ‘IPL vs. drought’. Global Environmental Change , 57, 101927. DOI: [javascript:confirmDeletee('https://doi.org/10.1016/j.gloenvcha.2019.05.011')] https://doi.org/10.1016/j.gloenvcha.2019.05.011
+Shah, A., & Garg, A. (2017). Urban commons service generation, delivery, and management: A conceptual framework. Ecological Economics , 135, 280-287. DOI: [javascript:confirmDeletee('https://doi.org/10.1016/j.ecolecon.2016.12.017')] https://doi.org/10.1016/j.ecolecon.2016.12.017
+Shah, A., & Narayanaswami, S. (2016). Reducing Delhi’s Air Pollution–The Odd-Even Trials and Other Options. World Transport Policy & Practice , 22(3).
+Building sustainable and livable cities, MBA (elective) (2021)
+PhD, Public Systems Group, Indian Institute of Management Ahmedabad
+Post Graduate Diploma in Management (equivalent to MBA), Indian Institute of Management Ahmedabad
+B.E. (Hons) Electronics and Instrumentation, BITS Pilani Goa Campus
+Evidence in Governance and Politics (EGAP), Priority Theme Small Grants Fund (2021), https://bit.ly/3qqDAKw

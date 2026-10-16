@@ -1,0 +1,127 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/shubhabrata-das.jpg}
+#### Shubhabrata
+Das
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Shubhabrata Das
+Professor
+Decision Sciences
+Chairperson, Admissions & Financial Aid
+Connect with Faculty [mailto:shubho@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+shubho@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-12/Shubhabrata%20Das%20CV%20p1_5-1.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Professor Shubhabrata Das has been a faculty at IIMB since December 1999. He has held visiting faculty positions at various institutes/universities of international repute, including ESSEC Business School, Indian Statistical Institute Calcutta, University of Nebraska, and University of Montana.
+His broad research domain is Statistics, Actuarial Mathematics and Operations Research. He has active interest and experience in aptitude testing, market research and analytics, sports analytics and governance, logistics, business forecasting, insurance analytics, statistical analysis of fuzzy data, measurement and scaling problems, health and education.
+His book, co-authored with colleague Dr. Soudeep Deb, titled Business Analytics: Data to Decisions, is published in 2025 by University Press.
+He has published several papers in refereed journals of international repute. He is a co-author of a book titled, ‘Facing the Future: Indian Pension Systems’. He is also the co-author of the chapter on canonical correlations in the Encyclopedia of Biostatistics. Besides these, he has published several technical reports and delivered seminars at various international conferences and academic institutes of repute across the globe.
+He has engaged in training and other consultancy services for government as well as private sector in the domain of Business Statistics, Business Analytics, Market Research, Business Forecasting and Insurance with various government organisations as well as prominent companies in the country.
+Additional Information
+At the moment, Prof Das is UNABLE to offer internships, summer or winter research projects to students from outside IIM Bangalore.
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+Research Topic / Domain
+All aspects of statistics, operational research, actuarial mathematics, fuzzy data analysis, measurement and scaling, applications in management, social, environment and other discipline
+Sector: Sports, health, education, election, demographics
+Published Books and Chapters
+Das, S ., & Deb, S. (2025). Business analytics: Data to decisions . University Press.
+Hatton, D., Joshi, N., Li, F., Vaidyanathan, R., Jyothilaxmi, S., Das, S ., & Basu, S. (2007). Facing the future: Indian pension systems . Tata McGraw Hill Publishing Company
+Das, S ., & Sen, P. (2003). Canonical correlations. In P. Armitage & T. Colton (Eds.), Encyclopaedia of biostatistics , vol. 1, (pp. 468–482). John Wiley & Son Inc. Retrieved from [javascript:confirmDeletee('https://onlinelibrary.wiley.com/doi/10.1002/0470011815.b2a13005')] https://onlinelibrary.wiley.com/doi/10.1002/0470011815.b2a13005
+Selected Publications in Refereed Journals
+Deb, S ., & Das, S. (2025). Optimal selection of the starting lineup for a football team. accepted for publication in IIMB Management Review .
+Deb, S ., Roy, R., & Das, S. (2024). Forecasting elections from partial information using a bayesian model
+for a multinomial sequence of data. Journal of Forecasting , 43(6), 1814–1834. Retrieved from [javascript:confirmDeletee('https://doi.org/10.1002/for.3107')] https://doi.org/10.1002/for.3107
+Chandrakar, P., Bhalla, M., & Das, S . (2023). Sequential auctions with multiple synergies. International
+Game Theory Review, 25(1). Doi [javascript:confirmDeletee('https://doi.org/10.1142/S0219198923500019')] https://doi.org/10.1142/S0219198923500019
+Das, S . (2023). Maximum likelihood estimation of two-sample population proportions under
+constraint on their difference. Communications in Statistics - Theory and Methods , 52(9), 2836–2851. doi: [10.1080/03610926.2021.1961152] 10.1080/03610926.2021.1961152 . eprint: [javascript:confirmDeletee('https://www.tandfonline.com/doi/full/10.1080/03610926.2021.1961152')] https://doi.org/10.1080/03610926.2021.1961152
+Chandrakar, P., Das, S ., & Bhalla, M. (2022). Lease auctions with retention options. Journal of
+Quantitative Economics , 20, 97–136.  doi: [javascript:confirmDeletee('https://doi.org/10.1007/s40953-021-00279-3')] 10.1007/s40953-021-00279-3
+Chandrakar, P., & Das, S . (2021). Measuring the values of cricket player. Australian & New Zealand
+Journal of Statistics , 63 (4), 565–578. Retrieved from  [http://dx.doi.org/10.1111/anzs.12353] http://dx.doi.org/10.1111/anzs.12353
+Das, S. (2017). On generalized geometric distribution and improved estimation of batting average in
+cricket. Communications in Statistics: Theory and Methods , 46 (6), 2736–2750.
+ doi: [javascript:confirmDeletee('10.1080/03610926.2015.1048888')] 10.1080/03610926.2015.1048888
+Das, S ., & Kratz, M. (2010). Alarm system for insurance companies: A strategy for capital allocation.
+Insurance: Mathematics and Economics , 51 (1), 53–65.  doi: [10.1016/j.insmatheco.2012.02.009] 10.1016/j.insmatheco.2012.02.009
+Das, S ., Mandal, P., & Ghosh, D. (2009). On homogeneous skewness of unimodal distributions. Sankhya
+B, 71-B, 187–205. Retrieved from
+ [https://www.jstor.org/stable/41343028?seq=1#metadata_info_tab_contents] https://www.jstor.org/stable/41343028?seq=1#metadata_info_tab_contents
+Das, S . (2008). Joint life insurance policies with differential benefits and premiums to the policyholders.
+Asia-Pacific Journal of Risk and Insurance , 2 (2), 1–18.  doi: [javascript:confirmDeletee('10.2202/2153-3792.1018')] 10.2202/2153-3792.1018
+Das, S ., & Mitra, A. (2008). On trade-off between utility and confidentiality in shared database –a
+perspective in indian insurance industry. Journal of Insurance and Risk Management , VII (13), 7–16.
+Das, S . (2007). Information loss in grade point conversion. Communications in Statistics-theory and
+Methods , 36, 2377–2393.  doi: [javascript:confirmDeletee('10.1080/03610920701215605')] 10.1080/03610920701215605
+Das, S . (2006). On measuring imprecision in human response due to respondent and attribute and its
+utility in questionnaire design. International Journal of Uncertainty, Fuzziness and Knowledge-based
+Systems , 14(2), 155–173. Retrieved from
+ [javascript:confirmDeletee('https://www.worldscientific.com/doi/pdf/10.1142/S0218488506003923')] https://www.worldscientific.com/doi/pdf/10.1142/S0218488506003923
+Das, S ., & Ghosh, D. (2003). Binary knapsack problems with random budgets. Journal of the Operational
+Research Society , 54(9), 970–983.  doi: [javascript:confirmDeletee('10.1057/palgrave.jors.2601596')] 10.1057/palgrave.jors.2601596
+Das, S . (2002). Quantifying fuzziness due to the scale of measurement in response systems. Fuzzy Sets
+and Systems , 132, 317–333. Retrieved from  [https://doi.org/10.1016/S0165-0114(01)00244-5] https://doi.org/10.1016/S0165-0114(01)00244-5
+Das, S ., & Krishen, A. (1999). Some bootstrap methods for non-linear mixed effect models. Journal of
+Statistical Planning and Inference , 75(2), 37–45. Retrieved from [https://doi.org/10.1016/S0378-3758(98)00145-1] https://doi.org/10.1016/S0378-3758(98)00145-1
+Das, S ., & Sen, P. (1996). Asymptotic distribution of restricted canonical correlation and relevant
+resampling methods. Journal of Multivariate Analysis , 56, 1–19. Retrieved from [https://doi.org/10.1006/jmva.1996.0001] https://doi.org/10.1006/jmva.1996.0001
+Das, S ., & Sen, P. (1995). Simultaneous spike-trains and stochastic dependence. Sankhya, Series B, 57 (1),
+32–47. Retrieved from  [https://www.jstor.org/stable/25052874] https://www.jstor.org/stable/25052874
+Das, S ., & Sen, P. (1994). Restricted canonical correlations. Linear Algebra and Its Applications , 210, 29–47.
+Retrieved from  [https://core.ac.uk/download/pdf/82507765.pdf] https://core.ac.uk/download/pdf/82507765.pdf
+Besides teaching the core courses on Statistics and Operations Research for the post-graduate programmes, doctoral programme and various executive education programmes at IIMB, he offers elective courses on Business Forecasting, Sports Analytics, Insurance Analytics etc.
+## Courses on Swayam
+[https://onlinecourses.swayam2.ac.in/e-learning/preview/imb26_mg195] Statistics for Business, Engineering and Social Sciences: I ” teaught by Prof. Das is available for July 2026 semester on the SWAYAM platform and it is open for (free) enrolment now.
+Member, National Statistical Commission, 2026 -
+(Part time) Central Vigilance Officer, at IIMB, 2024 – 2025
+Chairperson, Decision Sciences Area, at IIMB, 2018–2020
+Chairperson, Quantitative Methods and Information Systems Area, at IIMB, 2012–2014
+Activity head: Review of Executive General Mgmt. Programs (EGMP) at IIMB, 2012
+Core member CAT committee, 2005–2007
+Chairperson, Admissions at IIMB, 2005–2007
+Chairperson, Centre for Insurance Research and Education at IIMB, 2003–2006
+Chairperson, Library at IIMB, 2001–2003
+Chairperson, five-year review of Post-Graduate Program at IIM Lucknow, 1998–1999
+Acadamic referee in different international journals
+Served in various professional committee for different IIM's, IIT's, ISI.
+Professor Das engages in training and other consultancy services in the domain of Business Statistics, Business Analytics, Advanced Market Research, Business Forecasting, and Insurance with goverment and various prominent companies in the country.
+SELECTED CONSULTING PROJECTS:
+Ease of convenience brought to the citizens of Smart Cities By Smart City Mobile Apps
+Dynamic Indian Egg Market
+Field-work based Survey on facebook
+IRS readership survey
+Domestic Market Study for Freshwater Fishery Products in India
+Forecasting electricity load
+Domestic market study for freshwater fishery products
+Analysis of Pharmaceutical Promotion
+Software development of a feature on L1 and other Robust regression
+On Suitable scale for purchase intension
+Bayesian and Nonparametric regression and their Software implementation
+Determining minimum support price (MSP) for Reeling Cocoons and Silk
+Time series forecasting for Business analytics
+Classification and clustering
+PhD, University of North Carolina at Chapel Hill, USA
+MS, University of North Carolina at Chapel Hill, USA
+MStat, Indian Statistical Institute, Calcutta, India
+BStat, Indian Statistical Institute, Calcutta, India
+SELECTED AWARDS:
+Marie Curie Inter. Research Staff Exchange Scheme Fellowship, 2013 – 2016
+Research Chair Professor, 2005-2007
+IBM Faculty award, 2008
+Best Paper award in Seventh APRIA (Asia-Pacific Risk and Insurance Association) conference, Bangkok, 2003

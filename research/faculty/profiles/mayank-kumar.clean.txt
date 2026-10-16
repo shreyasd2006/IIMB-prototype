@@ -1,0 +1,42 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2024-12/Prof.%20Mayank%20Kumar_0.JPG}
+#### Mayank
+Kumar
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Mayank Kumar
+Assistant Professor
+Information Systems
+Chairperson, Centre for Software & Information Technology Management
+Connect with Faculty [mailto:mayank.kumar@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+mayank.kumar@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2024-11/Mayank%20Kumar_CV-2024.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Mayank, a Ph.D. graduate from IIM Tiruchirappalli in Information Systems & Analytics, is an interdisciplinary scholar whose research explores the intersection of sociology, management, and technology. His work investigates the impact of digitization and technology adoption on human, social, and organizational relationships, and the strategic implications of these changes for organizations and society.
+Mayank's research has been published in top-tier journals, including Information Systems Journal, Journal of Knowledge Management, and International Journal of Information Management. He has also presented his research at prominent conferences such as ICIS and AMCIS and was selected for the prestigious ICIS Doctoral Consortium in 2018.
+Mayank's teaching expertise spans two key areas: newer digital technologies (Blockchain, IoT, Digital Platforms) and the intersection of technology and Marketing (Social Media Analytics, Digital Marketing, Data Visualization).
+Prior to joining IIM Bangalore, Mayank served as an Assistant Professor at IIT Jodhpur and MICA, Ahmedabad. At MICA, he played a significant role in administrative activities, leading the 'Digital Platform & Strategies' Area and serving on important committees such as Admissions and Doctoral Programme. As a founding faculty member of IIT Jodhpur's School of Management & Entrepreneurship, Mayank contributed significantly to institution-building activities, including curriculum design, MBA Admissions, and administrative tasks.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Phenomenon: My research is broadly centred around examining the issues on the interaction of IT with the broader social and institutional structures such as power structures and work routines.
+Method: Methodologically, I am trained in qualitative approaches (e.g., Ethnography, Shadowing).
+Theories: As an interdisciplinary scholar, I draw upon the theories from Sociology and Organizational behavior in studying IS phenomenon.
+Publications
+Kumar, M., Singh, J.B., Chandwani, R., & Gupta, A (2022). Locating Resistance to Healthcare Information Technology: A Bourdieusian Analysis of Doctors' Symbolic Capital Conservation. Information Systems Journal , 32(2), 377-413.
+Kumar, M., Singh, J.B., Chandwani, R., & Gupta, A (2020). “Context” in Healthcare Information Technology Resistance: A Systematic Review of Extant Literature and Agenda for Future Research, International Journal of Information Management , 51, 102044.
+Singh, J. B., Chandwani, R., & Kumar, M. (2018). Factors affecting Web 2.0 adoption: exploring the knowledge sharing and knowledge seeking aspects in health care professionals. Journal of Knowledge Management , 22(1), 21-43.
+Doctor of Philosophy (Ph.D.) Indian Institute of Management Tiruchirappalli (IIM Trichy)
+Master of Business Administration (MBA), Pondicherry University
+Bachelor of Technology (B.Tech.), Computer Science & Engineering, West Bengal University of Technology

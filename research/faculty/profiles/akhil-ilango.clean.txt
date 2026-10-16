@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Prof-Akhil-Ilango.jpg}
+#### Akhil
+Ilango
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Akhil Ilango
+Assistant Professor
+Economics
+Connect with Faculty [mailto:akhil.ilango@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+akhil.ilango@iimb.ac.in
+Curriculum Vitae
+[https://akhililango.github.io/ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-06/02-CV_Akhil-Ilango.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://akhililango.github.io/ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Akhil Ilango is an Assistant Professor in Economics. His research interests are broadly in the area of theoretical and empirical Industrial Organisation, with a focus on understanding how sponsored advertisements on digital platforms affect firms' pricing problem, and competition within the platform. His research work also comprises of using text data and machine learning, with applications to non-market strategies (e.g., lobbying), caste networks, firm growth, and data/information intermediaries. His teaching interests are in the area of Microeconomics, Industrial Organisation, and Digital Economy.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Digital Economy, Firm Growth, Search & Matching, Market Design, Text Data
+Working Papers
+Sponsored Search: How Platforms Exacerbate Product Market Concentration
+Sleeping With the Enemy: How Politicians and Interest Groups Adapt their Collaborations in the Face of Reputational Threats, with Miguel Espinosa and Giorgio Zanarone
+Social Norms, Product Demand, and Firm Size, with Sampreet S. Goraya
+2023 - Ph.D. (cum laude) in Economics, Universitat Pompeu Fabra
+2023 – M.Res. in Economics, Universitat Pompeu Fabra
+2018 – M.Sc. in Economics, Barcelona School of Economics
+2017 - B.Tech in Mechanical Engineering, National Institute of Technology - T, India

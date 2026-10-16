@@ -1,0 +1,42 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/vijay-venkataraman.jpg}
+#### Vijay
+Venkataraman
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Vijay Venkataraman
+Assistant Professor
+Strategy
+Connect with Faculty [mailto:vijay.venkat@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+vijay.venkat@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2020-06/Vijay_Venkataram.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Vijay is primarily interested in ecosystem strategies. His dissertation research focuses on complementor strategies in the enterprise software platform ecosystem. Besides his dissertation research, he is also working on a number of projects in the area of innovation. Vijay has presented his research at a number of international conferences such as the Strategic Management Society Annual Conferences, Academy of Management Annual Meetings, CCC Doctoral Conference, and Platform Strategy Research Symposium. A paper based on his dissertation won a best paper prize at the SMS Annual Conference in Houston, 2017.
+Vijay’s prior consulting experience with clients such as Toshiba, Pepsi-Lays, and ABN AMRO, and managerial stint in a Deloitte Technology Fast 50 start-up have contributed toward making him an effective researcher as well as instructor. He has taught courses on Strategic Management and International Business at Georgia Tech.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests:
+Platform Ecosystems, Digital Strategy, Technological Innovation, Human Capital
+Working Papers
+Value Co-creation and Appropriation within Ecosystems
+Multi-homing within Platform Ecosystems: The Strategic Role of Human Capital
+Platform Competition and Complementor Performance
+Adoption of Digital Platforms: The Role of Institutional Pluralism
+Work in Progress
+What determines the mobility of individuals within platform ecosystems?
+The Shock of the Affordable Care Act on Regional Ecosystems in Medical Devices
+DARPA Challenge and the Rise of the Autonomous Vehicle Ecosystem
+PhD, Strategy & Innovation (Minor: Economics), Georgia Tech (2019)
+MBA, IIT Madras (2010)
+BE, Electrical and Electronics Engineering, Anna University (2006)

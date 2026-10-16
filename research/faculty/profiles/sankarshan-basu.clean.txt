@@ -1,0 +1,34 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-02/sankarshan-basu.jpg}
+#### Sankarshan
+Basu
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Sankarshan Basu
+Professor
+Finance & Accounting
+Connect with Faculty [mailto:sankarshan.basu@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+sankarshan.basu@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile4] CONSULTING
+[#profile5] EDUCATION
+Professor Basu’s areas of interest in terms of research are in Financial Calculus, Option Pricing, Bond and Portfolio Valuation, Applications of Quantitative Techniques to Finance, Insurance, Reinsurance, Risk Management, Biostatistics and Corporate Finance. He has presented his work at international conferences in Thailand, USA, UK, France, Spain, Norway, Iran, Tunisia, Morocco, The Netherlands and India. He has, to his credit, a number of papers in international journals of repute like Insurance: Mathematics and Economics and the Journal of Statistical Planning and Inference . He is currently President of the Asia-Pacific Risk and Insurance Association (APRIA).
+Professor Basu teaches Financial Calculus, Option Pricing, Bond and Portfolio Valuation, Applications of Quantitative Techniques to Finance, Insurance, Reinsurance, Risk Management, Biostatistics, and Corporate Finance.
+Prior to joining IIMB, Professor Basu was briefly in the finance industry, working in the Treasury Operations of ICICI Ltd. (now ICICI Bank Ltd.) at their Mumbai office. He is actively involved in various consulting and training projects across various domains like banks (e.g., State Bank of India, HDFC Bank, Vijaya Bank, and Federal Bank), insurance companies (e.g., ING Vysya Life Insurance), stock exchanges (Bombay Stock Exchange), and various governmental agencies (e.g., Indian Revenue Service and the Indian Foreign Service) as well as other corporate entities.
+Sankarshan also serves on the boards of a few companies like The Clearing Corporation of India Limited, The Bangalore Stock Exchange Limited, and Bilcare India.
+PhD (Statistics), London School of Economics and Political Science, UK
+MSc (Statistics), Indian Institute of Technology, Kanpur, India
+BSc Honours (Statistics), Presidency College, Calcutta, India

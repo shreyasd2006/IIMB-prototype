@@ -1,0 +1,64 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/jishnu-hazra.jpg}
+#### Jishnu
+Hazra
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Jishnu Hazra
+Professor
+Production & Operations Management
+Connect with Faculty [mailto:hazra@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+hazra@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Accomplishments
+[#home2] RESEARCH
+[#profile4] CONSULTING
+[#profile6] AWARDS
+[#profile5] EDUCATION
+Professor Hazra’s research interests are in Sourcing and Supply Chain Management, Lean Operations and Pricing in Supply Chain. His papers have appeared in international journals such as IIE Transactions, Production & Operations Management, Computers & Operations Research and European Journal of Operations Research.
+List of Publications:
+“Procuring Cloud Services: An Economic Analysis of Multi-cloud Strategy,” Production and Operations Management , 2025, Volume 34 (9), 2793-2813, Jain, T., Hazra, J., R. Gopal
+“3D Printing-as-a-Service: An Economic Analysis of Pricing and Cocreation,” Production and Operations Management , 2024,Volume 33(7), 2024, 1437-1456, Jain, T., Hazra, J., R. Gopal.
+“New Product Design Decisions and Free Sharing of Patents with Rivals,” Journal of Operational Research Society , 2023, Vol 74 (1), 59-80, Jain, T., Hazra, J ., Cheng, T.C.E.
+“Analysis of Upstream Pricing Regulation and Contract Structure in an Agriculture Supply Chain,” Annals of Operations Research , 2023, Vol 320, 85-122, Jain, T., Hazra, J ., Cheng, T.C.E.
+“IT Outsourcing and Vendor Cost Improvement Strategies under Asymmetric Information,” Decision Sciences , 2021, 52(5), 1109-1136, Jain, T., Hazra, J ., Cheng, T.C.E.
+“Illegal Content Monitoring on Social Platforms,” Production and Operations Management , 2020, 29(8), 1837–1857, Jain, T., Hazra, J ., Cheng, T.C.E.
+“Bidding for outsourcing contracts with capacity investments and cost asymmetry,” Journal of Operational Research Society , 2020, 71(12), pp. 1986–2012, Jain, T., Hazra, J ., Cheng, T.C.E.
+“Optimal regulation and sustainable product design under uncertainties,” International Journal of Production Economics , 2020, 225, 107574, Jain, T., Hazra, J .
+“Collaboration under outcome-based contracts for information technology services,” European Journal of Operational Research , 2020, 286(1), 350-359, Awasthy, P. & Hazra, J.
+“Strategic Sourcing under Supplier Development Investments”. IEEE Transactions on Engineering Management , 2020, 67(3), 902-917, Jain, T., Hazra, J . & Cheng, T.C.E.
+“Hybrid Cloud Computing Investment Strategies”. Production and Operations Management, 2019, 28(5), 1272-1284, Jain, T., & Hazra, J.
+“Excess procurement strategies by a dominant buyer under constrained supply”. Naval Research Logistics , 2019, 66(3), 272–280, Jain, T., Hazra, J ., Swaminathan, J.M.
+“Vendor’s Strategic Investments Under IT Outsourcing Competition”. INFORMS Service Science , 2019, 11(1), 16-39, Jain, T., & Hazra, J .
+“On-demand” pricing and capacity management in cloud computing”. Journal of Revenue and Pricing Management , 2019, 18(3), 228-246. Jain, T., & Hazra, J .
+“Responsible sourcing by improving workplace safety through buyer–supplier collaboration”. European Journal of Operational Research, 2019, Vol 274 (1), 155-164, Awasthy, P. and Hazra, J .
+“Sourcing under overconfident buyer and suppliers”. International Journal of Production Economics, 2018, Vol 206, 93-109, Jain, T., Hazra, J., & Cheng, T. C. E. (2018).
+“Supplier selection under production learning and process improvements”. International Journal of Production Economics , 2018, Vol 204, 411-420. Basu, A., Jain, T., & Hazra, J .
+“Sourcing strategies under agglomeration economies, capacity risks and retail competition”, Tarun Jain and Jishnu Hazra, International Journal of Production Economics , Volume 191, 2017, 311-322,
+“Dual Sourcing under Suppliers' Capacity Investments”, Tarun Jain and Jishnu Hazra, International Journal of Production Economics, [http://www.sciencedirect.com/science/journal/09255273/183/supp/PA] Volume 183, Part A , 2017, 103–115
+“Services Outsourcing under Asymmetric Cost Information”, B. Mahadevan, Jishnu Hazra , Tarun Jain, European Journal of Operational Research , [http://www.sciencedirect.com/science/journal/03772217/257/2] Volume 257, Issue 2 , 2017 , Pages 456–467
+“Stocking and Quality Decisions for Deteriorating Perishable Products under Competition”, Prashant Chintapalli and Jishnu Hazra, Journal of Operational Research Society , 2016, Volume 67, Issue 4, pp 593–603,
+“Sourcing under Incomplete Information and Negative Capacity-cost Correlation,” Tarun Jain and Jishnu Hazra, Journal of Operational Research Society , 2016, Volume 67, Issue 3, pp 437–449,
+“Pricing and Inventory Management during New Product Introduction when Shortage Creates Hype,” Prashant Chintapalli and Jishnu Hazra , Naval Research Logistics , Vol 63 No. 4, 304-320, 2015.
+“A Procurement Model using Capacity Reservation,” Jishnu Hazra and B. Mahadevan in European Journal of Operational Research, Vol 193, pg 303-316, 2009.
+“Impact of Supply Base Heterogeneity in Electronic Markets,”, Jishnu Hazra and B. Mahadevan, European Journal of Operational Research , Vol 174, Issue 3, pg 1580-1594, 2006.
+“Capacity Allocation among Multiple Suppliers in an Electronic Market,” Production and Operations Management , Vol 13, No. 2, pg 161-170, 2004, Jishnu Hazra, B. Mahadevan and Sudhi Seshadri.
+“Managing Manufacturing through Supply Chain Integration”, IIMB Management Review , 2001, Volume 13, No. 2, pg 91-95; Jishnu Hazra
+“Analyzing closed Kanban-controlled Assembly Systems by Iterative Aggregation-Disaggregation”, Jishnu Hazra , Paul Schweitzer and Avi Seidmann, Computers and Operations Research , Vol. 26, No. 10/11, pg 1015-1040, 1999,
+“Performance Evaluation of Closed Tree-Structured Assembly Systems”, Jishnu Hazra and Abraham Seidmann , IIE Transactions , Volume 28, pg 591-599, 1996.
+In the areas of Supply Chain Management, Managing Product Variety and Logistics.
+PhD (Operations Management), University of Rochester, New York, USA
+MTech, (Industrial Engineering), IIT Mumbai
+BTech, (Mechanical Engineering), IIT, New Delhi
+He has received many teaching awards in the PGP at IIMB.
+Nominated a member of the Beta Gamma Sigma, an academic honor society in the United States.

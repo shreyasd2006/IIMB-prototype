@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Aditya-Srinivas.jpg}
+#### Aditya
+Shrinivas
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Aditya Shrinivas
+Assistant Professor
+Economics
+Centre for Public Policy (CPP) - Secondary Member
+Connect with Faculty [mailto:aditya.shrinivas@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+aditya.shrinivas@iimb.ac.in
+Curriculum Vitae
+[https://www.adityashrinivas.com ] Personal Website
+[ ] Blog
+-->
+[/]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[https://www.adityashrinivas.com ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+I am an Assistant Professor at the Economics Department at Indian Institute of Management, Bangalore. My research interest is in development economics, with a focus on food security, health and nutrition outcomes. I am also interested in studying risk-sharing networks and consumption smoothing in village economies. I graduated from the University of Illinois Urbana Champaign with a Phd in Applied Economics in 2019.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Development Economics
+Working Papers
+Labor Market Effects of Food Transfers: Evidence from India’s Public Distribution System (with Ben Crost and Kathy Baylis)
+Risk pooling and precautionary savings in village economies (with Marcel Fafchamps)
+Illness and wage loss: Longitudinal evidence from India (with Suhani Jalota, Aprajit Mahajan and Grant Miller)
+PhD, Applied Economics, University of Illinois Urbana Champaign, 2019
+MPA, Cornell University, 2013
+BE, Computer Science, SJCE Mysore India, 2008

@@ -1,0 +1,34 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/mayank-nagpal.jpg}
+#### Mayank
+Nagpal
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Mayank Nagpal
+Assistant Professor
+Marketing
+Connect with Faculty [mailto:mayank.nagpal@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+mayank.nagpal@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-06/CV_Mayank_Nagpal-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+My work focuses on studying and analyzing marketing strategies using data analytics and machine learning techniques to provide data driven solutions to business stakeholders. My research is thus, an amalgamation of data science, statistics, economics, and business management. Currently my research primarily focuses on studying and inferring strategic intent of marketing managers from publicly released firm data as well as studying consumer intent from online reviews and search engines. Also, I teach graduate level courses in Marketing Analytics, Data Mining and Marketing Research.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Search Engine Marketing, Digital Marketing, Strategic Marketing Management, Scale Development, Text Analysis, Causal Research / Natural Experiments, Machine Learning / Big Data
+Working Papers:
+Nagpal, Mayank , J. Andrew Petersen, Keyword Selection Strategies in Search Engine Optimization: How Relevant is Relevance?, Journal of Retailing, 2020, ISSN 0022-4359, [javascript:confirmDeletee('//doi.org/10.1016/j.jretai.2020.12.002')] https://doi.org/10.1016/j.jretai.2020.12.002
+‘From Words to Indices: Measuring Digitalization from Corporate Reports’ Mayank Nagpal, J. Andrew Petersen and Arvind Rangaswamy, Working Paper, Penn State University
+PhD in Business Administration from the Penn State University, State College, USA
+MSc in Economics, Indira Gandhi Institute of Development Research, Mumbai, India
+BSc (H) Mathematics, Hindu College, University of Delhi, Delhi, India

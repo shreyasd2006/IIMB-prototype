@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-06/Minakshi-Punam-Mandal.jpg}
+#### Minakshi Punam
+Mandal
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Minakshi Punam Mandal
+Assistant Professor
+Decision Sciences
+IIMB Young Faculty Research Chair
+Connect with Faculty [mailto:minakship@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+minakship@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-05/CV_Minakshi-RV-2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Minakshi Punam Mandal completed her PhD in Operations Research from ESSEC Business School in France in 2024. Her research is focused on sustainable last-mile deliveries and disaster management, and her research integrates optimization theory and real-world applications, addressing pressing social and environmental challenges. With a passion for bridging methodological rigor and societal impact, she aims to continue pursuing research that contributes to sustainable and resilient systems.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Mixed-Integer Linear Programming, Robust Optimization, Matheuristics, Last Mile Logistics, Humanitarian Operations, Disaster Management
+Working Papers
+Minakshi Punam Mandal, Laurent Alfandari, and Ivana Ljubić, Robust Facility Location in Disaster Preparation for Earthquakes with Aftershocks
+Manuel Trotta, Claudia Archetti, Dominique Feillet, Alain Quilliot, Minakshi Punam Mandal, The Electric Pickup and Delivery Problem with Energy Management
+PhD in Operations Research from ESSEC Business School, 2024
+Masters in Business Administration Research from ESSEC Business School, 2020
+MSc in Mathematics from IIT Delhi, 2017
+BSc in Mathematics from St. Xavier’s College, Kolkata, 2015

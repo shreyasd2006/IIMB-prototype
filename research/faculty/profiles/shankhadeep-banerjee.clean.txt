@@ -1,0 +1,60 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-01/Shankhadeep-Banerjee.jpeg}
+#### Shankhadeep
+Banerjee
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Shankhadeep Banerjee
+Associate Professor
+Information Systems
+Chairperson, Information Systems
+Chairperson, IT Facilitation Committee
+Connect with Faculty [mailto:shankhadeep@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+shankhadeep@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2023-08/Shankhadeep-IIMB-CV-2023.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Dr. Shankhadeep Banerjee is a techno-management enthusiast, and his entire career reflects this passion. His education includes PhD in Management Information Systems from IIM Calcutta, MBA from IIM Calcutta (including a semester at NEOMA Business School, France), and B.Tech in Computer Science & Engineering from NIT Durgapur. He has several years of practitioner experience at reputed technology companies like Microsoft, Computer Sciences Corporation (client: eBay), and Amazon.
+He has published in reputed journals like Journal of Management Information Systems (FT 50, ABDC A*), Decision Support Systems (ABDC A*), and Information & Management (ABDC A*). He has also won multiple prestigious awards and scholarships for his research. His research interests largely relate to conceptualizing and empirically observing human behavior in the context of contemporary technologies.
+His teaching philosophy is oriented towards providing state-of-the-art practical knowledge to serve the students interested in pursuing techno-management careers. Accordingly, he has designed courses on Digital Product Management, Information Systems, Emerging Technologies, etc.
+## Accomplishments
+[#home2] RESEARCH
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+RESEARCH INTERESTS:
+Domain : Human psychology and behavior related to contemporary technologies and platforms having business applications
+Verticals : Virtual communities, Crowdfunding, Online reviews, E-commerce
+Methodology : Quantitative (Empirical, Experiments, Analytics & Machine Learning)
+JOURNAL PUBLICATIONS
+1. Banerjee S., Bhattacharyya S., and Bose I. (2023). The motivation paradox: Understanding contradictory effects of awards on contribution quantity versus quality in virtual community. Information & Management , 103855 ( ABDC A* )
+2. Banerjee, S., and Bose, I. (2022). An attractive proposition? Persuading retail consumers to prefer reward-based crowdfunding for owning upcoming technologies. Information & Management , 59(6), 103663 (ABDC A*)
+3. Banerjee, S., and Seetharaman, P. (2022). How attractive is a locale to e-tailers? Introducing a regional e-tailing adoption model for non-metropolitan India. IIMB Management Review , 34 (2), 116-129 (ABDC B)
+4. Bhattacharyya S., Banerjee S., Bose I., and Kankanhalli A. (2020). Temporal effects of repeated recognition and lack of recognition on online community contributions. Journal of Management Information Systems, 37 (2), 536-562 . (FT 50, ABDC A*)
+5. Bhattacharyya S., Banerjee S., and Bose I. (2020). One size does not fit all: Rethinking recognition system design for behaviorally heterogeneous online communities. Information & Management , 57(7), 103245 (ABDC A*)
+6. Banerjee S., Bhattacharyya S., and Bose I. (2017). Whose online reviews to trust? Understanding reviewer trustworthiness and its impact on business. Decision Support Systems, 96, 17-26. ( ABDC A* ) (200+ citations)
+INTERNATIONAL CONFERENCE PROCEEDINGS
+Banerjee, S., Bhattacharyya, S., Bose, I. (2022). Impact of community recognition on the quality of online reviewer contribution, Pacific Asia Conference on Information Systems (PACIS 2022) , Taipei/Sydney
+Banerjee S., and Bose I. (2018). Risky donation for rewarding innovation? Examining transformation of technology consumers into crowdfunding patrons. Australasian Conference on Information Systems (ACIS) , Sydney, Australia
+Banerjee S., and Bose I. (2017). Patronizing technology: An emergent technophilic behavior, International Conference on Information Systems (ICIS) , Seoul, South Korea
+Assistant Professor, Indian Institute of Management Bangalore (Aug’20 – Present)
+Researcher, Indian School of Business, Hyderabad (Nov’14 - May’15)
+Program Manager, Microsoft, Hyderabad (May’12 - Oct’14)
+Operations Analyst (Intern), Amazon, Hyderabad (Apr’11 - Jun’11)
+Quality Assurance Engineer, Computer Sciences Corporation (Client: eBay), Chennai (Jul’07 - May’10)
+PhD (Management Information Systems), Indian Institute of Management Calcutta, 2020
+MBA (PGDM), Indian Institute of Management Calcutta, 2012
+B.Tech (Computer Science and Engineering), National Institute of Technology Durgapur, 2007
+IIM Calcutta Alumni Association (Mumbai Chapter) Best Publication Award (Rs.1 Lakh), 2020
+Best Paper Award (2nd across all management disciplines) at the 5th Management Doctoral Colloquium 2019, VGSOM, IIT Kharagpur.
+DIGIT Doctoral Student Scholarship 2016 (~ US$ 1000) at DIGIT Workshop in Dublin.
+Best Theory Development Paper award nomination at International Conference on Information Systems (ICIS) 2017, Seoul, South Korea

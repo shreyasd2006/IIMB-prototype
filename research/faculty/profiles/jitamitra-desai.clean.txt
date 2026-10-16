@@ -1,0 +1,90 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2026-02/jitamitra-desai.jpg}
+#### Jitamitra
+Desai
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Jitamitra Desai
+Professor
+Decision Sciences
+Connect with Faculty [mailto:jmdesai@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+jmdesai@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2018-08/JDesai_CV_IIMB_2018.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Jitamitra Desai is a Professor of Operations Research in the Decision Sciences (DS) group at the Indian Institute of Management Bangalore.
+My research interests are primarily in mathematical/computational decision analytics, particularly in developing large-scale (big-data) optimization algorithms and their applications, notably in aviation, transportation and location theory, energy analytics, and wireless communication networks. I also dabble in some miscellaneous OR problems arising in networks and graphs, stochastic decision analysis, and am starting to dig into some biological applications.
+When I am not working, you can usually find me playing tennis, drinking coffee, following the technology startup space, or just having a rollicking time being a dad :-)!
+Specialties: Optimization theory, algorithms and computing, with applications to select management and decision science problems!
+## Accomplishments
+[#home2] RESEARCH
+[#profile2] TEACHING
+[#profile6] AWARDS
+[#profile3] SERVICE
+[#profile5] EDUCATION
+AREAS OF SPECIALIZATION: Optimization, Decision Sciences, Data Analytics, Operations Research
+JOURNAL PUBLICATIONS
+Zhang, D.+, Yu, C.+, Desai, J., Lau, H.Y.K., and Srivathsan, S+. (2016), “A time-space network flow approach to dynamic repositioning in bicycle sharing systems”, Transportation Research Part B: Methodological, available online ( [javascript:confirmDeletee('http://dx.doi.org/10.1016/j.trb.2016.12.006')] http://dx.doi.org/10.1016/j.trb.2016.12.006 .)
+Wang, K*., Desai, J. and He, H. (2016), “A proximal partially parallel splitting method for separable convex programs”, Optimization Methods and Software, available online (DOI: 10.1080/10556788.2016.1200044).
+Desai, J. and Kishore, S. (2016), “A global optimization framework for distributed antenna systems in CDMA cellular networks”, Annals of Operations Research, available online (DOI: 10.1007/s10479-016-2306-1).
+He, H., Desai, J. and Wang, K*. (2016), “A primal-dual prediction-correction algorithm for saddle point optimization”, Journal of Global Optimization, available online (DOI: 10.1007/s10898-016-0437-1).
+Zhang, D+., Yu, C+., Desai, J. and Lau, H.Y.K. (2016), A math-heuristic algorithm for integrated air service recovery, Transportation Research Part B: Methodological 84: 211-236.
+Kumar, R+ and Desai, J. (2016), “Solution of monotone semidefinite linear complementarity problem by the modified potential reduction interior point method”, Optimization Letters 10(7): 1417-1448.
+Desai, J. and Wang, K. (2015), “Lagrangian Optimization for LP: Theory and Algorithms”, In: Wiley Encyclopedia of Operations Research and Management Science 2nd edition (editor: James J. Cochran), available online. ( [javascript:confirmDeletee('http://dx.doi.org/10.1002/9780470400531.eorms0447.pub2')] http://dx.doi.org/10.1002/9780470400531.eorms0447.pub2 .)
+Wang, K*., Desai, J., and He, H. (2014), “A note on the augmented Lagrangian-based parallel splitting method”, Optimization Letters 9: 1199-1212.<.li>
+Sherali, H.D., Dalkiran, E. and Desai, J. (2012), “Enhancing RLT-based LP relaxations for solving polynomial programming problems via a new class of v-semidefinite cuts”, Computational Optimization and Applications 52(2): 483-506. Desai, J. (2011), “Lagrangian optimization for LP”, In: Wiley Encyclopedia of Operations Research and Management Science (editor: James J. Cochran) Volume 04: 2691-2702.
+Desai, J. and Sen, S. (2010), “A global optimization algorithm for reliable network design”, European Journal of Operational Research 200(1): 1-8.
+Sherali, H.D., Desai, J. and Glickman, T.S. (2008), Optimal allocation of risk-reduction resources in event trees, Management Science 54: 1313-1321.
+Bozorg, M., Sherali, H.D., Davison, E., and Desai, J. (2006), “Computation of parameter stability margins using polynomial programming techniques”, International Journal of Control 79(7): 739-751.
+Sherali, H.D., Desai, J. and Rakha, H. (2006), “A discrete optimization approach for locating Automatic Vehicle Identification (AVI) readers for the provision of roadway travel times”, Transportation Research-Part B: Methodological 40: 857-871.
+Sherali, H.D. and Desai, J. (2005), “A global optimization RLT-based approach for solving the fuzzy clustering problem”, Journal of Global Optimization 33(4): 597-615.
+Sherali, H.D. and Desai, J. (2005), “On solving polynomial, factorable, and black-box optimization problems via the RLT Methodology”, In: Essays and Surveys in Global Optimization, Audet, C., Hansen, P., Savard, G. eds., Kluwer Academic Publishers, Dordrecht, The Netherlands, 131-164.
+Sherali, H.D. and Desai, J. (2005), “A global optimization RLT-based approach for solving the hard clustering problem”, Journal of Global Optimization 32(2): 281-306.
+Sherali, H.D., Desai, J., and Glickman, T.S. (2004), “Allocating emergency response resources to minimize risk under equity considerations”, American Journal of Mathematical and Management Sciences 24(3/4): 367-410.
+REFEREED CONFERENCE PROCEEDINGS
+Merabet, M.,Desai, J. and Molnar, M. (2018), A generalization of the minimum branch vertices spanning tree problem, In: Springer Lecture Notes in Computer Science, 5th International Symposium on Combinatorial Optimization (ISCO) 2018, Marrakesh, Morocco.
+Prakash, R.* and Desai, J. (2017), “A data-splitting algorithm for flight sequencing and scheduling on two runways”, Proceedings of the Industrial & Systems Engineering Research Conference, Pittsburgh, USA.
+Merabet, M.+, Desai, J. and Molnar, M. (2017), “A generalization of the minimum branch vertices spanning tree problem”, Proceedings of the 24th International Colloquium on Structural Information and Communication Complexity, In: Lecture Notes in Computer Science (Springer), Porquerolles, FR.
+Zhang, T.*, Desai, J. and Wan, M.P. (2017), “Optimal temperature control in smart buildings via model predictive control and optimization”, Proceedings of the Industrial & Systems Engineering Research Conference, Pittsburgh, USA.
+Lai, W.Y.*, Yu, C.+, Li, L.*, and Desai, J. (2017), “A 0-1 MINLP approach for solving the air cargo loading problem”, Proceedings of the Industrial & Systems Engineering Research Conference, Pittsburgh, USA.
+Cheung, W.L.*, Desai, J., and Prakash, R*. (2017), “An improved macroscopic analytical model for estimating runway capacity”, Proceedings of the Industrial & Systems Engineering Research Conference, Pittsburgh, USA.
+Desai, J., Guan, L.+, and Srivathsan, S.*, (2017), “A hybrid penalty-based dynamic departure pushback control policy”, Proceedings of the Industrial & Systems Engineering Research Conference, Pittsburgh, USA.
+Desai, J. and Prakash, R*. (2016), “Flight sequencing and scheduling: A data-driven approach”, Proceedings of the Industrial & Systems Engineering Research Conference, Anaheim, USA.
+Desai, J. and Prakash, R*. (2016), “An optimization framework for terminal sequencing and scheduling: The single runway case”, Proceedings of the Complex Systems Design & Management Conference, In: Advances in Intelligent Systems and Computing (Springer), Singapore, 195-207. (https://dx.doi.org/10.1007/978-3-319-29643-2).
+Gupte, A., Missoum, S., Desai, J. and Sen, S. (2007), “A multidisciplinary design optimization algorithm with distributed autonomous subsystems”, Proceedings of the 7th World Congress on Structural and Multidisciplinary Optimization, Seoul, South Korea.
+Sherali H., Desai J., Rakha H. and El-Shawarby, I. (2003), “A discrete optimization approach for locating AVI readers for the provision of roadway travel times”, Proceedings of the Transportation Research Board 82nd Annual Meeting, Washington DC, CD-ROM [Paper # 03-2596]
+Optimization (Linear-, Nonlinear-, Integer-, Advanced Math-Programming)
+Decision Science
+Global optimization/Convex and nonconvex analysis
+Graph theory and network flows
+Professional Membership and Service
+Institute for Operations Research and Management Sciences (INFORMS): Member
+Society for Industrial and Applied Mathematics (SIAM): Member
+Mathematical Optimization Society (MOS): Member
+Institute for Industrial Engineers (IIE): Member
+I write referee reports for approximately 3-4 research papers per year, usually for the following journals: Operations Research, Decision Sciences, Math Programming, SIAM Journal on Optimization, Discrete Mathematics, Journal of Global Optimization, European Journal of Operational Research, Optimization Methods and Software, IIE Transactions, Computers and Operations Research, Transportation Research, and Computers and Industrial Engineering.
+Doctor of Philosophy (PhD), Industrial & Systems Engineering
+Virginia Polytechnic Institute and State University
+Advisor: Dr. Hanif D. Sherali
+Master of Science (MS), Industrial & Systems Engineering
+Virginia Polytechnic Institute and State University
+Advisor: Dr. Hanif D. Sherali
+Bachelor of Technology (BTech)
+Indian Institute of Technology-Madras (IIT-M)
+Advisor: Dr. G. Srinivasan
+Winner of the IISE 2017 Annual Conference Best Paper Award (Modeling and Simulation Track) for the work presented on ‘hybrid departure pushback control policies’
+Winner of the IISE 2017 Annual Conference Best Paper Award (Operations Research Track) for the work presented on ‘data driven algorithms for the aircraft sequencing problem’
+Winner of the Nanyang Education Award (2014), a university-wide teaching recognition for the best teaching/advising record, given by the President of NTU (cash award: $5000 and plaque)
+Awarded the 1st place prize (cash award: $1000) in the INFORMS subdivision NIJ-OR Challenge Competition.
+Recipient of Engineers’ Week Award (2007), on behalf of Institute of Industrial Engineers (IIE) – awards ceremony coverage by USA Today (circulation of 3 million).
+Awarded the best SIAM Graduate Student Seminar Prize (cash award: $100) by the SIAM VT Student Chapter, May, 2005.
+Appeared in the Work Perfect series of IIE magazine (March, 2007).

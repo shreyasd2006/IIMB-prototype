@@ -1,0 +1,36 @@
+id="main-content">
+Faculty profiles
+{IMG /sites/default/files/2025-11/Abraham-Koshy.png}
+#### Abraham
+Koshy
+##### Connect with Faculty
+-->
+[/] Home
+[/faculty] Faculty
+Abraham Koshy
+Visiting Assistant Professor
+Management Communication
+Connect with Faculty [mailto:abraham.koshy@iimb.ac.in] {IMG /sites/default/files/inline-images/forward_to_inbox1.svg}
+abraham.koshy@iimb.ac.in
+Curriculum Vitae
+[ ] Personal Website
+[ ] Blog
+-->
+[/sites/default/files/2025-11/abraham.koshy-CV_2025.pdf]
+Curriculum Vitae {IMG /sites/default/files/inline-images/difference.svg}
+[ ] Personal Website {IMG /sites/default/files/inline-images/open_in_new1.svg}
+[ ] Blog {IMG /sites/default/files/inline-images/blog-icon.svg}
+## Summary
+Abraham Koshy is a scholar of Communication, Media, and Politics. His teaching and research explore persuasive communication in intergroup settings, examining how such communication shapes attitudes and behaviors in both mediated and interpersonal contexts. His current work focuses on designing and studying news recommender systems in India that are grounded in democratic and communication theory.
+Before joining academia, he founded and served as Editor-in-Chief of LURU Magazine , a print-only publication launched in 2025 to foster a shared communicative space for citizens of Bengaluru to reflect on urban identity and belonging.
+His earlier research examined variations in trust in the news media as an outcome of intergroup communication using cross-national survey data. He earned his PhD in Media and Communication from Temple University in 2024 and his BS in Journalism from the University of Illinois at Urbana-Champaign.
+## Accomplishments
+[#home2] RESEARCH
+[#profile5] EDUCATION
+Research Interests: Political Communication, Journalism & Society, Media & Society, Health Communication, Quantitative Social Research
+Working Papers:
+Effect of linguistic abstraction in news headlines on subsequent incivility and linguistic abstraction in reddit comments
+Designing effective news recommender systems for the Indian context
+PhD, Media & Communication, Temple University, Philadelphia, USA
+M.A, Journalism, Media & Globalization, Erasmus Mundus Joint Degree (University of Amsterdam and Aarhus University)
+B.S, Journalism, University of Illinois at Urbana-Champaign
