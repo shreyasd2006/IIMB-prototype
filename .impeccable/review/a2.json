@@ -1,0 +1,26 @@
+{
+ "index.html": [
+  "[0] OVERLAP span.w \"Let\"  ×  span.w \"be\" @y551",
+  "[0] OVERLAP span.w \"our\"  ×  span.w \"enlightening.\" @y555",
+  "[0] OVERLAP span.w \"study\"  ×  span.w \"enlightening.\" @y559"
+ ],
+ "about.html": [],
+ "programmes.html": [],
+ "programme.html?id=pgp": [],
+ "research.html": [],
+ "theme.html?id=digital": [],
+ "faculty.html": [],
+ "person.html?id=mayank-kumar": [],
+ "partnerships.html": [],
+ "news.html": [],
+ "story.html?id=node-768": [],
+ "centres.html": [],
+ "centre.html?id=csitm": [
+  "[8000] CLIPPED-X a \"CCMRMCentre for Capital Market\"",
+  "[8000] CLIPPED-X a \"NSRCELNSRCELIncubator\"",
+  "[8800] CLIPPED-X a \"CCMRMCentre for Capital Market\"",
+  "[8800] CLIPPED-X a \"NSRCELNSRCELIncubator\""
+ ],
+ "campus.html": [],
+ "industry.html": []
+}

@@ -13,7 +13,7 @@
     const on = state.cmp.includes(p.id);
     return `<li class="prog-row" data-key="${p.id}" data-peek="${J.src(p.img, 800)}">
       <a class="pr-main" href="${u.prog(p.id)}">
-        <span class="pr-code">${esc(p.short)}</span>
+        <span class="pr-code${p.short.length > 5 ? " long" : ""}">${esc(p.short)}</span>
         <span class="pr-name"><span class="h4">${esc(p.name)}</span><span class="small mute">${esc(p.degree)}</span></span>
       </a>
       <dl class="pr-facts">
@@ -39,7 +39,6 @@
     const ps = list(), box = $("[data-prog-list]");
     const doit = () => {
       box.innerHTML = ps.length ? ps.map(row).join("") : `<li class="empty"><p class="h3">No programme matches that combination.</p><p>Try “Any format”, or <button class="text-btn ulink" type="button" data-reset>clear your choices</button>.</p></li>`;
-      J.peek(box);
     };
     animate ? J.flip(box, doit) : doit();
     const a = state.aud && I.audiences.find((x) => x.id === state.aud);

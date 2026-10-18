@@ -24,7 +24,7 @@
       { v: "11", l: "academic areas, from Decision Sciences to Strategy", s: "about" },
       { v: "2017", l: "Institute of National Importance under the IIM Act", s: "about" },
     ];
-    $("[data-brief-facts]").innerHTML = facts.map((f) => `<div class="bf"><dt class="num" data-count>${f.v}</dt><dd>${esc(f.l)} <span class="src">${J.srcLink(f.s, "Source")}</span></dd></div>`).join("");
+    $("[data-brief-facts]").innerHTML = facts.map((f) => `<div class="bf"><dt class="num">${f.v}</dt><dd>${esc(f.l)} <span class="src">${J.srcLink(f.s, "Source")}</span></dd></div>`).join("");
 
     /* featured essay */
     const e = J.story(I.cover.essay);
@@ -51,7 +51,7 @@
     $("[data-shelf-chips]").innerHTML = chips.map((a, i) => `<button class="chip" type="button" aria-pressed="${i === 0}" data-aud-chip="${a.id}">${esc(a.id === "all" ? a.t : a.t[0].toUpperCase() + a.t.slice(1))}</button>`).join("");
     const shelfItem = (p) => `<li class="spine-card" data-key="${p.id}"><a href="${u.prog(p.id)}">
         <span class="sc-plate plate">${J.img(p.img, { want: 800, sizes: "(max-width: 760px) 80vw, 360px", alt: "" })}</span>
-        <span class="sc-code">${esc(p.short)}</span>
+        <span class="sc-code${p.short.length > 6 ? " long" : ""}">${esc(p.short)}</span>
         <span class="sc-name">${esc(p.name)}</span>
         <span class="sc-meta"><span>${esc(p.level)}</span><span>${esc(p.duration)}</span></span>
         <span class="sc-go">${icon("arrow")}</span></a></li>`;
@@ -182,7 +182,6 @@
     g.ticker.add(() => { x += (0.6 + boost) * dir; boost *= 0.92; const W = w(); if (x <= -W) x += W; if (x > 0) x -= W; tracks.forEach((t) => (t.style.transform = `translate3d(${x}px,0,0)`)); });
     ScrollTrigger.create({ trigger: "[data-marquee]", start: "top bottom", end: "bottom top", onUpdate: (s) => { boost = Math.min(18, Math.abs(s.getVelocity()) / 140); dir = s.direction === 1 ? -1 : 1; } });
 
-    J.peek($("[data-routes]"));
 
     /* calendar day numerals roll up */
     g.utils.toArray(".ci-day").forEach((n) => g.fromTo(n, { yPercent: 70, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, duration: 1, ease: J.ease, scrollTrigger: { trigger: n, start: "top 90%", once: true } }));

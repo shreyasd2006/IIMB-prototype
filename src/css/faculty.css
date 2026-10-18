@@ -7,7 +7,7 @@
 .fc-opts { display: flex; flex-wrap: wrap; gap: .6rem 1.6rem; }
 .fc-dir { padding-bottom: var(--s6); }
 .fc-dir-in { display: grid; grid-template-columns: 1fr; gap: var(--g); }
-.fc-count { position: sticky; top: var(--header-h); z-index: 5; margin: 0; padding: .9rem 0; background: rgba(255, 255, 255, .95); border-bottom: 2px solid var(--ink); font: 400 1.05rem/1.3 var(--f-serif); }
+.fc-count { position: sticky; top: var(--header-h); z-index: 5; transition: top .5s var(--ease); margin: 0; padding: .9rem 0; background: rgba(255, 255, 255, .95); border-bottom: 2px solid var(--ink); font: 400 1.05rem/1.3 var(--f-serif); }
 .fc-count .num { font: 400 1.6rem/1 var(--f-display); color: var(--red); margin-right: .2rem; }
 .fc-group { display: grid; grid-template-columns: 1fr; gap: .5rem; padding-top: 2rem; scroll-margin-top: calc(var(--header-h) + 70px); }
 .fc-letter { font: 400 clamp(3.4rem, 2.6rem + 3vw, 6rem)/.8 var(--f-display); color: var(--blush); }

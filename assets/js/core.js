@@ -177,7 +177,7 @@
         g.fromTo(el, { y: 26, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 1.1, ease: J.ease, delay: +(el.dataset.delay || 0), scrollTrigger: st });
       } else if (el.hasAttribute("data-count")) {
         const txt = el.textContent, m = txt.match(/[\d,.]+/);
-        if (!m) return;
+        if (!m || /^(19|20)\d\d$/.test(m[0])) return; // never count up years: in-between values would read as false dates
         const target = parseFloat(m[0].replace(/,/g, "")), dec = (m[0].split(".")[1] || "").length, obj = { v: 0 };
         el.textContent = txt.replace(m[0], "0");
         g.to(obj, { v: target, duration: 1.8, ease: "power3.out", scrollTrigger: st, onUpdate: () => { const n = obj.v.toFixed(dec); el.textContent = txt.replace(m[0], m[0].includes(",") ? Number(n).toLocaleString("en-IN") : n); }, onComplete: () => (el.textContent = txt) });
@@ -245,8 +245,7 @@
     const onScroll = () => {
       const y = scrollY, max = d.documentElement.scrollHeight - innerHeight;
       if (bar) bar.style.transform = `scaleX(${max > 0 ? Math.min(1, y / max) : 0})`;
-      if (!J.rm && !d.body.classList.contains("no-hide")) hd.classList.toggle("is-hidden", y > 420 && y > last + 2 && !hd.contains(d.activeElement));
-      if (y < last - 2 || y < 200) hd.classList.remove("is-hidden");
+      hd.classList.toggle("scrolled", y > 40);
       last = y; ticking = false;
     };
     addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });

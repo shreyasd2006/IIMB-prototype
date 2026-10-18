@@ -58,7 +58,6 @@
         ScrollTrigger.create({ trigger: it, containerAnimation: tw, start: "left 62%", end: "right 38%", toggleClass: "on" });
         const img = it.querySelector(".tl-img img");
         if (img) g.fromTo(img, { scale: 1.25, filter: "sepia(.6) contrast(.9)" }, { scale: 1, filter: "sepia(0) contrast(1)", ease: "none", scrollTrigger: { trigger: it, containerAnimation: tw, start: "left right", end: "center center", scrub: true } });
-        g.fromTo(it.querySelector(".tl-year"), { yPercent: 40 }, { yPercent: 0, ease: "none", scrollTrigger: { trigger: it, containerAnimation: tw, start: "left right", end: "left 40%", scrub: true } });
       });
       return () => g.set(track, { clearProps: "transform" });
     });
@@ -66,8 +65,7 @@
       g.fromTo("[data-tl-progress]", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: { trigger: "[data-tl-track]", start: "top 70%", end: "bottom 70%", scrub: true } });
       $$(".tl-item").forEach((it) => ScrollTrigger.create({ trigger: it, start: "top 70%", end: "bottom 30%", toggleClass: "on" }));
     });
-    g.fromTo(".arch-b", { yPercent: 18 }, { yPercent: -10, ease: "none", scrollTrigger: { trigger: ".arch-collage", start: "top bottom", end: "bottom top", scrub: true } });
-    g.fromTo(".arch-quote", { yPercent: 10 }, { yPercent: -14, ease: "none", scrollTrigger: { trigger: ".arch-collage", start: "top bottom", end: "bottom top", scrub: true } });
+    g.fromTo(".arch-b img", { yPercent: -6, scale: 1.12 }, { yPercent: 6, scale: 1.12, ease: "none", scrollTrigger: { trigger: ".arch-collage", start: "top bottom", end: "bottom top", scrub: true } });
     g.fromTo(".id-logo img", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 1.6, ease: "expo.inOut", scrollTrigger: { trigger: ".id-logo", start: "top 80%", once: true } });
   }
   J.page(render, intro);

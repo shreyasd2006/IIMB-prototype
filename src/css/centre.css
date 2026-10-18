@@ -16,7 +16,7 @@
 .cn-plate .plate { display: block; aspect-ratio: 16 / 10; }
 .cn-plate .caption { color: inherit; opacity: .78; }
 @media (min-width: 1000px) { .cn-hero-in { grid-template-columns: 6fr 6fr; column-gap: clamp(2rem, 5vw, 6rem); } }
-.cn-sub { position: sticky; top: var(--header-h); z-index: 20; background: rgba(251, 245, 236, .96); border-bottom: 1px solid var(--rule); }
+.cn-sub { position: sticky; top: var(--header-h); z-index: 20; transition: top .5s var(--ease); background: rgba(251, 245, 236, .96); border-bottom: 1px solid var(--rule); }
 .cn-sub-in { position: relative; display: flex; gap: 1.6rem; overflow-x: auto; scrollbar-width: none; }
 .cn-sub-in::-webkit-scrollbar { display: none; }
 .cn-sub a { flex: none; padding: .95rem 0; text-decoration: none; font: 500 .92rem/1 var(--f-sans); color: var(--mute); transition: color var(--d-mid); }
@@ -43,7 +43,7 @@
 .cn-acts { list-style: none; display: grid; gap: 0; }
 .cn-acts li { padding: .9rem 0; border-top: 1px solid var(--rule); font: 400 1.08rem/1.45 var(--f-serif); }
 .cn-ups { list-style: none; display: grid; gap: 6px; margin-top: .8rem; }
-.cn-up a { display: grid; grid-template-columns: 1fr auto; gap: .4rem 1rem; padding: 1.1rem 1.2rem; background: var(--white); border-left: 3px solid var(--red); text-decoration: none; align-items: center; transition: transform .5s var(--ease); }
+.cn-up a { display: grid; grid-template-columns: 1fr auto; gap: .4rem 1rem; padding: 1.1rem 1.2rem; background: var(--white); border-top: 1px solid var(--rule); text-decoration: none; align-items: center; transition: transform .5s var(--ease); }
 .on-white .cn-up a { background: var(--cream); }
 .cn-up a:hover { transform: translateX(6px); }
 .cn-up .tag { justify-self: start; grid-column: 1; color: var(--burgundy); }
@@ -68,5 +68,6 @@
 .cn-contact .meta { color: var(--gold); }
 .cn-contact a { color: var(--cream); }
 .cn-rail > li { width: 260px; }
+.cn-rail .cp-abbr { font-size: clamp(2.2rem, 1.8rem + 1vw, 3rem); }
 .cn-rail .cp a { min-height: 220px; }
 .cn-others .h2 { margin-bottom: 1.6rem; }

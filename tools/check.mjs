@@ -29,8 +29,8 @@ for (const p of pages) {
     if (d.method === "Runtime.exceptionThrown") errs.push(d.params.exceptionDetails.exception?.description || d.params.exceptionDetails.text);
     if (d.method === "Log.entryAdded" && d.params.entry.level === "error" && !/youtube|ytimg/.test(d.params.entry.url || "")) errs.push(d.params.entry.text + " " + (d.params.entry.url || ""));
   });
-  await b.goto(BASE + p, 1600);
-  const info = await b.evaluate(`(() => ({ h1: document.querySelectorAll('h1').length, h1t: (document.querySelector('h1')||{}).textContent || '', main: document.querySelector('main').textContent.replace(/\s+/g,' ').length, note: !!document.querySelector('main .placeholder-note:not(.cm-slot)'), links: [...document.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => h && !/^(https?:|mailto:|tel:|#)/.test(h)) }))()`);
+  await b.goto(BASE + p, p === "index.html" ? 4000 : 1600);
+  const info = await b.evaluate(`(() => ({ h1: document.querySelectorAll('h1').length, h1t: (document.querySelector('h1')||{}).textContent || '', main: (document.querySelector('main')||{textContent:''}).textContent.replace(/\s+/g,' ').length, note: !!document.querySelector('main .placeholder-note:not(.cm-slot)'), url: location.href, links: [...document.querySelectorAll('a[href]')].map(a => a.getAttribute('href')).filter(h => h && !/^(https?:|mailto:|tel:|#)/.test(h)) }))()`);
   info.links.forEach((l) => links.add(l));
   ok(`render ${p}`, !errs.length && info.h1 === 1 && info.main > 400 && !info.note, errs.length ? errs.join(" | ").slice(0, 200) : `h1=${info.h1} "${info.h1t.trim().slice(0, 50)}" chars=${info.main}`);
   off();
@@ -120,7 +120,7 @@ ok("about timeline has 9 milestones", await ev("document.querySelectorAll('.tl-i
 
 // reduced motion: content visible without animation, no smooth-scroll
 const rm = await launch({ width: 1440, height: 900, reducedMotion: true });
-await rm.goto(BASE + "index.html", 2500);
+await rm.goto(BASE + "index.html", 5000);
 ok("reduced motion: no Lenis, cover title visible", await rm.evaluate("!document.documentElement.classList.contains('lenis') && getComputedStyle(document.querySelector('.cover-en')).visibility==='visible' && !document.documentElement.classList.contains('mp')"));
 ok("reduced motion: film not autoplaying", await rm.evaluate("document.querySelector('[data-cover-film] video').paused"));
 rm.close();

@@ -45,6 +45,7 @@
 .alu { display: grid; gap: 1rem; align-content: start; }
 .alu-img { display: block; aspect-ratio: 3 / 2; }
 .alu h3 a { text-decoration: none; }
+.alu h3 { margin-bottom: .8rem; line-height: 1.08; }
 @media (min-width: 1000px) { .alu-grid { grid-template-columns: 7fr 5fr; } .alu-lead { grid-row: span 2; } }
 .alu-foot { row-gap: var(--s4); padding-top: var(--s4); border-top: 2px solid var(--ink); }
 .alu-dean, .alu-give { grid-column: 1 / -1; display: grid; gap: 1rem; align-content: start; }

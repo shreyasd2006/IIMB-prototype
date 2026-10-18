@@ -90,7 +90,6 @@
       g.fromTo(img, { clipPath: "inset(12% 12% 12% 12%)" }, { clipPath: "inset(0% 0% 0% 0%)", ease: "none", scrollTrigger: { trigger: p, start: "top 90%", end: "top 35%", scrub: true } });
       g.fromTo(img.querySelector("img"), { scale: 1.2 }, { scale: 1, ease: "none", scrollTrigger: { trigger: p, start: "top 90%", end: "bottom top", scrub: true } });
     });
-    J.peek($("[data-recent]"));
     g.fromTo(".rec", { autoAlpha: 0, x: -30 }, { autoAlpha: 1, x: 0, duration: 0.9, stagger: 0.1, ease: J.ease, scrollTrigger: { trigger: "[data-recent]", start: "top 85%", once: true } });
   }
   J.page(render, intro);

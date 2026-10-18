@@ -108,7 +108,6 @@
   function intro(delay) {
     J.defaultIntro(delay);
     const g = J.gsap; if (!g) return;
-    J.peek($("[data-theme-index]"));
     g.fromTo(".vbar", { scaleX: 0 }, { scaleX: 1, duration: 1.4, ease: "expo.out", stagger: 0.08, scrollTrigger: { trigger: "[data-bars]", start: "top 80%", once: true } });
     g.fromTo(".bar-v", { autoAlpha: 0, x: -10 }, { autoAlpha: 1, x: 0, duration: 0.8, stagger: 0.08, delay: 0.5, scrollTrigger: { trigger: "[data-bars]", start: "top 80%", once: true } });
     g.utils.toArray(".feat-plate img").forEach((im) => g.fromTo(im, { yPercent: -6 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: im.closest(".feat"), start: "top bottom", end: "bottom top", scrub: true } }));

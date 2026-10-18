@@ -28,12 +28,12 @@
 .results-count .num { font: 400 2.2rem/1 var(--f-display); color: var(--red); margin-right: .2rem; }
 .prog-list { list-style: none; }
 .prog-row { display: grid; gap: .8rem var(--g); padding: 1.3rem 0; border-bottom: 1px solid var(--rule); background: var(--white); }
-.pr-main { display: grid; grid-template-columns: 7.4rem 1fr; gap: 1.1rem; align-items: baseline; text-decoration: none; }
-.pr-code { font: 400 clamp(2rem, 1.6rem + 1.4vw, 3rem)/.9 var(--f-display); color: var(--burgundy); transition: color var(--d-mid), transform .5s var(--ease); }
+.pr-main { display: grid; grid-template-columns: 8.4rem 1fr; gap: 1.1rem; align-items: baseline; text-decoration: none; }
+.pr-code { font: 400 clamp(1.7rem, 1.3rem + 1vw, 2.4rem)/1 var(--f-display); white-space: nowrap; overflow-wrap: normal; color: var(--burgundy); transition: color var(--d-mid), transform .5s var(--ease); }
 .pr-name { display: grid; gap: .2rem; }
 .pr-main:hover .pr-code { color: var(--red); transform: translateX(4px); }
 .pr-main:hover .h4 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
-.pr-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem var(--g); margin: 0; font-size: .9rem; }
+.pr-facts { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: .6rem var(--g); margin: 0; font-size: .9rem; }
 .pr-facts dt { font: 600 .7rem/1.2 var(--f-sans); font-stretch: 82%; letter-spacing: .07em; text-transform: uppercase; color: var(--mute); }
 .pr-facts dd { margin: .2rem 0 0; line-height: 1.35; }
 .pr-act { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
@@ -48,7 +48,7 @@
 @media (min-width: 1100px) {
   .journey-grid { grid-template-columns: 4fr 8fr; column-gap: clamp(2rem, 4vw, 5rem); align-items: start; }
   .steps { position: sticky; top: calc(var(--header-h) + 1.5rem); }
-  .prog-row { grid-template-columns: 6fr 4.6fr 1.6fr; align-items: center; }
+  .prog-row { grid-template-columns: 6.4fr 4.4fr 1.4fr; align-items: center; }
   .pr-act { flex-direction: column; align-items: flex-end; }
 }
 .compare-sec { background: var(--cream); }
@@ -138,3 +138,4 @@
 .rel-code { font: 400 2.8rem/1 var(--f-display); color: var(--burgundy); transition: color var(--d-mid); }
 .rel:hover .rel-code { color: var(--red); }
 @media (min-width: 800px) { .rel-list { grid-template-columns: repeat(4, 1fr); } }
+.pr-code.long { font-size: clamp(1.25rem, 1rem + .7vw, 1.7rem); padding-top: .3em; }
