@@ -1,0 +1,66 @@
+<section class="pg-hero" aria-labelledby="pg-h">
+  <div class="wrap pg-hero-in">
+    <h1 class="h1" id="pg-h" data-intro data-split>Find your programme</h1>
+    <p class="lede" data-intro>Eleven programmes, from a four-year undergraduate degree to the PhD. Say who you are and how you want to study; we narrow the list and you compare up to three side by side.</p>
+  </div>
+</section>
+
+<section class="journey" id="finder" aria-label="Programme finder">
+  <div class="wrap journey-grid">
+    <div class="steps" data-steps>
+      <span class="steps-line" aria-hidden="true"><i data-steps-fill></i></span>
+      <fieldset class="step" data-step="1">
+        <legend><span class="step-n">1</span><span class="step-t">Who are you?</span></legend>
+        <div class="aud-list" role="radiogroup" aria-label="Who are you?" data-aud-list></div>
+      </fieldset>
+      <fieldset class="step" data-step="2">
+        <legend><span class="step-n">2</span><span class="step-t">How do you want to study?</span></legend>
+        <div class="chips" role="group" aria-label="Study format" data-format></div>
+      </fieldset>
+      <div class="step" data-step="3">
+        <p class="legend"><span class="step-n">3</span><span class="step-t">Compare up to three</span></p>
+        <p class="small mute">Tick “Compare” on any programme. Your selection stays at the bottom of the screen.</p>
+      </div>
+    </div>
+    <div class="results">
+      <div class="results-head">
+        <p class="results-count" aria-live="polite" data-count-line></p>
+        <button class="text-btn" type="button" data-reset>Clear choices</button>
+      </div>
+      <ol class="prog-list" data-prog-list></ol>
+    </div>
+  </div>
+</section>
+
+<section class="section compare-sec" id="compare" aria-labelledby="cmp-h" data-compare-sec hidden>
+  <div class="wrap">
+    <h2 class="h2" id="cmp-h">Side by side</h2>
+    <div class="cmp-scroll" data-overflow-ok><table class="cmp" data-cmp></table></div>
+  </div>
+</section>
+
+<section class="section dates on-burgundy" aria-labelledby="dates-h">
+  <div class="wrap">
+    <div class="dates-head">
+      <h2 class="h1" id="dates-h" data-split>The admissions calendar</h2>
+      <p class="dek mute" data-fade>Published dates for the 2027 intake, as listed on IIMB’s admissions pages. Tentative dates are marked.</p>
+    </div>
+    <div class="tl-h" data-dates data-overflow-ok></div>
+  </div>
+</section>
+
+<section class="section official" aria-labelledby="off-h">
+  <div class="wrap grid">
+    <h2 class="h2 off-h" id="off-h" data-split>Applying, officially</h2>
+    <div class="off-body">
+      <p class="dek">Applications are made on IIMB’s own admissions systems. This concept links to them directly; it does not take applications.</p>
+      <ul class="off-links" data-off-links data-stagger></ul>
+    </div>
+  </div>
+</section>
+
+<div class="tray" data-tray role="region" aria-label="Programmes selected for comparison">
+  <span class="meta">Compare</span>
+  <div class="slots" data-slots></div>
+  <a class="btn" href="#compare" data-tray-go>Compare<svg class="ico"><use href="#i-arrow"/></svg></a>
+</div>

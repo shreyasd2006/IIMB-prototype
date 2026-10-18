@@ -1,0 +1,460 @@
+{
+ "assets/img/aerial-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/aerial-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/aerial-1920.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pergola-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pergola-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pergola-1900.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/stone-bougainvillea-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/stone-bougainvillea-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/main-block-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/main-block-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/main-gate-750.jpg": {
+  "origin": "https://www.iimb.ac.in/iimb-ranks-11th-globally-financial-times",
+  "credit": "IIM Bangalore news",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/lawn-750.jpg": {
+  "origin": "https://www.iimb.ac.in/doctoral-student-research-paper-award-2026",
+  "credit": "IIM Bangalore news",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/library-hall-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/library-hall-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/auditorium-782.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/doshi-500.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute",
+  "credit": "IIM Bangalore, Architecture",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-construction-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-construction-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-site-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-site-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-groundbreaking-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-groundbreaking-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-inauguration-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-inauguration-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-plaque-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-plaque-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-class-800.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/archive-class-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/archives/",
+  "credit": "IIMB Archives",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/sport-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/sport-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/hockey-589.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/music-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb",
+  "credit": "IIM Bangalore, Life @IIMB",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/cafeteria-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb/student-life",
+  "credit": "IIM Bangalore, Student Life",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/art-800.jpg": {
+  "origin": "https://www.iimb.ac.in/about-institute/life-iimb/student-life",
+  "credit": "IIM Bangalore, Student Life",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pgp-cohort-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/phd-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/ug-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/exec-ed-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pgppm-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/predoc-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/predoc-1500.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/women-leadership-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/diversity-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/sustainability-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore homepage",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/amphitheatre-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management_Bangalore,_Amphitheatre.jpg",
+  "credit": "Apb2693 · CC BY-SA 4.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/amphitheatre-1600.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management_Bangalore,_Amphitheatre.jpg",
+  "credit": "Apb2693 · CC BY-SA 4.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/corridor-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management,_Bangalore_academic_block.jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/corridor-1600.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management,_Bangalore_academic_block.jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/columns-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:IIMB_Acadblock.JPG",
+  "credit": "Magentic Manifestations · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/columns-1600.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:IIMB_Acadblock.JPG",
+  "credit": "Magentic Manifestations · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pergola-light-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:IIM-Bangalore_016_(10048461003).jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 2.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/pergola-light-1600.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:IIM-Bangalore_016_(10048461003).jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 2.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/library-commons-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management_Bangalore_library.jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/library-commons-1600.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Indian_Institute_of_Management_Bangalore_library.jpg",
+  "credit": "Sanyam Bahga · CC BY-SA 3.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/unmaad-800.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Highway_69_at_IIM_Bangalore_during_Unmaad_2014.jpg",
+  "credit": "Tarun Paul Kachhap · CC BY-SA 4.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/unmaad-1228.jpg": {
+  "origin": "https://commons.wikimedia.org/wiki/File:Highway_69_at_IIM_Bangalore_during_Unmaad_2014.jpg",
+  "credit": "Tarun Paul Kachhap · CC BY-SA 4.0 (Wikimedia Commons)",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iitkanpur-iimb-nsrcel-have-signed-mou-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/photo%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iitkanpur-iimb-nsrcel-have-signed-mou",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/ft-executive-mba-ranking-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/1000504110_0.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/ft-executive-mba-ranking-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/doctoral-student-research-paper-award-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/Campus%201.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/doctoral-student-research-paper-award-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-ranks-11th-globally-financial-times-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/IIMB-Main-Gate_1_0_0_0.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-ranks-11th-globally-financial-times",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/new-case-study-gujarat-india-water-lessons-world-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/Report%20Launch%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/new-case-study-gujarat-india-water-lessons-world",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/alumnus-anup-bagchi-appointed-md-ceo-hdfc-bank-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/images.jpeg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/alumnus-anup-bagchi-appointed-md-ceo-HDFC-Bank",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/node-9520-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/gopal-das_0%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/node/9520",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimbx-fintech-certificate-programme-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/FinTech%20Certificate%20Programme%20-%20Dignitaries%20on%20Dais%202%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimbx-fintech-certificate-programme-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/node-9255-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-10/IIMB-Main-Gate_1_0_0.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/node/9255",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/cdpg-annual-policy-conclave-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Report%20Release.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/cdpg-annual-policy-conclave-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/node-9716-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Panel%20Discussion-2%20%282%29.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/node/9716",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/cdpg-national-student-case-competition-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Team%20Champagne-Papi%20%28PGP-IIMB%29.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/cdpg-national-student-case-competition-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-ministry-minority-affairs-sign-mous-nmdfc-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/4.MoU-CPP-Photo%202.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-ministry-minority-affairs-sign-mous-nmdfc",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/node-7556-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Prof.%20Anirudh%20Dhawan.JPG",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/node/7556",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/qs-world-university-rankings-2027-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/IMG_8274.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/qs-world-university-rankings-2027",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/mijsc-9th-foundation-day-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Publications%20release.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/mijsc-9th-foundation-day",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/epgp-2nd-rank-apac-bloomberg-b-school-rankings-202-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/DSC06747.JPG",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/epgp-2nd-rank-apac-bloomberg-b-school-rankings-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/ft-b-school-rankings-mim-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/IIMB-Main-Gate_1_0_0.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/ft-b-school-rankings-mim-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-ug-applications-opens-2027-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-08/4U4A0186%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-ug-applications-opens-2027",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-inaugurates-first-batch-undergraduate-studies-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-08/UG%20Inauguration%202.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-inaugurates-first-batch-undergraduate-studies-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/cpp-host-xxi-conference-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/Panel%20Discussion%20-%20JJM%201.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/cpp-host-xxi-conference-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/ccmrm-signs-mou-acumo-graylight-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/DSC05966.JPG",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/ccmrm-signs-mou-acumo-graylight",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-tata-trusts-sign-mou-establish-dorabji-tata-s-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-08/Photo%202.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-tata-trusts-sign-mou-establish-dorabji-tata-school",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-wins-elcita-sustainability-awards-2025-26-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/DSC03112.JPG.jpeg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-wins-elcita-sustainability-awards-2025-26",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-inaugurated-23rd-cohort-pgppm-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-08/Students.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-inaugurated-23rd-cohort-pgppm-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/pgp-alumni-et-40-under-forty-2026-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-09/parul-karan-mohit_piyush.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/pgp-alumni-et-40-under-forty-2026",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/iimb-celebration-80-independence-day-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-08/DSC02011%281%29%20copy.jpg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/iimb-celebration-80-independence-day",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/news/pm-narendra-modi-announces-iimb-campus-indonesia-750.jpg": {
+  "origin": "https://www.iimb.ac.in/sites/default/files/2026-07/PM%20Modi-Indonesia%201.jpg.jpeg",
+  "credit": "IIM Bangalore",
+  "page": "https://www.iimb.ac.in/pm-narendra-modi-announces-iimb-campus-indonesia",
+  "retrieved": "2026-10-16"
+ },
+ "assets/img/hero-classroom-800.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore campus film (still at 19 s)",
+  "retrieved": "2026-10-17"
+ },
+ "assets/img/hero-classroom-1600.jpg": {
+  "origin": "https://www.iimb.ac.in/",
+  "credit": "IIM Bangalore campus film (still at 19 s)",
+  "retrieved": "2026-10-17"
+ }
+}

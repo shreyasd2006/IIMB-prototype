@@ -1,0 +1,41 @@
+<section class="nw-hero" aria-labelledby="nw-h">
+  <div class="wrap">
+    <div class="nw-top">
+      <h1 class="nw-title" id="nw-h" data-intro data-split>The Living Institution</h1>
+      <p class="nw-today" data-intro><span class="live-dot" aria-hidden="true"></span><span data-today></span></p>
+    </div>
+    <article class="nw-lead" data-lead data-manual></article>
+  </div>
+</section>
+
+<section class="nw-browse" aria-label="Browse by date">
+  <div class="wrap">
+    <div class="ribbon" role="group" aria-label="Month" data-ribbon data-overflow-ok>
+      <span class="ribbon-ink" aria-hidden="true" data-ribbon-ink></span>
+    </div>
+  </div>
+</section>
+
+<section class="nw-index" aria-label="Stories and events">
+  <div class="wrap">
+    <div class="nw-tools">
+      <div class="idx-tabs" role="tablist" aria-label="Show">
+        <button role="tab" class="idx-tab" aria-selected="true" data-view="all">Everything</button>
+        <button role="tab" class="idx-tab" aria-selected="false" data-view="stories">Stories</button>
+        <button role="tab" class="idx-tab" aria-selected="false" data-view="events" id="events">Events</button>
+        <span class="idx-ink" aria-hidden="true" data-view-ink></span>
+      </div>
+      <label class="searchbar nw-search" for="nw-q"><svg class="ico"><use href="#i-search"/></svg><span class="sr">Search news and events</span><input id="nw-q" type="search" placeholder="Search stories and events" data-nw-q></label>
+    </div>
+    <div class="chips nw-cats" role="group" aria-label="Category" data-cats></div>
+    <p class="nw-count" aria-live="polite" data-nw-count></p>
+    <section class="nw-events" aria-labelledby="ev-h" data-ev-sec>
+      <h2 class="h2" id="ev-h">Coming up</h2>
+      <ol class="ev-list" data-events></ol>
+    </section>
+    <section class="nw-stories" aria-labelledby="st-h" data-st-sec>
+      <h2 class="h2" id="st-h">Stories</h2>
+      <ol class="st-list" data-stories></ol>
+    </section>
+  </div>
+</section>

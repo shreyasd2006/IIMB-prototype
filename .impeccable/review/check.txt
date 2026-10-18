@@ -1,0 +1,108 @@
+PASS  render index.html  — h1=1 "तेजस्वि नावधीतमस्तुLet our study be enlightening." chars=10692
+PASS  render about.html  — h1=1 "Founded 1973. Still being written." chars=8449
+PASS  render programmes.html  — h1=1 "Find your programme" chars=5271
+PASS  render research.html  — h1=1 "Ideas in Focus" chars=8616
+PASS  render faculty.html  — h1=1 "People and Ideas" chars=11608
+PASS  render partnerships.html  — h1=1 "Partnership Studio" chars=4224
+PASS  render news.html  — h1=1 "The Living Institution" chars=7934
+PASS  render centres.html  — h1=1 "Research Communities" chars=6130
+PASS  render campus.html  — h1=1 "The IIMB Experience" chars=4562
+PASS  render industry.html  — h1=1 "Beyond the Classroom" chars=2418
+PASS  render search.html?q=pgp  — h1=1 "Find anything" chars=2354
+PASS  render credits.html  — h1=1 "Sources and credits" chars=5967
+PASS  render programme.html?id=pgp  — h1=1 "Post Graduate Programme in Management" chars=2167
+PASS  render programme.html?id=pgpba  — h1=1 "Post Graduate Programme in Business Analytics" chars=1455
+PASS  render programme.html?id=epgp  — h1=1 "Executive Post Graduate Programme in Management" chars=1469
+PASS  render programme.html?id=pgpem  — h1=1 "Post Graduate Programme in Enterprise Management" chars=1491
+PASS  render programme.html?id=pgppm  — h1=1 "Post Graduate Programme in Public Policy and Manag" chars=1681
+PASS  render programme.html?id=phd  — h1=1 "Doctoral Programme" chars=1205
+PASS  render programme.html?id=nsr-predoc  — h1=1 "N. S. Ramaswamy Pre-doctoral Fellowship" chars=1258
+PASS  render programme.html?id=bsc-data-sciences  — h1=1 "BSc (Honours) in Data Sciences" chars=1637
+PASS  render programme.html?id=bsc-economics  — h1=1 "BSc (Honours) in Economics" chars=1631
+PASS  render programme.html?id=bba-dbe  — h1=1 "BBA in Digital Business and Entrepreneurship" chars=1031
+PASS  render programme.html?id=executive-education  — h1=1 "Executive Education Programmes" chars=1157
+PASS  render centre.html?id=cpp  — h1=1 "Centre for Public Policy" chars=2561
+PASS  render centre.html?id=cencomm  — h1=1 "Centre for Management Communication" chars=1617
+PASS  render centre.html?id=ccmrm  — h1=1 "Centre for Capital Markets and Risk Management" chars=2040
+PASS  render centre.html?id=ccgs  — h1=1 "Centre for Corporate Governance and Sustainability" chars=1911
+PASS  render centre.html?id=cdpg  — h1=1 "Centre for Digital Public Goods" chars=2052
+PASS  render centre.html?id=csitm  — h1=1 "Centre for Software and Information Technology Man" chars=7259
+PASS  render centre.html?id=scmc  — h1=1 "Supply Chain Management Centre" chars=1796
+PASS  render centre.html?id=ctl  — h1=1 "Centre for Teaching and Learning" chars=1933
+PASS  render centre.html?id=mijsc  — h1=1 "Mizuho India Japan Study Centre" chars=1960
+PASS  render centre.html?id=israel-centre  — h1=1 "Israel Centre" chars=1749
+PASS  render centre.html?id=tony-james  — h1=1 "Tony James Centre for Private Equity and Venture C" chars=1736
+PASS  render centre.html?id=nsrcel  — h1=1 "NSRCEL" chars=2066
+PASS  render centre.html?id=dcal  — h1=1 "Data Centre and Analytics Lab" chars=1776
+PASS  render centre.html?id=reri  — h1=1 "Real Estate Research Initiative" chars=1668
+PASS  render centre.html?id=behavioural-lab  — h1=1 "Behavioural Sciences Lab" chars=1751
+PASS  render centre.html?id=consumer-insights  — h1=1 "Initiatives on Consumer Insights" chars=1636
+PASS  render theme.html?id=markets  — h1=1 "Finance, markets & the economy" chars=2747
+PASS  render theme.html?id=society  — h1=1 "Policy, society & inclusion" chars=2829
+PASS  render theme.html?id=digital  — h1=1 "AI, analytics & digital public goods" chars=3230
+PASS  render theme.html?id=strategy  — h1=1 "Strategy, entrepreneurship & organisations" chars=2913
+PASS  render theme.html?id=operations  — h1=1 "Operations, supply chains & markets" chars=2629
+PASS  render person.html?id=athira-a  — h1=1 "Athira A" chars=1569
+PASS  render person.html?id=suresh-bhagavatula  — h1=1 "Suresh Bhagavatula" chars=2205
+PASS  render person.html?id=gopal-das  — h1=1 "Gopal Das" chars=2870
+PASS  render person.html?id=anirudh-dhawan  — h1=1 "Anirudh Dhawan" chars=2396
+PASS  render person.html?id=m-jayadev  — h1=1 "M Jayadev" chars=2221
+PASS  render person.html?id=ananth-krishnamurthy  — h1=1 "Ananth Krishnamurthy" chars=1837
+PASS  render person.html?id=deepak-malghan  — h1=1 "Deepak Malghan" chars=3573
+PASS  render person.html?id=rajluxmi-v-murthy  — h1=1 "Rajluxmi V Murthy" chars=2098
+PASS  render person.html?id=srinivas-prakhya  — h1=1 "Srinivas Prakhya" chars=1964
+PASS  render person.html?id=jaideep-sarkar  — h1=1 "Jaideep Sarkar" chars=1784
+PASS  render person.html?id=sachin-sridhar  — h1=1 "Sachin Sridhar" chars=1995
+PASS  render person.html?id=venu-madhav-tatiparti  — h1=1 "Venu Madhav Tatiparti" chars=1660
+PASS  render person.html?id=sai-yayavaram  — h1=1 "Sai Yayavaram" chars=2782
+PASS  render story.html?id=ft-executive-mba-ranking-2026  — h1=1 "PGPEM enters global top 10 for salary increase in " chars=3023
+PASS  render story.html?id=new-case-study-gujarat-india-water-lessons-world  — h1=1 "New Case Study Traces 25 Years of India’s Water Go" chars=6948
+PASS  render story.html?id=iimbx-fintech-certificate-programme-2026  — h1=1 "380 learners graduate from IIMBx’s FinTech Certifi" chars=8296
+PASS  render story.html?id=iimb-ministry-minority-affairs-sign-mous-nmdfc  — h1=1 "IIM Bangalore and Ministry of Minority Affairs sig" chars=5027
+PASS  render story.html?id=pgp-alumni-et-40-under-forty-2026  — h1=1 "Four PGP alumni feature on ET’s ‘40 Under Forty’ l" chars=3056
+PASS  render story.html?id=cpp-host-xxi-conference-2026  — h1=1 "CPP Conference on Public Policy & Management 2026 " chars=15416
+PASS  render story.html?id=iimb-wins-elcita-sustainability-awards-2025-26  — h1=1 "IIMB wins gold along with three Excellence Awards " chars=2632
+PASS  render story.html?id=pm-narendra-modi-announces-iimb-campus-indonesia  — h1=1 "Prime Minister Narendra Modi announces IIM Bangalo" chars=4910
+PASS  render story.html?id=node-10906  — h1=1 "Research & Publications Office to host seminar on " chars=4127
+PASS  render story.html?id=iimb-to-celebrate-53rd-foundation-day  — h1=1 "IIM Bangalore to celebrate its 53rd Foundation Day" chars=3557
+PASS  render story.html?id=node-683  — h1=1 "Centre for Teaching & Learning to host seventh coh" chars=3384
+PASS  render story.html?id=node-10481  — h1=1 "CCGS to host International Corporate Governance & " chars=4536
+PASS  render story.html?id=ccmrm-national-student-case-challenge-2026  — h1=1 "GIFT Finance Olympiad: National Student Case Chall" chars=5004
+PASS  render story.html?id=node-768  — h1=1 "CSITM invites paper submissions for 'The India Len" chars=3806
+PASS  render story.html?id=rp-host-winter-research-methodology-workshop-2026  — h1=1 "Research & Publications Office to host Winter Rese" chars=3839
+PASS  render story.html?id=node-762  — h1=1 "IIM Bangalore to host AIB South Asia Chapter & AIB" chars=5114
+PASS  render story.html?id=iimb-host-india-strategy-conference-2026  — h1=1 "IIM Bangalore to host 2026 edition of India Strate" chars=4780
+PASS  render story.html?id=node-833  — h1=1 "IIM Bangalore to host 18th IMR Doctoral Conference" chars=2895
+PASS  render story.html?id=ispma-2027  — h1=1 "Centre for Software and IT Management (CSITM) to h" chars=4068
+PASS  render story.html?id=node-757  — h1=1 "CSITM invites applications for the First Doctoral " chars=4786
+PASS  internal links (218 unique)
+PASS  search overlay opens with /
+PASS  search overlay finds CSITM
+PASS  search overlay closes with Esc
+PASS  contents overlay opens with 9 sections
+PASS  contents overlay closes with Esc
+PASS  cover film element present
+PASS  cover finder routes to programmes for researchers (with page leaf)  — http://127.0.0.1:8767/programmes.html?for=researcher#finder
+PASS  finder shows 2 researcher programmes
+PASS  audience switch reflows list (3 programmes)
+PASS  format filter narrows to PGPEM
+PASS  compare two programmes shows table + tray
+PASS  faculty directory lists 109  — 109
+PASS  faculty search 'supply chain' narrows  — 10
+PASS  faculty empty state
+PASS  faculty area filter: Information Systems = 5
+PASS  portraits load
+PASS  research chart has 6 bars
+PASS  research tab: journal articles show 12 + Show all
+PASS  research Show all reveals 20 articles
+PASS  research theme filter narrows papers
+PASS  theme switch in place updates URL + title
+PASS  news month ribbon filters  — 30 → 12
+PASS  news events view hides stories
+PASS  enquiry form shows validation errors
+PASS  CSITM page: focus areas, upcoming events, people
+PASS  about timeline has 9 milestones
+PASS  reduced motion: no Lenis, cover title visible
+PASS  reduced motion: film not autoplaying
+
+106/106 passed

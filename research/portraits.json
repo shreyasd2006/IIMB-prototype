@@ -1,0 +1,438 @@
+{
+ "swati-bandi": {
+  "file": "assets/img/faculty/swati-bandi.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/Swati-Bandi.jpg"
+ },
+ "deepti-ganapathy": {
+  "file": "assets/img/faculty/deepti-ganapathy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-02/Deepti-Ganapaty.jpg"
+ },
+ "abraham-koshy": {
+  "file": "assets/img/faculty/abraham-koshy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-11/Abraham-Koshy.png"
+ },
+ "reshma-chirayil-chandrasekharan": {
+  "file": "assets/img/faculty/reshma-chirayil-chandrasekharan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/reshma.jpg"
+ },
+ "shubhabrata-das": {
+  "file": "assets/img/faculty/shubhabrata-das.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/shubhabrata-das.jpg"
+ },
+ "soudeep-deb": {
+  "file": "assets/img/faculty/soudeep-deb.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/soudeep-deb.JPG"
+ },
+ "anand-deo": {
+  "file": "assets/img/faculty/anand-deo.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Dr-Anand-Avinash-Deo.jpg"
+ },
+ "jitamitra-desai": {
+  "file": "assets/img/faculty/jitamitra-desai.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/jitamitra-desai.jpg"
+ },
+ "u-dinesh-kumar": {
+  "file": "assets/img/faculty/u-dinesh-kumar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/dinesh-kumar.jpg"
+ },
+ "pulak-ghosh": {
+  "file": "assets/img/faculty/pulak-ghosh.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/pulak-ghosh.jpg"
+ },
+ "ananth-krishnamurthy": {
+  "file": "assets/img/faculty/ananth-krishnamurthy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/ananth-krishnamurthy.jpg"
+ },
+ "subhabrata-majumdar": {
+  "file": "assets/img/faculty/subhabrata-majumdar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-01/Subhabrata_Majumdar.jpg"
+ },
+ "minakshi-punam-mandal": {
+  "file": "assets/img/faculty/minakshi-punam-mandal.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-06/Minakshi-Punam-Mandal.jpg"
+ },
+ "rajluxmi-v-murthy": {
+  "file": "assets/img/faculty/rajluxmi-v-murthy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Rajluxmi%20V%20Murthy%201.jpg"
+ },
+ "arjun-ramachandra": {
+  "file": "assets/img/faculty/arjun-ramachandra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Arjun%20Ramachandra%203.jpg"
+ },
+ "abhay-sobhanan": {
+  "file": "assets/img/faculty/abhay-sobhanan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-08/Prof.%20Abhay-Sobhanan.jpg"
+ },
+ "suresh-bhagavatula": {
+  "file": "assets/img/faculty/suresh-bhagavatula.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Suresh_Bhagavatula.jpg"
+ },
+ "srivardhini-k-jha": {
+  "file": "assets/img/faculty/srivardhini-k-jha.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-01/Srivardhini-K-Jha.jpg"
+ },
+ "ludvig-levasseur": {
+  "file": "assets/img/faculty/ludvig-levasseur.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/ludvig_levasseur.jpg"
+ },
+ "dalhia-mani": {
+  "file": "assets/img/faculty/dalhia-mani.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/dalhia-mani.jpg"
+ },
+ "deepti-mishra": {
+  "file": "assets/img/faculty/deepti-mishra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-01/Deepti-Mishra.jpg"
+ },
+ "ramya-k-murthy": {
+  "file": "assets/img/faculty/ramya-k-murthy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Jaideep%20Sarkar.jpg"
+ },
+ "saras-d-sarasvathy": {
+  "file": "assets/img/faculty/saras-d-sarasvathy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/saras-saraswaty.jpg"
+ },
+ "sayan-sarkar": {
+  "file": "assets/img/faculty/sayan-sarkar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-08/Prof.%20Sayan%20Sarkar.jpg"
+ },
+ "sai-chittaranjan-kalubandi": {
+  "file": "assets/img/faculty/sai-chittaranjan-kalubandi.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Sai%20Chittaranjan%20K.jpg"
+ },
+ "anubha-agarwal": {
+  "file": "assets/img/faculty/anubha-agarwal.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-09/Prof.%20Anubha%20Agarwal.jpg"
+ },
+ "sarvesh-bandhu": {
+  "file": "assets/img/faculty/sarvesh-bandhu.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Sarvesh-Bandhu.jpg"
+ },
+ "ritwik-banerjee": {
+  "file": "assets/img/faculty/ritwik-banerjee.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-11/Ritwik-Banerjee.JPG"
+ },
+ "manaswini-bhalla": {
+  "file": "assets/img/faculty/manaswini-bhalla.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof-Manaswini_bhalla.jpg"
+ },
+ "tirthatanmoy-das": {
+  "file": "assets/img/faculty/tirthatanmoy-das.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/tirthatanmoy-das.JPG"
+ },
+ "kunal-dasgupta": {
+  "file": "assets/img/faculty/kunal-dasgupta.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/kunal-dasgupta.jpg"
+ },
+ "anubha-dhasmana": {
+  "file": "assets/img/faculty/anubha-dhasmana.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/anubha-dasmana_0.jpg"
+ },
+ "subhashish-gupta": {
+  "file": "assets/img/faculty/subhashish-gupta.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Subhashish-Gupta.jpg"
+ },
+ "akhil-ilango": {
+  "file": "assets/img/faculty/akhil-ilango.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof-Akhil-Ilango.jpg"
+ },
+ "gaurav-jakhu": {
+  "file": "assets/img/faculty/gaurav-jakhu.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/Gaurav-Jakhu.JPG"
+ },
+ "sanket-patil": {
+  "file": "assets/img/faculty/sanket-patil.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Patil%20Sanket%20.jpg"
+ },
+ "aditya-shrinivas": {
+  "file": "assets/img/faculty/aditya-shrinivas.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Aditya-Srinivas.jpg"
+ },
+ "kuldeep-singh": {
+  "file": "assets/img/faculty/kuldeep-singh.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Kuldeep_Singh.jpeg"
+ },
+ "chetan-subramanian": {
+  "file": "assets/img/faculty/chetan-subramanian.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/chetan_subramanian.jpg"
+ },
+ "sankarshan-basu": {
+  "file": "assets/img/faculty/sankarshan-basu.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/sankarshan-basu.jpg"
+ },
+ "raja-reddy-bujunoori": {
+  "file": "assets/img/faculty/raja-reddy-bujunoori.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-08/raja-reddy-bujunoori.jpg"
+ },
+ "debojyoti-das": {
+  "file": "assets/img/faculty/debojyoti-das.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Debojyoti%20Das.JPG"
+ },
+ "anirudh-dhawan": {
+  "file": "assets/img/faculty/anirudh-dhawan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Anirudh-Dhawan.jpg"
+ },
+ "m-jayadev": {
+  "file": "assets/img/faculty/m-jayadev.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/m-jayadev.jpg"
+ },
+ "varun-jindal": {
+  "file": "assets/img/faculty/varun-jindal.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Varun%20Photo.jpg"
+ },
+ "shashidhar-murthy": {
+  "file": "assets/img/faculty/shashidhar-murthy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/shashidhar-murthy.jpg"
+ },
+ "venkatesh-panchapagesan": {
+  "file": "assets/img/faculty/venkatesh-panchapagesan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/venkatesh-panchapagesan.JPG"
+ },
+ "srinivasan-rangan": {
+  "file": "assets/img/faculty/srinivasan-rangan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/srinivasan-rangan.jpg"
+ },
+ "sumit-saurav": {
+  "file": "assets/img/faculty/sumit-saurav.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/sumit-saurav.jpg"
+ },
+ "padmini-srinivasan": {
+  "file": "assets/img/faculty/padmini-srinivasan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/padmini-srinivasan.jpg"
+ },
+ "venu-madhav-tatiparti": {
+  "file": "assets/img/faculty/venu-madhav-tatiparti.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Venu-Madhav-Tatiparti.jpg"
+ },
+ "ashok-thampy": {
+  "file": "assets/img/faculty/ashok-thampy.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/ashok-thampy.jpg"
+ },
+ "shankhadeep-banerjee": {
+  "file": "assets/img/faculty/shankhadeep-banerjee.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Shankhadeep-Banerjee.jpeg"
+ },
+ "spurthy-dharanikota": {
+  "file": "assets/img/faculty/spurthy-dharanikota.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Spurthy-Dharanikota.jpg"
+ },
+ "mayank-kumar": {
+  "file": "assets/img/faculty/mayank-kumar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2024-12/Prof.%20Mayank%20Kumar_0.JPG"
+ },
+ "panda-kumar-sachin": {
+  "file": "assets/img/faculty/panda-kumar-sachin.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-09/Professor%20Sachin%20Kumar%20Panda.JPG"
+ },
+ "shankar-venkatagiri": {
+  "file": "assets/img/faculty/shankar-venkatagiri.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/shankar-venkatagiri.jpg"
+ },
+ "gopal-das": {
+  "file": "assets/img/faculty/gopal-das.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/gopal-das_0.jpg"
+ },
+ "sreelata-jonnalagedda": {
+  "file": "assets/img/faculty/sreelata-jonnalagedda.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-12/Sreelata.jpg"
+ },
+ "nagasimha-balakrishna-kanagal": {
+  "file": "assets/img/faculty/nagasimha-balakrishna-kanagal.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/nagasimha-kanagal.JPG"
+ },
+ "ashis-mishra": {
+  "file": "assets/img/faculty/ashis-mishra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/ashish-mishra.JPG"
+ },
+ "mayank-nagpal": {
+  "file": "assets/img/faculty/mayank-nagpal.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/mayank-nagpal.jpg"
+ },
+ "arpita-pandey": {
+  "file": "assets/img/faculty/arpita-pandey.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/arpita-pandey-700px.jpg"
+ },
+ "srinivas-prakhya": {
+  "file": "assets/img/faculty/srinivas-prakhya.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/srinivas-prakhya_0.JPG"
+ },
+ "g-shainesh": {
+  "file": "assets/img/faculty/g-shainesh.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/g-shainesh_0.jpg"
+ },
+ "sachin-sridhar": {
+  "file": "assets/img/faculty/sachin-sridhar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar.jpg"
+ },
+ "neha-bellamkonda": {
+  "file": "assets/img/faculty/neha-bellamkonda.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Neha-Bellamkonda.jpg"
+ },
+ "prarthan-bhavyashil-desai": {
+  "file": "assets/img/faculty/prarthan-bhavyashil-desai.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-09/Prarthan-Bhavyashil-desai.jpg"
+ },
+ "sushanta-kumar-mishra": {
+  "file": "assets/img/faculty/sushanta-kumar-mishra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2024-12/Sushanta-Kumar-Mishra.JPG"
+ },
+ "kanchan-mukherjee": {
+  "file": "assets/img/faculty/kanchan-mukherjee.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/kanchan_mukherjee.jpg"
+ },
+ "sourav-mukherji": {
+  "file": "assets/img/faculty/sourav-mukherji.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Sourav%20Mukherji.JPG"
+ },
+ "apurva-sanaria": {
+  "file": "assets/img/faculty/apurva-sanaria.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-03/Apurva-Sanaria.jpg"
+ },
+ "vasanthi-srinivasan": {
+  "file": "assets/img/faculty/vasanthi-srinivasan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/vasanthi-srinivasan.JPG"
+ },
+ "surendra-babu-talluri": {
+  "file": "assets/img/faculty/surendra-babu-talluri.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Surendra-Babu-Talluri.jpg"
+ },
+ "maya-ganesh": {
+  "file": "assets/img/faculty/maya-ganesh.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2024-12/Prof.%20Maya%20ganesh%20-2.jpg"
+ },
+ "jishnu-hazra": {
+  "file": "assets/img/faculty/jishnu-hazra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/jishnu-hazra.jpg"
+ },
+ "tarun-jain": {
+  "file": "assets/img/faculty/tarun-jain.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/tarun-jain.JPG"
+ },
+ "d-krishna-sundar": {
+  "file": "assets/img/faculty/d-krishna-sundar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/krishna-sundar.jpg"
+ },
+ "siddharth-mahajan": {
+  "file": "assets/img/faculty/siddharth-mahajan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/siddharth-mahajan.JPG"
+ },
+ "amar-sapra": {
+  "file": "assets/img/faculty/amar-sapra.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/prof%20haritha.jpg"
+ },
+ "rajeev-r-tripathi": {
+  "file": "assets/img/faculty/rajeev-r-tripathi.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-05/Rajeev-Tripathi.JPG"
+ },
+ "nishant-kumar-verma": {
+  "file": "assets/img/faculty/nishant-kumar-verma.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/nishant-kumar-verma.JPG"
+ },
+ "rusha-das": {
+  "file": "assets/img/faculty/rusha-das.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Rusha-Das.jpg"
+ },
+ "rajalaxmi-kamath": {
+  "file": "assets/img/faculty/rajalaxmi-kamath.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/rajalaxmi-kamat.jpg"
+ },
+ "deepak-malghan": {
+  "file": "assets/img/faculty/deepak-malghan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2024-12/deepak-malaghan.jpg"
+ },
+ "arnab-mukherji": {
+  "file": "assets/img/faculty/arnab-mukherji.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/arnab-mukherji.jpg"
+ },
+ "soham-sahoo": {
+  "file": "assets/img/faculty/soham-sahoo.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/soham-sahoo-460_0.jpg"
+ },
+ "arpit-shah": {
+  "file": "assets/img/faculty/arpit-shah.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Arpit-Shah.jpg"
+ },
+ "m-s-sriram": {
+  "file": "assets/img/faculty/m-s-sriram.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/sriram-ms_0.JPG"
+ },
+ "anil-b-suraj": {
+  "file": "assets/img/faculty/anil-b-suraj.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/anil-b-suraj.jpg"
+ },
+ "deepak-chandrashekar": {
+  "file": "assets/img/faculty/deepak-chandrashekar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Deepak-Chandrashekar.jpg"
+ },
+ "p-d-jose": {
+  "file": "assets/img/faculty/p-d-jose.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/pd-jose.JPG"
+ },
+ "nilam-kaushik": {
+  "file": "assets/img/faculty/nilam-kaushik.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Dr.%20Nilam%20Kaushik%20.jpg"
+ },
+ "shailendra-kumar": {
+  "file": "assets/img/faculty/shailendra-kumar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Shailendra%20Kumar.jpg"
+ },
+ "rejie-george-pallathitta": {
+  "file": "assets/img/faculty/rejie-george-pallathitta.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/rejie-george.JPG"
+ },
+ "shubha-patvardhan": {
+  "file": "assets/img/faculty/shubha-patvardhan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-02/Shubha-Patvardhan.jpg"
+ },
+ "r-srinivasan": {
+  "file": "assets/img/faculty/r-srinivasan.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/R-Srinivasan.jpg"
+ },
+ "vijay-venkataraman": {
+  "file": "assets/img/faculty/vijay-venkataraman.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/vijay-venkataraman.jpg"
+ },
+ "sandeep-yadav": {
+  "file": "assets/img/faculty/sandeep-yadav.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2026-07/Prof-Sandeep-yadav.jpg"
+ },
+ "allen-p-ugargol": {
+  "file": "assets/img/faculty/allen-p-ugargol.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Allen%20P%20Ugargol.jpg"
+ },
+ "athira-a": {
+  "file": "assets/img/faculty/athira-a.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2024-12/prof-a-athira_1.jpg"
+ },
+ "haritha-saranga": {
+  "file": "assets/img/faculty/haritha-saranga.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/prof%20haritha.jpg"
+ },
+ "jaideep-sarkar": {
+  "file": "assets/img/faculty/jaideep-sarkar.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Prof.%20Jaideep%20Sarkar.jpg"
+ },
+ "malika": {
+  "file": "assets/img/faculty/malika.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Malika.jpg"
+ },
+ "ms-shalique": {
+  "file": "assets/img/faculty/ms-shalique.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/shaliqus-ms.jpg"
+ },
+ "mukta-kulkarni": {
+  "file": "assets/img/faculty/mukta-kulkarni.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-09/mukta-kulkarni.jpg"
+ },
+ "nitin-vishen": {
+  "file": "assets/img/faculty/nitin-vishen.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/Nitin-Vishen_0.jpg"
+ },
+ "sai-yayavaram": {
+  "file": "assets/img/faculty/sai-yayavaram.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/sai_yayavaram.jpg"
+ },
+ "v-ravi-anshuman": {
+  "file": "assets/img/faculty/v-ravi-anshuman.jpg",
+  "source": "https://www.iimb.ac.in/sites/default/files/2025-01/v-ravi-anshuman%20copy.jpg"
+ }
+}

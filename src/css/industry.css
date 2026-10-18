@@ -1,0 +1,52 @@
+/* =================================================================== INDUSTRY & ALUMNI */
+.in-hero { background: var(--cream); padding-top: clamp(2.5rem, 6vh, 4.5rem); }
+.in-top { margin-bottom: var(--s4); }
+.in-split { display: grid; grid-template-columns: 1fr; }
+.in-half { position: relative; display: grid; min-height: 62vh; text-decoration: none; overflow: hidden; isolation: isolate; }
+.in-img { position: absolute; inset: 0; z-index: -1; }
+.in-img img { transition: transform 1.4s var(--ease), filter .8s; }
+.in-rec .in-img img { filter: brightness(.5) saturate(.8); }
+.in-alu .in-img img { filter: brightness(.95) saturate(.7); mix-blend-mode: multiply; }
+.in-alu .in-img { background: var(--blush); }
+.in-lbl { align-self: end; display: grid; gap: .8rem; padding: clamp(1.4rem, 4vw, 3.4rem); max-width: 560px; }
+.in-alu .in-lbl { background: var(--blush); margin: 0 0 0 auto; }
+.in-k { font: 600 .76rem/1 var(--f-sans); font-stretch: 85%; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+.in-alu .in-k { color: var(--red); }
+.in-t { font: 400 clamp(2.2rem, 1.4rem + 3vw, 4.4rem)/.95 var(--f-display); }
+.in-d { font: 400 1.08rem/1.45 var(--f-serif); }
+.in-half:hover .in-img img { transform: scale(1.05); }
+@media (min-width: 1000px) {
+  .in-split { display: flex; height: 72vh; }
+  .in-half { flex: 1 1 50%; min-height: 0; transition: flex-grow .9s var(--ease); }
+  .in-split:hover .in-half { flex-grow: .7; }
+  .in-split .in-half:hover { flex-grow: 1.3; }
+}
+.inr-head { display: grid; gap: 1rem; margin-bottom: var(--s4); }
+@media (min-width: 1000px) { .inr-head { grid-template-columns: 7fr 5fr; align-items: end; } }
+.pcal { position: relative; margin-bottom: var(--s5); }
+.pcal-line { position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--rule); }
+.pcal-line span { display: block; height: 100%; background: var(--red); transform-origin: 0 50%; transform: scaleX(0); }
+.pcal-nodes { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem var(--g); position: relative; }
+.pcal-n { display: grid; gap: .5rem; align-content: start; }
+.pcal-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--cream); border: 2px solid var(--rule-strong); transition: background .5s, border-color .5s, transform .6s var(--ease); margin-bottom: .6rem; }
+.pcal-n.on .pcal-dot { background: var(--red); border-color: var(--red); transform: scale(1.25); }
+.pcal-v { font: 400 clamp(1.5rem, 1.1rem + 1.2vw, 2.2rem)/1.05 var(--f-display); color: var(--burgundy); }
+.pcal-k { font-size: .95rem; }
+@media (min-width: 900px) { .pcal-nodes { grid-template-columns: repeat(4, 1fr); } }
+.inr-grid { row-gap: var(--s4); }
+.inr-hire, .inr-out, .inr-contact { grid-column: 1 / -1; }
+.inr-hire .h3, .inr-out .h3 { margin-bottom: 1rem; }
+.hire-list { list-style: none; }
+.hire { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 1rem 0; border-top: 1px solid var(--rule); text-decoration: none; align-items: baseline; }
+.hire-code { font: 400 2.4rem/1 var(--f-display); color: var(--burgundy); transition: color .3s; }
+.hire:hover .hire-code { color: var(--red); }
+@media (min-width: 1000px) { .inr-hire { grid-column: 1 / span 5; } .inr-out { grid-column: 7 / span 6; } .inr-contact { grid-column: 1 / span 6; } }
+.alu-grid { display: grid; gap: var(--s4) var(--g); margin-bottom: var(--s5); }
+.alu { display: grid; gap: 1rem; align-content: start; }
+.alu-img { display: block; aspect-ratio: 3 / 2; }
+.alu h3 a { text-decoration: none; }
+@media (min-width: 1000px) { .alu-grid { grid-template-columns: 7fr 5fr; } .alu-lead { grid-row: span 2; } }
+.alu-foot { row-gap: var(--s4); padding-top: var(--s4); border-top: 2px solid var(--ink); }
+.alu-dean, .alu-give { grid-column: 1 / -1; display: grid; gap: 1rem; align-content: start; }
+.alu-give .btn { justify-self: start; }
+@media (min-width: 1000px) { .alu-dean { grid-column: 1 / span 5; } .alu-give { grid-column: 7 / span 6; } }
