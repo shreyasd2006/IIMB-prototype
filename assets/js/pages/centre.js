@@ -33,7 +33,7 @@
       ${isCsitm ? `<blockquote class="cn-vision"><p class="meta">Vision</p><p>${esc(I.csitm.vision)}</p></blockquote>` : ""}
       <p class="src">Source: <a class="ulink" href="${c.url}">${esc(c.abbr)} on iimb.ac.in</a>${isCsitm ? `, ${J.srcLink("csitmAbout", "About us")}` : ""}.</p></div>`);
 
-    if (isCsitm) add("history", "Since 1998", `<p class="cn-hist">${esc(I.csitm.history)}</p>`, "on-white");
+    if (isCsitm) add("history", "Since 1998", `<p class="cn-hist">${esc(I.csitm.history)}</p>`);
 
     const focus = isCsitm ? I.csitm.focus : c.areas;
     add("focus", "Focus areas", `<ol class="cn-focus" data-stagger>${focus.map((f, i) => `<li><span class="num">${String(i + 1).padStart(2, "0")}</span>${esc(f)}</li>`).join("")}</ol>
@@ -42,18 +42,18 @@
 
     if (isCsitm) {
       add("activities", "What CSITM does", `<ul class="cn-acts" data-stagger>${I.csitm.activities.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>
-        <h3 class="h4 sub-h">Collaborators</h3><ul class="cn-collab">${I.csitm.collaborators.map((x) => `<li>${x.u ? `<a class="ulink" href="${x.u}">${esc(x.t)}</a>` : esc(x.t)}</li>`).join("")}</ul>`, "on-white");
+        <h3 class="h4 sub-h">Collaborators</h3><ul class="cn-collab">${I.csitm.collaborators.map((x) => `<li>${x.u ? `<a class="ulink" href="${x.u}">${esc(x.t)}</a>` : esc(x.t)}</li>`).join("")}</ul>`);
       const ups = I.csitm.upcoming.map((x) => { const e = x.eventId && J.story(x.eventId); return `<li class="cn-up"><a href="${e ? u.story(e.id) : x.u}"><span class="tag">${esc(x.kind)}</span><span class="cn-up-t">${esc(x.t)}</span><span class="small">${esc(x.d)}</span>${icon(e ? "arrow" : "arrow-up")}</a></li>`; }).join("");
       add("events", "Events", `<h3 class="meta">Coming up</h3><ol class="cn-ups">${ups}</ol>
         <h3 class="meta sub-h">Recently</h3><ol class="index-list cn-past">${I.csitm.past.map((x, i) => `<li><a class="index-row" href="${x.u}"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="t">${esc(x.t)}</span></a></li>`).join("")}</ol>
         <div class="cn-gallery">${I.csitm.imgs.slice(1).map((k) => `<figure><span class="plate" data-plate="up">${J.img(k, { want: 800, sizes: "(min-width: 1000px) 30vw, 90vw" })}</span><figcaption class="caption">${J.credit(k)}</figcaption></figure>`).join("")}</div>
         <p class="src">From ${J.srcLink("csitmEvents", "CSITM events")}.</p>`);
       add("research", "Research", `<h3 class="meta">Research themes</h3><ul class="cn-themes">${I.csitm.researchThemes.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
-        <h3 class="meta sub-h">Selected outputs</h3><ol class="cn-outputs">${I.csitm.outputs.map((o) => `<li><span class="num">${o.y}</span><span><span class="h4">${esc(o.t)}</span><br><span class="small mute">${esc(o.by)} · ${esc(o.where)}</span></span></li>`).join("")}</ol>
-        <p class="src">From ${J.srcLink("csitmResearch", "CSITM research themes")}.</p>`, "on-white");
+        <h3 class="meta sub-h">Selected outputs</h3><ol class="cn-outputs">${I.csitm.outputs.map((o) => `<li><span class="num">${o.y}</span><span data-no-i18n><span class="h4">${esc(o.t)}</span><br><span class="small mute">${esc(o.by)} · ${esc(o.where)}</span></span></li>`).join("")}</ol>
+        <p class="src">From ${J.srcLink("csitmResearch", "CSITM research themes")}.</p>`);
     } else if (events.length || news.length) {
       add("activity", "Recent activity", `${events.length ? `<h3 class="meta">Events</h3><ol class="cn-ups">${events.map((e) => `<li class="cn-up"><a href="${u.story(e.id)}"><span class="tag">${esc(e.kind)}</span><span class="cn-up-t">${esc(e.title)}</span><span class="small">${J.range(e.start, e.end)}</span>${icon("arrow")}</a></li>`).join("")}</ol>` : ""}
-        ${news.length ? `<h3 class="meta sub-h">Stories</h3><div class="cn-news">${news.slice(0, 4).map((n) => `<a class="th-story" href="${u.story(n.id)}">${n.image ? `<span class="plate">${J.newsImg(n)}</span>` : ""}<span><span class="meta mute">${J.date(n.date)}</span><br><span class="h4">${esc(n.title)}</span></span></a>`).join("")}</div>` : ""}`, "on-white");
+        ${news.length ? `<h3 class="meta sub-h">Stories</h3><div class="cn-news">${news.slice(0, 4).map((n) => `<a class="th-story" href="${u.story(n.id)}">${n.image ? `<span class="plate">${J.newsImg(n)}</span>` : ""}<span><span class="meta mute">${J.date(n.date)}</span><br><span class="h4">${esc(n.title)}</span></span></a>`).join("")}</div>` : ""}`);
     }
 
     add("people", "People", people.length ? `<ul class="cn-people">${people.map((id) => { const f = J.fac(id); return `<li><a href="${u.person(id)}">${J.face(id, { cls: "cn-face" })}<span class="h4">${esc(f.name)}</span><span class="small mute">${id === c.chairId ? "Chairperson" : esc(f.title)}</span></a></li>`; }).join("")}</ul>${c.peopleNote ? `<p class="src">${esc(c.peopleNote)}</p>` : ""}${isCsitm ? `<p class="src">Faculty listed on ${J.srcLink("csitmPeople", "CSITM faculty support")}.</p>` : ""}`
@@ -63,7 +63,7 @@
       ${c.email ? `<p><span class="meta">Email</span><a class="h3 ulink" href="mailto:${c.email}">${esc(c.email)}</a></p>` : ""}
       ${isCsitm ? `<p><span class="meta">Telephone</span><a class="h3 ulink" href="tel:+918026993353">${I.csitm.phone}</a></p>` : ""}
       <p><span class="meta">Official page</span><a class="arrow-link" href="${c.url}"><span>${esc(c.url.replace(/^https?:\/\//, ""))}</span>${icon("arrow-up")}</a></p>
-      <p><span class="meta">Address</span>Indian Institute of Management Bangalore, Bannerghatta Road, Bengaluru 560076</p></div>`, "on-burgundy");
+      <p><span class="meta">Address</span>Indian Institute of Management Bangalore, Bannerghatta Road, Bengaluru 560076</p></div>`, "cn-contact-sec");
 
     $("[data-cn-body]").innerHTML = parts.join("");
     $("[data-cn-sub]").innerHTML = `<div class="wrap cn-sub-in">${nav.map(([id, l]) => `<a href="#${id}" data-cn-link="${id}">${esc(l)}</a>`).join("")}<span class="cn-sub-ink" aria-hidden="true"></span></div>`;

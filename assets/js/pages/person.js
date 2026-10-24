@@ -43,7 +43,7 @@
       <div class="pp-box"><h2 class="meta">For journalists</h2><p class="small">Media enquiries go through IIMB’s communications office: <a class="ulink" href="mailto:communications@iimb.ac.in">communications@iimb.ac.in</a>.</p></div>`;
 
     const pubs = f.pubs.map(cleanPub).filter((p) => p.length > 12);
-    if (pubs.length) $("[data-pp-pubs]").innerHTML = pubs.slice(0, 12).map((p, i) => `<li><span class="num">${String(i + 1).padStart(2, "0")}</span><span>${esc(p)}</span></li>`).join("") + (pubs.length > 12 ? `<li class="pp-more"><a class="arrow-link" href="${f.url}"><span>${pubs.length - 12} more on the official profile</span>${icon("arrow-up")}</a></li>` : "");
+    if (pubs.length) $("[data-pp-pubs]").innerHTML = pubs.slice(0, 12).map((p, i) => `<li><span class="num">${String(i + 1).padStart(2, "0")}</span><span data-no-i18n>${esc(p)}</span></li>`).join("") + (pubs.length > 12 ? `<li class="pp-more"><a class="arrow-link" href="${f.url}"><span>${pubs.length - 12} more on the official profile</span>${icon("arrow-up")}</a></li>` : "");
     else $("[data-pp-pubs-sec]").innerHTML = `<div class="wrap grid"><h2 class="h2 pp-pubs-h">Publications</h2><div class="pp-publist"><p class="dek">This profile lists no publications on the area page. The <a class="ulink" href="${f.url}">official profile</a> has the latest.</p></div></div>`;
 
     const surname = f.name.split(" ").pop();

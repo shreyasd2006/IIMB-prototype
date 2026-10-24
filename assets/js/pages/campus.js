@@ -3,7 +3,7 @@
   const { I, $, $$, esc, icon, u } = J;
   const C = I.campus;
   const COLS = [["unmaad", "film-classroom", "music", "library-commons"], ["sport", "pergola-light", "amphitheatre", "cafeteria"], ["hockey", "corridor", "art", "auditorium"]];
-  const ESSAY = ["pergola-light", "film-classroom", "library-commons", "amphitheatre", "sport", "hockey", "music", "unmaad", "cafeteria", "art", "corridor", "stone-bougainvillea", "film-convocation", "auditorium"];
+  const ESSAY = ["pergola-light", "ug-students-5", "film-classroom", "library-commons", "amphitheatre", "sport", "hockey", "music", "unmaad", "cafeteria", "ug-students-3", "art", "corridor", "stone-bougainvillea", "film-convocation", "ug-students-4", "auditorium"];
 
   function render() {
     $("[data-cm-cols]").innerHTML = COLS.map((col, i) => `<div class="cm-col cm-col-${i}">${[...col, ...col].map((k) => `<span class="cm-tile plate">${J.img(k, { want: 800, sizes: "34vw", alt: "", lazy: false })}</span>`).join("")}</div>`).join("");

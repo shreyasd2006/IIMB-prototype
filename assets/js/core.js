@@ -11,6 +11,46 @@
   J.small = () => innerWidth < 760;
   J.gsap = window.gsap && !J.rm ? window.gsap : null;
 
+  /* ---------------------------------------------------------------- language (English / हिन्दी) */
+  try { J.lang = localStorage.getItem("j-lang") === "hi" ? "hi" : "en"; } catch (_) { J.lang = "en"; }
+  const HI = (J.lang === "hi" && I.HI) || {};
+  J.t = (s) => (J.lang === "hi" && HI[s]) || s;
+  const HI_MONTHS = ["जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"];
+  /* Translate every text node and user-facing attribute under root using the Hindi dictionary.
+     Exact matches first; composite strings ("12 October 2026 · Rankings") are translated part by part. */
+  const SEP = /(\s+·\s+|\s+\|\s+|\s+–\s+|\s+—\s+|:\s+)/;
+  const NUM = /\d[\d,.]*\d|\d/g;
+  const norm = (s) => s.replace(/\s+/g, " ").trim();
+  const tplKey = (s) => s.replace(NUM, "{n}");
+  // exact match, then the same sentence with its numbers lifted out ("42 items" -> "{n} items")
+  const one = (t) => {
+    if (HI[t]) return HI[t];
+    if (!/\d/.test(t)) return null;
+    const k = tplKey(t);
+    if (HI[k]) { const nums = t.match(NUM) || []; let i = 0; return HI[k].replace(/\{n\}/g, () => nums[i++] ?? ""); }
+    return null;
+  };
+  // sentences that carry what the reader typed ("Nothing matches “xyz”.")
+  const RX = (J.lang === "hi" && I.HI_RX || []).map(([r, out]) => [new RegExp(r), out]);
+  const oneRx = (t) => { const h = one(t); if (h !== null) return h; for (const [r, out] of RX) if (r.test(t)) return t.replace(r, out); return null; };
+  const trText = (raw) => {
+    const t = norm(raw); if (!t || !/[A-Za-z]/.test(t)) return null;
+    const lead = /^\s/.test(raw) ? " " : "", tail = /\s$/.test(raw) ? " " : "";
+    const whole = oneRx(t); if (whole !== null) return lead + whole + tail;
+    const parts = t.split(SEP); if (parts.length < 2) return null;
+    let hit = false; const out = parts.map((p) => { const r = one(p); if (r !== null) { hit = true; return r; } return p; });
+    return hit ? lead + out.join("") + tail : null;
+  };
+  J._i18n = { norm, tplKey, SEP };
+  J.translate = (root = d.body) => {
+    if (J.lang !== "hi" || !root) return;
+    const w = d.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => (n.parentElement && n.parentElement.closest("script,style,[data-no-i18n],svg")) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; let n; while ((n = w.nextNode())) nodes.push(n);
+    nodes.forEach((x) => { const r = trText(x.nodeValue); if (r !== null) x.nodeValue = r; });
+    const els = root.nodeType === 1 ? [root, ...root.querySelectorAll("[placeholder],[aria-label],[title],[alt]")] : [];
+    els.forEach((el) => ["placeholder", "aria-label", "title", "alt"].forEach((a) => { const v = el.getAttribute && el.getAttribute(a); if (v) { const r = trText(v); if (r !== null) el.setAttribute(a, r); } }));
+  };
+
   /* ---------------------------------------------------------------- helpers */
   J.$ = (s, r = d) => r.querySelector(s);
   J.$$ = (s, r = d) => [...r.querySelectorAll(s)];
@@ -26,10 +66,11 @@
   J.theme = (id) => J.byId(I.themes, id);
   J.srcLink = (key, label) => { const s = (I.sources || {})[key]; return s ? `<a class="ulink" href="${s.u}">${J.esc(label || s.t)}</a>` : ""; };
   const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  J.months = MONTHS;
+  J.months = MONTHS; J.monthName = (i, short) => (J.lang === "hi" ? HI_MONTHS[i] : short ? MONTHS[i].slice(0, 3) : MONTHS[i]);
   J.date = (iso, style = "long") => {
     if (!iso) return "";
     const [y, m, dd] = iso.split("-").map(Number);
+    if (J.lang === "hi") return style === "dm" ? `${dd} ${HI_MONTHS[m - 1]}` : `${dd} ${HI_MONTHS[m - 1]} ${y}`;
     if (style === "short") return `${dd} ${MONTHS[m - 1].slice(0, 3)} ${y}`;
     if (style === "dm") return `${dd} ${MONTHS[m - 1].slice(0, 3)}`;
     return `${dd} ${MONTHS[m - 1]} ${y}`;
@@ -37,6 +78,8 @@
   J.range = (a, b) => {
     if (!b || a === b) return J.date(a);
     const [y1, m1, d1] = a.split("-").map(Number), [y2, m2, d2] = b.split("-").map(Number);
+    const MM = J.lang === "hi" ? HI_MONTHS : MONTHS;
+    if (J.lang === "hi") return y1 === y2 && m1 === m2 ? `${d1}–${d2} ${MM[m1 - 1]} ${y1}` : `${J.date(a)} – ${J.date(b)}`;
     if (y1 === y2 && m1 === m2) return `${d1}–${d2} ${MONTHS[m1 - 1]} ${y1}`;
     if (y1 === y2) return `${d1} ${MONTHS[m1 - 1].slice(0, 3)} – ${d2} ${MONTHS[m2 - 1].slice(0, 3)} ${y1}`;
     return `${J.date(a, "short")} – ${J.date(b, "short")}`;
@@ -139,7 +182,7 @@
     const g = G(); if (!g || !el) return null;
     const s = J.split(el);
     g.set(el, { visibility: "visible" });
-    return g.fromTo(s.lines, { yPercent: 112, rotate: o.rotate ?? 1.5 }, { yPercent: 0, rotate: 0, duration: o.dur ?? 1.15, ease: J.ease, stagger: o.stagger ?? 0.085, delay: o.delay ?? 0, onComplete: () => { if (!o.keep) s.revert(); } });
+    return g.fromTo(s.lines, { yPercent: 112, rotate: o.rotate ?? 1.2 }, { yPercent: 0, rotate: 0, duration: o.dur ?? 0.9, ease: J.ease, stagger: o.stagger ?? 0.06, delay: o.delay ?? 0, onComplete: () => { if (!o.keep) s.revert(); } });
   };
   J.plateIn = (el, o = {}) => {
     const g = G(); if (!g || !el) return null;
@@ -160,7 +203,7 @@
     if (!g) { els.forEach((e) => { e._rev = 1; e.style.visibility = "visible"; }); return; }
     els.forEach((el) => {
       el._rev = 1;
-      const st = { trigger: el, start: "top 88%", once: true };
+      const st = { trigger: el, start: "top 96%", once: true };
       if (el.hasAttribute("data-split")) {
         g.set(el, { visibility: "hidden" });
         ScrollTrigger.create({ ...st, onEnter: () => J.linesIn(el, { delay: +(el.dataset.delay || 0) }) });
@@ -172,15 +215,11 @@
       } else if (el.hasAttribute("data-stagger")) {
         const kids = [...el.children];
         g.set(el, { visibility: "visible" });
-        g.fromTo(kids, { y: 34, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 1, ease: J.ease, stagger: Math.min(0.08, 0.7 / Math.max(kids.length, 1)), scrollTrigger: { ...st, start: "top 90%" } });
+        g.fromTo(kids, { y: 28, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.75, ease: J.ease, stagger: Math.min(0.06, 0.45 / Math.max(kids.length, 1)), scrollTrigger: { ...st, start: "top 97%" } });
       } else if (el.hasAttribute("data-fade")) {
-        g.fromTo(el, { y: 26, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 1.1, ease: J.ease, delay: +(el.dataset.delay || 0), scrollTrigger: st });
+        g.fromTo(el, { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.8, ease: J.ease, delay: +(el.dataset.delay || 0), scrollTrigger: st });
       } else if (el.hasAttribute("data-count")) {
-        const txt = el.textContent, m = txt.match(/[\d,.]+/);
-        if (!m || /^(19|20)\d\d$/.test(m[0])) return; // never count up years: in-between values would read as false dates
-        const target = parseFloat(m[0].replace(/,/g, "")), dec = (m[0].split(".")[1] || "").length, obj = { v: 0 };
-        el.textContent = txt.replace(m[0], "0");
-        g.to(obj, { v: target, duration: 1.8, ease: "power3.out", scrollTrigger: st, onUpdate: () => { const n = obj.v.toFixed(dec); el.textContent = txt.replace(m[0], m[0].includes(",") ? Number(n).toLocaleString("en-IN") : n); }, onComplete: () => (el.textContent = txt) });
+        J.countUp(el, st);
       } else if (el.hasAttribute("data-parallax")) {
         const amt = +(el.dataset.parallax || 12), media = el.querySelector("img, video") || el;
         g.fromTo(media, { yPercent: -amt, scale: 1 + amt / 50 }, { yPercent: amt, ease: "none", scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true } });
@@ -188,11 +227,22 @@
     });
   };
 
+  /* Count from 1 up to the figure (years included, by request), fast, when it scrolls into view. */
+  J.countUp = (el, st) => {
+    const g = G(); if (!g) return;
+    const txt = el.textContent, m = txt.match(/\d[\d,.]*/);
+    if (!m) return;
+    const target = parseFloat(m[0].replace(/,/g, "")), dec = (m[0].split(".")[1] || "").length, obj = { v: 1 };
+    const fmt = (v) => { const n = Number(v.toFixed(dec)); return m[0].includes(",") ? n.toLocaleString("en-IN") : n.toFixed(dec); };
+    el.textContent = txt.replace(m[0], "1");
+    g.to(obj, { v: target, duration: target > 999 ? 1.5 : 1.2, ease: "power2.out", scrollTrigger: st || { trigger: el, start: "top 96%", once: true }, onUpdate: () => (el.textContent = txt.replace(m[0], fmt(obj.v))), onComplete: () => (el.textContent = txt) });
+  };
+
   /* Row-by-row reveal for long lists: only items below the fold start hidden. */
   J.batchIn = (sel, o = {}) => {
     const g = G(); if (!g || !window.ScrollTrigger) return;
-    g.set(J.$$(sel).filter((e) => e.getBoundingClientRect().top > innerHeight), { autoAlpha: 0, y: 34 });
-    ScrollTrigger.batch(sel, { start: "top 92%", once: true, onEnter: (els) => g.to(els, { autoAlpha: 1, y: 0, duration: o.dur || 0.9, stagger: 0.06, ease: J.ease, overwrite: true }) });
+    g.set(J.$$(sel).filter((e) => e.getBoundingClientRect().top > innerHeight), { autoAlpha: 0, y: 28 });
+    ScrollTrigger.batch(sel, { start: "top 97%", once: true, onEnter: (els) => g.to(els, { autoAlpha: 1, y: 0, duration: o.dur || 0.7, stagger: 0.05, ease: J.ease, overwrite: true }) });
   };
 
   /* FLIP for filtered lists: call with the container and a function that re-renders it. */
@@ -415,8 +465,8 @@
       const page = (url.pathname.split("/").pop() || "index.html").replace(".html", "") || "index";
       const [t, s] = LEAF[page] || LEAF.index;
       e.preventDefault();
-      J.$(".ttl", leaf).textContent = t; J.$(".sub", leaf).textContent = s;
-      try { sessionStorage.setItem("j-leaf", JSON.stringify([t, s])); } catch (_) {}
+      J.$(".ttl", leaf).textContent = J.t(t); J.$(".sub", leaf).textContent = J.t(s);
+      try { sessionStorage.setItem("j-leaf", JSON.stringify([J.t(t), J.t(s)])); } catch (_) {}
       J.closeContents && J.$("#contents.is-open") && (J.$("#contents").style.zIndex = 110);
       const tl = g.timeline({ onComplete: () => (location.href = url.href) });
       tl.fromTo(leaf, { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.6, ease: "expo.inOut" })
@@ -452,19 +502,20 @@
       b.replaceWith(wrap);
     });
   }
-  /* Background films: play only on screen; pause control; reduced motion and save-data keep the poster. */
-  J.bgFilm = (video, btn) => {
+  /* Films play continuously, muted and looping, with no controls (IIMB decision, 24 Oct 2026).
+     They pause only while off-screen or in a background tab, to save power; save-data keeps the poster. */
+  J.bgFilm = (video) => {
     if (!video) return;
     const saveData = navigator.connection && navigator.connection.saveData;
-    let userPaused = J.rm || saveData;
-    const set = (playing) => { if (!btn) return; btn.setAttribute("aria-pressed", playing ? "false" : "true"); btn.innerHTML = playing ? `${J.icon("pause")}<span class="sr">Pause the film</span>` : `${J.icon("play")}<span class="sr">Play the film</span>`; };
-    const tryPlay = () => { const p = video.play(); if (p && p.catch) p.catch(() => set(false)); };
-    if (!userPaused) { video.preload = "auto"; tryPlay(); }
-    set(!userPaused);
-    new IntersectionObserver(([en]) => { if (userPaused) return; en.isIntersecting ? tryPlay() : video.pause(); }, { threshold: 0.05 }).observe(video);
-    d.addEventListener("visibilitychange", () => { if (d.hidden) video.pause(); else if (!userPaused) tryPlay(); });
-    btn && btn.addEventListener("click", () => { userPaused = !video.paused; if (userPaused) video.pause(); else { video.preload = "auto"; tryPlay(); } set(!userPaused); });
-    video.addEventListener("play", () => set(true)); video.addEventListener("pause", () => set(false));
+    if (saveData) return;
+    // reduced-motion visitors keep the still poster, with a play control if they want the film
+    if (J.rm) { video.removeAttribute("autoplay"); video.pause(); if (!video.src && video.dataset.src) { video.preload = "none"; video.src = video.dataset.src; } video.controls = true; return; }
+    video.muted = true; video.loop = true; video.playsInline = true; video.removeAttribute("controls");
+    if (!video.src && video.dataset.src) video.src = video.dataset.src;
+    const tryPlay = () => { const p = video.play(); if (p && p.catch) p.catch(() => {}); };
+    video.preload = "auto"; tryPlay();
+    new IntersectionObserver(([en]) => (en.isIntersecting ? tryPlay() : video.pause()), { threshold: 0.02 }).observe(video);
+    d.addEventListener("visibilitychange", () => (d.hidden ? video.pause() : tryPlay()));
   };
 
   /* Draggable horizontal rails (mouse drag + wheel-free, keyboard via native scroll). */
@@ -475,6 +526,35 @@
     addEventListener("pointermove", (e) => { if (!down) return; const dx = e.clientX - sx; if (Math.abs(dx) > 4) moved = true; rail.scrollLeft = sl - dx; });
     addEventListener("pointerup", () => { down = false; rail.classList.remove("dragging"); });
     rail.addEventListener("click", (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+  };
+
+  /* Card carousel shared by the homepage and Programmes (after the second design): programme cards, arrows, drag, dots. */
+  J.progCard = (p) => { const first = String(p.summary).match(/^.*?[.!?](\s|$)/); return `<li class="pc-card"><a href="${J.u.prog(p.id)}">
+      <span class="pc-img">${J.img(p.img, { want: 800, sizes: "(max-width: 760px) 80vw, 380px", alt: "" })}</span>
+      <span class="pc-body"><span class="pc-level">${J.esc(p.level)}</span><span class="pc-name">${J.esc(p.name)}</span><span class="pc-rule" aria-hidden="true"></span>
+      <span class="pc-desc">${J.esc((first ? first[0] : p.summary).trim())}</span><span class="pc-go">Explore programme ${J.icon("arrow")}</span></span></a></li>`; };
+  J.carousel = (root) => {
+    const rail = J.$("[data-pc-rail]", root), track = J.$("[data-pc-track]", root), prev = J.$("[data-pc-prev]", root), next = J.$("[data-pc-next]", root), dotsBox = J.$("[data-pc-dots]", root);
+    if (!rail || !track) return;
+    J.dragRail(rail);
+    if (dotsBox) dotsBox.innerHTML = [...track.children].map((_, i) => `<i data-dot="${i}"${i === 0 ? ' class="on"' : ""}></i>`).join("");
+    const step = () => { const c = track.children[0]; return c ? c.getBoundingClientRect().width + (parseFloat(getComputedStyle(track).columnGap) || 24) : 400; };
+    const go = (dir) => rail.scrollBy({ left: dir * step() * (innerWidth > 1000 ? 2 : 1), behavior: J.rm ? "auto" : "smooth" });
+    prev && prev.addEventListener("click", () => go(-1));
+    next && next.addEventListener("click", () => go(1));
+    const sync = () => {
+      const i = Math.round(rail.scrollLeft / step());
+      J.$$("[data-dot]", root).forEach((dd) => dd.classList.toggle("on", +dd.dataset.dot === i));
+      if (prev) prev.disabled = rail.scrollLeft < 8;
+      if (next) next.disabled = rail.scrollLeft > rail.scrollWidth - rail.clientWidth - 8;
+    };
+    rail.addEventListener("scroll", () => requestAnimationFrame(sync), { passive: true });
+    sync();
+    const g = G();
+    if (g) {
+      g.fromTo(J.$$(".pc-card", track), { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, duration: 0.85, ease: J.ease, stagger: 0.07, scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
+      g.fromTo(J.$$(".pc-img img", track), { clipPath: "inset(100% 0 0 0)", scale: 1.15 }, { clipPath: "inset(0% 0 0 0)", scale: 1, duration: 1.1, ease: "expo.inOut", stagger: 0.07, scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
+    }
   };
 
   /* ---------------------------------------------------------------- boot */
@@ -492,10 +572,36 @@
     return tl;
   };
 
+  /* White / cream rhythm: top-level sections alternate, page by page (IIMB decision, 24 Oct 2026). */
+  function alternate() {
+    const secs = J.$$("main > section, main > article > section, main > article > header, main > article > div > section, main > div > section, main > article > [data-cn-body] > section").filter((s) => !s.hasAttribute("data-keep-bg") && !s.hidden && s.offsetHeight > 0);
+    let i = 0;
+    secs.forEach((s) => { s.classList.remove("bg-white", "bg-cream"); s.classList.add(i++ % 2 ? "bg-cream" : "bg-white"); });
+  }
+  J.alternate = alternate;
+  function setupLang() {
+    h.lang = J.lang === "hi" ? "hi" : "en-IN";
+    h.classList.toggle("lang-hi", J.lang === "hi");
+    J.$$("[data-lang-toggle]").forEach((b) => {
+      b.textContent = J.lang === "hi" ? "English" : "हिन्दी";
+      b.setAttribute("lang", J.lang === "hi" ? "en" : "hi");
+      b.setAttribute("aria-label", J.lang === "hi" ? "Switch the site to English" : "साइट को हिन्दी में देखें (Switch the site to Hindi)");
+      b.addEventListener("click", () => { try { localStorage.setItem("j-lang", J.lang === "hi" ? "en" : "hi"); } catch (_) {} location.reload(); });
+    });
+  }
+
   function boot() {
+    setupLang();
     setupScroll(); setupHeader(); setupContents(); setupFinder(); setupLeaf(); setupFilms();
     J.$$("[data-photo]").forEach((el) => { if (!el.innerHTML.trim()) el.innerHTML = J.img(el.dataset.photo, { lazy: !el.hasAttribute("data-eager"), sizes: el.dataset.sizes || "(min-width: 1000px) 60vw, 100vw" }); });
     try { pageRender && pageRender(); } catch (err) { console.error(err); const m = J.$("#main"); m && m.insertAdjacentHTML("afterbegin", `<div class="wrap"><p class="placeholder-note">This section could not be rendered: ${J.esc(err.message)}</p></div>`); }
+    alternate();
+    J.$$("video[data-film]").forEach((v) => J.bgFilm(v));
+    if (J.lang === "hi") {
+      J.translate(d.body);
+      new MutationObserver((ms) => ms.forEach((m) => m.addedNodes.forEach((n) => { if (n.nodeType === 1) J.translate(n); else if (n.nodeType === 3 && n.parentElement) J.translate(n.parentElement); }))).observe(d.body, { childList: true, subtree: true });
+      d.title = trText(d.title) || d.title;
+    }
     const g = G();
     if (g) {
       // hide intro items before the first frame; mp class kept them hidden until now

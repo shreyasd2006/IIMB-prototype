@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------------ Footer (sections as on iimb.ac.in) */
+.site-footer { background: var(--burgundy); color: var(--white); padding-top: var(--s5); }
+.site-footer .ft-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.6rem 2rem; padding-bottom: var(--s4); border-bottom: 1px solid rgba(255, 255, 255, .18); }
+.white-logo { display: inline-flex; }
+.white-logo img { height: clamp(44px, 3.2vw + 30px, 60px); width: auto; }
+.social { list-style: none; display: flex; gap: .55rem; }
+.social a { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255, 255, 255, .4); color: var(--white); transition: background var(--d-mid) var(--ease), color var(--d-mid), transform .5s var(--ease), border-color var(--d-mid); }
+.social a:hover, .social a:focus-visible { background: var(--white); color: var(--burgundy); border-color: var(--white); transform: translateY(-3px); }
+.social .ico { width: 20px; height: 20px; }
+.site-footer .cols { display: grid; grid-template-columns: 1fr; gap: 2.2rem var(--g); padding-block: var(--s4); }
+.site-footer h2 { font: 650 1.02rem/1.2 var(--f-sans); color: var(--white); margin-bottom: 1rem; padding-bottom: .7rem; border-bottom: 2px solid var(--red); display: inline-block; }
+.site-footer ul { list-style: none; display: grid; gap: .5rem; }
+.site-footer a { text-decoration: none; color: rgba(255, 255, 255, .86); transition: color var(--d-fast); }
+.site-footer .cols a { background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size .45s var(--ease), color var(--d-fast); }
+.site-footer a:hover, .site-footer a:focus-visible { color: var(--white); background-size: 100% 1px; }
+.site-footer address { font-style: normal; color: rgba(255, 255, 255, .86); font-size: .96rem; line-height: 1.6; }
+.ft-quick { display: flex !important; flex-wrap: wrap; gap: .4rem 1.2rem; margin-top: 1.2rem; }
+.ft-lang { border: 0; background: none; padding: 0; color: rgba(255, 255, 255, .86); font: inherit; text-decoration: underline; text-underline-offset: .2em; }
+.ft-lang:hover { color: var(--white); }
+.site-footer .legal { display: flex; flex-wrap: wrap; gap: .6rem 1.6rem; justify-content: space-between; padding-block: 1.3rem; border-top: 1px solid rgba(255, 255, 255, .18); font-size: .86rem; color: rgba(255, 255, 255, .82); }
+.legal-links { display: flex; gap: 1.4rem; }
+.concept-note { margin: 0; padding: .9rem 0 1.6rem; font-size: .8rem; color: rgba(255, 255, 255, .7); }
+.concept-note a { text-decoration: underline; text-underline-offset: .2em; }
+@media (min-width: 760px) { .site-footer .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .site-footer .cols { grid-template-columns: 1fr 1.2fr 1.3fr 1.1fr; } }

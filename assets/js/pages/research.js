@@ -94,8 +94,8 @@
     const shown = state.all || q || state.theme !== "all" ? list : list.slice(0, 12);
     const doit = () => {
       box.innerHTML = list.length ? shown.map((p) => `<li class="pub" data-key="${p.k}"><a href="${p.u}" class="pub-a">
-        <span class="pub-n">${p.n}</span><span class="pub-t">${q ? J.mark(p.t, q) : esc(p.t)}</span>
-        <span class="pub-by">${q ? J.mark(p.by, q) : esc(p.by)}${p.y ? " · " + p.y : ""}</span>
+        <span class="pub-n">${p.n}</span><span class="pub-t" data-no-i18n>${q ? J.mark(p.t, q) : esc(p.t)}</span>
+        <span class="pub-by" data-no-i18n>${q ? J.mark(p.by, q) : esc(p.by)}${p.y ? " · " + p.y : ""}</span>
         <span class="pub-th">${J.themesOf(p.t).map((t) => `<span class="tag">${esc(J.theme(t).t.split(",")[0])}</span>`).join("")}</span>${icon("arrow-up")}</a></li>`).join("")
         : `<li class="empty"><p class="h3">No publication matches.</p><p>Clear the search or choose “All themes”.</p></li>`;
       if (shown.length < list.length) box.insertAdjacentHTML("beforeend", `<li class="pub-more"><button class="btn ghost" type="button" data-more>Show all ${list.length}${icon("plus")}</button></li>`);

@@ -1,4 +1,4 @@
-/* Programmes — The Decision Journey */
+/* Programmes — after the second design: carousel, at a glance, degree grid, admission steps, executive education, finder, UG list, calendar, FAQ */
 (() => {
   const { I, $, $$, esc, icon, u } = J;
   const FORMATS = [
@@ -66,7 +66,40 @@
     if (J.gsap) J.gsap.fromTo("[data-cmp] td, [data-cmp] th", { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, duration: 0.5, stagger: 0.008, ease: J.ease });
   }
 
+  const DEGREES = ["pgp", "pgpba", "epgp", "pgpem", "pgppm", "phd"], UG = ["bsc-data-sciences", "bsc-economics", "bba-dbe", "nsr-predoc"];
+  const STEPS = [
+    ["Take the entrance test", "CAT for the PGP; the UG Admission Test for the BSc (Hons) programmes. Each programme page lists its own route."],
+    ["Apply online", "Through IIMB’s official admissions page for the programme, with your academic record and, where asked, work experience."],
+    ["Shortlist and interview", "PGP shortlists are invited to a Written Ability Test and Personal Interview; UG interviews run in January."],
+    ["Offer and enrolment", "Each programme announces its offers; for the BSc (Hons), offers and the waitlist come in the third week of February 2027 (tentative)."],
+  ];
+  const FAQ = [
+    ["Which entrance test do I need?", "For the PGP, CAT 2026 (international applicants follow a separate route). For the BSc (Hons) programmes, the national UG Admission Test, scheduled for 15 November 2026 (tentative). Online GMAT/GRE scores are not applicable for the PGPEM 2027 batch."],
+    ["Can I study while working?", "Yes. The PGPEM runs on weekends on campus over two to five years; the PGPPM is a 14-month hybrid of online and on-campus modules; executive education offers short, long and custom programmes."],
+    ["How much work experience do the executive programmes ask for?", "At least five years after graduation for the EPGP and the PGPPM, and at least six years for the PGPEM."],
+    ["Is financial aid available?", "All PGP students with an annual household income below INR 800,000 are eligible to apply for financial aid. The N. S. Ramaswamy Pre-doctoral Fellowship comes with 100 percent financial support."],
+    ["What does the PGP cost?", "Rs 26,00,000 for two years (PGP 2026–28, domestic), plus a mess advance of Rs 30,000 each term. Taxes are extra."],
+    ["Do the undergraduate programmes have their own admission process?", "Yes. Applicants need a pass in Class XII or equivalent with Mathematics at 60% or above, then sit a national-level entrance examination and a personal interview."],
+  ];
+
   function render() {
+    /* carousel, at a glance, degree grid, steps, UG list, FAQ */
+    $("[data-pc-track]").innerHTML = I.programmes.map(J.progCard).join("");
+    $("[data-glance]").innerHTML = [[DEGREES.length, "Degree-granting programmes"], [UG.length, "Undergraduate and certificate programmes"], [11, "Academic areas teaching across them"], [1973, "Teaching management since"]].map(([v, l]) => `<div class="gl-i"><dt class="num" data-count>${v}</dt><dd>${l}</dd></div>`).join("");
+    $("[data-degrees]").innerHTML = DEGREES.map(J.prog).map((p, i) => `<li class="dg-card"><a href="${u.prog(p.id)}">
+        <span class="dg-n">${String(i + 1).padStart(2, "0")}</span>
+        <span class="dg-deg">${esc(p.degree)}</span>
+        <span class="dg-code">${esc(p.short)}</span>
+        <span class="dg-name">${esc(p.name)}</span>
+        <span class="dg-meta">${esc(p.duration)} · ${esc(p.format)}</span>
+        <span class="dg-go">${icon("arrow-up")}</span></a></li>`).join("");
+    $("[data-adm]").innerHTML = STEPS.map(([t, d], i) => `<li class="adm-step"><span class="adm-num">${String(i + 1).padStart(2, "0")}</span><span class="adm-dot" aria-hidden="true"></span><h3 class="h4">${esc(t)}</h3><p>${esc(d)}</p></li>`).join("");
+    $("[data-ug]").innerHTML = UG.map(J.prog).map((p, i) => `<li><a class="ug-row" href="${u.prog(p.id)}"><span class="ug-n">${String(i + 1).padStart(2, "0")}</span><span class="ug-t"><span class="h4">${esc(p.name)}</span><span class="small mute">${esc(p.level)} · ${esc(p.duration)} · ${esc(p.format)}</span></span>${icon("arrow")}</a></li>`).join("");
+    $("[data-faq]").innerHTML = FAQ.map(([q, a], i) => `<div class="faq-i"><h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-a${i}" id="faq-q${i}" data-faq-q><span>${esc(q)}</span><span class="faq-ic" aria-hidden="true"></span></button></h3><div class="faq-a" id="faq-a${i}" role="region" aria-labelledby="faq-q${i}"><div><p>${esc(a)}</p></div></div></div>`).join("");
+    $$("[data-faq-q]").forEach((b) => b.addEventListener("click", () => { const open = b.getAttribute("aria-expanded") === "true"; b.setAttribute("aria-expanded", String(!open)); b.closest(".faq-i").classList.toggle("open", !open); }));
+    $("[data-ex-cap]").innerHTML = J.credit("exec-ed");
+    $("[data-ug-cap]").innerHTML = J.credit("ug-students-2");
+
     const p = new URLSearchParams(location.search);
     state.aud = I.audiences.some((a) => a.id === p.get("for")) ? p.get("for") : null;
     state.fmt = FORMATS.some((f) => f.id === p.get("format")) ? p.get("format") : "any";
@@ -126,8 +159,18 @@
   function intro(delay) {
     J.defaultIntro(delay);
     const g = J.gsap; if (!g) return;
-    g.fromTo("[data-steps] .step", { autoAlpha: 0, x: -30 }, { autoAlpha: 1, x: 0, duration: 1, ease: J.ease, stagger: 0.12, delay: delay + 0.35 });
-    g.fromTo(".prog-row", { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.9, ease: J.ease, stagger: 0.05, delay: delay + 0.5 });
+    J.carousel($(".pcar-sec"));
+    g.fromTo(".pr-keys li", { autoAlpha: 0, x: 24 }, { autoAlpha: 1, x: 0, duration: 0.7, ease: J.ease, stagger: 0.06, delay: delay + 0.4 });
+    /* degree grid: cards rise in a diagonal wave; outline numerals fill on hover (CSS) */
+    g.fromTo(".dg-card", { autoAlpha: 0, y: 46 }, { autoAlpha: 1, y: 0, duration: 0.9, ease: J.ease, stagger: { each: 0.08, grid: "auto", from: "start" }, scrollTrigger: { trigger: ".dgrid", start: "top 92%", once: true } });
+    /* admission steps: the line draws through the four stops as you scroll */
+    g.fromTo("[data-adm-fill]", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: { trigger: "[data-adm-rail]", start: "top 85%", end: "bottom 55%", scrub: 0.5 } });
+    $$(".adm-step").forEach((st, i) => ScrollTrigger.create({ trigger: "[data-adm-rail]", start: () => `top ${85 - i * 9}%`, onEnter: () => st.classList.add("on"), onLeaveBack: () => st.classList.remove("on") }));
+    g.fromTo(".adm-step", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.1, scrollTrigger: { trigger: "[data-adm-rail]", start: "top 92%", once: true } });
+    g.fromTo(".ug-row", { autoAlpha: 0, x: -30 }, { autoAlpha: 1, x: 0, duration: 0.8, ease: J.ease, stagger: 0.08, scrollTrigger: { trigger: ".ug-list", start: "top 94%", once: true } });
+    g.fromTo(".faq-i", { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 0.7, ease: J.ease, stagger: 0.06, scrollTrigger: { trigger: ".faq", start: "top 94%", once: true } });
+    g.fromTo("[data-steps] .step", { autoAlpha: 0, x: -30 }, { autoAlpha: 1, x: 0, duration: 0.9, ease: J.ease, stagger: 0.12, scrollTrigger: { trigger: "[data-steps]", start: "top 92%", once: true } });
+    J.batchIn(".prog-row");
     g.fromTo("[data-tl-line]", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: { trigger: "[data-dates]", start: "top 80%", end: "bottom 50%", scrub: 0.6 } });
     g.fromTo(".tl-node", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, stagger: 0.09, duration: 0.8, ease: J.ease, scrollTrigger: { trigger: "[data-dates]", start: "top 78%", once: true } });
   }

@@ -6,14 +6,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src", "pages")
 
 NAV = [
+    ("about", "About", "about.html"),
     ("programmes", "Programmes", "programmes.html"),
     ("research", "Research", "research.html"),
     ("faculty", "Faculty", "faculty.html"),
     ("centres", "Centres", "centres.html"),
-    ("partnerships", "Partnerships", "partnerships.html"),
     ("news", "News & Events", "news.html"),
     ("campus", "Campus Life", "campus.html"),
-    ("about", "About", "about.html"),
+    ("partnerships", "Partnerships", "partnerships.html"),
 ]
 
 ALL_DATA = ["institute", "faculty", "portraits", "news", "events", "photos", "publications", "obs", "journal"]
@@ -52,6 +52,15 @@ ICONS = """<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hid
 <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
 <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
 <symbol id="i-drag" viewBox="0 0 24 24"><path d="M8 12h8M5 9l-3 3 3 3M19 9l3 3-3 3"/></symbol>
+<symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.6 2.6 14.4 0 17M12 3.5c-2.6 2.6-2.6 14.4 0 17"/></symbol>
+<symbol id="s-facebook" viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4A21 21 0 0 0 14.4 4C12 4 10.5 5.4 10.5 8v2.5H8v3h2.5V21z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="s-x" viewBox="0 0 24 24"><path d="M4 4l6.6 8.8L4.3 20h1.5l5.5-6.3 4.7 6.3H20l-6.9-9.3L19 4h-1.5l-5 5.8L8.1 4z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="s-linkedin" viewBox="0 0 24 24"><path d="M5 9h3v10H5zM6.5 4.5a1.75 1.75 0 1 1 0 3.5 1.75 1.75 0 0 1 0-3.5zM10.5 9h2.9v1.4c.4-.8 1.4-1.6 3-1.6 3.1 0 3.6 2 3.6 4.6V19h-3v-4.9c0-1.2 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5v5h-3z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="s-youtube" viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="s-instagram" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="16.8" cy="7.2" r=".9" fill="currentColor" stroke="none"/></symbol>
+<symbol id="s-whatsapp" viewBox="0 0 24 24"><path d="M4.5 19.5l1.1-3.9A8 8 0 1 1 8.6 18.5z"/><path d="M9.2 8.6c.2-.5.6-.5.9-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .5-.1.6l-.5.6c.6 1.2 1.6 2.1 2.8 2.7l.6-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.6v.5c0 .6-.6 1.3-1.4 1.4-1 .1-2.6-.3-4.3-1.8S9 11.1 9 10.1c0-.6.1-1.1.2-1.5z" fill="currentColor" stroke="none"/></symbol>
 </svg>"""
 
 
@@ -72,32 +81,44 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-<meta name="theme-color" content="#641D35">
-<link rel="icon" href="assets/brand/favicon.png">
-<link rel="preload" href="assets/fonts/gloock-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#631111">
+<link rel="icon" href="assets/brand/favicon-official.png">
 <link rel="preload" href="assets/fonts/anek-latin-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/eczar-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/journal.css">
 <link rel="stylesheet" href="assets/css/pages.css">
-<script>(function(d){{var h=d.documentElement;h.classList.add('js');var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;if(!rm){{h.classList.add('mp');setTimeout(function(){{h.classList.remove('mp');h.classList.remove('leaf-in')}},3500)}}try{{if(!rm&&sessionStorage.getItem('j-leaf'))h.classList.add('leaf-in')}}catch(e){{}}}})(document)</script>
+<script>(function(d){{var h=d.documentElement;h.classList.add('js');var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;if(!rm){{h.classList.add('mp');setTimeout(function(){{h.classList.remove('mp');h.classList.remove('leaf-in')}},3500)}}try{{if(!rm&&sessionStorage.getItem('j-leaf'))h.classList.add('leaf-in');if(localStorage.getItem('j-lang')==='hi'){{h.lang='hi';h.classList.add('lang-hi')}}}}catch(e){{}}}})(document)</script>
 </head>
 <body data-page="{name}">
 {ICONS}
 <a class="skip" href="#main">Skip to content</a>
-<div class="leaf" aria-hidden="true"><div class="inner"><span class="ttl">{html.escape(leaf_t)}</span><span class="sub">{html.escape(leaf_s)}</span><span class="rule"></span></div></div>
+<div class="leaf" aria-hidden="true"><div class="inner"><img class="leaf-mark" src="assets/brand/iimb-monogram-white-320.png" width="320" height="245" alt=""><span class="ttl">{html.escape(leaf_t)}</span><span class="sub">{html.escape(leaf_s)}</span><span class="rule"></span></div></div>
+
+<div class="utility" data-intro>
+  <div class="wrap util-in">
+    <nav class="util-links" aria-label="Quick links">
+      <a href="industry.html">For Recruiters</a>
+      <a href="industry.html#alumni">Alumni</a>
+      <a class="ext" href="https://eep.iimb.ac.in/">Executive Education</a>
+      <a class="ext" href="https://library.iimb.ac.in/library">Library</a>
+      <a class="ext" href="https://www.iimb.ac.in/giving/">Giving</a>
+    </nav>
+    <div class="util-tools">
+      <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
+      <a class="util-adm" href="programmes.html#finder">Admissions</a>
+    </div>
+  </div>
+</div>
 <header class="site-header" data-intro>
   <div class="wrap bar">
-    <a class="brand" href="index.html" aria-label="IIM Bangalore, The Global Leadership Journal: home">
-      <img src="assets/brand/iimb-logo-720.png" width="720" height="119" alt="Indian Institute of Management Bangalore">
-      <span class="issue">The Global Leadership Journal<small>Concept · Bengaluru · Est. 1973</small></span>
+    <a class="brand" href="index.html" aria-label="Indian Institute of Management Bangalore, home">
+      <img src="assets/brand/iimb-logo-official-960.png" width="960" height="159" alt="Indian Institute of Management Bangalore">
     </a>
     <nav class="nav" aria-label="Main"><ul>
 {nav}
     </ul></nav>
     <div class="tools">
       <button class="icon-btn" type="button" data-open-search aria-label="Search the site (press /)"><svg class="ico"><use href="#i-search"/></svg></button>
-      <button class="contents-btn" type="button" data-open-contents aria-expanded="false" aria-controls="contents"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lbl">Contents</span><span class="sr">Open the site contents</span></button>
-      <a class="btn apply-btn" href="programmes.html#finder">Apply<svg class="ico"><use href="#i-arrow"/></svg></a>
+      <button class="contents-btn" type="button" data-open-contents aria-expanded="false" aria-controls="contents"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="lbl">Menu</span><span class="sr">Open the site contents</span></button>
     </div>
   </div>
   <span class="progress" aria-hidden="true"></span>
@@ -105,7 +126,7 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
 
 <div class="contents on-burgundy" id="contents" role="dialog" aria-modal="true" aria-label="Contents" hidden>
   <div class="wrap top">
-    <a class="plate-logo" href="index.html"><img src="assets/brand/iimb-logo-720.png" width="720" height="119" alt="IIM Bangalore home"></a>
+    <a class="white-logo" href="index.html"><img src="assets/brand/iimb-logo-white-960.png" width="960" height="159" alt="IIM Bangalore home"></a>
     <button class="close" type="button" data-close-contents>Close<svg class="ico"><use href="#i-close"/></svg></button>
   </div>
   <div class="wrap body">
@@ -113,8 +134,8 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
     <div class="aside"><div class="preview" data-toc-preview></div><p class="caption" data-toc-caption></p></div>
   </div>
   <div class="wrap quick">
-    <a href="programmes.html#finder">Apply</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact</a><a href="search.html">Search</a>
-    <span class="motto" lang="sa">तेजस्वि नावधीतमस्तु</span>
+    <a href="programmes.html#finder">Admissions</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">For Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact us</a><a href="search.html">Search</a>
+    <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
   </div>
 </div>
 
@@ -139,28 +160,66 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
 
 <footer class="site-footer on-burgundy">
   <div class="wrap">
-    <div class="motto-line">
-      <span class="dev" lang="sa">तेजस्वि नावधीतमस्तु</span>
-      <span class="en">Let our study be enlightening.</span>
+    <div class="ft-top">
+      <a class="white-logo" href="index.html"><img src="assets/brand/iimb-logo-white-960.png" width="960" height="159" alt="Indian Institute of Management Bangalore, home" loading="lazy"></a>
+      <ul class="social" aria-label="IIM Bangalore on social media">
+        <li><a href="https://www.facebook.com/IIMBOfficial" aria-label="Facebook"><svg class="ico"><use href="#s-facebook"/></svg></a></li>
+        <li><a href="https://twitter.com/iimb_official" aria-label="X (Twitter)"><svg class="ico"><use href="#s-x"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/school/indian-institute-of-management-bangalore/" aria-label="LinkedIn"><svg class="ico"><use href="#s-linkedin"/></svg></a></li>
+        <li><a href="https://www.youtube.com/channel/UCZAWa1UvCXDqD9pBPDAqQ0Q" aria-label="YouTube"><svg class="ico"><use href="#s-youtube"/></svg></a></li>
+        <li><a href="https://www.instagram.com/iimbofficial/" aria-label="Instagram"><svg class="ico"><use href="#s-instagram"/></svg></a></li>
+        <li><a href="https://whatsapp.com/channel/0029VaFsWsu3GJOxRnVKtj23" aria-label="WhatsApp channel"><svg class="ico"><use href="#s-whatsapp"/></svg></a></li>
+      </ul>
     </div>
     <div class="cols">
-      <div>
-        <a class="plate-logo" href="index.html"><img src="assets/brand/iimb-logo-720.png" width="720" height="119" alt="IIM Bangalore home"></a>
-        <address>Indian Institute of Management Bangalore<br>Bannerghatta Road, Bengaluru 560076, India<br><a href="tel:+918026993000">+91 80 2699 3000</a> · <a href="mailto:info@iimb.ac.in">info@iimb.ac.in</a></address>
+      <div><h2>Useful Links</h2><ul>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/2023-09/IIMB-Regulations-Gazetted_31.08.2023.pdf">IIMB Regulations</a></li>
+        <li><a href="https://www.iimb.ac.in/rti">Right to Information</a></li>
+        <li><a href="https://www.iimb.ac.in/student_verification">Student Verification</a></li>
+        <li><a href="https://www.iimb.ac.in/tender_notices">Tender Notices</a></li>
+        <li><a href="https://www.iimb.ac.in/media-room">Media Room</a></li>
+        <li><a href="https://www.iimb.ac.in/campus_tour">Campus Tour</a></li>
+        <li><a href="https://library.iimb.ac.in/library">Library</a></li>
+        <li><a href="https://webmail.iimb.ac.in">IIMB Webmail</a></li>
+      </ul></div>
+      <div><h2>Policies</h2><ul>
+        <li><a href="https://www.iimb.ac.in/iim-act-rules">IIM Act and Rules</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/inline-files/Anti-ragging-IIMB_1.pdf">Anti-ragging Policy</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/inline-files/Policy-Sexual-Harassment-Free-Campus-IIMB.pdf">Policy for Sexual Harassment Free Campus</a></li>
+        <li><a href="https://www.iimb.ac.in/accessibility-statement">Accessibility Statement</a></li>
+        <li><a href="https://www.iimb.ac.in/copyright-policy">Copyright Policy</a></li>
+        <li><a href="https://www.iimb.ac.in/hyperlinking-policy">Hyperlink Policy</a></li>
+        <li><a href="https://www.iimb.ac.in/feedback">Feedback</a></li>
+        <li><a href="https://www.iimb.ac.in/calendar-2026/">Holiday Calendar 2026</a></li>
+      </ul></div>
+      <div><h2>Publications</h2><ul>
+        <li><a href="https://www.iimb.ac.in/annual-reports">Annual Reports</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/IIMB-Impact-Report%202025/">IIMB Impact Report 2025</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/inline-files/Golden-Jubilee-Week_Report.pdf">Golden Jubilee Week Report</a></li>
+        <li><a href="https://www.iimb.ac.in/nirf-india-rankings">NIRF</a></li>
+        <li><a href="https://www.iimb.ac.in/publications/history-project">History Project</a></li>
+        <li><a href="https://www.iimb.ac.in/publications/alumni-relations-development-report">Alumni Relations and Development Report</a></li>
+        <li><a href="https://www.iimb.ac.in/node/13522">Carbon Footprint Report</a></li>
+        <li><a href="https://www.iimb.ac.in/iimb_digest">IIMB Digest</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/2022-09/IIMB-Review-Committee-Report-2022.pdf">IIMB Review Committee Report</a></li>
+        <li><a href="https://www.iimb.ac.in/sites/default/files/inline-files/iimb-sustainability-report-2025.pdf">IIMB Sustainability Report 2025</a></li>
+        <li><a href="https://www.iimb.ac.in/iimb-faculty-write-thought-leadership-articles">Thought Leadership Articles</a></li>
+      </ul></div>
+      <div><h2>Contact us</h2>
+        <address>Indian Institute of Management Bangalore<br>Bannerghatta Road, Bengaluru, India - 560076<br>Phone: <a href="tel:+918026993000">+91-80-26993000</a> / <a href="tel:+918026582450">26582450</a></address>
+        <ul class="ft-quick"><li><a href="https://blog.iimb.ac.in/">Blog</a></li><li><button class="ft-lang" type="button" data-lang-toggle>हिन्दी</button></li><li><a href="https://www.iimb.ac.in/screen-reader-access">Screen Reader Access</a></li></ul>
       </div>
-      <div><h2>Study</h2><ul><li><a href="programmes.html">Find a programme</a></li><li><a href="programme.html?id=pgp">MBA (PGP)</a></li><li><a href="programme.html?id=epgp">Executive MBA</a></li><li><a href="programme.html?id=bsc-data-sciences">Undergraduate</a></li><li><a href="programme.html?id=phd">Doctoral</a></li></ul></div>
-      <div><h2>Ideas</h2><ul><li><a href="research.html">Research</a></li><li><a href="faculty.html">Faculty</a></li><li><a href="centres.html">Centres</a></li><li><a href="centre.html?id=csitm">CSITM</a></li><li><a href="news.html">News &amp; events</a></li></ul></div>
-      <div><h2>Engage</h2><ul><li><a href="partnerships.html">Partnership studio</a></li><li><a href="industry.html">Recruiters</a></li><li><a href="industry.html#alumni">Alumni</a></li><li><a class="ext" href="https://eep.iimb.ac.in/">Executive education</a></li><li><a class="ext" href="https://www.iimb.ac.in/giving/">Giving</a></li></ul></div>
-      <div><h2>Institute</h2><ul><li><a href="about.html">About IIMB</a></li><li><a href="campus.html">Campus life</a></li><li><a class="ext" href="https://www.iimb.ac.in/">Official website</a></li><li><a href="credits.html">Sources &amp; credits</a></li></ul></div>
     </div>
     <div class="legal">
-      <span><strong>A design concept, not the official IIMB website.</strong> Content from iimb.ac.in and official IIMB channels, checked 16–18 October 2026.</span>
-      <span><a href="credits.html">Sources, photo credits and what is editorial</a></span>
+      <span>Copyright © 2009-2026 Indian Institute of Management Bangalore. All Rights Reserved.</span>
+      <span class="legal-links"><a href="https://www.iimb.ac.in/disclaimer">Disclaimer</a><a href="https://www.iimb.ac.in/sitemap">Site Map</a><a href="https://www.iimb.ac.in/terms-of-use">Terms of Use</a></span>
     </div>
+    <p class="concept-note">A design concept, not the official IIMB website. Content from iimb.ac.in and official IIMB channels, checked 16–24 October 2026. <a href="credits.html">Sources and credits</a></p>
   </div>
 </footer>
 
 {data_tags}
+<script>try{{if(localStorage.getItem('j-lang')==='hi')document.write('<script src="data/i18n-hi.js"><\\/script>')}}catch(e){{}}</script>
 <script src="assets/vendor/gsap.min.js"></script>
 <script src="assets/vendor/ScrollTrigger.min.js"></script>
 <script src="assets/vendor/lenis.min.js"></script>

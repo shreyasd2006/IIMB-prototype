@@ -13,6 +13,15 @@ Object.assign(IIMB.sources, {
   portraits: { t: "Faculty list, area-wise (portraits, checked 18 Oct 2026)", u: "https://www.iimb.ac.in/faculty-list-area-wise" }
 });
 
+/* Undergraduate school photographs supplied by IIMB (Fw__UG_students_pics.zip, 24 Oct 2026). */
+Object.assign(IIMB.photos, {
+  "ug-students-1": { src: { 800: "assets/img/ug-students-1-800.jpg", 1600: "assets/img/ug-students-1-1600.jpg" }, w: 1600, h: 1067, alt: "Five undergraduate students sit on the concrete steps of the new UG campus, books and laptops open.", caption: "Undergraduate students on the steps of the UG campus", credit: "IIM Bangalore, UG School", source: "https://ug.iimb.ac.in/" },
+  "ug-students-2": { src: { 800: "assets/img/ug-students-2-800.jpg", 1600: "assets/img/ug-students-2-1600.jpg" }, w: 1600, h: 1067, alt: "Five students talk beneath the sign of the IIM Bangalore – Dorabji Tata School of Undergraduate Studies.", caption: "Outside the Dorabji Tata School of Undergraduate Studies", credit: "IIM Bangalore, UG School", source: "https://ug.iimb.ac.in/" },
+  "ug-students-3": { src: { 800: "assets/img/ug-students-3-800.jpg", 1600: "assets/img/ug-students-3-1600.jpg" }, w: 1600, h: 1067, alt: "A group of undergraduate students walk along a path through the green UG campus.", caption: "Walking through the UG campus", credit: "IIM Bangalore, UG School", source: "https://ug.iimb.ac.in/" },
+  "ug-students-4": { src: { 800: "assets/img/ug-students-4-800.jpg", 1600: "assets/img/ug-students-4-1600.jpg" }, w: 1600, h: 1067, alt: "Students walk past the stone and glass buildings of the undergraduate campus, hills behind.", caption: "The undergraduate campus", credit: "IIM Bangalore, UG School", source: "https://ug.iimb.ac.in/" },
+  "ug-students-5": { src: { 800: "assets/img/ug-students-5-800.jpg", 1600: "assets/img/ug-students-5-1600.jpg" }, w: 1600, h: 1067, alt: "Six students sit and work on the wide stone steps between campus buildings.", caption: "Between classes at the UG campus", credit: "IIM Bangalore, UG School", source: "https://ug.iimb.ac.in/" }
+});
+
 /* Stills taken from the official campus films (frames, not new photography). */
 Object.assign(IIMB.photos, {
   "poster-campus": { src: { 800: "assets/img/poster-campus-800.jpg", 1600: "assets/img/poster-campus-1600.jpg" }, w: 1600, h: 900, alt: "Two students walk down the stone steps of a pergola corridor on the IIMB campus.", caption: "A corridor in the academic block, from the official campus film", credit: "IIM Bangalore, campus film", source: "https://www.iimb.ac.in/" },
@@ -24,15 +33,23 @@ Object.assign(IIMB.photos, {
 
 /* The sections of the "issue": the site's own table of contents (numbers index sections, they carry order). */
 IIMB.sections = [
+  { id: "about", t: "About IIMB", sub: "The institutional story", u: "about.html", img: "archive-inauguration" },
   { id: "programmes", t: "Programmes & Admissions", sub: "The decision journey", u: "programmes.html", img: "pgp-cohort" },
   { id: "research", t: "Research", sub: "Ideas in focus", u: "research.html", img: "library-commons" },
   { id: "faculty", t: "Faculty", sub: "People and ideas", u: "faculty.html", img: "film-classroom" },
   { id: "centres", t: "Centres", sub: "Research communities", u: "centres.html", img: "columns" },
-  { id: "partnerships", t: "Business Engagement", sub: "Partnership studio", u: "partnerships.html", img: "exec-ed" },
   { id: "news", t: "News & Events", sub: "The living institution", u: "news.html", img: "film-convocation" },
-  { id: "campus", t: "Campus & Student Life", sub: "The IIMB experience", u: "campus.html", img: "unmaad" },
-  { id: "industry", t: "Recruiters & Alumni", sub: "Beyond the classroom", u: "industry.html", img: "lawn" },
-  { id: "about", t: "About IIMB", sub: "The institutional story", u: "about.html", img: "archive-inauguration" }
+  { id: "campus", t: "Campus & Student Life", sub: "The IIMB experience", u: "campus.html", img: "ug-students-1" },
+  { id: "partnerships", t: "Business Engagement", sub: "Partnership studio", u: "partnerships.html", img: "exec-ed" },
+  { id: "industry", t: "Recruiters & Alumni", sub: "Beyond the classroom", u: "industry.html", img: "lawn" }
+];
+
+/* From the live iimb.ac.in homepage, checked 24 Oct 2026. */
+IIMB.sources.liveHome = { t: "iimb.ac.in homepage (checked 24 Oct 2026)", u: "https://www.iimb.ac.in/" };
+IIMB.homeRank = { v: "52", pre: "Global", label: "QS World University Rankings 2026", note: "Only one of two Indian B-schools featured", src: "liveHome" };
+IIMB.advantage = [
+  { v: "1500+", l: "Students" }, { v: "150+", l: "Faculty" },
+  { v: "5300+", l: "Executive education programme participants" }, { v: "46800+", l: "Executive education programme days" }
 ];
 
 /* Homepage cover lines: four real stories (ids in IIMB.news). */

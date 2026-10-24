@@ -33,17 +33,26 @@ IIMB is an Institute of National Importance (IIM Act 2017), founded 1973 in Beng
 ## Capabilities and Constraints
 
 - Client-side search and filters over the data files.
-- Official IIMB campus film may play muted in the homepage hero with a pause control, a poster, and a mobile-friendly fallback; it pauses off-screen and honours reduced motion.
+- Official IIMB films play muted and continuously (no controls, user decision 24 Oct 2026) with a poster; they pause off-screen to save power.
 - Official YouTube films load only on click.
 - Faculty portraits: the official portraits IIMB publishes on its faculty area pages may be shown, credited to iimb.ac.in, with a typographic fallback (assumed from the brief's "use verified portraits when available"; the user did not choose on 18 Oct 2026).
 - Do not invent quotations, statistics, people, rankings, testimonials, placement outcomes, partnership programmes or achievements. Gaps show as clearly labelled placeholders.
 
 ## Brand Commitments
 
-- IIMB sun-symbol logo (designed by NID Ahmedabad, in use since 1994, based on the motto) reproduced unaltered from iimb.ac.in.
-- IIMB red **#B12322**: verified 18 Oct 2026 as the accent colour in the official homepage markup and the exact red of the official logo file; the logo's dark is #2A2928. No published IIMB brand or logo-usage guidelines were found (searched 18 Oct 2026); none are invented.
-- Journal palette pinned by the user: deep burgundy #641D35, warm cream #FBF5EC, muted blush #E8C9CB, champagne gold #C9A66B, dark charcoal, white. Burgundy establishes the editorial identity; IIMB red stays recognisable in brand elements, calls to action, navigation accents and institutional details. Burgundy never replaces IIMB red everywhere; beige and gold must not erase IIMB's identity.
-- Motto तेजस्वि नावधीतमस्तु, "let our study be enlightening".
+Revised by the user on 24 Oct 2026 (meeting minutes "IIMB Website Redesigning" + IIMB Color Guide). These replace the earlier Journal palette.
+
+- **Colours:** three primary colours from the IIMB Color Guide: red **#A92D2D**, maroon **#631111**, cream **#E8E3DB**. Neutrals: white, black #000000 and greys #E5E5E5, #C2C2C2, #F2F2F2, #F9F9F9; link blue #1177BB. Pages alternate white and cream section by section.
+- **Type:** one consistent sans-serif family throughout (Anek Latin, with Anek Devanagari for Hindi).
+- **Logos:** official files supplied by IIMB (Fw__IIMB_prototypes.zip): the header uses the exact official logo; white logos on dark backgrounds.
+- **Header:** two tiers (utility row with Hindi toggle and Admissions; main row with the official logo and navigation, About first).
+- **Footer:** same sections as the original iimb.ac.in footer (Useful Links, Policies, Publications, Contact us, Disclaimer / Site Map / Terms of Use) plus social links (Facebook, X, LinkedIn, YouTube, Instagram, WhatsApp).
+- **Rankings** appear on the homepage, from the original website.
+- **Video:** films play continuously, muted, with no pause/resume controls.
+- **Hindi:** a language switch translates the whole site into Hindi (translations written for this prototype, not official).
+- **Programmes page** follows the layout and effects of the second design (D:\iimb-site-v2).
+- **Photos** shown in natural colour, no colour tint or colour change on hover.
+- Sun-symbol logo (NID Ahmedabad, 1994) unaltered. Motto तेजस्वि नावधीतमस्तु, "let our study be enlightening".
 
 ## Evidence on Hand
 
@@ -52,7 +61,8 @@ IIMB is an Institute of National Importance (IIM Act 2017), founded 1973 in Beng
 - Official media: `assets/video/iimb-campus.mp4`, `assets/video/iimb-library.mp4`; official YouTube films with titles verified by oEmbed (17 Oct 2026), including two student testimonials (TCtOEbBVcWY, pFaVf5QBjgo) and the inaugural UG cohort film (aVNDCSc0g-4).
 - Official photographs with credits (`assets/img/credits.json`), including verified archive images of the founding years.
 - Raw source pages: `D:\iimb-architectural\research\`. Benchmark research: `research/bench/`.
-- Not available: brand guidelines, photo rights clearance, first-person student interviews beyond the films above, placement statistics from a current verified report.
+- IIMB Color Guide (D:\Color Guide.pdf), official logo set (research/incoming/), five UG-school student photographs (research/incoming/UG-1..5.jpg), both supplied by the user on 24 Oct 2026.
+- Not available: photo rights clearance, first-person student interviews beyond the films above, placement statistics from a current verified report.
 
 ## Product Principles
 

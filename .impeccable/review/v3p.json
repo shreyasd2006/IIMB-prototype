@@ -1,0 +1,10 @@
+{
+ "programmes.html": [
+  "[850] OVERLAP span.pc-desc \"IIMB’s primary educational engagement in\"  ×  span.pc-go \"Explore programme\" @y307",
+  "[8500] OVERLAP p \"For the PGP, CAT 2026 (international app\"  ×  span \"Can I study while working?\" @y338",
+  "[8500] OVERLAP p \"Yes. The PGPEM runs on weekends on campu\"  ×  span \"How much work experience do the executiv\" @y409",
+  "[8500] OVERLAP p \"At least five years after graduation for\"  ×  span \"Is financial aid available?\" @y480",
+  "[8500] OVERLAP p \"All PGP students with an annual househol\"  ×  span \"What does the PGP cost?\" @y551",
+  "[8500] OVERLAP p \"Rs 26,00,000 for two years (PGP 2026–28,\"  ×  span \"Do the undergraduate programmes have the\" @y622"
+ ]
+}

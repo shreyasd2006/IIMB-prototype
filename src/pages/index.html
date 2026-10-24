@@ -1,19 +1,15 @@
-<section class="cover" data-manual aria-labelledby="cover-title">
+<section class="cover" data-manual data-keep-bg aria-labelledby="cover-title">
   <div class="cover-film" data-cover-film>
-    <video muted loop playsinline preload="none" poster="assets/img/poster-campus-1600.jpg" aria-label="Official IIM Bangalore campus film, muted" data-src="assets/video/iimb-campus.mp4"></video>
+    <video muted loop playsinline autoplay preload="none" poster="assets/img/poster-campus-1600.jpg" aria-label="Official IIM Bangalore campus film, muted" data-src="assets/video/iimb-campus.mp4"></video>
   </div>
   <div class="cover-scrim" aria-hidden="true"></div>
   <span class="cover-rule" aria-hidden="true"></span>
   <div class="wrap cover-grid">
     <div class="cover-main">
-      <p class="cover-issue"><span>October 2026</span><span>Bengaluru</span><span>Est. 1973</span></p>
+      <p class="cover-issue"><span>Bengaluru</span><span>Est. 1973</span><span>Institute of National Importance</span></p>
       <h1 class="cover-title" id="cover-title"><span class="dev cover-motto" lang="sa">तेजस्वि नावधीतमस्तु</span><span class="cover-en">Let our study be enlightening.</span></h1>
       <p class="cover-dek">A leading graduate school of management in Asia, and an Institute of National Importance under the IIM Act of 2017.</p>
     </div>
-    <aside class="cover-spine on-burgundy" aria-labelledby="cover-lines-h">
-      <h2 class="cover-lines-h" id="cover-lines-h">In this issue</h2>
-      <ol class="cover-lines" data-cover-lines></ol>
-    </aside>
   </div>
   <div class="cover-base">
     <div class="wrap cover-base-in">
@@ -22,10 +18,7 @@
         <span class="fb-select"><select id="aud" name="for" class="select" data-aud></select></span>
         <button class="btn" type="submit">Show my programmes<svg class="ico"><use href="#i-arrow"/></svg></button>
       </form>
-      <div class="cover-actions">
-        <button class="text-btn" type="button" data-open-search><svg class="ico"><use href="#i-search"/></svg>Search everything <kbd>/</kbd></button>
-        <button class="film-toggle" type="button" data-film-toggle aria-pressed="false"></button>
-      </div>
+      <button class="text-btn" type="button" data-open-search><svg class="ico"><use href="#i-search"/></svg>Search everything <kbd>/</kbd></button>
     </div>
   </div>
 </section>
@@ -34,15 +27,51 @@
   <div class="wrap grid">
     <h2 class="h2 brief-h" id="brief-h" data-split>The institution, in brief</h2>
     <div class="brief-text">
-      <p class="scrub" data-scrub></p>
-      <p class="src" data-brief-src></p>
-      <a class="arrow-link" href="about.html"><span>Read the institutional story</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+      <p class="brief-p" data-brief data-split></p>
+      <p class="src" data-brief-src data-fade></p>
+      <a class="arrow-link" href="about.html" data-fade><span>Read the institutional story</span><svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <dl class="brief-facts" data-brief-facts data-stagger></dl>
   </div>
 </section>
 
-<section class="section essay on-dark" aria-labelledby="essay-h">
+<section class="section ranks-sec" aria-labelledby="rk-h">
+  <div class="wrap">
+    <div class="rk-head">
+      <h2 class="h1" id="rk-h" data-split>Rankings and recognition</h2>
+      <p class="dek" data-fade>As published on the IIM Bangalore website.</p>
+    </div>
+    <div class="rk-grid">
+      <article class="rk-hero" data-rk-hero></article>
+      <ol class="rk-list" data-ranks></ol>
+    </div>
+    <div class="adv">
+      <h3 class="h3 adv-h" data-fade>The IIMB Advantage</h3>
+      <dl class="adv-list" data-adv></dl>
+      <div class="accr" data-accr data-stagger></div>
+    </div>
+  </div>
+</section>
+
+<section class="section prog-sec" aria-labelledby="pc-h">
+  <div class="wrap pc-head">
+    <div>
+      <h2 class="h1" id="pc-h" data-split>Explore our Programmes</h2>
+      <p class="dek" data-fade>Since the years of its existence, IIMB has developed a portfolio of vibrant programmes: from a four-year undergraduate degree to the PhD.</p>
+    </div>
+    <div class="pc-nav">
+      <button class="pc-arrow" type="button" data-pc-prev aria-label="Previous programmes"><svg class="ico"><use href="#i-chev-l"/></svg></button>
+      <button class="pc-arrow" type="button" data-pc-next aria-label="Next programmes"><svg class="ico"><use href="#i-chev-r"/></svg></button>
+      <a class="arrow-link" href="programmes.html"><span>View all programmes</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+  <div class="pc-rail" data-pc-rail data-overflow-ok tabindex="0" aria-label="Programmes, scroll sideways">
+    <ul class="pc-track" data-pc-track></ul>
+  </div>
+  <div class="wrap pc-foot"><div class="pc-dots" data-pc-dots aria-hidden="true"></div></div>
+</section>
+
+<section class="section essay" aria-labelledby="essay-h">
   <div class="wrap">
     <div class="essay-head">
       <h2 class="h1" id="essay-h" data-split>Ideas in Focus</h2>
@@ -60,31 +89,7 @@
   </div>
 </section>
 
-<section class="section voice on-blush" aria-labelledby="voice-h">
-  <div class="wrap grid">
-    <h2 class="sr" id="voice-h">A leadership perspective</h2>
-    <figure class="voice-fig" data-voice></figure>
-  </div>
-</section>
-
-<section class="section shelf-sec" aria-labelledby="shelf-h" data-shelf-sec>
-  <div class="wrap shelf-head">
-    <h2 class="h1" id="shelf-h" data-split>Eleven ways in</h2>
-    <div>
-      <p class="dek" data-fade>From a four-year undergraduate degree to the PhD, from weekend MBAs to custom programmes for organisations. Choose who you are to narrow the shelf.</p>
-      <div class="chips" role="group" aria-label="Filter programmes by audience" data-shelf-chips></div>
-    </div>
-  </div>
-  <div class="shelf" data-shelf>
-    <ol class="shelf-track" data-shelf-track></ol>
-  </div>
-  <div class="wrap shelf-foot">
-    <p class="src">Groupings by audience are editorial, based on each programme’s published eligibility.</p>
-    <a class="arrow-link" href="programmes.html"><span>Compare programmes and admissions dates</span><svg class="ico"><use href="#i-arrow"/></svg></a>
-  </div>
-</section>
-
-<section class="section people on-white" aria-labelledby="people-h">
+<section class="section people" aria-labelledby="people-h">
   <div class="wrap">
     <div class="people-head">
       <h2 class="h1" id="people-h" data-split>People and Ideas</h2>
@@ -98,14 +103,12 @@
   </div>
 </section>
 
-<div class="marquee" aria-label="Research areas and centres" data-marquee><div class="track" data-marquee-track></div></div>
-
-<section class="section engage on-burgundy" aria-labelledby="engage-h">
+<section class="section engage" aria-labelledby="engage-h">
   <div class="wrap grid">
     <div class="engage-intro">
       <h2 class="h1" id="engage-h" data-split>Work with IIMB</h2>
       <p class="dek mute" data-fade>Recruit, develop leaders, commission research, back founders, teach with IIMB cases, or give.</p>
-      <a class="btn cream" href="partnerships.html">Enter the Partnership Studio<svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn" href="partnerships.html">Enter the Partnership Studio<svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <ol class="index-list engage-routes" data-routes></ol>
     <div class="partners">
@@ -118,35 +121,29 @@
 <section class="section calendar" aria-labelledby="cal-h">
   <div class="wrap">
     <div class="cal-head">
-      <h2 class="h1" id="cal-h" data-split>In the calendar</h2>
+      <h2 class="h1" id="cal-h" data-split>Upcoming events</h2>
       <a class="arrow-link" href="news.html#events"><span>All events</span><svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <ol class="cal-list" data-cal></ol>
   </div>
 </section>
 
-<section class="section newsroom on-cream2" aria-labelledby="nr-h">
+<section class="section newsroom" aria-labelledby="nr-h">
   <div class="wrap">
     <div class="cal-head">
-      <h2 class="h1" id="nr-h" data-split>From the newsroom</h2>
-      <a class="arrow-link" href="news.html"><span>The living institution</span><svg class="ico"><use href="#i-arrow"/></svg></a>
+      <h2 class="h1" id="nr-h" data-split>News</h2>
+      <a class="arrow-link" href="news.html"><span>View all news</span><svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
     <div class="nr-grid" data-newsroom></div>
   </div>
 </section>
 
 <section class="section close-band" aria-labelledby="close-h">
-  <div class="wrap grid">
-    <div class="close-rank">
-      <h2 class="meta">Recognition, as reported</h2>
-      <ol class="rank-list" data-ranks></ol>
-    </div>
-    <div class="close-cta">
-      <p class="h2" id="close-h" data-split>Begin with a programme, a person, or a question.</p>
-      <div class="close-actions">
-        <a class="btn" href="programmes.html#finder">Find your programme<svg class="ico"><use href="#i-arrow"/></svg></a>
-        <a class="btn ghost" href="campus.html">See campus life<svg class="ico"><use href="#i-arrow"/></svg></a>
-      </div>
+  <div class="wrap close-in">
+    <p class="h1" id="close-h" data-split>Begin with a programme, a person, or a question.</p>
+    <div class="close-actions" data-fade>
+      <a class="btn" href="programmes.html#finder">Find your programme<svg class="ico"><use href="#i-arrow"/></svg></a>
+      <a class="btn ghost" href="campus.html">See campus life<svg class="ico"><use href="#i-arrow"/></svg></a>
     </div>
   </div>
 </section>

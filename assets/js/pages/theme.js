@@ -11,11 +11,11 @@
     const stories = I.news.filter((n) => J.themesOf(n.title + " " + (n.standfirst || "")).includes(th.id));
     $("[data-th-desc]").textContent = th.d;
     $("[data-th-stats]").innerHTML = [[papers.length, "papers"], [fac.length, "faculty"], [centres.length, "centres"], [stories.length, "stories"]].map(([v, l]) => `<div><dt class="num">${v}</dt><dd>${l}</dd></div>`).join("");
-    $("[data-th-papers]").innerHTML = papers.slice(0, 10).map((p) => `<li><a class="index-row" href="${p.u}"><span class="n">${p.n}</span><span class="t">${esc(p.t)}</span><span class="d">${esc(p.by)}</span></a></li>`).join("") || `<li class="empty">No papers matched.</li>`;
+    $("[data-th-papers]").innerHTML = papers.slice(0, 10).map((p) => `<li><a class="index-row" href="${p.u}"><span class="n">${p.n}</span><span class="t" data-no-i18n>${esc(p.t)}</span><span class="d">${esc(p.by)}</span></a></li>`).join("") || `<li class="empty">No papers matched.</li>`;
     $("[data-th-areas]").textContent = `Faculty in ${th.areas.join(", ")} (editorial mapping of areas to this theme).`;
     $("[data-th-faces]").innerHTML = fac.slice(0, 18).map((f) => `<li><a href="${u.person(f.id)}">${J.face(f.id)}<span class="tf-n">${esc(f.name)}</span><span class="tf-a">${esc(f.areas[0])}</span></a></li>`).join("") + (fac.length > 18 ? `<li class="tf-more"><a class="arrow-link" href="faculty.html?area=${J.slug(th.areas[0])}"><span>All ${fac.length}</span>${icon("arrow")}</a></li>` : "");
     $("[data-th-centres]").innerHTML = centres.map((c) => `<li><a class="th-c" href="${u.centre(c.id)}"><span class="th-c-a">${esc(c.abbr)}</span><span>${esc(c.name)}</span></a></li>`).join("") || `<li class="mute">None mapped.</li>`;
-    $("[data-th-stories]").innerHTML = stories.slice(0, 4).map((n) => `<a class="th-story" href="${u.story(n.id)}">${n.image ? `<span class="plate">${J.newsImg(n)}</span>` : ""}<span><span class="meta mute">${J.date(n.date)}</span><br><span class="h4">${esc(n.title)}</span></span></a>`).join("") || `<p class="mute">No stories matched.</p>`;
+    $("[data-th-stories]").innerHTML = stories.slice(0, 4).map((n) => `<a class="th-story${n.image ? "" : " no-img"}" href="${u.story(n.id)}">${n.image ? `<span class="plate">${J.newsImg(n)}</span>` : ""}<span><span class="meta mute">${J.date(n.date)}</span><br><span class="h4">${esc(n.title)}</span></span></a>`).join("") || `<p class="mute">No stories matched.</p>`;
   };
 
   const setTitle = (th, animate) => {

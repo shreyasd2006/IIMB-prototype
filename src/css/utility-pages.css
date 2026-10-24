@@ -8,7 +8,7 @@
 .sr-sec .h3 { padding-bottom: .6rem; margin-bottom: .4rem; border-bottom: 2px solid var(--ink); }
 .sr-list { display: grid; }
 .sr-empty { display: grid; gap: 1rem; padding-block: 2rem; max-width: 70ch; }
-.cr-hero { background: var(--cream); padding-block: clamp(3rem, 8vh, 6rem) var(--s4); }
+.cr-hero { padding-block: clamp(3rem, 8vh, 6rem) var(--s4); }
 .cr-title { grid-column: 1 / -1; margin-bottom: var(--s3); }
 .cr-intro { grid-column: 1 / -1; display: grid; gap: 1rem; }
 @media (min-width: 1000px) { .cr-title { grid-column: 1 / span 5; } .cr-intro { grid-column: 7 / span 6; } }
