@@ -57,8 +57,15 @@ class RangeHandler(SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8767
-    print(f"Serving {ROOT} at http://127.0.0.1:{port}/")
+    import socket
+    try:
+        s_ = socket.socket(socket.AF_INET, socket.SOCK_DGRAM); s_.connect(("8.8.8.8", 80)); lan = s_.getsockname()[0]; s_.close()
+    except OSError:
+        lan = "your-computer-ip"
+    print(f"Serving {ROOT}", flush=True)
+    print(f"  this computer: http://127.0.0.1:{port}/", flush=True)
+    print(f"  phones on the same Wi-Fi: http://{lan}:{port}/", flush=True)
     class Server(ThreadingHTTPServer):
         request_queue_size = 128
         daemon_threads = True
-    Server(("127.0.0.1", port), RangeHandler).serve_forever()
+    Server(("0.0.0.0", port), RangeHandler).serve_forever()

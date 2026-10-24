@@ -574,7 +574,7 @@
 
   /* White / cream rhythm: top-level sections alternate, page by page (IIMB decision, 24 Oct 2026). */
   function alternate() {
-    const secs = J.$$("main > section, main > article > section, main > article > header, main > article > div > section, main > div > section, main > article > [data-cn-body] > section").filter((s) => !s.hasAttribute("data-keep-bg") && !s.hidden && s.offsetHeight > 0);
+    const secs = J.$$("main > section, main > article > section, main > article > header, main > article > div > section, main > div > section, main > article > [data-cn-body] > section").filter((s) => !s.hasAttribute("data-keep-bg") && !s.hidden && (s.checkVisibility ? s.checkVisibility() : s.offsetHeight > 0));
     let i = 0;
     secs.forEach((s) => { s.classList.remove("bg-white", "bg-cream"); s.classList.add(i++ % 2 ? "bg-cream" : "bg-white"); });
   }
@@ -619,5 +619,6 @@
     }
     if (location.hash) { const t = J.$(location.hash); if (t) setTimeout(() => J.scrollTo(t), 600); }
   }
-  if (d.readyState === "loading") d.addEventListener("DOMContentLoaded", boot); else setTimeout(boot, 0);
+  // scripts are deferred: they run while readyState is "interactive", before DOMContentLoaded, so wait for it
+  if (d.readyState !== "complete") d.addEventListener("DOMContentLoaded", boot); else setTimeout(boot, 0);
 })();

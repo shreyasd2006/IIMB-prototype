@@ -27,3 +27,10 @@ All requested non-Hindi changes are done and verified: light-background colour f
 
 ## Still open (optional)
 Impeccable finish reviewer + documenter (DESIGN.md), mobile pass, README update.
+
+## Mobile fixes (24 Oct 2026)
+- Server now listens on all interfaces (tools/serve.py); phones on the same Wi-Fi use http://<PC LAN IP>:8767/ (printed at start). Windows Firewall may ask to allow Python on private networks.
+- All scripts are `defer` (build_pages.py); core boots on DOMContentLoaded. Cold load under phone CPU x4 + 20 Mbps went from ~22 s blank to ~3 s.
+- English pages use assets/fonts/anek-devanagari-mini.woff2 (106 KB subset of the motto/हिन्दी glyphs; rebuild with fontTools if new Devanagari text is added: chars in research/deva-mini-chars.txt). Hindi mode uses the full font ("Anek Devanagari Full").
+- alternate() uses checkVisibility() instead of offsetHeight (no forced layout).
+- Phone test tools: tools/mobile_probe.mjs, mobile_time.mjs, mobile_tap.mjs, mobile_prof.mjs. Note: the first navigation in a fresh headless Edge takes ~4 s; wait longer on the first page.

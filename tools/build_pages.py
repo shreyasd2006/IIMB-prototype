@@ -73,7 +73,7 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
     with open(os.path.join(SRC, name + ".html"), encoding="utf-8") as f:
         body = f.read()
     nav = "\n".join(page_link(k, l, h, navkey) for k, l, h in NAV)
-    data_tags = "\n".join(f'<script src="data/{d}.js"></script>' for d in data)
+    data_tags = "\n".join(f'<script src="data/{d}.js" defer></script>' for d in data)
     return f"""<!doctype html>
 <html lang="en-IN">
 <head>
@@ -219,12 +219,12 @@ def build(name, title, desc, navkey, leaf_t, leaf_s, data, script):
 </footer>
 
 {data_tags}
-<script>try{{if(localStorage.getItem('j-lang')==='hi')document.write('<script src="data/i18n-hi.js"><\\/script>')}}catch(e){{}}</script>
-<script src="assets/vendor/gsap.min.js"></script>
-<script src="assets/vendor/ScrollTrigger.min.js"></script>
-<script src="assets/vendor/lenis.min.js"></script>
-<script src="assets/js/core.js"></script>
-<script src="assets/js/pages/{script}.js"></script>
+<script>try{{if(localStorage.getItem('j-lang')==='hi')document.write('<script src="data/i18n-hi.js" defer><\\/script>')}}catch(e){{}}</script>
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/vendor/lenis.min.js" defer></script>
+<script src="assets/js/core.js" defer></script>
+<script src="assets/js/pages/{script}.js" defer></script>
 </body>
 </html>
 """

@@ -1,0 +1,10 @@
+import { launch } from "./cdp.mjs";
+import { writeFileSync } from "node:fs";
+const UA = "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Mobile Safari/537.36";
+const b = await launch({ width: 390, height: 844, mobile: true, ua: UA });
+const logs = []; b.on((d) => { if (d.method === "Runtime.consoleAPICalled") logs.push(d.params.type + ": " + d.params.args.map(a => a.value ?? a.description).join(" ")); if (d.method === "Runtime.exceptionThrown") logs.push("EXC " + JSON.stringify(d.params.exceptionDetails).slice(0, 600)); });
+await b.goto("http://127.0.0.1:8767/" + (process.argv[2] || "index.html"), 5000);
+console.log(await b.evaluate(`JSON.stringify({ready: document.readyState, title: document.title, bodyLen: document.body.innerHTML.length, main: !!document.querySelector('main'), mainTC: (document.querySelector('main')||{textContent:''}).textContent.length, cls: document.documentElement.className, bodyCls: document.body.className, J: typeof J, scripts: [...document.scripts].map(s=>s.src.split('/').pop()).join(','), first: document.body.innerHTML.slice(0,300)})`));
+writeFileSync(".impeccable/review/m-dbg.jpg", await b.shot());
+console.log(logs.join("\n"));
+b.close();
