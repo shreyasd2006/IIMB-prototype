@@ -196,7 +196,7 @@
   };
 
   /* Scroll reveals: everything not inside [data-manual]. */
-  const autoRevealSel = "[data-split],[data-plate],[data-rule],[data-stagger],[data-fade],[data-count],[data-parallax],[data-bars]";
+  const autoRevealSel = "[data-split],[data-plate],[data-rule],[data-stagger],[data-fade],[data-count],[data-parallax],[data-bars],[data-ring]";
   J.reveals = (root = d) => {
     const g = G();
     const els = J.$$(autoRevealSel, root).filter((e) => !e.closest("[data-manual]") && !e._rev);
@@ -219,6 +219,10 @@
         g.fromTo(kids, { y: 28, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.75, ease: J.ease, stagger: Math.min(0.06, 0.45 / Math.max(kids.length, 1)), scrollTrigger: { ...st, start: "top 97%" } });
       } else if (el.hasAttribute("data-fade")) {
         g.fromTo(el, { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.8, ease: J.ease, delay: +(el.dataset.delay || 0), scrollTrigger: st });
+      } else if (el.hasAttribute("data-ring")) {
+        const dial = J.$(".ring-dial", el);
+        g.set(dial, { "--k": 0 }); g.set(J.$$(".ring-key li", el), { autoAlpha: 0 });
+        ScrollTrigger.create({ ...st, start: "top 85%", onEnter: () => { g.to(dial, { "--k": 1, duration: 1.4, ease: "expo.inOut" }); g.fromTo(J.$$(".ring-key li", el), { autoAlpha: 0, x: 16 }, { autoAlpha: 1, x: 0, duration: 0.7, ease: J.ease, stagger: 0.06, delay: 0.3 }); } });
       } else if (el.hasAttribute("data-bars")) {
         const grow = J.$$("[data-grow]", el);
         g.set(grow.filter((x) => x.dataset.grow !== "y"), { scaleX: 0, transformOrigin: "0% 50%" });
@@ -646,6 +650,23 @@
   J.series = (years, series) => {
     const max = Math.max(...series.flatMap((s) => s.v));
     return `<div class="ser" data-bars><div class="ser-keys">${series.map((s, i) => `<span class="k${i}">${J.esc(s.t)}</span>`).join("")}</div><ol class="ser-cols">${years.map((y, yi) => `<li><span class="ser-bars">${series.map((s, i) => `<span class="ser-bar k${i}" style="--h:${(s.v[yi] / max) * 100}%" data-grow="y"><b class="num">${s.v[yi]}</b></span>`).join("")}</span><span class="ser-y">${y}</span></li>`).join("")}</ol></div>`;
+  };
+
+  /* Composition as a ring: segments sweep round on reveal; the legend carries the numbers */
+  const RING = ["#631111", "#A92D2D", "#C9776F", "#E0B7AE", "#8A8A8A", "#BDBDBD", "#D9D3CA", "#4A4A4A"];
+  J.ring = (rows, { centre, centreLabel, colors = RING } = {}) => {
+    const sum = rows.reduce((a, r) => a + r[1], 0);
+    let acc = 0;
+    const stops = rows.map(([, v], i) => { const a0 = (acc / sum) * 360; acc += v; const a1 = (acc / sum) * 360; return `${colors[i % colors.length]} calc(var(--k) * ${a0.toFixed(2)}deg) calc(var(--k) * ${a1.toFixed(2)}deg)`; });
+    const top = rows.reduce((m, r) => (r[1] > m[1] ? r : m), rows[0]);
+    const c = centre ?? `${Math.round((top[1] / sum) * 100)}%`, cl = centreLabel ?? top[0];
+    return `<div class="ring" data-ring><div class="ring-dial" style="--k:1;background:conic-gradient(${stops.join(", ")}, var(--rule) calc(var(--k) * 360deg) 360deg)" role="img" aria-label="${J.esc(rows.map(([l, v]) => `${l} ${v}`).join(", "))}"><div class="ring-hole"><b class="num">${J.esc(c)}</b><span>${J.esc(cl)}</span></div></div>
+      <ul class="ring-key">${rows.map(([l, v], i) => `<li><i style="background:${colors[i % colors.length]}"></i><span class="rk-l">${J.esc(l)}</span><b class="num">${v}</b><small>${Math.round((v / sum) * 100)}%</small></li>`).join("")}</ul></div>`;
+  };
+  /* Ordered ranges (experience, age) as columns */
+  J.columns = (rows, { unit = "" } = {}) => {
+    const max = Math.max(...rows.map((r) => r[1])), sum = rows.reduce((a, r) => a + r[1], 0);
+    return `<div class="cols" data-bars><ol>${rows.map(([l, v]) => `<li${v === max ? ' class="max"' : ""}><span class="col-v"><b class="num">${v}</b><small>${Math.round((v / sum) * 100)}%</small></span><span class="col-track"><i style="--h:${Math.max((v / max) * 100, 2)}%" data-grow="y"></i></span><span class="col-l">${J.esc(l)}</span></li>`).join("")}</ol>${unit ? `<p class="col-unit">${J.esc(unit)}</p>` : ""}</div>`;
   };
 
   /* ---------------------------------------------------------------- "On this page": an index that hangs from the corner once you scroll past the opening */

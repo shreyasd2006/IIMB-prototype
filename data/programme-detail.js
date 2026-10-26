@@ -436,3 +436,480 @@ IIMB.progDetail = {
     chair: { id: "sushanta-kumar-mishra" },
   },
 };
+/* Each programme's own news, achievements and official films, from its iimb.ac.in page (26 Oct 2026) */
+IIMB.progMedia = {
+ "epgp": {
+  "news": [
+   {
+    "t": "EPGP clinches #2 rank in APAC: Bloomberg B-School Rankings 2026",
+    "u": "https://www.iimb.ac.in/epgp-2nd-rank-apac-bloomberg-b-school-rankings-2026",
+    "img": "assets/img/news-prog/epgp-bloomberg2026.jpg"
+   },
+   {
+    "t": "IIM Bangalore welcomes 75 students to the 2026-27 batch of Executive Post Graduate Programme in Management",
+    "u": "https://www.iimb.ac.in/epgp-welcomes-batch-2026",
+    "img": "assets/img/news-prog/epgp-batch2026.jpg"
+   },
+   {
+    "t": "IIM Bangalore’s EPGP soars to #34 in FT MBA Rankings 2026",
+    "u": "https://www.iimb.ac.in/iimb-epgp-ft-mba-rankings-2026",
+    "img": "assets/img/news-prog/main-gate.jpg"
+   },
+   {
+    "t": "IIM Bangalore continues to rank among Asia’s top 3 in Bloomberg B-school Rankings 2025–26",
+    "u": "https://www.iimb.ac.in/iimb-bloomberg-b-school-rankings-2025",
+    "img": "assets/img/news-prog/main-gate.jpg"
+   },
+   {
+    "t": "“You adjusted and optimized; then something remarkable happened”: Navodaya 2026",
+    "u": "https://www.iimb.ac.in/epgp-navodaya-2026",
+    "img": "assets/img/news-prog/epgp-navodaya.jpg"
+   },
+   {
+    "t": "Richard Rekhy reflects on the future of leadership at EPGP fireside chat",
+    "u": "https://www.iimb.ac.in/node/5562",
+    "img": null
+   }
+  ],
+  "videos": [
+   {
+    "id": "k34OisV8s_4",
+    "t": "First impressions: EPGP Batch of 2026–27"
+   },
+   {
+    "id": "pvdaoQUai6s",
+    "t": "Gold Medal for Best All-Round Performance EPGP 2026: Rajasilpi SP"
+   },
+   {
+    "id": "fhfzz1fvnZw",
+    "t": "I chose EPGP for its unique mix of global and local frameworks"
+   },
+   {
+    "id": "vhtSDniuhr4",
+    "t": "Work hard, play hard - The EPGP way"
+   },
+   {
+    "id": "Hedbavui8_8",
+    "t": "EPGP welcomed my unconventional story"
+   },
+   {
+    "id": "vdgUeSnuNf8",
+    "t": "What sets MBA-EPGP apart? Its cohort."
+   },
+   {
+    "id": "QgIkof-AfWI",
+    "t": "EPGP is teaching me how to think deeper and better"
+   },
+   {
+    "id": "c3j8ulUAFyc",
+    "t": "EPGP pushes you to think harder, move faster, and aim higher"
+   },
+   {
+    "id": "mcxkX3S-VIc",
+    "t": "“Unique global exposure was a key motivator to join EPGP”"
+   },
+   {
+    "id": "-vEXMoSHOz0",
+    "t": "“Network-building is our biggest asset at IIMB”"
+   },
+   {
+    "id": "uXAPz6MlKgM",
+    "t": "“Ready to challenge yourself? Then IIMB is the place to be”"
+   },
+   {
+    "id": "aW4WrqxT2iQ",
+    "t": "\"Case method pushed me to think beyond tech\""
+   },
+   {
+    "id": "BZB5xcu_sFo",
+    "t": "“Peer-learning powered my transition to corporate”"
+   },
+   {
+    "id": "XxmZRsXgM-Q",
+    "t": "“EPGP brings business acumen to technical expertise”"
+   },
+   {
+    "id": "XR0powTbiWQ",
+    "t": "Suresh Shetty, EPGP 2023-24"
+   }
+  ],
+  "seek": [
+   "Thrive in a rigorous academic environment",
+   "Possess strong communication skills",
+   "Have led teams and contributed to projects that impact the organisation’s bottom line"
+  ]
+ },
+ "nsr-predoc": {
+  "news": [
+   {
+    "t": "8th cohort of NSR Pre-doc successfully concludes one-year fellowship at IIM Bangalore",
+    "u": "https://www.iimb.ac.in/node/13827",
+    "img": null
+   },
+   {
+    "t": "N.S. Ramaswamy Pre-doctoral Fellowship welcomes 12 fellows in the 8th cohort at IIMB",
+    "u": "https://www.iimb.ac.in/welcome-nsrpre-doc-students-2025",
+    "img": null
+   },
+   {
+    "t": "NSR Pre-doc fellow Muhammed Sadiq becomes programme’s first PhD graduate",
+    "u": "https://www.iimb.ac.in/nsrpredoc-sadiq-becomes-first-phd-graduate",
+    "img": null
+   },
+   {
+    "t": "7th cohort of NSR Pre-doc concludes fellowship at IIM Bangalore on 1 May 2025",
+    "u": "https://www.iimb.ac.in/7th-cohort-nsr-pre-doc-fellowship-iimb",
+    "img": null
+   }
+  ]
+ },
+ "pgp": {
+  "news": [
+   {
+    "t": "PGP, PGPBA and EPGP sweep No. 1 positions in India in QS MiM, BA and Global MBA Rankings 2027",
+    "u": "https://www.iimb.ac.in/qs-world-university-rankings-2027",
+    "img": "assets/img/news-prog/qs2027.jpg"
+   },
+   {
+    "t": "Pragya 2026: IIM Bangalore faculty share their perspective on transition and new beginnings with PGP and PGPBA students nearing graduation",
+    "u": "https://www.iimb.ac.in/pragya-2026",
+    "img": "assets/img/news-prog/pragya2026.jpg"
+   },
+   {
+    "t": "Three IIM Bangalore MBAs reign #1 in India across QS World University Rankings 2026 portfolio",
+    "u": "https://www.iimb.ac.in/qs-world-university-rankings-2026",
+    "img": "assets/img/news-prog/qs2026.jpg"
+   },
+   {
+    "t": "IIM Bangalore rises to #28 globally, #1 in India in FT Masters in Management ranking 2025",
+    "u": "https://www.iimb.ac.in/iimb-ft-mim-global-ranking-2025",
+    "img": "assets/img/news-prog/ftmim2025.jpg"
+   },
+   {
+    "t": "IIMB alumna Anuradha Aggarwal appointed Director of Marketing and Growth at Amazon India",
+    "u": "https://www.iimb.ac.in/anuradha-appointed-director-marketing-amazon-india",
+    "img": "assets/img/news-prog/anuradha.jpg"
+   }
+  ],
+  "videos": [
+   {
+    "id": "cbl5G-jPXA0",
+    "t": "Gold Medal for Best All-Round Performance 2026: Mayur Dattatray Khule, PGP & PGPBA"
+   },
+   {
+    "id": "O9_HiBZ3FuU",
+    "t": "Gold Medal for First Rank 2026: Manasi Anju Mertia, PGP"
+   },
+   {
+    "id": "StV7byH_udo",
+    "t": "Aditya Nishith Shah, PGP 2022-24"
+   },
+   {
+    "id": "umESBV81QB4",
+    "t": "Anant Ashutosh Sharma, PGP 2022-24"
+   },
+   {
+    "id": "9NhplDsJ8To",
+    "t": "Sanya Monga, PGP 2022-24"
+   },
+   {
+    "id": "46hJ4vwX9Ew",
+    "t": "Stuti Jain, PGP 2022-24"
+   },
+   {
+    "id": "ebYYwpnapwY",
+    "t": "Vansh Lakhina, PGP 2022-24"
+   },
+   {
+    "id": "EVu-uJTWCfA",
+    "t": "Aditya Bhat, PGP 2020-22"
+   },
+   {
+    "id": "hMijVHSYk-0",
+    "t": "Mythili K, PGP 2020-22"
+   },
+   {
+    "id": "URYxgzblzDI",
+    "t": "Vinit Kumar, PGP 2020-22"
+   },
+   {
+    "id": "0uDB4kRRvIg",
+    "t": "Viriezo Vizo, PGP 2020-22"
+   },
+   {
+    "id": "C918P-_gUfc",
+    "t": "Adithya Kantharaj, PGP 2021-23"
+   },
+   {
+    "id": "d4idjQW4BLw",
+    "t": "Anurag Rathi, PGP 2021-23"
+   },
+   {
+    "id": "WPIZxPB54KI",
+    "t": "Bhargavi Prajapati, PGP 2021-23"
+   },
+   {
+    "id": "ch8OGQhddOU",
+    "t": "Bhavana Gaddam, PGP 2021-23"
+   },
+   {
+    "id": "icMSZ00vlfE",
+    "t": "Krishna Wadhwa, PGP 2021-23"
+   },
+   {
+    "id": "eOviGRr7vL4",
+    "t": "Nuhad Bardai, PGP 2021-23"
+   },
+   {
+    "id": "tDTCtgtjsf8",
+    "t": "Shreyas S, PGP 2021-23"
+   },
+   {
+    "id": "JolLsaCOHQk",
+    "t": "Siddhartha, PGP 2021-23"
+   }
+  ],
+  "achievements": [
+   {
+    "t": "SnackWise startup by PGP ’25 students selected for NSRCEL incubation"
+   },
+   {
+    "t": "PGP ’25 students crowned pan-India winners at Rajasthan Royals Case Competition"
+   },
+   {
+    "t": "PGP ’25 students clinch second runner-up at HDFC Life Case Competition"
+   }
+  ],
+  "disability": [
+   "The Indian Institute of Management Bangalore (IIMB) endeavours to remove all barriers that prevent students with disabilities from realizing their potential. The objective of this policy is to provide “equal opportunity” for all students. IIMB commits to a time-bound programme to remove all barriers to access faced by students with disabilities: physical access to all parts of the campus used by students; access to teaching and reference material using appropriate technology; and access to e-resources through the adoption of WCAG and other relevant standards.",
+   "IIMB will assess the needs of each enrolled student with disability individually. An Office of Disability Services will arrange such an assessment and be the nodal point to ensure that the needs of the student are communicated to every relevant office and fulfilled appropriately. IIMB will take proactive steps to identify career opportunities for students with disabilities and has set up a Committee on Disability at the institute level.",
+   "Adopted by the IIMB faculty on 15 July 2009."
+  ]
+ },
+ "pgpba": {
+  "news": [
+   {
+    "t": "PGP, PGPBA and EPGP sweep No. 1 positions in India in QS MiM, BA and Global MBA Rankings 2027",
+    "u": "https://www.iimb.ac.in/qs-world-university-rankings-2027",
+    "img": "assets/img/news-prog/qs2027.jpg"
+   },
+   {
+    "t": "Pragya 2026: IIM Bangalore faculty share their perspective on transition and new beginnings with PGP and PGPBA students nearing graduation",
+    "u": "https://www.iimb.ac.in/pragya-2026",
+    "img": "assets/img/news-prog/pragya2026.jpg"
+   },
+   {
+    "t": "Three IIM Bangalore MBAs reign #1 in India across QS World University Rankings 2026 portfolio",
+    "u": "https://www.iimb.ac.in/qs-world-university-rankings-2026",
+    "img": "assets/img/news-prog/qs2026.jpg"
+   }
+  ],
+  "videos": [
+   {
+    "id": "7qXQjj-deKo",
+    "t": "Anusha S, PGPBA 2020-22"
+   },
+   {
+    "id": "AcLtS71oM8s",
+    "t": "Bhanavi Luthra, PGPBA 2021-23"
+   },
+   {
+    "id": "MM-H14MMHtk",
+    "t": "Srinath Vigneshwar, PGPBA 2021-23"
+   }
+  ],
+  "achievements": [
+   {
+    "t": "SnackWise startup by PGP ’25 students selected for NSRCEL incubation"
+   },
+   {
+    "t": "PGP ’25 students crowned pan-India winners at Rajasthan Royals Case Competition"
+   },
+   {
+    "t": "PGP ’25 students clinch second runner-up at HDFC Life Case Competition"
+   }
+  ],
+  "disability": [
+   "The Indian Institute of Management Bangalore (IIMB) endeavours to remove all barriers that prevent students with disabilities from realizing their potential. The objective of this policy is to provide “equal opportunity” for all students. IIMB commits to a time-bound programme to remove all barriers to access faced by students with disabilities: physical access to all parts of the campus used by students; access to teaching and reference material using appropriate technology; and access to e-resources through the adoption of WCAG and other relevant standards.",
+   "IIMB will assess the needs of each enrolled student with disability individually. An Office of Disability Services will arrange such an assessment and be the nodal point to ensure that the needs of the student are communicated to every relevant office and fulfilled appropriately. IIMB will take proactive steps to identify career opportunities for students with disabilities and has set up a Committee on Disability at the institute level.",
+   "Adopted by the IIMB faculty on 15 July 2009."
+  ]
+ },
+ "pgpem": {
+  "news": [
+   {
+    "t": "Prajwalan 2026: PGPEM’s annual sports extravaganza concludes in full swing",
+    "u": "https://www.iimb.ac.in/prajwalan-2026",
+    "img": null
+   },
+   {
+    "t": "PGPEM students celebrate culture and community at Pehel 2026",
+    "u": "https://www.iimb.ac.in/node/12682",
+    "img": null
+   },
+   {
+    "t": "PGPEM welcomes 79 students to the batch of 2026–28 on 4 April 2026",
+    "u": "https://www.iimb.ac.in/pgpemm-welcomes-batch-2026-28",
+    "img": null
+   },
+   {
+    "t": "IIM Bangalore’s PGPEM propels into global top 100: FT EMBA Ranking 2025",
+    "u": "https://www.iimb.ac.in/iimb-pgpem-ft-emba-ranking-2025",
+    "img": null
+   },
+   {
+    "t": "Innoventure 2025 bets big on start-ups as the next global growth engine",
+    "u": "https://www.iimb.ac.in/node/14397",
+    "img": null
+   },
+   {
+    "t": "Read more...",
+    "u": "https://www.iimb.ac.in/pgpem-drishti-2025",
+    "img": null
+   }
+  ],
+  "videos": [
+   {
+    "id": "cpho3xNfy0Y",
+    "t": "IIM Bangalore welcomes PGPEM batch of 2026-28"
+   },
+   {
+    "id": "ve5yLCprvi4",
+    "t": "Gold Medal for First Rank 2026: Lakshmi R, PGPEM"
+   },
+   {
+    "id": "gqfsnkZ9BGo",
+    "t": "Redefining Learning Beyond the Classroom - Siny J Fernandes’ Journey through PGPEM at IIMB"
+   },
+   {
+    "id": "9rWoaO-GcBo",
+    "t": "Rakesh's Journey at IIMB - Merging Aerospace Expertise with Strategic Leadership through PGPEM"
+   },
+   {
+    "id": "i6izLr7hiqk",
+    "t": "Unsettle to Settle for More: Priya Agrawal on Finding Her Dream Again with PGPEM at IIMB"
+   },
+   {
+    "id": "3PDnSaf-Pc4",
+    "t": "From Experience to Expertise: Dhaval Trivedi on Expanding His Leadership Vision with PGPEM"
+   }
+  ],
+  "achievements": [
+   {
+    "t": "PGPEM students advance to top 10 at Harvard Global Case Competition"
+   },
+   {
+    "t": "Campus win for PGPEM team at Hult Prize 2025 at IIM Bangalore",
+    "u": "https://www.iimb.ac.in/pgpem-team-hult-prize-2025"
+   },
+   {
+    "t": "National win for PGPEM team at IIM Kozhikode’s PowerUp strategy challenge",
+    "u": "https://www.iimb.ac.in/pgpem-iimk-winners-powerup-strategy-challenge"
+   }
+  ]
+ },
+ "pgppm": {
+  "news": [
+   {
+    "t": "Day two of PGPPM Policy Talk Series features session on educational mobility and public policy",
+    "u": "https://www.iimb.ac.in/node/9446",
+    "img": null
+   },
+   {
+    "t": "PGPPM Policy Talk Series brings practitioner perspectives on governance and public policy",
+    "u": "https://www.iimb.ac.in/node/5166",
+    "img": null
+   },
+   {
+    "t": "IIM Bangalore inaugurates 23rd cohort of the Post Graduate Programme in Public Policy and Management (PGPPM)",
+    "u": "https://www.iimb.ac.in/iimb-inaugurated-23rd-cohort-pgppm-2026",
+    "img": null
+   },
+   {
+    "t": "IIM Bangalore welcomes 22nd batch of the Post Graduate Programme in Public Policy & Management",
+    "u": "https://www.iimb.ac.in/iimb-welcomes-22-batch-pgppm",
+    "img": null
+   }
+  ],
+  "videos": [
+   {
+    "id": "lTUbH4BMDdE",
+    "t": "PGPPM empowered me to tackle complex policy challenges with confidence"
+   },
+   {
+    "id": "7Non_v_IFME",
+    "t": "PGPPM continues to evolve with the changing needs of public policy"
+   },
+   {
+    "id": "cxt_Z4DzyAo",
+    "t": "Avais Patwegar: First Rank holder (PGPPM)"
+   },
+   {
+    "id": "w7UPAjFCm-4",
+    "t": "Post Graduate Programme in Public Policy & Management"
+   },
+   {
+    "id": "FuOQqUjP8XU",
+    "t": "PGPPM: A 40-week modular and hybrid PG Diploma programme"
+   },
+   {
+    "id": "ybp8GRLjmY0",
+    "t": "PGPPM: 2018 Admission"
+   },
+   {
+    "id": "DTnYkQy2o8w",
+    "t": "Senthil R, PGPPM 2023-24"
+   },
+   {
+    "id": "JCoXHVB582U",
+    "t": "Harish Jayanna, PGPPM 2023-24"
+   }
+  ],
+  "achievements": [
+   {
+    "t": "PGPPM student selected for 64th UN Graduate Study Programme in Geneva",
+    "u": "https://www.iimb.ac.in/madhurya-pgppm-student-selected-unog"
+   }
+  ]
+ },
+ "executive-education": {
+  "videos": [
+   {
+    "id": "9EN3LpZniL0",
+    "t": "IIMB Anthem"
+   },
+   {
+    "id": "uBBPOmFtAyM",
+    "t": "IIM Bangalore Campus Tour"
+   },
+   {
+    "id": "PU9GfVeiDSY",
+    "t": "My IIMB: A Tale of Gratitude - Part 2"
+   },
+   {
+    "id": "kKiaZGfB02Q",
+    "t": "My IIMB: A Tale of Gratitude - Part 1"
+   }
+  ]
+ },
+ "phd": {
+  "videos": [
+   {
+    "id": "RW8QvIRDFWE",
+    "t": "2026 Institute Research Award: Divya Dwivedi, PhD"
+   },
+   {
+    "id": "mi-U9umMGdo",
+    "t": "PhD Programme at IIMB: PhD scholar Satyajit Roy, Production and Operations Management area"
+   },
+   {
+    "id": "9xZB1qH1BRA",
+    "t": "PhD Programme at IIMB: PhD scholar Sabhya Rai, Economics area"
+   },
+   {
+    "id": "9oS3okpy8Rw",
+    "t": "PhD Programme at IIMB: PhD scholar Sonal Nayak, Strategy area"
+   }
+  ]
+ }
+};

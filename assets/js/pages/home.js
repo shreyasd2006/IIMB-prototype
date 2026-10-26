@@ -62,9 +62,6 @@
     $("[data-faces]").innerHTML = `<p class="faces-cap"><span class="h3"><span data-count>109</span> faculty, <span data-count>11</span> areas.</span> <a class="arrow-link" href="faculty.html"><span>Browse the directory</span>${icon("arrow")}</a></p>
       <ul class="face-row" data-stagger>${pick.map((id) => { const f = J.fac(id); return `<li><a href="${u.person(id)}" title="${esc(f.name)}">${J.face(id)}<span class="fr-name">${esc(f.name)}</span></a></li>`; }).join("")}</ul>`;
 
-    /* engage routes + partners */
-    $("[data-routes]").innerHTML = I.industry.routes.map((r, i) => `<li><a class="index-row" href="partnerships.html#${r.id}"><span class="n">${String(i + 1).padStart(2, "0")}</span><span class="t">${esc(r.k)}</span><span class="d">${esc(r.d)}</span></a></li>`).join("");
-    $("[data-partners]").innerHTML = I.industry.partners.map((p) => { const [who, what] = p.split(": "); return `<li><strong>${esc(who)}</strong><span>${esc(what || "")}</span></li>`; }).join("");
 
     /* events */
     const ups = I.events.filter((e) => (e.end || e.start) >= J.today).sort((a, b) => a.start.localeCompare(b.start)).slice(0, 6);

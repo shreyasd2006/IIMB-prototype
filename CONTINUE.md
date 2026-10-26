@@ -52,3 +52,10 @@ Impeccable finish reviewer + documenter (DESIGN.md), mobile pass, README update.
 - Removed eyebrows/kickers and 01/02 section numbers on programme pages (craft floor); no thick side borders.
 - About Act line fills on scroll and documents light up; degree photos wipe in; programme hero code/photo part on scroll.
 - serve.py sends Cache-Control: no-cache; cdp.mjs uses a fresh profile per launch.
+
+## Third pass, 26 Oct 2026
+- Home: "Work with IIMB" section removed.
+- About + every programme page: IIMB's official rankings graphic (assets/img/accreditation-rankings-2025.jpg, from the About page).
+- Programme pages follow the official page order: overview (+ highlights / Why EPGP / We seek), chairperson, batch profile, accreditation and rankings (graphic + rows + EQUIS/GNAM), in the news, student achievements, videos and testimonials (official YouTube films, titles via oEmbed, thumbnails in assets/img/yt), placements, then sub-pages (admission, programme structure, exchange/immersion, fees and aid), FAQs, disability policy (PGP/PGPBA), apply. Data: IIMB.progMedia (tools/progmedia_oct26.py from research/scrape-oct26/news_by_prog.json + videos_by_prog.json).
+- Class profile charts: J.ring (composition, sweeps in) and J.columns (experience/age); tiles kept.
+- Programmes finder rows redesigned (photo, code + level, name, degree, facts, Compare/Details with underline).

@@ -11,19 +11,21 @@
 
   const row = (p) => {
     const on = state.cmp.includes(p.id);
-    return `<li class="prog-row" data-key="${p.id}" data-peek="${J.src(p.img, 800)}">
-      <a class="pr-main" href="${u.prog(p.id)}">
-        <span class="pr-code${p.short.length > 5 ? " long" : ""}">${esc(p.short)}</span>
-        <span class="pr-name"><span class="h4">${esc(p.name)}</span><span class="small mute">${esc(p.degree)}</span></span>
-      </a>
-      <dl class="pr-facts">
-        <div><dt>Duration</dt><dd>${esc(p.duration)}</dd></div>
-        <div><dt>Format</dt><dd>${esc(p.format)}</dd></div>
-        <div><dt>Experience</dt><dd>${esc(p.experience === "—" ? "Not applicable" : p.experience)}</dd></div>
-      </dl>
+    return `<li class="prog-row" data-key="${p.id}">
+      <a class="pr-img" href="${u.prog(p.id)}" tabindex="-1" aria-hidden="true">${J.img(p.img, { want: 800, sizes: "(min-width: 1000px) 220px, 34vw", alt: "" })}</a>
+      <div class="pr-body">
+        <p class="pr-top"><span class="pr-code">${esc(p.short)}</span><span class="pr-level">${esc(p.level)}</span></p>
+        <h3 class="pr-name"><a href="${u.prog(p.id)}">${esc(p.name)}</a></h3>
+        <p class="pr-deg">${esc(p.degree)}</p>
+        <dl class="pr-facts">
+          <div><dt>Duration</dt><dd>${esc(p.duration)}</dd></div>
+          <div><dt>Format</dt><dd>${esc(p.format)}</dd></div>
+          <div><dt>Experience</dt><dd>${esc(p.experience === "—" ? "Not applicable" : p.experience)}</dd></div>
+        </dl>
+      </div>
       <div class="pr-act">
         <label class="cmp-toggle"><input type="checkbox" data-cmp-id="${p.id}" ${on ? "checked" : ""} ${!on && state.cmp.length >= 3 ? "disabled" : ""}><span class="box">${icon("check")}</span><span>Compare</span></label>
-        <a class="arrow-link" href="${u.prog(p.id)}"><span>Details</span>${icon("arrow")}</a>
+        <a class="pr-go" href="${u.prog(p.id)}"><span>Details</span>${icon("arrow")}</a>
       </div>
     </li>`;
   };

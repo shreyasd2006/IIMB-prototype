@@ -534,3 +534,33 @@ body { font-variant-numeric: lining-nums; }
 .rkl-f-n { padding-bottom: .1em; margin-bottom: .2rem; }
 .rng-t { margin-bottom: .6rem; }
 @media (max-width: 600px) { .rng-track { margin-top: 3.4rem; } }
+
+/* Class profile charts (26 Oct 2026): composition as rings, ordered ranges as columns */
+.ring { display: grid; grid-template-columns: minmax(150px, 210px) 1fr; gap: 1.4rem 2rem; align-items: center; }
+.ring-dial { --k: 1; position: relative; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; }
+.ring-hole { width: 64%; aspect-ratio: 1; border-radius: 50%; background: var(--white); display: grid; place-content: center; text-align: center; gap: .15rem; padding: .4rem; }
+.bg-white .ring-hole { background: var(--cream-2); }
+.ring-hole b { font: 600 clamp(1.7rem, 1.3rem + 1.2vw, 2.3rem)/1 var(--f-display); color: var(--burgundy); }
+.ring-hole span { font-size: .78rem; line-height: 1.25; color: var(--mute); max-width: 9ch; margin-inline: auto; }
+.ring-key { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.ring-key li { display: grid; grid-template-columns: 12px 1fr auto 3rem; gap: .7rem; align-items: center; padding-bottom: .55rem; border-bottom: 1px solid var(--rule); font-size: .92rem; }
+.ring-key li:last-child { border-bottom: 0; padding-bottom: 0; }
+.ring-key i { width: 12px; height: 12px; border-radius: 3px; }
+.ring-key b { font: 600 1rem/1 var(--f-sans); font-variant-numeric: tabular-nums; }
+.ring-key small { text-align: right; color: var(--mute); font-size: .8rem; font-variant-numeric: tabular-nums; }
+@media (max-width: 520px) { .ring { grid-template-columns: 1fr; } .ring-dial { width: min(220px, 70vw); margin-inline: auto; } }
+
+.cols { display: grid; gap: .6rem; }
+.cols ol { list-style: none; margin: 0; padding: 0; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: clamp(.4rem, 1.2vw, 1rem); align-items: end; min-height: 250px; border-bottom: 1px solid var(--rule-strong); }
+.cols li { display: grid; grid-template-rows: auto 1fr; gap: .45rem; height: 100%; }
+.col-v { display: grid; justify-items: center; gap: .1rem; }
+.col-v b { font: 600 1.25rem/1 var(--f-display); color: var(--ink); }
+.col-v small { font-size: .74rem; color: var(--mute); }
+.col-track { position: relative; display: flex; align-items: flex-end; justify-content: center; min-height: 170px; }
+.col-track i { display: block; width: min(100%, 56px); height: var(--h); background: var(--red); border-radius: 3px 3px 0 0; }
+.cols li.max .col-track i { background: var(--burgundy); }
+.cols li.max .col-v b { color: var(--burgundy); }
+.col-l { grid-row: 3; text-align: center; font-size: .82rem; line-height: 1.25; color: var(--mute); padding-top: .55rem; }
+.cols ol { padding-bottom: 0; }
+.cols li { grid-template-rows: auto 1fr auto; }
+.col-unit { margin: 0; font-size: .78rem; color: var(--mute); }
