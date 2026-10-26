@@ -1,36 +1,98 @@
-/* Programme detail — eligibility, curriculum, admissions, with a step rail that fills as you read */
+/* Programme detail — the full programme, as published by IIMB: overview, chair, rankings, class profile, curriculum,
+   global exposure, careers, fees and aid, admissions and FAQs, with an index that hangs from the corner. */
 (() => {
   const { I, $, $$, esc, icon, u } = J;
+  const src = (k) => (k && I.sources[k] ? `<p class="src">Source: ${J.srcLink(k)}</p>` : "");
+  const paras = (list, cls = "") => (list || []).map((t) => `<p class="${cls}">${esc(t)}</p>`).join("");
+  const head = (n, title, dek) => `<header class="pd-h"><h2 class="h2" data-split>${title}</h2>${dek ? `<p class="pd-dek" data-fade>${dek}</p>` : ""}</header>`;
+
+  function sections(p, D) {
+    const out = [];
+    const chair = D.chair && J.fac(D.chair.id);
+
+    /* Overview */
+    out.push(["overview", "Overview", `${paras(D.overview || [p.summary], "pd-p")}${D.highlights ? `<ul class="pd-cards" data-stagger>${D.highlights.map((h) => `<li><h3 class="h4">${esc(h.t)}</h3><p>${esc(h.d)}</p></li>`).join("")}</ul>` : ""}${D.areas ? `<h3 class="h4 pd-sub">Disciplinary areas</h3><ul class="chips">${D.areas.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}`, "", { wide: !!D.highlights }]);
+
+    /* Chair */
+    if (chair && D.chair.msg) out.push(["chair", "From the chairperson", `<figure class="pd-chair"><blockquote>${D.chair.msg.map((m) => `<p>${esc(m)}</p>`).join("")}</blockquote><figcaption><a href="${u.person(chair.id)}" class="pd-chair-who">${J.face(chair.id, { cls: "pd-chair-face" })}<span><span class="h4">${esc(chair.name)}</span><br><span class="small mute">Chairperson, ${esc(p.short)} · ${esc(chair.areas[0] || "")}</span></span></a></figcaption></figure>${src(D.chair.src)}`]);
+
+    /* Rankings */
+    const ranks = J.ranksFor(p.id);
+    if (ranks.length) out.push(["rankings", "Rankings", J.rankLedger(ranks, { feature: false }), "As published by IIM Bangalore. Each row links to the official announcement.", { wide: true }]);
+
+    /* Class profile */
+    const P = D.profile;
+    if (P) {
+      const groups = (P.groups || []).map((g) => `<div class="pd-chart"><h3 class="pd-chart-t">${esc(g.t)}</h3>${J.bars(g.rows)}</div>`).join("");
+      out.push(["profile", "Class profile", `${J.tiles(P.tiles)}${P.gender ? `<div class="pd-chart pd-gender"><h3 class="pd-chart-t">Women and men</h3>${J.genderSplit(P.gender.f, P.gender.m)}${P.gender.note ? `<p class="small mute">${esc(P.gender.note)}</p>` : ""}</div>` : ""}${groups ? `<div class="pd-charts">${groups}</div>` : ""}${P.gmat ? `<div class="pd-chart">${J.gmatRange(P.gmat)}</div>` : ""}${P.extra ? `<p class="small mute">${esc(P.extra)}</p>` : ""}${src(P.src)}`, esc(P.title), { wide: true }]);
+    }
+
+    /* Curriculum */
+    const S = D.structure;
+    if (S) {
+      out.push(["curriculum", "Curriculum", `${paras(S.intro, "pd-p")}${S.terms ? `<ol class="terms" data-stagger>${S.terms.map((t) => `<li><h3 class="term-t">${esc(t.t)}</h3>${t.items.length ? `<ul>${t.items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p class="small mute">See the official structure page.</p>`}</li>`).join("")}</ol>` : ""}${S.blocks ? `<dl class="pd-blocks">${S.blocks.map((b) => `<div><dt class="h4">${esc(b.t)}</dt><dd>${esc(b.d)}</dd></div>`).join("")}</dl>` : ""}${S.electives ? `<h3 class="h4 pd-sub">Electives</h3><p>${esc(S.electives.intro)}</p><ul class="chips">${S.electives.areas.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}${src(S.src)}`, "", { wide: true }]);
+    } else out.push(["curriculum", "Curriculum", `<ol class="cur-list">${p.curriculum.map((c, i) => `<li><span class="num">${String(i + 1).padStart(2, "0")}</span><span>${esc(c)}</span></li>`).join("")}</ol>`]);
+
+    /* Global exposure */
+    const Gl = D.global;
+    if (Gl) out.push(["global", "Global exposure", `<div class="pd-media"><figure class="pd-fig" data-plate="up"><span class="plate">${J.img(Gl.img, { want: 1600, sizes: "(min-width: 1000px) 45vw, 100vw" })}</span><figcaption class="caption">${J.credit(Gl.img)}</figcaption></figure><div><p class="pd-p">${esc(Gl.intro)}</p>${Gl.items.length ? `<dl class="pd-blocks">${Gl.items.map((b) => `<div><dt class="h4">${esc(b.t)}</dt><dd>${esc(b.d)}</dd></div>`).join("")}</dl>` : ""}${src(Gl.src)}</div></div>`, "", { wide: true }]);
+
+    /* Careers */
+    const C = D.careers;
+    if (C && C.kind === "mba") out.push(["careers", "Careers & placements", `${C.blocks.map((b) => `<div class="pd-place"><h3 class="h3">${esc(b.t)}</h3>${J.tiles(b.tiles)}<div class="pd-charts"><div class="pd-chart"><h4 class="pd-chart-t">${esc(b.barsNote)}</h4>${J.bars(b.bars, { pct: false, unit: b.barsNote.includes("%") ? "%" : "" })}</div>${b.recruiters ? `<div class="pd-chart"><h4 class="pd-chart-t">Top recruiters by offers</h4><ol class="recruit">${b.recruiters.map((r) => `<li>${esc(r)}</li>`).join("")}</ol></div>` : ""}</div>${src(b.src)}</div>`).join("")}<p class="small mute">${esc(C.note)} ${C.report ? `Full figures: ${J.srcLink(C.report)}.` : ""}</p>`, "", { wide: true }]);
+    else if (C && C.kind === "series") out.push(["careers", "Careers & placements", `<p class="pd-p">${esc(C.intro)}</p><div class="pd-charts pd-charts-2"><div class="pd-chart"><h3 class="pd-chart-t">Salary over the years</h3>${J.series(C.years, C.series)}</div><div class="pd-chart"><h3 class="pd-chart-t">${esc(C.people.t)}</h3><table class="pd-table"><thead><tr><th>Year</th><th>In the process</th><th>With offers</th><th>Companies</th></tr></thead><tbody>${C.years.map((y, i) => `<tr><td>${y}</td><td class="num">${C.people.v[i][0]}</td><td class="num">${C.people.v[i][1]}</td><td class="num">${C.firms.v[i]}</td></tr>`).join("")}</tbody></table></div></div><p class="small mute">${esc(C.note)}</p>${src(C.src)}`, "", { wide: true }]);
+    else if (C && C.kind === "shared") out.push(["careers", "Careers & placements", `<p class="pd-p">${esc(C.note)}</p><p><a class="arrow-link" href="${u.prog(C.link)}#careers"><span>PGP placement results</span>${icon("arrow")}</a></p>${src(C.report)}`]);
+
+    /* Fees */
+    const F = D.fees;
+    if (F || p.fee || p.aid) out.push(["fees", "Fees & financial aid", `${F && F.rows ? `<table class="pd-table pd-fees"><tbody>${F.rows.map(([l, v]) => `<tr><th scope="row">${esc(l)}</th><td>${esc(v)}</td></tr>`).join("")}</tbody></table>` : p.fee ? `<p class="pd-p">${esc(p.fee)}</p>` : ""}${F && F.notes ? F.notes.map((n) => `<p class="small mute">${esc(n)}</p>`).join("") : ""}${(F && F.aid) || p.aid ? `<h3 class="h4 pd-sub">Financial aid</h3><p>${esc((F && F.aid) || p.aid)}</p>` : ""}${F && F.scholarships ? `<h3 class="h4 pd-sub">Scholarships</h3><dl class="pd-blocks pd-blocks-2">${F.scholarships.map(([t, d]) => `<div><dt class="h4">${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join("")}</dl>` : ""}${src((F && F.src) || p.feeSrc)}`]);
+
+    /* Admissions */
+    const elig = D.eligibility ? `<ul class="ticks">${D.eligibility.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : `<p class="pd-p">${esc(p.eligibility)}</p>`;
+    const dates = D.dates || p.dates || null;
+    out.push(["admissions", "Eligibility & admissions", `<div class="pd-adm"><div><h3 class="h4 pd-sub">Who can apply</h3>${elig}${src(D.eligibilitySrc || p.eligibilitySrc)}</div><div><h3 class="h4 pd-sub">How to apply</h3><ol class="adm-steps">${p.admissions.map((a) => `<li><span class="as-dot"></span><span>${esc(a)}</span></li>`).join("")}</ol>${dates && dates.length ? `<h3 class="h4 pd-sub">Key dates</h3><dl class="kv">${dates.map((x) => `<div><dt>${esc(x.l)}</dt><dd>${esc(x.v)}</dd></div>`).join("")}</dl>` : ""}${src(D.datesSrc || p.datesSrc)}</div></div>`, "", { wide: true }]);
+
+    /* Upcoming open programmes (Executive Education) */
+    if (D.upcoming) out.push(["upcoming", "Upcoming programmes", `<table class="pd-table"><thead><tr><th>Programme</th><th>Starts</th><th>Duration</th></tr></thead><tbody>${D.upcoming.rows.map(([a, b, c]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td><td>${esc(c)}</td></tr>`).join("")}</tbody></table>${src(D.upcoming.src)}`, "", { wide: true }]);
+
+    /* FAQ */
+    if (D.faq) out.push(["faq", "Frequently asked questions", `<div class="faq">${D.faq.map(([q, a], i) => `<div class="faq-i"><h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="pfaq-a${i}" id="pfaq-q${i}" data-faq-q><span>${esc(q)}</span><span class="faq-ic" aria-hidden="true"></span></button></h3><div class="faq-a" id="pfaq-a${i}" role="region" aria-labelledby="pfaq-q${i}"><div><p>${esc(a)}</p></div></div></div>`).join("")}</div>${src(D.faqSrc)}`]);
+    return out;
+  }
 
   function render() {
     const p = J.prog(J.param("id")) || J.prog("pgp");
+    const D = (I.progDetail || {})[p.id] || {};
     document.title = `${p.name} (${p.short}) — IIM Bangalore`;
     $("[data-crumb]").textContent = p.short;
     $("[data-code]").textContent = p.short;
+    const codeLen = p.short.replace(/\s/g, "").length;
+    $("[data-code]").classList.toggle("c-m", codeLen >= 5 && codeLen <= 6);
+    $("[data-code]").classList.toggle("c-l", codeLen >= 7);
+    $("[data-title]").classList.toggle("t-long", p.name.length > 40);
     $("[data-title]").textContent = p.name;
     $("[data-degree]").textContent = p.degree;
-    $("[data-cta]").innerHTML = `<a class="btn" href="${p.apply}">Apply on the official site${icon("arrow")}</a><a class="arrow-link" href="${p.url}"><span>Official programme page</span>${icon("arrow-up")}</a>`;
-    const ph = J.photo(p.img);
-    $("[data-plate-hero]").innerHTML = `${J.img(p.img, { lazy: false, sizes: "(min-width: 1000px) 58vw, 100vw" })}<figcaption class="caption">${J.credit(p.img)}</figcaption>`;
-    $("[data-facts]").innerHTML = [["Duration", p.duration], ["Format", p.format], ["Work experience", p.experience === "—" ? "Not applicable" : p.experience], ["Level", p.level], p.intake ? ["Cohort", p.intake] : null].filter(Boolean).map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("");
+    $("[data-cta]").innerHTML = `<a class="btn btn-light" href="${p.apply}">Apply on the official site${icon("arrow")}</a><a class="arrow-link" href="${p.url}"><span>Official programme page</span>${icon("arrow-up")}</a>`;
+    const hero = D.hero && J.photo(D.hero) ? D.hero : p.img;
+    $("[data-plate-hero]").innerHTML = `${J.img(hero, { lazy: false, want: 2400, sizes: "(min-width: 1000px) 60vw, 100vw" })}<figcaption class="caption">${J.credit(hero)}</figcaption>`;
+    const facts = D.facts || [];
+    const base = [["Duration", p.duration], ["Format", p.format], ["Degree", p.degree], ["Work experience", p.experience === "—" ? "Not applicable" : p.experience]];
+    $("[data-facts]").innerHTML = `${facts.length ? `<div class="pf-stats">${J.tiles(facts)}</div>` : ""}<div class="pf-kv">${base.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</div>`;
 
-    const chair = p.chair && J.fac(p.chair);
-    const secs = [
-      ["overview", "Overview", `<p class="lede">${esc(p.summary)}</p>${p.aid ? "" : ""}`],
-      ["eligibility", "Eligibility", `<p class="dek">${esc(p.eligibility)}</p>${p.eligibilitySrc ? `<p class="src">Source: ${J.srcLink(p.eligibilitySrc)}</p>` : ""}<dl class="kv"><div><dt>Work experience</dt><dd>${esc(p.experience === "—" ? "Not applicable" : p.experience)}</dd></div></dl>`],
-      ["curriculum", "Curriculum", `<ol class="cur-list">${p.curriculum.map((c, i) => `<li><span class="num">${String(i + 1).padStart(2, "0")}</span><span>${esc(c)}</span></li>`).join("")}</ol>`],
-      ["admissions", "Admissions", `<ol class="adm-steps">${p.admissions.map((a) => `<li><span class="adm-dot"></span><span>${esc(a)}</span></li>`).join("")}</ol>${p.admissionsSrc ? `<p class="src">Source: ${J.srcLink(p.admissionsSrc)}</p>` : ""}${p.dates ? `<h3 class="h4 sub-h">Key dates</h3><dl class="kv">${p.dates.map((x) => `<div><dt>${esc(x.l)}</dt><dd>${esc(x.v)}</dd></div>`).join("")}</dl><p class="src">Source: ${J.srcLink(p.datesSrc)}</p>` : ""}`],
-      (p.fee || p.aid) ? ["fees", "Fees & aid", `${p.fee ? `<p class="dek">${esc(p.fee)}</p>` : ""}${p.aid ? `<p>${esc(p.aid)}</p>` : ""}${p.feeSrc ? `<p class="src">Source: ${J.srcLink(p.feeSrc)}</p>` : ""}`] : null,
-      ["contact", "Contact & apply", `<div class="contact-card">${chair ? `<a class="cc-person" href="${u.person(chair.id)}">${J.face(chair.id, { cls: "cc-face" })}<span><span class="small mute">Programme chair</span><br><span class="h4">${esc(chair.name)}</span><br><span class="small">${esc(chair.title)}, ${esc(chair.areas.join(", "))}</span></span></a>` : ""}
-        ${p.contact ? `<p class="cc-mail">${icon("mail")}<a class="ulink" href="${p.contact.includes("@") ? "mailto:" + p.contact : "https://" + p.contact}">${esc(p.contact)}</a></p>` : ""}
-        <div class="cc-actions"><a class="btn" href="${p.apply}">Apply on the official site${icon("arrow")}</a>${p.calendar ? `<a class="btn ghost" href="${p.calendar}">Programme calendar (PDF)${icon("arrow-up")}</a>` : ""}</div></div>`],
-    ].filter(Boolean);
-    $("[data-content]").innerHTML = secs.map(([id, t, html]) => `<section class="ps" id="${id}" aria-labelledby="${id}-h"><h2 class="h2 ps-h" id="${id}-h" data-split>${t}</h2><div class="ps-body" data-fade>${html}</div></section>`).join("");
-    $("[data-rail-list]").innerHTML = secs.map(([id, t], i) => `<li><a href="#${id}" data-rail-link="${id}"><span class="num">${i + 1}</span>${t}</a></li>`).join("");
-    $$("[data-rail-link]").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); J.scrollTo("#" + a.dataset.railLink); history.replaceState(null, "", "#" + a.dataset.railLink); }));
+    const secs = sections(p, D);
+    $("[data-content]").innerHTML = secs.map(([id, t, html, dek, o = {}], i) => `<section class="section pd-sec${o.wide ? " pd-wide" : ""}" id="${id}" aria-labelledby="${id}-h"><div class="wrap pd-in">${head(i + 1, t, dek).replace("<h2 ", `<h2 id="${id}-h" `)}<div class="pd-body">${html}</div></div></section>`).join("");
 
-    const rel = I.programmes.filter((x) => x.id !== p.id && (x.level === p.level || I.audiences.some((a) => a.progs.includes(p.id) && a.progs.includes(x.id)))).slice(0, 4);
-    $("[data-related]").innerHTML = (rel.length ? rel : I.programmes.filter((x) => x.id !== p.id).slice(0, 3)).map((x) => `<li><a class="rel" href="${u.prog(x.id)}"><span class="rel-code">${esc(x.short)}</span><span class="h4">${esc(x.name)}</span><span class="small mute">${esc(x.duration)} · ${esc(x.format)}</span></a></li>`).join("");
+    const chair = D.chair && J.fac(D.chair.id) || (p.chair && J.fac(p.chair));
+    const contacts = D.contact || (p.contact ? [["Contact", p.contact, ""]] : []);
+    $("[data-cta-band]").innerHTML = `<div class="pd-cta-text"><h2 class="h1" id="apply-h" data-split>Ready to apply to the ${esc(p.short)}?</h2><p class="dek">Applications are made on IIMB’s official admissions pages. This concept links to them directly.</p><div class="pd-cta-acts"><a class="btn btn-light" href="${p.apply}">Apply on the official site${icon("arrow")}</a><a class="arrow-link" href="${p.url}"><span>Official programme page</span>${icon("arrow-up")}</a>${p.calendar ? `<a class="arrow-link" href="${p.calendar}"><span>Programme calendar (PDF)</span>${icon("arrow-up")}</a>` : ""}</div></div>
+      <div class="pd-cta-who">${chair ? `<a class="pd-cta-person" href="${u.person(chair.id)}">${J.face(chair.id, { cls: "cc-face" })}<span><span class="small">Programme chair</span><br><span class="h4">${esc(chair.name)}</span></span></a>` : ""}<dl class="pd-contacts">${contacts.map(([l, mail, tel]) => `<div><dt>${esc(l)}</dt><dd><a href="mailto:${esc(mail)}">${esc(mail)}</a>${tel ? `<br><span>${esc(tel)}</span>` : ""}</dd></div>`).join("")}</dl></div>`;
+
+    const rel = I.programmes.filter((x) => x.id !== p.id && x.level === p.level).concat(I.programmes.filter((x) => x.id !== p.id && x.level !== p.level)).slice(0, 4);
+    $("[data-related]").innerHTML = rel.map((x) => `<li><a class="rel" href="${u.prog(x.id)}"><span class="rel-img">${J.img(x.img, { want: 800, sizes: "(min-width: 900px) 25vw, 50vw", alt: "" })}</span><span class="rel-code">${esc(x.short)}</span><span class="h4 rel-name">${esc(x.name)}</span><span class="small mute">${esc(x.duration)} · ${esc(x.format)}</span></a></li>`).join("");
+
+    /* FAQ accordion */
+    $$("[data-faq-q]").forEach((b) => b.addEventListener("click", () => { const i = b.closest(".faq-i"), open = !i.classList.contains("open"); i.classList.toggle("open", open); b.setAttribute("aria-expanded", String(open)); }));
+    J.hangIndex(secs.map(([id, t]) => ({ id, t })).concat([{ id: "apply", t: "Apply" }]), { label: `${p.short} · on this page`, after: ".pd-facts-sec" });
   }
 
   function intro(delay) {
@@ -42,12 +104,10 @@
       .fromTo(".prog-code", { yPercent: 100, autoAlpha: 0 }, { yPercent: 0, autoAlpha: 1, duration: 1.3 }, 0.6)
       .add(J.linesIn($(".prog-title"), { stagger: 0.07 }), 0.75)
       .fromTo(".prog-degree, .prog-cta, .crumbs", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 0.9, stagger: 0.08 }, 1.0)
-      .fromTo(".prog-facts > div", { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 0.9, stagger: 0.06 }, 1.1)
-      .fromTo(".steprail li", { autoAlpha: 0, x: -16 }, { autoAlpha: 1, x: 0, duration: 0.7, stagger: 0.05 }, 1.2);
-    /* rail: active section + fill */
-    g.fromTo("[data-rail-fill]", { scaleY: 0 }, { scaleY: 1, ease: "none", scrollTrigger: { trigger: "[data-content]", start: "top 40%", end: "bottom 60%", scrub: true } });
-    $$(".ps").forEach((s) => ScrollTrigger.create({ trigger: s, start: "top 45%", end: "bottom 45%", onToggle: (st) => { if (st.isActive) $$("[data-rail-link]").forEach((a) => a.classList.toggle("on", a.dataset.railLink === s.id)); } }));
-    g.to(".prog-plate img", { yPercent: 10, ease: "none", scrollTrigger: { trigger: ".prog-hero", start: "top top", end: "bottom top", scrub: true } });
+      .fromTo(".pf-kv > div", { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 0.9, stagger: 0.06 }, 1.1);
+    g.to(".prog-plate img", { yPercent: 8, scale: 1.06, ease: "none", scrollTrigger: { trigger: ".prog-hero", start: "top top", end: "bottom top", scrub: true } });
+    g.to(".prog-code", { yPercent: -35, autoAlpha: 0.35, ease: "none", scrollTrigger: { trigger: ".prog-hero", start: "top top", end: "bottom top", scrub: true } });
+    J.batchIn(".pd-cards li, .terms > li, .pd-chart", { dur: 0.9 });
     g.fromTo(".adm-steps li", { autoAlpha: 0, x: -20 }, { autoAlpha: 1, x: 0, stagger: 0.12, duration: 0.8, ease: J.ease, scrollTrigger: { trigger: ".adm-steps", start: "top 85%", once: true } });
   }
   J.page(render, intro);

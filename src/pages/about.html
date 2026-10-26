@@ -3,6 +3,7 @@
     <div class="ab-hero-text">
       <h1 class="h1" id="ab-h" data-intro data-split>Founded 1973. Still being written.</h1>
       <p class="lede" data-intro data-ab-lede></p>
+      <dl class="ab-figs" data-intro data-ab-figs></dl>
       <p class="ab-motto" data-intro><span class="dev" lang="sa">तेजस्वि नावधीतमस्तु</span><span>“Let our study be enlightening.” The motto, from the Taittiriya Upanishad’s peace invocation.</span></p>
     </div>
     <figure class="ab-hero-plate" data-intro data-plate="right">
@@ -12,7 +13,7 @@
   </div>
 </section>
 
-<section class="section ab-vision" aria-labelledby="vis-h">
+<section class="section ab-vision" id="vision" aria-labelledby="vis-h">
   <div class="wrap grid">
     <h2 class="meta vis-label" id="vis-h">Vision</h2>
     <p class="vis-text" data-vision data-split></p>
@@ -39,7 +40,7 @@
   </div>
 </section>
 
-<section class="section ab-arch" aria-labelledby="arch-h">
+<section class="section ab-arch" id="architecture" aria-labelledby="arch-h">
   <div class="wrap">
     <div class="arch-head">
       <h2 class="h1" id="arch-h" data-split>A campus in stone and light</h2>
@@ -58,7 +59,7 @@
   </div>
 </section>
 
-<section class="section ab-identity" aria-labelledby="id-h">
+<section class="section ab-identity" id="identity" aria-labelledby="id-h">
   <div class="wrap grid">
     <figure class="id-logo" data-fade><img src="assets/brand/iimb-logo.png" width="3366" height="558" alt="The IIM Bangalore logo: a red sun symbol with rays, the letters IIMB, and the institute's name in Hindi and English" loading="lazy"></figure>
     <div class="id-text">
@@ -101,7 +102,7 @@
         <p data-equis data-fade></p>
         <p data-gnam data-fade></p>
       </div>
-      <ol class="rk-list ab-ranks" data-ab-ranks></ol>
+      <div class="ab-ranks" data-ab-ranks></div>
     </div>
   </div>
 </section>
@@ -118,12 +119,13 @@
 </section>
 
 <section class="section ab-act" id="act" aria-labelledby="act-h">
-  <div class="wrap grid">
-    <div class="gov-intro">
-      <h2 class="h2" id="act-h" data-split>IIM Act and Rules</h2>
-      <p class="dek" data-fade>Under the Indian Institutes of Management Act of 2017, IIMB is an Institute of National Importance.</p>
+  <div class="wrap act-in">
+    <div class="act-intro">
+      <h2 class="h1" id="act-h" data-split>IIM Act and Rules</h2>
+      <p class="dek" data-fade>Under the Indian Institutes of Management Act of 2017, IIMB is an Institute of National Importance. The Act, the Rules made under it and their amendments, and the Institute’s own Regulations set out how IIMB is governed and the degrees it awards.</p>
+      <p class="src">Documents as listed on <a class="ulink" href="https://www.iimb.ac.in/iim-act-rules">IIM Act and Rules, iimb.ac.in</a>.</p>
     </div>
-    <ul class="gov-docs" data-act data-stagger></ul>
+    <div class="act-line-wrap"><span class="act-fill" aria-hidden="true"><i data-act-fill></i></span><ol class="act-docs" data-act data-stagger></ol></div>
   </div>
 </section>
 
@@ -141,9 +143,13 @@
 
 <section class="section ab-iac" id="iac" aria-labelledby="iac-h">
   <div class="wrap">
-    <div class="board grid iac-board">
-      <div class="board-h"><h2 class="h2" id="iac-h" data-split>International Advisory Committee</h2><p class="small mute" data-second></p></div>
-      <ol class="board-list" data-iac data-stagger></ol>
+    <div class="iac-head">
+      <div>
+        <h2 class="h1" id="iac-h" data-split>International Advisory Committee</h2>
+      </div>
+      <p class="dek" data-fade>Leaders of business schools and universities on three continents who advise the Institute. Listed in alphabetical order of last names; last updated on 14 August 2026.</p>
     </div>
+    <ol class="iac-grid" data-iac data-stagger></ol>
+    <p class="src">Source: <a class="ulink" href="https://www.iimb.ac.in/about-institute">About IIMB, iimb.ac.in</a>.</p>
   </div>
 </section>

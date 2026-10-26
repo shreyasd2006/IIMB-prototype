@@ -1,0 +1,29 @@
+{
+ "title": "Academic Experience | MBA",
+ "h": 6027,
+ "hs": [
+  "H1 Academic Experience",
+  "H2 Academic Experience",
+  "H2 Curriculum",
+  "H2 The Ca e Method",
+  "H2 The Field Method",
+  "H2 A Global Experience",
+  "H2 AI Fluency i  Woven In.",
+  "H2 Joint Degree ",
+  "H3 MS/MBA Biotechnology: Life Science ",
+  "H3 MS/MBA: Engineering Science ",
+  "H3 MBA/MPP & MBA/MPA-ID",
+  "H3 MD/MBA",
+  "H3 JD/MBA",
+  "H3 MBA/DMD",
+  "H2 The Section Experience",
+  "H2 Faculty & Re earch",
+  "H2 Initiative "
+ ],
+ "sticky": [
+  "sticky HEADER.hbs-site-header noindex hbs-site-header--sticky :: MBA\nMBA\nAdmi ion \nFinancial Aid\nAcademic Experience\nAI Integration\nEntrepreneur hip\nMore\nApply",
+  "fixed DIV.hbs-global-menu :: ",
+  "fixed DIV.hbs-global-menu__social :: "
+ ],
+ "nums": []
+}

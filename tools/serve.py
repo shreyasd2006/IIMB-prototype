@@ -47,6 +47,8 @@ class RangeHandler(SimpleHTTPRequestHandler):
         self._remaining = None
 
     def end_headers(self):
+        # always revalidate, so edited pages, styles and data show up without a hard refresh
+        self.send_header("Cache-Control", "no-cache")
         if not self.headers.get("Range"):
             self.send_header("Accept-Ranges", "bytes")
         super().end_headers()

@@ -196,12 +196,13 @@
   };
 
   /* Scroll reveals: everything not inside [data-manual]. */
-  const autoRevealSel = "[data-split],[data-plate],[data-rule],[data-stagger],[data-fade],[data-count],[data-parallax]";
+  const autoRevealSel = "[data-split],[data-plate],[data-rule],[data-stagger],[data-fade],[data-count],[data-parallax],[data-bars]";
   J.reveals = (root = d) => {
     const g = G();
     const els = J.$$(autoRevealSel, root).filter((e) => !e.closest("[data-manual]") && !e._rev);
     if (!g) { els.forEach((e) => { e._rev = 1; e.style.visibility = "visible"; }); return; }
     els.forEach((el) => {
+      if (el._rev) return;
       el._rev = 1;
       const st = { trigger: el, start: "top 96%", once: true };
       if (el.hasAttribute("data-split")) {
@@ -218,6 +219,16 @@
         g.fromTo(kids, { y: 28, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.75, ease: J.ease, stagger: Math.min(0.06, 0.45 / Math.max(kids.length, 1)), scrollTrigger: { ...st, start: "top 97%" } });
       } else if (el.hasAttribute("data-fade")) {
         g.fromTo(el, { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.8, ease: J.ease, delay: +(el.dataset.delay || 0), scrollTrigger: st });
+      } else if (el.hasAttribute("data-bars")) {
+        const grow = J.$$("[data-grow]", el);
+        g.set(grow.filter((x) => x.dataset.grow !== "y"), { scaleX: 0, transformOrigin: "0% 50%" });
+        g.set(grow.filter((x) => x.dataset.grow === "y"), { scaleY: 0, transformOrigin: "50% 100%" });
+        ScrollTrigger.create({ ...st, start: "top 88%", onEnter: () => g.to(grow, { scaleX: 1, scaleY: 1, duration: 1.1, ease: "expo.out", stagger: Math.min(0.06, 0.6 / Math.max(grow.length, 1)) }) });
+        J.$$("[data-count]", el).forEach((c) => { c._rev = 1; J.countUp(c, st); });
+        const rows = J.$$(".rkl-row", el);
+        if (rows.length) g.fromTo(rows, { autoAlpha: 0, x: 36 }, { autoAlpha: 1, x: 0, duration: 0.9, ease: J.ease, stagger: 0.07, clearProps: "transform", scrollTrigger: { ...st, start: "top 86%" } });
+        const feat = J.$(".rkl-feature", el);
+        if (feat) g.fromTo(feat, { clipPath: "inset(0% 0% 100% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "expo.inOut", scrollTrigger: { ...st, start: "top 86%" } });
       } else if (el.hasAttribute("data-count")) {
         J.countUp(el, st);
       } else if (el.hasAttribute("data-parallax")) {
@@ -522,7 +533,7 @@
   J.dragRail = (rail) => {
     if (!rail) return;
     let down = false, sx = 0, sl = 0, moved = false;
-    rail.addEventListener("pointerdown", (e) => { if (e.pointerType !== "mouse") return; down = true; moved = false; sx = e.clientX; sl = rail.scrollLeft; rail.classList.add("dragging"); });
+    rail.addEventListener("pointerdown", (e) => { if (e.pointerType !== "mouse" || rail.closest(".pc-pinned")) return; down = true; moved = false; sx = e.clientX; sl = rail.scrollLeft; rail.classList.add("dragging"); });
     addEventListener("pointermove", (e) => { if (!down) return; const dx = e.clientX - sx; if (Math.abs(dx) > 4) moved = true; rail.scrollLeft = sl - dx; });
     addEventListener("pointerup", () => { down = false; rail.classList.remove("dragging"); });
     rail.addEventListener("click", (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
@@ -532,33 +543,152 @@
   J.progCard = (p) => { const first = String(p.summary).match(/^.*?[.!?](\s|$)/); return `<li class="pc-card"><a href="${J.u.prog(p.id)}">
       <span class="pc-img">${J.img(p.img, { want: 800, sizes: "(max-width: 760px) 80vw, 380px", alt: "" })}</span>
       <span class="pc-body"><span class="pc-level">${J.esc(p.level)}</span><span class="pc-name">${J.esc(p.name)}</span><span class="pc-rule" aria-hidden="true"></span>
-      <span class="pc-desc">${J.esc((first ? first[0] : p.summary).trim())}</span><span class="pc-go">Explore programme ${J.icon("arrow")}</span></span></a></li>`; };
+      <span class="pc-desc">${J.esc((first ? first[0] : p.summary).trim())}</span><span class="pc-go"><span>Explore programme</span>${J.icon("arrow")}</span></span></a></li>`; };
   J.carousel = (root) => {
     const rail = J.$("[data-pc-rail]", root), track = J.$("[data-pc-track]", root), prev = J.$("[data-pc-prev]", root), next = J.$("[data-pc-next]", root), dotsBox = J.$("[data-pc-dots]", root);
     if (!rail || !track) return;
     J.dragRail(rail);
-    if (dotsBox) dotsBox.innerHTML = [...track.children].map((_, i) => `<i data-dot="${i}"${i === 0 ? ' class="on"' : ""}></i>`).join("");
-    const step = () => { const c = track.children[0]; return c ? c.getBoundingClientRect().width + (parseFloat(getComputedStyle(track).columnGap) || 24) : 400; };
-    const go = (dir) => rail.scrollBy({ left: dir * step() * (innerWidth > 1000 ? 2 : 1), behavior: J.rm ? "auto" : "smooth" });
+    const cards = J.$$(".pc-card", track);
+    if (dotsBox) dotsBox.innerHTML = `<span class="pc-prog" aria-hidden="true"><i data-pc-fill></i></span><span class="pc-count num" data-pc-count>01 / ${String(cards.length).padStart(2, "0")}</span>`;
+    const step = () => { const c = cards[0]; return c ? c.getBoundingClientRect().width + (parseFloat(getComputedStyle(track).columnGap) || 24) : 400; };
+    let pin = null;
+    const setProgress = (p) => {
+      const fill = J.$("[data-pc-fill]", root); if (fill) fill.style.transform = `scaleX(${Math.max(0.04, p)})`;
+      const cnt = J.$("[data-pc-count]", root); if (cnt) cnt.textContent = `${String(Math.min(cards.length, 1 + Math.round(p * (cards.length - 1)))).padStart(2, "0")} / ${String(cards.length).padStart(2, "0")}`;
+      if (prev) prev.disabled = p < 0.01; if (next) next.disabled = p > 0.99;
+    };
+    const go = (dir) => {
+      if (pin && pin.isActive !== undefined && root.classList.contains("pc-pinned")) {
+        const y = Math.min(pin.end, Math.max(pin.start, scrollY + dir * step()));
+        J.lenis ? J.lenis.scrollTo(y, { duration: 0.9 }) : scrollTo({ top: y, behavior: J.rm ? "auto" : "smooth" });
+      } else rail.scrollBy({ left: dir * step(), behavior: J.rm ? "auto" : "smooth" });
+    };
     prev && prev.addEventListener("click", () => go(-1));
     next && next.addEventListener("click", () => go(1));
-    const sync = () => {
-      const i = Math.round(rail.scrollLeft / step());
-      J.$$("[data-dot]", root).forEach((dd) => dd.classList.toggle("on", +dd.dataset.dot === i));
-      if (prev) prev.disabled = rail.scrollLeft < 8;
-      if (next) next.disabled = rail.scrollLeft > rail.scrollWidth - rail.clientWidth - 8;
-    };
-    rail.addEventListener("scroll", () => requestAnimationFrame(sync), { passive: true });
-    sync();
+    rail.addEventListener("scroll", () => requestAnimationFrame(() => { if (!root.classList.contains("pc-pinned")) setProgress(rail.scrollLeft / Math.max(1, rail.scrollWidth - rail.clientWidth)); }), { passive: true });
+    setProgress(0);
     const g = G();
-    if (g) {
-      g.fromTo(J.$$(".pc-card", track), { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, duration: 0.85, ease: J.ease, stagger: 0.07, scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
-      g.fromTo(J.$$(".pc-img img", track), { clipPath: "inset(100% 0 0 0)", scale: 1.15 }, { clipPath: "inset(0% 0 0 0)", scale: 1, duration: 1.1, ease: "expo.inOut", stagger: 0.07, scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
-    }
+    if (!g) return;
+    g.fromTo(cards, { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, duration: 0.85, ease: J.ease, stagger: 0.07, clearProps: "transform,opacity,visibility", scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
+    g.fromTo(J.$$(".pc-img", track), { clipPath: "inset(100% 0 0 0)" }, { clipPath: "inset(0% 0 0 0)", duration: 1.1, ease: "expo.inOut", stagger: 0.07, clearProps: "clipPath", scrollTrigger: { trigger: rail, start: "top 94%", once: true } });
+    const mm = g.matchMedia();
+    mm.add("(min-width: 1000px) and (min-height: 700px)", () => {
+      root.classList.add("pc-pinned");
+      rail.scrollLeft = 0;
+      const head = () => parseFloat(getComputedStyle(d.documentElement).getPropertyValue("--header-h")) || 76;
+      const dist = () => Math.max(0, track.scrollWidth - rail.clientWidth + 8);
+      const tw = g.to(track, { x: () => -dist(), ease: "none", scrollTrigger: { trigger: root, start: () => "top " + head(), end: () => "+=" + dist(), pin: true, scrub: 0.7, invalidateOnRefresh: true, anticipatePin: 1, onUpdate: (st) => setProgress(st.progress) } });
+      pin = tw.scrollTrigger;
+      /* each card comes into focus as it crosses the middle of the screen */
+      cards.forEach((c) => ScrollTrigger.create({ trigger: c, containerAnimation: tw, start: "left 70%", end: "right 30%", toggleClass: "in-focus" }));
+      return () => { root.classList.remove("pc-pinned"); pin = null; g.set(track, { clearProps: "transform" }); };
+    });
   };
 
   /* ---------------------------------------------------------------- boot */
   let pageRender = null, pageIntro = null;
+  /* ---------------------------------------------------------------- rankings (IIMB minutes, 26 Oct 2026: more prominent, one card everywhere) */
+  J.ord = (n) => { const s = ["th", "st", "nd", "rd"], v = n % 100; return s[(v - 20) % 10] || s[v] || s[0]; };
+  J.rankCard = (r) => {
+    const prog = r.prog && J.prog(r.prog);
+    const world = /in the world/.test(r.scope) && r.n <= 100;
+    return `<article class="rkc${r.feature ? " rkc-feature" : ""}">
+      <p class="rkc-by">${J.esc(r.by)} <span>${r.year}</span></p>
+      <p class="rkc-n">${r.pre ? `<span class="rkc-pre">${J.esc(r.pre)}</span>` : `<span class="rkc-hash" aria-hidden="true">#</span>`}<span class="num" data-count>${r.n}</span></p>
+      <h3 class="rkc-what">${J.esc(r.what)}${prog ? ` <a class="rkc-prog" href="${J.u.prog(prog.id)}">${J.esc(prog.short)}</a>` : ""}</h3>
+      <p class="rkc-scope">${J.esc(r.scope)}</p>
+      ${world ? `<span class="rkc-scale" style="--p:${Math.max(r.n, 1)}" aria-hidden="true"><span class="rkc-track"><i data-grow></i><b></b></span><span class="rkc-ends"><span>1</span><span>Global top 100</span><span>100</span></span></span>` : ""}
+      <p class="rkc-src">Source: ${J.srcLink(r.src, "iimb.ac.in")}</p>
+    </article>`;
+  };
+  J.rankRow = (r) => {
+    const prog = r.prog && J.prog(r.prog), src = (I.sources || {})[r.src];
+    return `<li class="rkl-row"><span class="rkl-n"><span class="rkl-hash" aria-hidden="true">#</span><span class="num" data-count>${r.n}</span></span>
+      <span class="rkl-body"><span class="rkl-what">${J.esc(r.what)}${prog ? ` <a class="rkl-prog" href="${J.u.prog(prog.id)}">${J.esc(prog.short)}</a>` : ""}</span><span class="rkl-scope">${J.esc(r.scope)}</span></span>
+      <span class="rkl-by">${J.esc(r.by)}<b>${r.year}</b></span>
+      ${src ? `<a class="rkl-src" href="${src.u}" aria-label="Official announcement: ${J.esc(src.t)}">${J.icon("arrow-up")}</a>` : "<span></span>"}
+      <i class="rkl-rule" data-grow aria-hidden="true"></i></li>`;
+  };
+  J.rankLedger = (list, { feature = true } = {}) => {
+    const f = feature && list.find((r) => r.feature), rest = list.filter((r) => r !== f);
+    const fsrc = f && (I.sources || {})[f.src];
+    return `<div class="rkl${f ? " has-feature" : ""}" data-bars>${f ? `<aside class="rkl-feature"><p class="rkl-f-by">${J.esc(f.by)} · ${f.year}</p><p class="rkl-f-n"><span class="rkl-f-pre">${J.esc(f.pre || "")}</span><span class="num" data-count>${f.n}</span></p><h3 class="rkl-f-what">${J.esc(f.what)}</h3><p class="rkl-f-note">${J.esc(f.scope)}</p>${fsrc ? `<p class="rkl-f-src">Source: <a href="${fsrc.u}">${J.esc(fsrc.t)}</a></p>` : ""}</aside>` : ""}<ol class="rkl-list">${rest.map(J.rankRow).join("")}</ol></div>`;
+  };
+  J.rankGrid = (list) => J.rankLedger(list);
+  J.ranksFor = (progId) => (I.rankCards || []).filter((r) => (progId ? r.prog === progId : true));
+
+  /* Gradual ink: each word goes from a faint trace to full ink, tied to the scroll, finished well before the next section. */
+  J.inkReveal = (el) => {
+    const g = G(); if (!g || !el) return;
+    const text = el.textContent.trim();
+    el.innerHTML = text.split(/(\s+)/).map((w) => (/^\s+$/.test(w) ? w : `<span class="ink-w">${J.esc(w)}</span>`)).join("");
+    el.setAttribute("aria-label", text);
+    const words = J.$$(".ink-w", el);
+    words.forEach((w) => w.setAttribute("aria-hidden", "true"));
+    g.fromTo(words, { opacity: 0.16 }, { opacity: 1, ease: "none", stagger: 0.12, scrollTrigger: { trigger: el, start: "top 88%", end: "bottom 62%", scrub: 0.5 } });
+  };
+
+  /* ---------------------------------------------------------------- data graphics for batch profiles and placements */
+  J.tiles = (tiles, cls = "") => `<dl class="stat-tiles ${cls}" data-stagger>${tiles.map((t) => `<div><dt class="num" data-count>${J.esc(t.v)}</dt><dd>${J.esc(t.l)}</dd></div>`).join("")}</dl>`;
+  J.genderSplit = (f, m) => {
+    const t = f + m, pf = Math.round((f / t) * 100);
+    return `<div class="gsplit" data-bars role="img" aria-label="Women ${f}, men ${m}"><div class="gs-bar"><i class="gs-f" style="--w:${pf}%" data-grow></i><i class="gs-m" data-grow></i></div><div class="gs-keys"><span><b class="num">${pf}%</b> women · ${f}</span><span><b class="num">${100 - pf}%</b> men · ${m}</span></div></div>`;
+  };
+  J.bars = (rows, { pct = true, unit = "" } = {}) => {
+    const max = Math.max(...rows.map((r) => r[1])), sum = rows.reduce((a, r) => a + r[1], 0);
+    return `<ol class="bx" data-bars>${rows.map(([l, v]) => `<li${v === max ? ' class="max"' : ""}><span class="bx-l">${J.esc(l)}</span><span class="bx-t"><i style="--w:${Math.max((v / max) * 100, 1.5)}%" data-grow></i></span><span class="bx-v"><b class="num">${v}${unit}</b>${pct && !unit ? `<small>${Math.round((v / sum) * 100)}%</small>` : ""}</span></li>`).join("")}</ol>`;
+  };
+  J.gmatRange = (g) => {
+    const lo = 600, hi = 800, at = (v) => ((v - lo) / (hi - lo)) * 100;
+    const ends = [["low", g.low], ["high", g.high]].map(([k, v]) => `<span class="rng-end rng-${k}" style="left:${at(v)}%"><b class="num">${v}</b><small>${k === "low" ? "Low" : "High"}</small></span>`).join("");
+    return `<div class="rng" data-bars><p class="rng-t">${J.esc(g.label)}</p><div class="rng-track"><i class="rng-span" style="left:${at(g.low)}%;right:${100 - at(g.high)}%" data-grow></i>${ends}<span class="rng-mark" style="left:${at(g.avg)}%"><b class="num">${g.avg}</b><small>Average</small></span>${g.median ? `<span class="rng-mark rng-med" style="left:${at(g.median)}%"><b class="num">${g.median}</b><small>Median</small></span>` : ""}</div></div>`;
+  };
+  J.series = (years, series) => {
+    const max = Math.max(...series.flatMap((s) => s.v));
+    return `<div class="ser" data-bars><div class="ser-keys">${series.map((s, i) => `<span class="k${i}">${J.esc(s.t)}</span>`).join("")}</div><ol class="ser-cols">${years.map((y, yi) => `<li><span class="ser-bars">${series.map((s, i) => `<span class="ser-bar k${i}" style="--h:${(s.v[yi] / max) * 100}%" data-grow="y"><b class="num">${s.v[yi]}</b></span>`).join("")}</span><span class="ser-y">${y}</span></li>`).join("")}</ol></div>`;
+  };
+
+  /* ---------------------------------------------------------------- "On this page": an index that hangs from the corner once you scroll past the opening */
+  J.hangIndex = (items, { label = "On this page", start, after } = {}) => {
+    items = items.filter((it) => J.$("#" + it.id));
+    if (items.length < 2) return null;
+    const nav = d.createElement("nav");
+    nav.className = "hang"; nav.setAttribute("aria-label", label);
+    nav.innerHTML = `<div class="hang-panel" id="hang-list" hidden><p class="hang-h">${J.esc(label)}</p><ol>${items.map((it, i) => `<li><a href="#${it.id}" data-hang="${it.id}"><span class="num">${String(i + 1).padStart(2, "0")}</span><span>${J.esc(it.t)}</span></a></li>`).join("")}</ol></div>
+      <button class="hang-btn" type="button" aria-expanded="false" aria-controls="hang-list"><span class="hang-k">${J.esc(label)}</span><span class="hang-cur" data-hang-cur>${J.esc(items[0].t)}</span><span class="hang-n num" data-hang-n>1/${items.length}</span><svg class="ico hang-ch" aria-hidden="true"><use href="#i-chev-r"/></svg><i class="hang-prog" data-hang-prog></i></button>`;
+    d.body.appendChild(nav);
+    const btn = J.$(".hang-btn", nav), panel = J.$(".hang-panel", nav);
+    const set = (open) => { panel.hidden = !open; btn.setAttribute("aria-expanded", String(open)); nav.classList.toggle("open", open); };
+    btn.addEventListener("click", () => set(panel.hidden));
+    d.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) { set(false); btn.focus(); } });
+    d.addEventListener("click", (e) => { if (!nav.contains(e.target)) set(false); });
+    J.$$("[data-hang]", nav).forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); set(false); J.scrollTo("#" + a.dataset.hang); history.replaceState(null, "", "#" + a.dataset.hang); }));
+    const startEl = (start && J.$(start)) || J.$("#" + items[0].id), afterEl = after && J.$(after), foot = J.$(".site-footer");
+    let cur = -1, raf = 0;
+    const tick = () => {
+      raf = 0;
+      const shown = (afterEl ? afterEl.getBoundingClientRect().bottom < 0 : startEl.getBoundingClientRect().top < innerHeight * 0.6) && (!foot || foot.getBoundingClientRect().top > innerHeight * 0.85);
+      nav.classList.toggle("show", shown);
+      if (!shown && !panel.hidden) set(false);
+      let i = 0;
+      items.forEach((it, k) => { const el = J.$("#" + it.id); if (el && el.getBoundingClientRect().top < innerHeight * 0.35) i = k; });
+      if (i !== cur) {
+        cur = i;
+        J.$("[data-hang-cur]", nav).textContent = J.t(items[i].t);
+        J.$("[data-hang-n]", nav).textContent = `${i + 1}/${items.length}`;
+        J.$$("[data-hang]", nav).forEach((a, k) => a.classList.toggle("on", k === i));
+      }
+      const first = J.$("#" + items[0].id).getBoundingClientRect().top + scrollY;
+      const last = (foot ? foot.getBoundingClientRect().top + scrollY : d.documentElement.scrollHeight) - innerHeight;
+      J.$("[data-hang-prog]", nav).style.transform = `scaleX(${Math.min(1, Math.max(0, (scrollY - first + innerHeight * 0.35) / Math.max(1, last - first)))})`;
+    };
+    const onScroll = () => { if (!raf) raf = requestAnimationFrame(tick); };
+    addEventListener("scroll", onScroll, { passive: true });
+    addEventListener("resize", onScroll);
+    tick();
+    return nav;
+  };
+
   J.page = (render, intro) => { pageRender = render; pageIntro = intro; };
   J.defaultIntro = (delay) => {
     const g = G(); if (!g) return;

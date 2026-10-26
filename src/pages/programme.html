@@ -1,5 +1,5 @@
 <article class="prog" data-prog>
-  <header class="prog-hero" data-manual>
+  <header class="prog-hero" data-manual data-keep-bg>
     <div class="prog-panel">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="programmes.html">Programmes</a><span aria-hidden="true">/</span><span data-crumb></span></nav>
       <p class="prog-code" data-code aria-hidden="true"></p>
@@ -9,14 +9,13 @@
     </div>
     <figure class="prog-plate plate" data-plate-hero></figure>
   </header>
-  <dl class="wrap prog-facts" data-facts></dl>
-  <div class="wrap prog-body">
-    <nav class="steprail" aria-label="On this page" data-rail>
-      <span class="steprail-line" aria-hidden="true"><i data-rail-fill></i></span>
-      <ol data-rail-list></ol>
-    </nav>
-    <div class="prog-content" data-content></div>
-  </div>
+  <section class="pd-facts-sec" aria-label="At a glance" data-keep-bg>
+    <div class="wrap"><dl class="prog-facts" data-facts></dl></div>
+  </section>
+  <div data-content></div>
+  <section class="section pd-cta" id="apply" aria-labelledby="apply-h" data-keep-bg>
+    <div class="wrap pd-cta-in" data-cta-band></div>
+  </section>
   <section class="section related" aria-labelledby="rel-h">
     <div class="wrap">
       <h2 class="h2" id="rel-h" data-split>Also consider</h2>

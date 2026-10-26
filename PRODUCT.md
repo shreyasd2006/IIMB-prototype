@@ -43,7 +43,7 @@ IIMB is an Institute of National Importance (IIM Act 2017), founded 1973 in Beng
 Revised by the user on 24 Oct 2026 (meeting minutes "IIMB Website Redesigning" + IIMB Color Guide). These replace the earlier Journal palette.
 
 - **Colours:** three primary colours from the IIMB Color Guide: red **#A92D2D**, maroon **#631111**, cream **#E8E3DB**. Neutrals: white, black #000000 and greys #E5E5E5, #C2C2C2, #F2F2F2, #F9F9F9; link blue #1177BB. Pages alternate white and cream section by section.
-- **Type:** one consistent sans-serif family throughout (Anek Latin, with Anek Devanagari for Hindi).
+- **Type (IIMB minutes, 26 Oct 2026):** serif headings in Playfair Display, sans-serif body and descriptions in Inter, as in the reference design; Noto Serif Devanagari and Anek Devanagari for Hindi. Lining figures everywhere.
 - **Logos:** official files supplied by IIMB (Fw__IIMB_prototypes.zip): the header uses the exact official logo; white logos on dark backgrounds.
 - **Header:** two tiers (utility row with Hindi toggle and Admissions; main row with the official logo and navigation, About first).
 - **Footer:** same sections as the original iimb.ac.in footer (Useful Links, Policies, Publications, Contact us, Disclaimer / Site Map / Terms of Use) plus social links (Facebook, X, LinkedIn, YouTube, Instagram, WhatsApp).

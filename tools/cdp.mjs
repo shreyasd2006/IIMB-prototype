@@ -9,7 +9,7 @@ export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export async function launch({ width = 1440, height = 900, mobile = false, reducedMotion = false, ua } = {}) {
   const port = 9300 + Math.floor(Math.random() * 600);
-  const prof = join(tmpdir(), "edge-cdp-" + port);
+  const prof = join(tmpdir(), "edge-cdp-" + port + "-" + Date.now());
   const proc = spawn(EDGE, ["--headless=new", `--remote-debugging-port=${port}`, `--user-data-dir=${prof}`, "--no-first-run", "--hide-scrollbars", "--mute-audio", "--autoplay-policy=no-user-gesture-required", "about:blank"], { stdio: "ignore" });
   let wsUrl;
   for (let i = 0; i < 60 && !wsUrl; i++) {

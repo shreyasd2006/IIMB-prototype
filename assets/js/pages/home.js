@@ -22,12 +22,7 @@
 
     /* rankings, from the live iimb.ac.in homepage + sourced ranking stories */
     const hr = I.homeRank;
-    $("[data-rk-hero]").innerHTML = `
-      <p class="rk-label">${esc(hr.label)}</p>
-      <p class="rk-big"><span class="rk-pre">${esc(hr.pre)}</span><span class="rk-num num" data-count>${hr.v}</span></p>
-      <p class="rk-note">${esc(hr.note)}</p>
-      <p class="src">${J.srcLink(hr.src)}</p>`;
-    $("[data-ranks]").innerHTML = I.rankings.map((r) => `<li class="rk-row"><span class="rk-n num" data-count>${r.rank}</span><span class="rk-o">${r.ord}</span><span class="rk-t"><strong>${esc(r.what)}</strong><span class="small mute">${esc(r.scope)} · ${J.srcLink(r.src, r.by)}</span></span></li>`).join("");
+    $("[data-rank-cards]").innerHTML = J.rankGrid(I.rankCards || [], "rkg-home");
     $("[data-adv]").innerHTML = I.advantage.map((a) => `<div class="adv-i"><dt class="num" data-count>${esc(a.v)}</dt><dd>${esc(a.l)}</dd></div>`).join("");
     $("[data-accr]").innerHTML = `<a href="https://www.efmdglobal.org/" class="accr-i"><img src="assets/img/efmd-equis.png" width="1021" height="737" alt="EQUIS accredited (EFMD)" loading="lazy"><span>EQUIS accredited since 2010; re-accredited in December 2021</span></a>
       <a href="https://globalnetwork.io/" class="accr-i"><img src="assets/img/gnam.png" width="765" height="326" alt="Global Network for Advanced Management" loading="lazy"><span>Member of the Global Network for Advanced Management since 2012</span></a>`;
@@ -118,11 +113,12 @@
     g.to("[data-cover-film] video", { yPercent: 12, ease: "none", scrollTrigger: { trigger: ".cover", start: "top top", end: "bottom top", scrub: true } });
 
     /* rankings: the headline figure lands with a red rule; rows draw their rules in sequence */
-    g.fromTo(".rk-hero", { clipPath: "inset(0% 0% 100% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.1, ease: "expo.inOut", scrollTrigger: { trigger: ".rk-grid", start: "top 92%", once: true } });
+    g.fromTo(".rkg .rkc", { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.05, scrollTrigger: { trigger: ".rkg", start: "top 90%", once: true } });
     g.fromTo(".rk-row", { "--rw": 0, autoAlpha: 0, x: 24 }, { "--rw": 1, autoAlpha: 1, x: 0, duration: 0.8, ease: J.ease, stagger: 0.07, scrollTrigger: { trigger: ".rk-list", start: "top 94%", once: true } });
     g.fromTo(".adv-i", { autoAlpha: 0, y: 26 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.08, scrollTrigger: { trigger: ".adv-list", start: "top 95%", once: true } });
 
     J.carousel($(".prog-sec"));
+    J.inkReveal($("[data-brief]"));
 
     /* essay plate drifts */
     g.fromTo(".ef-plate img", { yPercent: -6 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: ".essay-feature", start: "top bottom", end: "bottom top", scrub: true } });
@@ -138,7 +134,7 @@
   document.addEventListener("submit", (e) => {
     const f = e.target.closest("[data-cover-finder]"); if (!f) return;
     e.preventDefault();
-    const url = `programmes.html?for=${encodeURIComponent($("[data-aud]").value)}#finder`;
+    const url = `programmes.html?for=${encodeURIComponent($("[data-aud]").value)}#track`;
     const a = document.createElement("a"); a.href = url; document.body.appendChild(a); a.click(); a.remove();
   });
 })();

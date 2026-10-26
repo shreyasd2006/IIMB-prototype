@@ -10,7 +10,7 @@ const b = await launch({ width: 1366, height: 900, ua: "Mozilla/5.0 (Windows NT 
 for (const pair of pairs) {
   const i = pair.indexOf("="); const name = pair.slice(0, i), url = pair.slice(i + 1);
   try {
-    await b.goto(url, 5000);
+    await b.goto(url, Number(process.env.WAIT || 5000));
     const h = await b.evaluate("document.documentElement.scrollHeight");
     for (let y = 0; y < Math.min(h, 15000); y += 800) { await b.evaluate(`scrollTo(0,${y})`); await sleep(120); }
     const data = await b.evaluate(`(() => ({

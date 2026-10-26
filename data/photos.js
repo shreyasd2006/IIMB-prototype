@@ -407,3 +407,222 @@ window.IIMB=window.IIMB||{};IIMB.photos={
 "source": "https://commons.wikimedia.org/wiki/File:Highway_69_at_IIM_Bangalore_during_Unmaad_2014.jpg"
 }
 };
+/* High-resolution official photos (26 Oct 2026) */
+Object.assign(IIMB.photos, {
+ "hr-pgp-batch": {
+  "src": {
+   "800": "assets/img/hr-pgp-batch-800.jpg",
+   "1500": "assets/img/hr-pgp-batch-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "The PGP 2025–27 cohort gathered on the lawns, in formal dress.",
+  "caption": "PGP 2025–27 cohort",
+  "credit": "IIM Bangalore, summer placements 2026",
+  "source": "https://www.iimb.ac.in/iimb-summer-placements-2026"
+ },
+ "hr-pgp-group": {
+  "src": {
+   "800": "assets/img/hr-pgp-group-800.jpg"
+  },
+  "w": 800,
+  "h": 700,
+  "alt": "Six PGP students in suits gather around a laptop on a stone parapet.",
+  "caption": "PGP students on campus",
+  "credit": "IIM Bangalore, PGP",
+  "source": "https://www.iimb.ac.in/programmes/pgp"
+ },
+ "hr-pgpba-class": {
+  "src": {
+   "800": "assets/img/hr-pgpba-class-800.jpg",
+   "1600": "assets/img/hr-pgpba-class-1600.jpg"
+  },
+  "w": 1920,
+  "h": 700,
+  "alt": "A tiered IIMB classroom of students at laptops during a session.",
+  "caption": "A PGPBA classroom",
+  "credit": "IIM Bangalore, PGPBA",
+  "source": "https://www.iimb.ac.in/programmes/pgpba"
+ },
+ "hr-epgp-batch": {
+  "src": {
+   "800": "assets/img/hr-epgp-batch-800.jpg",
+   "1000": "assets/img/hr-epgp-batch-1000.jpg"
+  },
+  "w": 1000,
+  "h": 650,
+  "alt": "The EPGP cohort and faculty standing on a lawn beneath tall trees.",
+  "caption": "The EPGP cohort",
+  "credit": "IIM Bangalore, EPGP",
+  "source": "https://www.iimb.ac.in/programmes/epgp"
+ },
+ "hr-epgp-group": {
+  "src": {
+   "800": "assets/img/hr-epgp-group-800.jpg",
+   "1000": "assets/img/hr-epgp-group-1000.jpg"
+  },
+  "w": 1000,
+  "h": 650,
+  "alt": "EPGP participants in business dress around a laptop on campus.",
+  "caption": "EPGP participants",
+  "credit": "IIM Bangalore, EPGP",
+  "source": "https://www.iimb.ac.in/programmes/epgp"
+ },
+ "hr-epgp-paris": {
+  "src": {
+   "800": "assets/img/hr-epgp-paris-800.jpg",
+   "1500": "assets/img/hr-epgp-paris-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "The EPGP cohort on a rooftop in Paris during the international immersion.",
+  "caption": "International immersion, Paris, 2026",
+  "credit": "IIM Bangalore, EPGP immersion",
+  "source": "https://www.iimb.ac.in/programmes/epgp/epgp-international-immersion"
+ },
+ "hr-epgp-essec": {
+  "src": {
+   "800": "assets/img/hr-epgp-essec-800.jpg",
+   "1500": "assets/img/hr-epgp-essec-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "EPGP students in a classroom at a partner business school abroad.",
+  "caption": "Immersion week at a partner school, 2026",
+  "credit": "IIM Bangalore, EPGP immersion",
+  "source": "https://www.iimb.ac.in/programmes/epgp/epgp-international-immersion"
+ },
+ "hr-pgpem-batch": {
+  "src": {
+   "800": "assets/img/hr-pgpem-batch-800.jpg",
+   "1600": "assets/img/hr-pgpem-batch-1600.jpg"
+  },
+  "w": 1920,
+  "h": 800,
+  "alt": "The PGPEM 2026–28 cohort standing in rows in front of a stone building.",
+  "caption": "The PGPEM 2026–28 cohort",
+  "credit": "IIM Bangalore, PGPEM",
+  "source": "https://www.iimb.ac.in/programmes/pgpem"
+ },
+ "hr-pgpem-steps": {
+  "src": {
+   "800": "assets/img/hr-pgpem-steps-800.jpg",
+   "1500": "assets/img/hr-pgpem-steps-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "A large PGPEM group on stone steps among trees.",
+  "caption": "PGPEM students",
+  "credit": "IIM Bangalore, PGPEM",
+  "source": "https://www.iimb.ac.in/programmes/pgpem"
+ },
+ "hr-pgppm-class": {
+  "src": {
+   "800": "assets/img/hr-pgppm-class-800.jpg",
+   "1500": "assets/img/hr-pgppm-class-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "PGPPM participants seated at a wooden table with a laptop, on campus.",
+  "caption": "PGPPM participants",
+  "credit": "IIM Bangalore, PGPPM admissions",
+  "source": "https://www.iimb.ac.in/admissions/pgppm-admissions"
+ },
+ "hr-pgppm-batch": {
+  "src": {
+   "800": "assets/img/hr-pgppm-batch-800.jpg",
+   "1600": "assets/img/hr-pgppm-batch-1600.jpg"
+  },
+  "w": 1920,
+  "h": 700,
+  "alt": "A PGPPM cohort with faculty beside a programme banner.",
+  "caption": "A PGPPM cohort",
+  "credit": "IIM Bangalore, PGPPM",
+  "source": "https://www.iimb.ac.in/programmes/pgppm"
+ },
+ "hr-predoc-steps": {
+  "src": {
+   "800": "assets/img/hr-predoc-steps-800.jpg",
+   "1600": "assets/img/hr-predoc-steps-1600.jpg",
+   "2400": "assets/img/hr-predoc-steps-2400.jpg"
+  },
+  "w": 2400,
+  "h": 1600,
+  "alt": "NSR Pre-doctoral fellows standing on stone amphitheatre steps.",
+  "caption": "NSR Pre-doc fellows",
+  "credit": "IIM Bangalore, NSR Pre-doc",
+  "source": "https://www.iimb.ac.in/programmes/nsrpredoc"
+ },
+ "hr-predoc-walk": {
+  "src": {
+   "800": "assets/img/hr-predoc-walk-800.jpg",
+   "1500": "assets/img/hr-predoc-walk-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "A group of fellows taking a selfie on a tree-lined campus path.",
+  "caption": "NSR Pre-doc fellows",
+  "credit": "IIM Bangalore, NSR Pre-doc",
+  "source": "https://www.iimb.ac.in/programmes/nsrpredoc"
+ },
+ "hr-exchange": {
+  "src": {
+   "800": "assets/img/hr-exchange-800.jpg",
+   "1500": "assets/img/hr-exchange-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1000,
+  "alt": "Exchange students and IIMB students at an outdoor table in a courtyard.",
+  "caption": "Exchange students at IIMB",
+  "credit": "IIM Bangalore, Student Exchange",
+  "source": "https://www.iimb.ac.in/programmes/pgp/student-exchange-programme"
+ },
+ "hr-ee-avenue": {
+  "src": {
+   "800": "assets/img/hr-ee-avenue-800.jpg",
+   "1500": "assets/img/hr-ee-avenue-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1001,
+  "alt": "A tree-lined avenue on the IIMB campus with purple blossom on the road.",
+  "caption": "The campus avenue",
+  "credit": "IIM Bangalore, Executive Education",
+  "source": "https://eep.iimb.ac.in/"
+ },
+ "hr-ee-corridor": {
+  "src": {
+   "800": "assets/img/hr-ee-corridor-800.jpg",
+   "1500": "assets/img/hr-ee-corridor-1500.jpg"
+  },
+  "w": 1500,
+  "h": 1064,
+  "alt": "A pergola corridor between stone columns, open to the garden.",
+  "caption": "A corridor in the academic block",
+  "credit": "IIM Bangalore, Executive Education",
+  "source": "https://eep.iimb.ac.in/"
+ },
+ "hr-about-avenue": {
+  "src": {
+   "800": "assets/img/hr-about-avenue-800.jpg",
+   "1600": "assets/img/hr-about-avenue-1600.jpg"
+  },
+  "w": 1920,
+  "h": 700,
+  "alt": "A road curving through trees to a stone building on the IIMB campus.",
+  "caption": "The approach to the academic block",
+  "credit": "IIM Bangalore, About",
+  "source": "https://www.iimb.ac.in/about-institute"
+ },
+ "hr-recruiters": {
+  "src": {
+   "800": "assets/img/hr-recruiters-800.jpg",
+   "1600": "assets/img/hr-recruiters-1600.jpg"
+  },
+  "w": 1900,
+  "h": 693,
+  "alt": "Students and recruiters in conversation on a shaded lawn.",
+  "caption": "Placement week on campus",
+  "credit": "IIM Bangalore, Career Development Services",
+  "source": "https://www.iimb.ac.in/recruiters"
+ }
+});

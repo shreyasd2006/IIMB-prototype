@@ -7,7 +7,8 @@
 <meta name="description" content="Eligibility, curriculum, admissions and official application links for an IIMB programme.">
 <meta name="theme-color" content="#631111">
 <link rel="icon" href="assets/brand/favicon-official.png">
-<link rel="preload" href="assets/fonts/anek-latin-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/journal.css">
 <link rel="stylesheet" href="assets/css/pages.css">
 <script>(function(d){var h=d.documentElement;h.classList.add('js');var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;if(!rm){h.classList.add('mp');setTimeout(function(){h.classList.remove('mp');h.classList.remove('leaf-in')},3500)}try{if(!rm&&sessionStorage.getItem('j-leaf'))h.classList.add('leaf-in');if(localStorage.getItem('j-lang')==='hi'){h.lang='hi';h.classList.add('lang-hi')}}catch(e){}})(document)</script>
@@ -50,7 +51,7 @@
     </nav>
     <div class="util-tools">
       <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
-      <a class="util-adm" href="programmes.html#finder">Admissions</a>
+      <a class="util-adm" href="programmes.html#track">Admissions</a>
     </div>
   </div>
 </div>
@@ -87,7 +88,7 @@
     <div class="aside"><div class="preview" data-toc-preview></div><p class="caption" data-toc-caption></p></div>
   </div>
   <div class="wrap quick">
-    <a href="programmes.html#finder">Admissions</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">For Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact us</a><a href="search.html">Search</a>
+    <a href="programmes.html#track">Admissions</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">For Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact us</a><a href="search.html">Search</a>
     <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
   </div>
 </div>
@@ -109,7 +110,7 @@
 
 <main id="main" tabindex="-1">
 <article class="prog" data-prog>
-  <header class="prog-hero" data-manual>
+  <header class="prog-hero" data-manual data-keep-bg>
     <div class="prog-panel">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="programmes.html">Programmes</a><span aria-hidden="true">/</span><span data-crumb></span></nav>
       <p class="prog-code" data-code aria-hidden="true"></p>
@@ -119,14 +120,13 @@
     </div>
     <figure class="prog-plate plate" data-plate-hero></figure>
   </header>
-  <dl class="wrap prog-facts" data-facts></dl>
-  <div class="wrap prog-body">
-    <nav class="steprail" aria-label="On this page" data-rail>
-      <span class="steprail-line" aria-hidden="true"><i data-rail-fill></i></span>
-      <ol data-rail-list></ol>
-    </nav>
-    <div class="prog-content" data-content></div>
-  </div>
+  <section class="pd-facts-sec" aria-label="At a glance" data-keep-bg>
+    <div class="wrap"><dl class="prog-facts" data-facts></dl></div>
+  </section>
+  <div data-content></div>
+  <section class="section pd-cta" id="apply" aria-labelledby="apply-h" data-keep-bg>
+    <div class="wrap pd-cta-in" data-cta-band></div>
+  </section>
   <section class="section related" aria-labelledby="rel-h">
     <div class="wrap">
       <h2 class="h2" id="rel-h" data-split>Also consider</h2>
@@ -206,6 +206,7 @@
 <script src="data/publications.js" defer></script>
 <script src="data/obs.js" defer></script>
 <script src="data/journal.js" defer></script>
+<script src="data/programme-detail.js" defer></script>
 <script>try{if(localStorage.getItem('j-lang')==='hi')document.write('<script src="data/i18n-hi.js" defer><\/script>')}catch(e){}</script>
 <script src="assets/vendor/gsap.min.js" defer></script>
 <script src="assets/vendor/ScrollTrigger.min.js" defer></script>

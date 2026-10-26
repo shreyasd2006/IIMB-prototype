@@ -48,13 +48,14 @@
     if (J.gsap) J.gsap.to(fill, { scaleY: filled / 3, duration: 0.8, ease: J.ease }); else fill.style.transform = `scaleY(${filled / 3})`;
     $$("[data-step]").forEach((s) => s.classList.toggle("done", (s.dataset.step === "1" && state.aud) || (s.dataset.step === "2" && state.fmt !== "any") || (s.dataset.step === "3" && state.cmp.length)));
     const qs = new URLSearchParams(); if (state.aud) qs.set("for", state.aud); if (state.fmt !== "any") qs.set("format", state.fmt);
-    history.replaceState(null, "", `${location.pathname}${qs.toString() ? "?" + qs : ""}#finder`);
+    history.replaceState(null, "", qs.toString() ? `${location.pathname}?${qs}#track` : location.pathname + location.hash.replace(/^#track$/, ""));
   }
 
   function drawCompare() {
     const tray = $("[data-tray]"), sec = $("[data-compare-sec]");
     $("[data-slots]").innerHTML = state.cmp.map((id) => `<span class="slot">${esc(J.prog(id).short)}<button type="button" data-uncmp="${id}" aria-label="Remove ${esc(J.prog(id).short)} from comparison">${icon("close")}</button></span>`).join("") + (state.cmp.length < 3 ? `<span class="slot mute">${3 - state.cmp.length} more</span>` : "");
     tray.classList.toggle("on", state.cmp.length > 0);
+    document.documentElement.classList.toggle("has-tray", state.cmp.length > 0);
     $("[data-tray-go]").setAttribute("aria-disabled", String(state.cmp.length < 2));
     sec.hidden = state.cmp.length < 2;
     if (state.cmp.length < 2) return;
@@ -85,15 +86,16 @@
   function render() {
     /* carousel, at a glance, degree grid, steps, UG list, FAQ */
     $("[data-pc-track]").innerHTML = I.programmes.map(J.progCard).join("");
+    $("[data-pr-ranks]").innerHTML = J.rankGrid(I.rankCards || [], "rkg-home");
     $("[data-glance]").innerHTML = [[DEGREES.length, "Degree-granting programmes"], [UG.length, "Undergraduate and certificate programmes"], [11, "Academic areas teaching across them"], [1973, "Teaching management since"]].map(([v, l]) => `<div class="gl-i"><dt class="num" data-count>${v}</dt><dd>${l}</dd></div>`).join("");
-    $("[data-degrees]").innerHTML = DEGREES.map(J.prog).map((p, i) => `<li class="dg-card"><a href="${u.prog(p.id)}">
-        <span class="dg-n">${String(i + 1).padStart(2, "0")}</span>
-        <span class="dg-deg">${esc(p.degree)}</span>
+    $("[data-degrees]").innerHTML = DEGREES.map(J.prog).map((p, i) => { const D = (I.progDetail || {})[p.id] || {}, img = D.hero && J.photo(D.hero) ? D.hero : p.img; return `<li class="dg-card"><a href="${u.prog(p.id)}">
+        <span class="dg-img">${J.img(img, { want: 800, sizes: "(min-width: 1100px) 32vw, (min-width: 700px) 50vw, 100vw", alt: "" })}</span>
+        <span class="dg-top"><span class="dg-deg">${esc(p.degree)}</span><span class="dg-n" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span></span>
         <span class="dg-code">${esc(p.short)}</span>
         <span class="dg-name">${esc(p.name)}</span>
         <span class="dg-meta">${esc(p.duration)} · ${esc(p.format)}</span>
-        <span class="dg-go">${icon("arrow-up")}</span></a></li>`).join("");
-    $("[data-adm]").innerHTML = STEPS.map(([t, d], i) => `<li class="adm-step"><span class="adm-num">${String(i + 1).padStart(2, "0")}</span><span class="adm-dot" aria-hidden="true"></span><h3 class="h4">${esc(t)}</h3><p>${esc(d)}</p></li>`).join("");
+        <span class="dg-go">${icon("arrow-up")}</span></a></li>`; }).join("");
+    $("[data-adm]").innerHTML = STEPS.map(([t, d], i) => `<li class="adm-step"><span class="adm-dot" aria-hidden="true"></span><span class="adm-num">${String(i + 1).padStart(2, "0")}</span><h3 class="h4">${esc(t)}</h3><p>${esc(d)}</p></li>`).join("");
     $("[data-ug]").innerHTML = UG.map(J.prog).map((p, i) => `<li><a class="ug-row" href="${u.prog(p.id)}"><span class="ug-n">${String(i + 1).padStart(2, "0")}</span><span class="ug-t"><span class="h4">${esc(p.name)}</span><span class="small mute">${esc(p.level)} · ${esc(p.duration)} · ${esc(p.format)}</span></span>${icon("arrow")}</a></li>`).join("");
     $("[data-faq]").innerHTML = FAQ.map(([q, a], i) => `<div class="faq-i"><h3 class="faq-q"><button type="button" aria-expanded="false" aria-controls="faq-a${i}" id="faq-q${i}" data-faq-q><span>${esc(q)}</span><span class="faq-ic" aria-hidden="true"></span></button></h3><div class="faq-a" id="faq-a${i}" role="region" aria-labelledby="faq-q${i}"><div><p>${esc(a)}</p></div></div></div>`).join("");
     $$("[data-faq-q]").forEach((b) => b.addEventListener("click", () => { const open = b.getAttribute("aria-expanded") === "true"; b.setAttribute("aria-expanded", String(!open)); b.closest(".faq-i").classList.toggle("open", !open); }));
@@ -156,10 +158,15 @@
   }
   const d = document;
 
+  function hang() {
+    J.hangIndex([["glance", "At a glance"], ["rankings", "Rankings"], ["degrees", "Degree programmes"], ["steps", "Admission steps"], ["exec", "Executive education"], ["track", "Find your track"], ["ug", "Undergraduate & certificate"], ["dates", "Admissions calendar"], ["faq", "Questions"], ["official", "Apply officially"]].map(([id, t]) => ({ id, t })), { label: "Programmes · on this page", after: ".pr-keys" });
+  }
+
   function intro(delay) {
     J.defaultIntro(delay);
     const g = J.gsap; if (!g) return;
     J.carousel($(".pcar-sec"));
+    g.fromTo(".dg-img", { clipPath: "inset(0% 0% 100% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.15, ease: "expo.inOut", stagger: { each: 0.1, grid: "auto" }, clearProps: "clipPath", scrollTrigger: { trigger: ".dgrid", start: "top 85%", once: true } });
     g.fromTo(".pr-keys li", { autoAlpha: 0, x: 24 }, { autoAlpha: 1, x: 0, duration: 0.7, ease: J.ease, stagger: 0.06, delay: delay + 0.4 });
     /* degree grid: cards rise in a diagonal wave; outline numerals fill on hover (CSS) */
     g.fromTo(".dg-card", { autoAlpha: 0, y: 46 }, { autoAlpha: 1, y: 0, duration: 0.9, ease: J.ease, stagger: { each: 0.08, grid: "auto", from: "start" }, scrollTrigger: { trigger: ".dgrid", start: "top 92%", once: true } });
@@ -174,5 +181,5 @@
     g.fromTo("[data-tl-line]", { scaleX: 0 }, { scaleX: 1, ease: "none", scrollTrigger: { trigger: "[data-dates]", start: "top 80%", end: "bottom 50%", scrub: 0.6 } });
     g.fromTo(".tl-node", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, stagger: 0.09, duration: 0.8, ease: J.ease, scrollTrigger: { trigger: "[data-dates]", start: "top 78%", once: true } });
   }
-  J.page(render, intro);
+  J.page(() => { render(); hang(); }, intro);
 })();

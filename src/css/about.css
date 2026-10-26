@@ -2,7 +2,7 @@
 .ab-hero { padding-block: clamp(2.5rem, 6vh, 5rem) var(--s5); }
 .ab-hero-in { display: grid; gap: var(--s4); align-items: end; }
 .ab-hero-text { display: grid; gap: 1.6rem; }
-.ab-hero .h1 { max-width: 11ch; }
+.ab-hero .h1 { max-width: 14ch; }
 .ab-motto { display: grid; gap: .3rem; margin: 0; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-size: .92rem; color: var(--mute); }
 .ab-motto .dev { font-size: 1.5rem; color: var(--red); }
 .ab-hero-plate .plate { display: block; aspect-ratio: 16 / 10; }
@@ -10,7 +10,7 @@
 @media (min-width: 1000px) { .ab-hero-in { grid-template-columns: 5fr 7fr; column-gap: clamp(2rem, 5vw, 6rem); } }
 
 .vis-label { grid-column: 1 / -1; color: var(--red); margin-bottom: 1rem; }
-.vis-text { grid-column: 1 / -1; font: 650 clamp(2rem, 1.2rem + 3vw, 4.4rem)/1.06 var(--f-display); margin: 0 0 var(--s5); max-width: 20ch; }
+.vis-text { grid-column: 1 / -1; font: 600 clamp(2rem, 1.2rem + 3vw, 4.4rem)/1.06 var(--f-display); margin: 0 0 var(--s5); max-width: 20ch; }
 .vis-mission, .vis-values { grid-column: 1 / -1; margin-bottom: var(--s4); }
 .vis-mission .meta, .vis-values .meta { color: var(--red); margin-bottom: 1rem; }
 .mission { list-style: none; counter-reset: m; display: grid; gap: 1rem; }
@@ -34,7 +34,7 @@
 .tl-item { position: relative; display: grid; gap: .8rem; align-content: start; }
 .tl-mark { position: absolute; left: calc(-1.6rem + 0px); top: .9rem; width: 11px; height: 11px; border-radius: 50%; background: var(--white); border: 2px solid var(--burgundy); transition: background .4s, transform .6s var(--ease), border-color .4s; }
 .tl-item.on .tl-mark { background: var(--red); border-color: var(--red); transform: scale(1.5); }
-.tl-year { margin: 0; font: 650 clamp(3.4rem, 2.4rem + 4vw, 7.4rem)/.9 var(--f-display); color: var(--burgundy); transition: color .5s; }
+.tl-year { margin: 0; font: 600 clamp(3.4rem, 2.4rem + 4vw, 7.4rem)/.9 var(--f-display); color: var(--burgundy); transition: color .5s; }
 .tl-year .en { color: var(--red); }
 .tl-item.on .tl-year { color: var(--red); }
 .tl-img { aspect-ratio: 16 / 9; max-width: 560px; }
@@ -112,7 +112,7 @@
 .su-text { display: grid; gap: 1.4rem; align-content: start; }
 .su-text .dek { max-width: 44ch; }
 .su-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem var(--g); margin: .6rem 0 0; padding-top: 1.4rem; border-top: 2px solid var(--ink); }
-.su-facts dt { font: 700 clamp(2.2rem, 1.6rem + 2vw, 3.6rem)/1 var(--f-display); color: var(--red); letter-spacing: -.02em; }
+.su-facts dt { font: 600 clamp(2.2rem, 1.6rem + 2vw, 3.6rem)/1 var(--f-display); color: var(--red); letter-spacing: -.02em; }
 .su-facts dd { margin: .4rem 0 0; font-size: .9rem; color: var(--mute); max-width: 28ch; }
 .doc-list, .gov-docs { list-style: none; border-top: 1px solid var(--rule-strong); }
 .doc-list .off-link, .gov-docs .off-link { border-top: 0; border-bottom: 1px solid var(--rule-strong); }
@@ -138,3 +138,48 @@
 @media (min-width: 1000px) { .org-in { grid-template-columns: 6fr 6fr; column-gap: clamp(2rem, 5vw, 6rem); } }
 .iac-board { margin-top: 0; padding-top: 0; border-top: 0; }
 .org-text > *, .org-text .org-docs { grid-column: 1 / -1; }
+
+/* About, 26 Oct 2026: opening figures, IIM Act and Rules as a dated document line, advisory committee cards */
+.ab-figs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem var(--g); margin: .4rem 0 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.ab-figs dt { font: 600 clamp(1.8rem, 1.4rem + 1.2vw, 2.6rem)/1 var(--f-display); color: var(--red); }
+.ab-figs dd { margin: .4rem 0 0; font-size: .82rem; line-height: 1.35; color: var(--mute); }
+.ab-figs .src { grid-column: 1 / -1; margin: 0; }
+.ab-ranks { margin-top: var(--s3); }
+.ac-grid { align-items: start; }
+@media (min-width: 1000px) { .ac-grid { grid-template-columns: 1fr; } }
+
+.act-in { display: grid; gap: var(--s4) var(--g); align-items: start; }
+.act-intro { display: grid; gap: 1.2rem; align-content: start; }
+.act-docs { list-style: none; margin: 0; padding: 0 0 0 1.4rem; position: relative; display: grid; gap: .9rem; }
+.act-docs::before { content: ""; position: absolute; left: 5px; top: .9rem; bottom: .9rem; width: 2px; background: var(--rule-strong); }
+.act-docs li { position: relative; }
+.act-docs li::before { content: ""; position: absolute; left: calc(-1.4rem + 0px); top: 1.5rem; width: 12px; height: 12px; border-radius: 50%; background: var(--white); border: 2px solid var(--red); z-index: 1; }
+.act-doc { display: grid; grid-template-columns: 4.6rem 1fr auto; grid-template-areas: "y kind pdf" "y t t" "y note note"; gap: .25rem 1rem; padding: 1.1rem 1.2rem; background: var(--white); text-decoration: none; transition: transform .5s var(--ease), box-shadow .5s var(--ease); }
+.bg-white .act-doc { background: var(--cream-2); }
+.act-y { grid-area: y; font: 600 1.9rem/1 var(--f-display); color: var(--burgundy); padding-top: .15rem; }
+.act-kind { grid-area: kind; justify-self: start; font: 600 .68rem/1 var(--f-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--red); padding: .3em .55em .25em; border: 1px solid var(--red); }
+.act-t { grid-area: t; font: 600 1.12rem/1.3 var(--f-display); }
+.act-note { grid-area: note; font-size: .86rem; color: var(--mute); }
+.act-pdf { grid-area: pdf; display: inline-flex; align-items: center; gap: .4rem; font-size: .76rem; color: var(--mute); white-space: nowrap; }
+.act-pdf .ico { width: 15px; height: 15px; color: var(--red); transition: transform .45s var(--ease); }
+.act-doc:hover { transform: translateX(4px); box-shadow: 0 16px 34px -26px rgba(20, 20, 20, .45); }
+.act-doc:hover .act-t { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.act-doc:hover .act-pdf .ico { transform: translate(2px, -2px); }
+@media (min-width: 1000px) { .act-in { grid-template-columns: 5fr 7fr; column-gap: clamp(2rem, 6vw, 7rem); } .act-intro { position: sticky; top: calc(var(--header-h) + 2rem); } }
+@media (max-width: 560px) { .act-doc { grid-template-columns: 3.6rem 1fr; grid-template-areas: "y kind" "y t" "y note" "y pdf"; } .act-y { font-size: 1.5rem; } }
+
+.iac-head { display: grid; gap: 1.2rem; margin-bottom: var(--s4); }
+@media (min-width: 1000px) { .iac-head { grid-template-columns: 7fr 5fr; align-items: end; column-gap: clamp(2rem, 5vw, 6rem); } }
+.iac-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--g); }
+.iac-card { position: relative; display: grid; align-content: start; gap: .55rem; padding: 1.5rem 1.5rem 1.6rem; background: var(--white); border-top: 3px solid var(--burgundy); min-height: 250px; }
+.bg-white .iac-card { background: var(--cream-2); }
+.iac-mono { display: none; }
+.iac-org { margin: 0; font: 600 .74rem/1.3 var(--f-sans); letter-spacing: .07em; text-transform: uppercase; color: var(--red); max-width: 70%; }
+.iac-n { margin: .2rem 0 0; font: 600 1.35rem/1.2 var(--f-display); }
+.iac-t { margin: 0; font-size: .92rem; line-height: 1.5; color: var(--mute); }
+.act-line-wrap { position: relative; }
+.act-fill { position: absolute; left: 5px; top: .9rem; bottom: .9rem; width: 2px; z-index: 1; pointer-events: none; }
+.act-fill i { position: absolute; inset: 0; background: var(--red); transform-origin: 50% 0; transform: scaleY(0); }
+.act-docs li::before { z-index: 2; transition: background .5s var(--ease), transform .5s var(--ease), box-shadow .5s var(--ease); }
+.act-docs li.lit::before { background: var(--red); transform: scale(1.25); box-shadow: 0 0 0 4px rgba(169, 45, 45, .16); }
+.tl-year { padding-bottom: .12em; margin-bottom: .2rem !important; }

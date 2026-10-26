@@ -34,3 +34,21 @@ Impeccable finish reviewer + documenter (DESIGN.md), mobile pass, README update.
 - English pages use assets/fonts/anek-devanagari-mini.woff2 (106 KB subset of the motto/हिन्दी glyphs; rebuild with fontTools if new Devanagari text is added: chars in research/deva-mini-chars.txt). Hindi mode uses the full font ("Anek Devanagari Full").
 - alternate() uses checkVisibility() instead of offsetHeight (no forced layout).
 - Phone test tools: tools/mobile_probe.mjs, mobile_time.mjs, mobile_tap.mjs, mobile_prof.mjs. Note: the first navigation in a fresh headless Edge takes ~4 s; wait longer on the first page.
+
+## Second minutes (26 Oct 2026) — done
+- Type: Playfair Display headings, Inter body (assets/fonts, journal.css tokens; --f-serif now = Inter). Lining figures site-wide.
+- data/programme-detail.js (loaded on every page): IIMB.progDetail for all 11 programmes (overview, chair message, class profile tables, curriculum by term, global exposure, placements, fees/aid/scholarships, eligibility, dates, FAQ), IIMB.rankCards (11 published rankings, programme-tagged), new sources. Scraped from iimb.ac.in / ug. / eep. on 26 Oct (research/scrape-oct26). BBA DBE site was down; its facts come from the official DBE PDF/FAQ via search (sources dbeAdm, dbeFaq).
+- core.js: J.rankCard / J.rankGrid / J.ranksFor, J.tiles, J.genderSplit, J.bars, J.gmatRange, J.series (charts grow on reveal via [data-bars]), J.hangIndex (corner "On this page" index; options label/start/after). Don't name helpers J.split (that is the text line splitter).
+- programme.html/js rebuilt as full pages; Programmes: rankings band, corner index, degree cards with photos, underline + zoom hover (no red fill), timeline labels hang from dots, section anchor renamed #finder -> #track (the search overlay owns #finder).
+- About: opening figures, Act and Rules as dated document line (6 docs incl. Rules Amendment 2022 and Regulations), IAC cards with full designations, rank cards, corner index. Home: rank cards.
+- High-res photos: tools/photos_oct26.py -> assets/img/hr-*.jpg (registered at the end of data/photos.js).
+- check.mjs 106/106. Hindi dictionary not updated for the new text (still paused).
+
+## Second pass, 26 Oct 2026 (user feedback)
+- No outlined lettering anywhere (prog-code solid cream, dg-n plain, iac monogram removed).
+- Rankings: J.rankLedger (standings list + featured QS result; rows slide in, rules draw, figures count). J.rankGrid is an alias.
+- Home brief: J.inkReveal (scroll-scrubbed word ink, completes before the next section).
+- Programme strip (Home + Programmes): pinned and moved sideways by the scroll on >=1000px wide and >=700px tall (same motion as About milestones), progress line + count, cards come into focus; swipe rail on small screens. Entrance clears its transforms so hover zoom works; underline on name and "Explore programme".
+- Removed eyebrows/kickers and 01/02 section numbers on programme pages (craft floor); no thick side borders.
+- About Act line fills on scroll and documents light up; degree photos wipe in; programme hero code/photo part on scroll.
+- serve.py sends Cache-Control: no-cache; cdp.mjs uses a fresh profile per launch.

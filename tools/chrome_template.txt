@@ -28,7 +28,7 @@
     </nav>
     <div class="util-tools">
       <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
-      <a class="util-adm" href="programmes.html#finder">Admissions</a>
+      <a class="util-adm" href="programmes.html#track">Admissions</a>
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@
     <div class="aside"><div class="preview" data-toc-preview></div><p class="caption" data-toc-caption></p></div>
   </div>
   <div class="wrap quick">
-    <a href="programmes.html#finder">Admissions</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">For Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact us</a><a href="search.html">Search</a>
+    <a href="programmes.html#track">Admissions</a><a href="https://eep.iimb.ac.in/" class="ext">Executive Education</a><a href="industry.html">For Recruiters</a><a href="industry.html#alumni">Alumni</a><a href="https://www.iimb.ac.in/contactus" class="ext">Contact us</a><a href="search.html">Search</a>
     <button class="lang-btn" type="button" data-lang-toggle>हिन्दी</button>
   </div>
 </div>
