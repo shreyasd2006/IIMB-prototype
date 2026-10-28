@@ -19,6 +19,26 @@
     return `${J.tiles(P.tiles)}${charts.length ? `<div class="pd-charts">${charts.join("")}</div>` : ""}${P.extra ? `<p class="small mute">${esc(P.extra)}</p>` : ""}${src(P.src)}`;
   }
 
+  /* Who leads the programme: its chairperson, or for the BSc programmes the Officiating Dean, UG Programmes */
+  function chairOf(p, D) {
+    const id = (D.chair && D.chair.id) || p.chair;
+    const f = id && J.fac(id);
+    if (f) return { f, role: `Chairperson, ${p.short}`, label: "Programme chairperson", msg: D.chair && D.chair.msg, src: D.chair && D.chair.src };
+    if (/^bsc-/.test(p.id) && J.fac("mukta-kulkarni")) return { f: J.fac("mukta-kulkarni"), role: "Officiating Dean, UG Programmes", label: "Programme leadership" };
+    return null;
+  }
+
+  /* Move between programmes without going back to the listing */
+  function pager(p) {
+    const all = I.programmes, i = all.findIndex((x) => x.id === p.id);
+    const prev = all[(i - 1 + all.length) % all.length], next = all[(i + 1) % all.length];
+    const card = (x, dir) => `<a class="pg-step pg-${dir}" href="${u.prog(x.id)}" rel="${dir}"><span class="pg-dir">${dir === "prev" ? "Previous programme" : "Next programme"}</span><span class="pg-code">${esc(x.short)}</span><span class="pg-name">${esc(x.name)}</span><span class="pg-ar" aria-hidden="true">${icon("arrow")}</span></a>`;
+    return `<nav class="pg" aria-label="Other programmes">
+      <div class="pg-steps">${card(prev, "prev")}<a class="pg-all" href="programmes.html#degrees"><span class="pg-all-ic" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>All programmes</span></a>${card(next, "next")}</div>
+      <ol class="pg-rail">${all.map((x) => `<li><a href="${u.prog(x.id)}"${x.id === p.id ? ' aria-current="page"' : ""} title="${esc(x.name)}">${esc(x.short)}</a></li>`).join("")}</ol>
+    </nav>`;
+  }
+
   function sections(p, D, M) {
     const out = [];
     const chair = D.chair && J.fac(D.chair.id);
@@ -29,14 +49,28 @@
     const areas = D.areas ? `<h3 class="h3 pd-sub">Disciplinary areas</h3><ul class="chips">${D.areas.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : "";
     out.push(["overview", "Overview", `${paras(D.overview || [p.summary], "pd-p")}${hl}${seek}${areas}`, `${esc(p.name)}, leading to ${esc(p.degree)}.`, { wide: !!D.highlights }]);
 
-    if (chair && D.chair.msg) out.push(["chair", "Message from the chairperson", `<figure class="pd-chair"><blockquote>${D.chair.msg.map((m) => `<p>${esc(m)}</p>`).join("")}</blockquote><figcaption><a href="${u.person(chair.id)}" class="pd-chair-who">${J.face(chair.id, { cls: "pd-chair-face" })}<span><span class="h4">${esc(chair.name)}</span><br><span class="small">Chairperson, ${esc(p.short)}</span></span></a></figcaption></figure>${src(D.chair.src)}`]);
+    /* The chairperson, on every programme page: a large portrait, the message where the programme page publishes one,
+       otherwise the opening of the chair's own official profile */
+    const lead = chairOf(p, D);
+    if (lead) {
+      const f = lead.f, por = (I.portraits || {})[f.id];
+      const bio = (f.summary || "").split(/(?<=\.)\s+(?=[A-Z])/).slice(0, 3).join(" ");
+      const words = lead.msg ? `<blockquote class="pdc-quote">${lead.msg.map((m) => `<p>${esc(m)}</p>`).join("")}</blockquote>` : bio ? `<div class="pdc-bio"><p>${esc(bio)}</p></div>` : "";
+      out.push(["chair", lead.msg ? "Message from the chairperson" : lead.label, `<div class="pdc">
+        <figure class="pdc-photo"><a href="${u.person(f.id)}" tabindex="-1" aria-hidden="true">${por ? `<img src="assets/img/faculty-hr/${f.id}.jpg" onerror="this.onerror=null;this.src='${por.src}'" width="500" height="500" alt="" loading="lazy">` : `<span class="mono">${J.initials(f.name)}</span>`}</a></figure>
+        <div class="pdc-text">
+          <p class="pdc-role">${esc(lead.role)}</p>
+          <h3 class="pdc-name"><a href="${u.person(f.id)}">${esc(f.name)}</a></h3>
+          <p class="pdc-title">${esc(f.title)}, ${esc(f.areas.join(" · "))}</p>
+          ${words}
+          <a class="arrow-link" href="${u.person(f.id)}"><span>Faculty profile</span>${icon("arrow")}</a>
+        </div></div>${lead.msg ? src(lead.src) : `<p class="src">${bio ? "From the chair’s official IIMB profile. " : ""}Role as listed on <a class="ulink" href="${f.url}">iimb.ac.in</a>.</p>`}`, "", { wide: true }]);
+    }
 
     if (D.profile) out.push(["profile", "Current batch profile", profileHtml(D.profile), esc(D.profile.title.replace(/^Current batch profile, (\d{4})$/, "The $1 batch, as published on the programme page.").replace(/^Batch profile, /, "Batch of ").replace(/^Batch of 2026–27$/, "The 2026–27 batch.")), { wide: true }]);
 
     /* Accreditation and rankings: the official graphic, then this programme's results */
-    const ranks = J.ranksFor(p.id);
-    out.push(["rankings", "Accreditation and rankings", `<figure class="pd-rankfig" data-plate="up"><img src="assets/img/accreditation-rankings-2025.jpg" width="1921" height="1081" loading="lazy" alt="IIMB rankings and recognition: #1 in India; QS MiM 2027 #31 globally; QS Global MBA 2027 #8 APAC and #64 globally; QS Master’s in Business Analytics 2027 #60 globally; QS EMBA 2026 #12 APAC; FT MiM 2026 #21 globally; Bloomberg 2026 #2 APAC; Eduniversal 2025 #1 Central Asia; Positive Impact Rating 2026 level 5; FT Global MBA (EPGP) 2026 #34; FT Executive Education 2026 #35 custom programmes; NIRF 2025 #2 in India; EQUIS accredited."><figcaption class="caption">Rankings and recognition, as published on the programme pages of iimb.ac.in.</figcaption></figure>
-      ${ranks.length ? J.rankLedger(ranks, { feature: false }) : ""}
+    out.push(["rankings", "Accreditation and rankings", `${J.rankFigure({ caption: "Accreditation and rankings, as published on the programme pages of iimb.ac.in." })}
       <div class="pd-accr"><img src="assets/img/efmd-equis.png" width="1021" height="737" alt="EQUIS accredited (EFMD)" loading="lazy"><img src="assets/img/gnam.png" width="765" height="326" alt="Global Network for Advanced Management" loading="lazy"><p>EQUIS accredited since 2010, re-accredited in December 2021, and a member of the Global Network for Advanced Management.</p></div>`, "", { wide: true }]);
 
     /* In the news */
@@ -46,7 +80,21 @@
     if (M.achievements) out.push(["achievements", "Student achievements", `<ol class="pd-ach" data-stagger>${M.achievements.map((a) => `<li>${a.u ? `<a href="${a.u}">${esc(a.t)} ${icon("arrow-up")}</a>` : `<span>${esc(a.t)}</span>`}</li>`).join("")}</ol><p><a class="arrow-link" href="https://www.iimb.ac.in/student-achievement"><span>All student achievements</span>${icon("arrow-up")}</a></p>`]);
 
     /* Videos and testimonials: the official films linked from the programme page */
-    if (M.videos) out.push(["videos", "Videos and testimonials", `<div class="pd-films">${M.videos.map((v, i) => `<figure class="pd-film${i >= 6 ? " is-more" : ""}"${i >= 6 ? " hidden" : ""}>${J.filmTile(v.id, v.t, { thumb: `assets/img/yt/${v.id}.jpg` })}<figcaption>${esc(v.t)}</figcaption></figure>`).join("")}</div>${M.videos.length > 6 ? `<p><button class="btn ghost" type="button" data-more-films>Show all ${M.videos.length} films ${icon("plus")}</button></p>` : ""}<p class="src">Official IIMB films on YouTube, as embedded on the programme page. Each loads from YouTube only when you press play.</p>`, "", { wide: true }]);
+    const V = (I.progVoices || {})[p.id] || {}, vIds = new Set((V.films || []).map((x) => x.id));
+    const vids = (M.videos || []).filter((v) => !vIds.has(v.id));
+    if (vids.length) out.push(["videos", "Videos", `<div class="pd-films">${vids.map((v, i) => `<figure class="pd-film${i >= 6 ? " is-more" : ""}"${i >= 6 ? " hidden" : ""}>${J.filmTile(v.id, v.t, { thumb: `assets/img/yt/${v.id}.jpg` })}<figcaption>${esc(v.t)}</figcaption></figure>`).join("")}</div>${vids.length > 6 ? `<p><button class="btn ghost" type="button" data-more-films>Show all ${vids.length} films ${icon("plus")}</button></p>` : ""}<p class="src">Official IIMB films on YouTube, as embedded on the programme page. Each loads from YouTube only when you press play.</p>`, "", { wide: true }]);
+
+    /* Testimonials: the programme page's "Text" and "Video" tabs, in the students' own words */
+    if ((V.quotes || []).length || (V.films || []).length) {
+      const Q = V.quotes || [], F = V.films || [];
+      const quotes = Q.length ? `<ul class="vx-quotes">${Q.map((x, i) => `<li class="vx-q${i >= 6 ? " is-more" : ""}"${i >= 6 ? " hidden" : ""}><figure>
+          <blockquote><p>${esc(x.q.join(" "))}</p></blockquote>
+          <figcaption>${x.img ? `<img src="${x.img}" width="88" height="88" alt="" loading="lazy">` : `<span class="mono">${J.initials(x.name)}</span>`}<span><b>${esc(x.name)}</b><span>${esc(x.who.replace(x.name, "").replace(/^[,\s]+/, "") || p.short)}</span></span></figcaption></figure>
+          <button class="vx-more" type="button" hidden aria-expanded="false">Read more</button></li>`).join("")}</ul>${Q.length > 6 ? `<p><button class="btn ghost" type="button" data-more-q>Show all ${Q.length} testimonials ${icon("plus")}</button></p>` : ""}` : "";
+      const films = F.length ? `<div class="pd-films vx-films">${F.map((v, i) => `<figure class="pd-film${i >= 6 ? " is-more-f" : ""}"${i >= 6 ? " hidden" : ""}>${J.filmTile(v.id, v.who, { thumb: `assets/img/yt/${v.id}.jpg` })}<figcaption>${esc(v.who)}</figcaption></figure>`).join("")}</div>${F.length > 6 ? `<p><button class="btn ghost" type="button" data-more-vf>Show all ${F.length} video testimonials ${icon("plus")}</button></p>` : ""}` : "";
+      const tabs = quotes && films ? `<div class="vx-tabs" role="tablist" aria-label="Testimonials"><button role="tab" type="button" id="vx-t-text" aria-controls="vx-p-text" aria-selected="true">In writing <span>${Q.length}</span></button><button role="tab" type="button" id="vx-t-video" aria-controls="vx-p-video" aria-selected="false" tabindex="-1">On video <span>${F.length}</span></button></div>` : "";
+      out.push(["voices", "Student testimonials", `${tabs}${quotes ? `<div class="vx-panel" id="vx-p-text"${tabs ? ' role="tabpanel" aria-labelledby="vx-t-text"' : ""}>${quotes}</div>` : ""}${films ? `<div class="vx-panel" id="vx-p-video"${tabs ? ' role="tabpanel" aria-labelledby="vx-t-video" hidden' : ""}>${films}</div>` : ""}<p class="src">Testimonials as published on the <a class="ulink" href="${V.src}">official ${esc(p.short)} page</a>.</p>`, "Students and alumni, in their own words.", { wide: true }]);
+    }
 
     /* Placements */
     const C = D.careers;
@@ -110,10 +158,20 @@
     $("[data-related]").innerHTML = rel.map((x) => `<li><a class="rel" href="${u.prog(x.id)}"><span class="rel-img">${J.img(x.img, { want: 800, sizes: "(min-width: 900px) 25vw, 50vw", alt: "" })}</span><span class="rel-code">${esc(x.short)}</span><span class="h4 rel-name">${esc(x.name)}</span><span class="small mute">${esc(x.duration)} · ${esc(x.format)}</span></a></li>`).join("");
 
     $$("[data-faq-q]").forEach((b) => b.addEventListener("click", () => { const i = b.closest(".faq-i"), open = !i.classList.contains("open"); i.classList.toggle("open", open); b.setAttribute("aria-expanded", String(open)); }));
+    $("[data-pager]").innerHTML = pager(p);
+    $("[data-pager-top]").innerHTML = `<a href="programmes.html#degrees" class="pgt-all">All programmes</a><span class="pgt-sep" aria-hidden="true">·</span>${(() => { const all = I.programmes, i = all.findIndex((x) => x.id === p.id), n = all[(i + 1) % all.length]; return `<a href="${u.prog(n.id)}" class="pgt-next">Next: ${esc(n.short)} ${icon("arrow")}</a>`; })()}`;
+    const tabs = $$(".vx-tabs [role=tab]");
+    const pick = (t) => { tabs.forEach((b) => { const on = b === t; b.setAttribute("aria-selected", String(on)); b.tabIndex = on ? 0 : -1; $("#" + b.getAttribute("aria-controls")).hidden = !on; }); if (window.ScrollTrigger) ScrollTrigger.refresh(); };
+    tabs.forEach((b, i) => { b.addEventListener("click", () => pick(b)); b.addEventListener("keydown", (e) => { if (e.key === "ArrowRight" || e.key === "ArrowLeft") { const n = tabs[(i + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length]; pick(n); n.focus(); } }); });
+    const clampAll = () => $$(".vx-q:not([hidden])").forEach((li) => { const q = $("blockquote p", li), btn = $(".vx-more", li); if (li.classList.contains("open")) return; btn.hidden = q.scrollHeight <= q.clientHeight + 2; });
+    $$(".vx-more").forEach((btn) => btn.addEventListener("click", () => { const li = btn.closest(".vx-q"), open = !li.classList.contains("open"); li.classList.toggle("open", open); btn.setAttribute("aria-expanded", String(open)); btn.textContent = open ? "Show less" : "Read more"; if (window.ScrollTrigger) ScrollTrigger.refresh(); }));
+    requestAnimationFrame(clampAll);
+    const mq = $("[data-more-q]"); if (mq) mq.addEventListener("click", () => { $$(".vx-q.is-more").forEach((f) => (f.hidden = false)); mq.remove(); requestAnimationFrame(clampAll); if (window.ScrollTrigger) ScrollTrigger.refresh(); });
+    const mv = $("[data-more-vf]"); if (mv) mv.addEventListener("click", () => { $$(".pd-film.is-more-f").forEach((f) => (f.hidden = false)); mv.remove(); if (window.ScrollTrigger) ScrollTrigger.refresh(); });
     const more = $("[data-more-films]");
     if (more) more.addEventListener("click", () => { $$(".pd-film.is-more").forEach((f) => (f.hidden = false)); more.remove(); if (window.ScrollTrigger) ScrollTrigger.refresh(); });
-    const SHORT = { overview: "Overview", chair: "Chairperson", profile: "Batch profile", rankings: "Accreditation and rankings", news: "In the news", achievements: "Student achievements", videos: "Videos", careers: "Placements", admissions: "Admission", curriculum: "Programme structure", global: p.id === "epgp" ? "International immersion" : "Student exchange", fees: "Fees and aid", upcoming: "Upcoming programmes", faq: "FAQs", disability: "Disability policy" };
-    J.hangIndex(secs.map(([id]) => ({ id, t: SHORT[id] || id })).concat([{ id: "apply", t: "Contact and apply" }]), { label: `${p.short} · on this page`, after: ".pd-facts-sec" });
+    const SHORT = { overview: "Overview", chair: "Chairperson", profile: "Batch profile", rankings: "Accreditation and rankings", news: "In the news", achievements: "Student achievements", videos: "Videos", voices: "Testimonials", careers: "Placements", admissions: "Admission", curriculum: "Programme structure", global: p.id === "epgp" ? "International immersion" : "Student exchange", fees: "Fees and aid", upcoming: "Upcoming programmes", faq: "FAQs", disability: "Disability policy" };
+    J.hangIndex(secs.map(([id]) => ({ id, t: SHORT[id] || id })).concat([{ id: "apply", t: "Contact and apply" }, { id: "more-progs", t: "Other programmes" }]), { label: `${p.short} · on this page`, after: ".pd-facts-sec" });
   }
 
   function intro(delay) {
@@ -128,7 +186,15 @@
       .fromTo(".pf-kv > div", { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 0.9, stagger: 0.06 }, 1.1);
     g.to(".prog-plate img", { yPercent: 8, scale: 1.06, ease: "none", scrollTrigger: { trigger: ".prog-hero", start: "top top", end: "bottom top", scrub: true } });
     g.to(".prog-code", { yPercent: -35, autoAlpha: 0.35, ease: "none", scrollTrigger: { trigger: ".prog-hero", start: "top top", end: "bottom top", scrub: true } });
-    J.batchIn(".pd-cards li, .terms > li, .pd-chart, .pd-film:not([hidden])", { dur: 0.9 });
+    J.batchIn(".pd-cards li, .terms > li, .pd-chart, .pd-film:not([hidden]), .vx-q:not([hidden])", { dur: 0.9 });
+    J.rankFigIn();
+    const pdc = $(".pdc");
+    if (pdc) {
+      g.fromTo(".pdc-photo", { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.3, ease: "expo.inOut", clearProps: "clipPath", scrollTrigger: { trigger: pdc, start: "top 80%", once: true } });
+      g.fromTo(".pdc-photo img", { scale: 1.15 }, { scale: 1, duration: 1.8, ease: J.ease, clearProps: "transform", scrollTrigger: { trigger: pdc, start: "top 80%", once: true } });
+      g.fromTo(".pdc-text > *", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.9, ease: J.ease, stagger: 0.08, delay: 0.35, clearProps: "transform", scrollTrigger: { trigger: pdc, start: "top 80%", once: true } });
+    }
+    g.fromTo(".pg-step, .pg-all", { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.08, clearProps: "transform", scrollTrigger: { trigger: ".pg", start: "top 88%", once: true } });
     g.fromTo(".adm-steps li", { autoAlpha: 0, x: -20 }, { autoAlpha: 1, x: 0, stagger: 0.12, duration: 0.8, ease: J.ease, scrollTrigger: { trigger: ".adm-steps", start: "top 85%", once: true } });
   }
   J.page(render, intro);

@@ -38,7 +38,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/50/v-ravi-anshuman",
 "email": "anshuman@iimb.ac.in",
-"summary": "",
+"summary": "Professor Anshuman's research interests cover the areas of Market Microstructure, Capital Markets, and Corporate Financial Management Issues in Emerging Markets. His publications have appeared in the Review of Financial Studies, Journal of Financial Economics, Journal of Financial Markets, etc. He has co-authored a book titled Valuation – Analyzing Global Investment Opportunities. In addition to experience in academia, he has consulted with various blue-chip companies. He is a member of the Certification Formulation and Testing Committee (CFTC) and Futures & Options (F&O) Executive Committee of the National Stock Exchange (NSE).", "summaryKind": "tabs",
 "pubs": []
 },
 {
@@ -124,7 +124,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/56/sankarshan-basu",
 "email": "sankarshan.basu@iimb.ac.in",
-"summary": "",
+"summary": "Professor Basu’s areas of interest in terms of research are in Financial Calculus, Option Pricing, Bond and Portfolio Valuation, Applications of Quantitative Techniques to Finance, Insurance, Reinsurance, Risk Management, Biostatistics and Corporate Finance. He has presented his work at international conferences in Thailand, USA, UK, France, Spain, Norway, Iran, Tunisia, Morocco, The Netherlands and India. He has, to his credit, a number of papers in international journals of repute like Insurance: Mathematics and Economics and the Journal of Statistical Planning and Inference. He is currently President of the Asia-Pacific Risk and Insurance Association (APRIA). Prior to joining IIMB, Professor Basu was briefly in the finance industry, working in the Treasury Operations of ICICI Ltd. (now ICICI Bank Ltd.) at their Mumbai office. He is actively involved in various consulting and training projects across various domains like banks (e.g., State Bank of India, HDFC Bank, Vijaya Bank, and Federal Bank), insurance companies (e.g., ING Vysya Life Insurance), stock exchanges (Bombay Stock Exchange), and various governmental agencies (e.g., Indian Revenue Service and the Indian Foreign Service) as well as other corporate entities.", "summaryKind": "tabs",
 "pubs": []
 },
 {
@@ -158,7 +158,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/57/suresh-bhagavatula",
 "email": "sureshbh@iimb.ac.in",
-"summary": "",
+"summary": "Professor Bhagavatula’s research interests are in two partly overlapping domains – Entrepreneurship and Social Networks. In Entrepreneurship, his interests are in both low and high technology firms in India. Within the Social Network domain, he is interested in understanding the influence of social capital on performance of entrepreneurs and teams. His research work has been published in the Journal o f Bu s in ess V e n t urin g (JBV), Entrepreneurship Theory and Practice (ETP), S t ra te gi c E n t r e pr e n e ur s hi p J o urna l (S E J), and II MB M anag e m e n t Re v i ew.", "summaryKind": "tabs",
 "pubs": [
 "\"Online health behavior: Antecedents and outcomes of employee participation in an organization's online health program (2021).\" Personnel Psychology, Vol 74, Issue 3, with Sushil Nifadkar",
 "Handle with care: Entrepreneurial reputation-borrowing in an emerging economy (2020) Journal of Business Venturing Insights, 13, e00156",
@@ -452,7 +452,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/69/anubha-dhasmana",
 "email": "anubha.dhasmana@iimb.ac.in",
-"summary": "",
+"summary": "She worked with the International Monetary Fund, Washington, DC (2007-08), and has worked on assignments with the Economist magazine, and LA Times newspaper.", "summaryKind": "tabs",
 "pubs": [
 "Professor Dhasmana’s research and teaching interests are in International Macroeconomics, Macroeconomics, Development Finance and Econometrics. She has published a book, External Capital Flows and Welfare in Developing Countries: Theory and Empirics, 2009, (Publisher: VDM Verlag Dr. Muller Aktiengesellschaft & Co. KG, Saarbrucken, Germany) and has written several academic articles including journal articles, in the a",
 "Employment growth in the face of exchange rate uncertainty: The role of trade and foreign equity finance, 2021, Southern Economic Journal, vol. 88(1), pages 79-117",
@@ -524,7 +524,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/73/pulak-ghosh",
 "email": null,
-"summary": "",
+"summary": "I am a tenured Professor in the Decision Sciences area, with appoinment with department of Finance and Center of Public Policy at IIM Bangalore. I was an IIMB Chair Professor of Excellence. I did serve in the editorial boards of several top journals including the Journal of the American statistical Association, Journal of the Royal statistical Society (A) and Biometrics. I am a fellow of ABFER, academic fellow of Louhan Academy, and Programme co-Director \"Tech, Digital Markets and AI\" for ABFER. My research focuses on Fintech, Household finance, Development Finance and AI and has been published in Journals like Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Sciences, Science Advances, Journal of the American statistical Association, Biometrika among others. My research has also been cited by World Bank, various departments of Government of India, Niti Aayog, Reserve Bank of India as well as in various industry reports. My research has a strong interdisciplinary focus and aim to explore how technology, digital intelligence, algorithm, and social science can transform corporates, policy and humanity. My research interest utilizing the above core strength span several topics in Fintech AI, Household finance, Sustainability. I use a data-based approach and exploit policy shocks in emerging markets like India, to study the above-mentioned topics and its impact on consumer behaviour. The research has implications for business, government agencies and monetary authorities in India. I work closely with them to use the results of my research towards practical implications.", "summaryKind": "summary",
 "pubs": []
 },
 {
@@ -557,7 +557,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/77/jishnu-hazra",
 "email": "hazra@iimb.ac.in",
-"summary": "",
+"summary": "Professor Hazra’s research interests are in Sourcing and Supply Chain Management, Lean Operations and Pricing in Supply Chain. His papers have appeared in international journals such as IIE Transactions, Production & Operations Management, Computers & Operations Research and European Journal of Operations Research.", "summaryKind": "tabs",
 "pubs": [
 "“Procuring Cloud Services: An Economic Analysis of Multi-cloud Strategy,” Production and Operations Management, 2025, Volume 34 (9), 2793-2813, Jain, T., Hazra, J., R. Gopal",
 "“3D Printing-as-a-Service: An Economic Analysis of Pricing and Cocreation,” Production and Operations Management, 2024,Volume 33(7), 2024, 1437-1456, Jain, T., Hazra, J., R. Gopal.",
@@ -637,7 +637,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/78/m-jayadev",
 "email": "jayadevm@iimb.ac.in",
-"summary": "",
+"summary": "M Jayadev is a Professor in the Finance & Accounting area at IIM Bangalore. Current roles: Chairperson, Centre for Capital Markets and Risk Management. Education: PhD, Osmania University A full–time programme with ICSSR Fellowship; MCom and MPhil Osmania University; CAIIB.", "summaryKind": "listing",
 "pubs": [
 "Related Party Transactions and Audit Fees: Indian Evidence (2024) Narendra Nath Kushwaha, Abhinav Anand, Jayadev M and K Raghunathan, Auditing: A Journal of Practice and Theory, August.",
 "Default Risk Characteristics of Poll Based Bond Spreads: Evidence from India (red with Joshy Jacob) Journal of Emerging Market Finance, Vol.9, No1, April 2010, pp 51-70",
@@ -736,7 +736,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/82/rajalaxmi-kamath",
 "email": "rajalaxmik@iimb.ac.in",
-"summary": "",
+"summary": "Since 2007, Professor Kamath has been working extensively among urban poor households in two areas of Ramanagaram town, Karnataka, with the intention of understanding their financial lives. From 2007 to 2009, her team had undertaken a project called ‘Ramanagaram Financial Diaries’ where they were able to collect detailed, daily cash-inflows and outflows of around 90 poor households (most of whom were microfinance borrowers). This in-depth, action-oriented long study with detailed interaction with participants has honed the team’s understanding of several issues surrounding microfinance and urban poor livelihoods. From 2010 onwards, Professor Kamath and team initiated an action-research livelihoods project among some of their research participants with the intention of training, branding and marketing hand-embroidered fashion accessories called Minchu Mahila Kaigarika Sangha (Minchu Women’s Hand-Embroidery Self Help Group). Professor Kamath has had teaching stints both in the US and at the Indira Gandhi Institute of Development Research (IGIDR), Mumbai. Prior to joining academics, she was with the Indian Revenue Services. Her current research is in the areas of financial inclusion and public policy documentation of the participants of the PGPPM.", "summaryKind": "tabs",
 "pubs": [
 "Since 2007, Professor Kamath has been working extensively among urban poor households in two areas of Ramanagaram town, Karnataka, with the intention of understanding their financial lives. From 2007 to 2009, her team had undertaken a project called ‘Ramanagaram Financial Diaries’ where they were able to collect detailed, daily cash-inflows and outflows of around 90 poor households (most of whom were microfinance bor",
 "From 2010 onwards, Professor Kamath and team initiated an action-research livelihoods project among some of their research participants with the intention of training, branding and marketing hand-embroidered fashion accessories called Minchu Mahila Kaigarika Sangha (Minchu Women’s Hand-Embroidery Self Help Group)."
@@ -752,7 +752,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/83/nagasimha-balakrishna-kanagal",
 "email": "kanagal@iimb.ac.in",
-"summary": "",
+"summary": "Professor Kanagal’s research interests are in the area of strategic marketing. This includes Customer and Market Analysis, Competitive Marketing Strategies, Customer Relationship and Value Management. His papers have been accepted at international and national conferences and he has published in international and domestic journals. He has over five years of organizational training and industry experience in leading technology organizations in the area of marketing.", "summaryKind": "tabs",
 "pubs": [
 "Chairperson, Marketing Area: April 2017 to March 2019, IIM Bangalore",
 "Chief Editor, IIMB Management Review: September 2011 to March 2018",
@@ -816,11 +816,12 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "roles": [
 "Dean, Programmes",
-"Chairperson, Office of International Affairs"
+"Chairperson, Office of International Affairs",
+"Officiating Dean, UG Programmes"
 ],
 "url": "https://www.iimb.ac.in/user/86/mukta-kulkarni",
 "email": "mkulkarni@iimb.ac.in",
-"summary": "",
+"summary": "Mukta is interested in workplace inclusion of persons with disabilities. She has published papers in journals such as the Academy of Management Journal, Human Relations, Human Resource Management, Journal of Business Ethics, Journal of Management Inquiry, Journal of Organizational Behavior, Organization Studies, and The Leadership Quarterly. Her co-authored work has been recognized by Academy of Management Journal (Best Paper Award), Academy of Management (Carlo Masini Award nomination, Saroj Parasuraman Award nominations, Best Paper Award Runner up - Organization and Management Theory Division, Best International Paper Award - Organization and Management Theory Division, the all-Academy Carolyn Dexter Award), Personnel Review (Outstanding Paper), and by Human Relations (Among the top papers). Mukta is currently serving on the Editorial Boards of Human Relations and Journal of Organizational Behavior. She is also serving as an Associate Editor at the Journal of Management Inquiry and Equality, Diversity and Inclusion. At the Academy of Management, she is currently serving as the Chair of the Professional Development Workshops (DEI Division). She has served as a Representative-at-large, a co-chair of the Doctoral Student Consortium, and a co-chair of the Junior Faculty Consortium (DEI division). She has also chaired the Carolyn Dexter Award Committee, the Saroj Parsuraman Outstanding Publication Award Committee, and the DEI Division Best Student Paper Award Committee.", "summaryKind": "tabs",
 "pubs": []
 },
 {
@@ -836,7 +837,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/70/u-dinesh-kumar",
 "email": "director@iimb.ac.in",
-"summary": "",
+"summary": "U Dinesh Kumar’s research interest includes Business Analytics and Big Data, Artificial Intelligence, Machine Learning, Deep Learning Algorithms, Stochastic models (Reinforcement Learning Algorithms), Reliability, Optimization, Six Sigma and Performance Based Logistics. He has published several research articles in reputed academic journals such as European Journal of Operational Research, Annals of Operations Research, International Journal of Production Economics, The Journal of Operational Research Society, Computers and Operations Research, IEEE Transactions on Reliability, International Journal of Reliability, Quality and Safety Engineering and so on. He has published more than thirty case studies on Business Analytics and Machine Learning Algorithms based on Indian and multinational organizations such as Aavin Milk Dairy, Akshaya Patra Foundation, Apollo Hospitals, Bigbasket, Bollywood, Flipkart.com, Hewlett and Packard, iD Fresh Food, Larsen & Toubro, Manipal Hospitals, Mission Hospital, Hindustan Aeronautics Limited, Indian Premier League, Shubham Housing Development Finance Company and VMWare at the Harvard Business Publishing’s case portal. He has provided analytics consulting services to organizations such as Boston Consulting Group, GE Healthcare, General Motors, Hindustan Aeronautics Limited, Indian Army, TVS Motors, Wipro and so on. He has conducted in-house training program on Analytics for several organizations including Accenture, Aditya Birla Group, Allianz Benelux, Ashok Leyland, Bank of America, CISCO, Fidelity, Honeywell and ITC Infotech.", "summaryKind": "tabs",
 "pubs": [
 "He has authored a book titled, “Business Analytics – The Science of Data Driven Decision Making”, published by Wiley in 2017.",
 "Sharada Sringeswara, Purvi Tiwari and U Dinesh Kumar, “Data Visualization and Storytelling with Data”, Wiley, 2022",
@@ -929,7 +930,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/92/siddharth-mahajan",
 "email": "siddharth.mahajan@iimb.ac.in",
-"summary": "",
+"summary": "Professor Mahajan’s research interests are Supply Chain Management and Retail Inventory Management. His other assignments include Modell's Sporting Goods: Productivity Analysis using DEA of a Chain of Sporting Goods and GM: Managing Popular Car Configurations for Custom Delivery.", "summaryKind": "tabs",
 "pubs": []
 },
 {
@@ -1056,7 +1057,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/228/sushanta-kumar-mishra",
 "email": "sushantam@iimb.ac.in",
-"summary": "",
+"summary": "MBA level: He has taught (core and elective) courses on Organizational Behavior, Organizational Design, Career and Self, and Leadership Competencies. Executive Education: He has designed and delivered programs and courses on leadership, team building, and related themes in many executive programs (a select list is provided below):", "summaryKind": "tabs",
 "pubs": [
 "A paper co-authored with Divya Tyagi was adjudged the Best Accepted Paper at the Academy of Management Annual Meeting, 2023. The paper was selected as the Carolyn B. Dexter Award Finalist.",
 "A paper co-authored with the 5C group, published in the Journal of Vocational Behavior, Received the Career Division Best Published Paper award Finalist at the Academy of Management Annual Meeting, 2022.",
@@ -1141,7 +1142,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/110/rajluxmi-v-murthy",
 "email": "rvm@iimb.ac.in",
-"summary": "",
+"summary": "Professor Murthy's research and teaching interests are in the field of Optimization and Simulation, especially in their applications to logistics management and service industries. Dr. Rajluxmi V Murthy’s research and teaching interests are in the fields of Analytics, Optimization and Simulation, especially in their applications to Public Transport and Logistics Management, Service Industry and Sustainability. She teaches courses and topics in these areas to postgraduate and doctoral students and to Executive Education Programme participants. She has conducted consultancy and research studies in related areas. Prior to joining IIMB, Professor Murthy worked as an Operations Research and System Analyst at MCI Telecommunications, Dallas, and helped build Decision Support Systems for the management of the company's telecommunications network. She was also a consultant to GTE at Dallas and an Adjunct Faculty at the Southern Methodist University.", "summaryKind": "tabs",
 "pubs": [
 "Antennae Location Methodology for a Telecom Operator in India, with H.D. Gadi, R.M. Shankar and V. Nagadevara, Working Paper, 2013, IIMB.",
 "Evaluating the Impact of Government Policies and Regulation on M-Commerce in India: A System Dynamics Modelling Approach, with D. Sharma and D. K. Sundar, International Journal of Business Management, Vol 7, No. 23, 2012, pp. 54-80.",
@@ -1212,7 +1213,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 ],
 "url": "https://www.iimb.ac.in/user/118/rejie-george-pallathitta",
 "email": "rejieg@iimb.ac.in",
-"summary": "",
+"summary": "Rejie George Pallathitta is a Professor in the Strategy area at IIM Bangalore. Current roles: Chairperson, NSRCEL; Chairperson, Strategy. Education: PhD (Business), Faculty of Economics and Business Administration, Tilburg University, The Netherlands; MBE (Master in Business Economics), Department of Applied Economics, Cochin University of Science and Technology, Kochi, India; BA (Economics, Political Science and History), St Albert's College, Mahatma Gandhi University, Kochi, India.", "summaryKind": "listing",
 "pubs": [
 "Political connections and profit persistence in India (with Awasthi, K., Yayavaram, S., Sastry, T.), Asia Pacific Journal of Management, Published online, 24 February 2024",
 "An exploratory analysis of new firm foundings by trading community members and their survival (with Mani, D., Abbasi, AR.), IIMB Management Review, 35: 359-369 (2023)",
@@ -1298,7 +1299,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/122/srinivas-prakhya",
 "email": "sprakhya@iimb.ac.in",
-"summary": "",
+"summary": "Srinivas Prakhya’s research interests include Econometric Models of Consumer Behaviour, Direct Marketing, Decisions under Uncertainty, and Brand Choice Models. Professor Prakhya’s teaching areas are: Individual Choice Behaviour, Econometric Modeling of Consumer Behaviour, Knowledge Creation and Transfer, and Leadership, Self-Enquiry and Management. Professor Srinivas Prakhya has provided consulting service to demand forecasting, brand choice models, direct marketing, and choice based conjoint analysis to Fujitsu Telecom, Kraft, Kellogg's, TVS Finance, and NAL.", "summaryKind": "tabs",
 "pubs": [
 "‘Approaches to Decision Making under Uncertainty’, Anand Bhaskaran, Rahul Parihar, and Srinivas Prakhya (2008), IIMB Management Review, June, pp 228-239",
 "‘Bridging the Chasm between Management Education, Research and Practice: Moving Towards the ‘Grounded Theory' Approach’, Shlomo Maital, Srinivas Prakhya, and DVR Seshadri (2008), Vikalpa, Volume 33, Number 1, January–March, pp 1-18",
@@ -1455,7 +1456,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/137/saras-d-sarasvathy",
 "email": "saras.sarasvathy@iimb.ac.in",
-"summary": "",
+"summary": "Saras D Sarasvathy is a Visiting Faculty in the Entrepreneurship area at IIM Bangalore. Education: PhD, Carnegie Mellon University, USA; MSIA, Carnegie Mellon University, USA; BCom, University of Bombay, India.", "summaryKind": "listing",
 "pubs": []
 },
 {
@@ -1734,7 +1735,7 @@ window.IIMB=window.IIMB||{};IIMB.faculty=[
 "roles": [],
 "url": "https://www.iimb.ac.in/user/84/d-krishna-sundar",
 "email": "diatha@iimb.ac.in",
-"summary": "",
+"summary": "Krishna Sundar has setup “India Japan Study Centre (IJSC)” in 2017 September at IIMB & was Chairperson till July 2023. In 2019, he could secure the largest endowment (so far in IIMB) from Mizuho Bank, IJSC has been rechristened as “Mizuho India Japan Study Centre (MIJSC)”. He held, twice, the position of chairperson of Production & Operations Management Department at IIMB. He also held the positions of Chairperson-ERP Centre at IIMB; Chairperson-CFC (Central Computing Facilities/ Computers Facilities Committee), was a member of Advisory Committee on PSUs to SAP India, Advisory Committee of Microsoft-NISG e-Governance Innovation Centre, was a member of Advisory Committee on e-Governance of Karnataka Government. Krishna Sundar was a retainer consultant to CDFI, South African Postbank, SA; Nimbus India (Nimbus UK subsidiary), Canara Bank, SAPO-South African Post Office, National Horticulture Board, Govt. of India, Ordnance Factories Board, Ministry of Defence Production, Govt. of India; Winsoft Inc.,-Colorado, USA; Merino Group of Industries, India, Orissa Mining Corporation, Bharat Logistics Pvt. Ltd.; CMPFO, Ministry of Mines, Govt. of India; Tanning Technology Corporation, Denver-USA; Web Infotech Pvt Ltd., India; PercepEnz(Fortays)-Madison, USA;", "summaryKind": "tabs",
 "pubs": [
 "“Adoption of cashless payment systems in the bottom‑of‑the‑pyramid retail supply chains in India: A technology‑organization‑environment framework perspective” Ravi Srinivasan, Krishna Sundar Diatha, Shubham Singh, Electronic Commerce Research, published online: 22 January 2024",
 "How does the adoption of digital payment technologies influence unorganized retailers’ performance? An investigation in an emerging market” Anirban Adhikary, Krishna Sundar Diatha, Sourav Bikash Borah & Amalesh Sharma, Journal of the Academy of Marketing Science (JAMS) Vol.49, pp. 882–902 (2021)",

@@ -30,10 +30,15 @@
     $("[data-pp-roles]").innerHTML = roles.map((r) => `<li>${r.u ? `<a class="ulink" href="${r.u}">${esc(r.t)}</a>` : esc(r.t)}</li>`).join("");
     $("[data-pp-contact]").innerHTML = `${f.email ? `<a class="arrow-link" href="mailto:${f.email}">${icon("mail")}<span>${esc(f.email)}</span></a>` : ""}<a class="arrow-link" href="${f.url}"><span>Official IIMB profile</span>${icon("arrow-up")}</a>`;
 
-    const paras = f.summary.split(/(?<=\.)\s+(?=[A-Z])/);
+    /* every profile carries a paragraph: the official summary, or the official research text, or (where the official
+       profile lists only publications) a plain statement from its own title, area and roles */
+    const text = (f.summary || "").trim() || `${f.name} is ${/^[AEIOU]/.test(f.title) ? "an" : "a"} ${f.title} in the ${f.areas.join(" and ")} area at IIM Bangalore.${f.roles.length ? ` Current roles: ${f.roles.join("; ")}.` : ""}`;
+    const paras = text.split(/(?<=\.)\s+(?=[A-Z])/);
     const half = Math.ceil(paras.length / 2);
-    $("[data-pp-summary]").innerHTML = `<p class="pp-first">${esc(paras.slice(0, half).join(" "))}</p>${paras.length > 1 ? `<p>${esc(paras.slice(half).join(" "))}</p>` : ""}`;
-    $("[data-pp-src]").innerHTML = `Profile text as published on the <a class="ulink" href="${f.url}">official IIMB profile</a>.`;
+    $("[data-pp-summary]").innerHTML = `<p>${esc(paras.slice(0, half).join(" "))}</p>${paras.length > 1 ? `<p>${esc(paras.slice(half).join(" "))}</p>` : ""}`;
+    $("[data-pp-src]").innerHTML = f.summaryKind === "listing" || !f.summary
+      ? `Compiled from the title, area and roles on the <a class="ulink" href="${f.url}">official IIMB profile</a>, which lists publications but no profile text.`
+      : `Profile text as published on the <a class="ulink" href="${f.url}">official IIMB profile</a>.`;
 
     const themes = I.themes.filter((th) => f.areas.some((a) => th.areas.includes(a)));
     const centres = I.centres.filter((c) => c.chairId === f.id || (c.people || []).includes(f.id) || (f.id && I.csitm.people.includes(f.id) && c.id === "csitm"));

@@ -22,7 +22,7 @@
 
     /* rankings, from the live iimb.ac.in homepage + sourced ranking stories */
     const hr = I.homeRank;
-    $("[data-rank-cards]").innerHTML = J.rankGrid(I.rankCards || [], "rkg-home");
+    $("[data-rank-cards]").innerHTML = J.rankFigure();
     $("[data-adv]").innerHTML = I.advantage.map((a) => `<div class="adv-i"><dt class="num" data-count>${esc(a.v)}</dt><dd>${esc(a.l)}</dd></div>`).join("");
     $("[data-accr]").innerHTML = `<a href="https://www.efmdglobal.org/" class="accr-i"><img src="assets/img/efmd-equis.png" width="1021" height="737" alt="EQUIS accredited (EFMD)" loading="lazy"><span>EQUIS accredited since 2010; re-accredited in December 2021</span></a>
       <a href="https://globalnetwork.io/" class="accr-i"><img src="assets/img/gnam.png" width="765" height="326" alt="Global Network for Advanced Management" loading="lazy"><span>Member of the Global Network for Advanced Management since 2012</span></a>`;
@@ -66,18 +66,20 @@
     /* events */
     const ups = I.events.filter((e) => (e.end || e.start) >= J.today).sort((a, b) => a.start.localeCompare(b.start)).slice(0, 6);
     $("[data-cal]").innerHTML = ups.map((e) => { const [, m, dd] = e.start.split("-"); return `<li class="cal-item kind-${J.slug(e.kind)}"><a href="${u.story(e.id)}">
-      <span class="ci-day num">${+dd}</span><span class="ci-mon">${J.monthName(+m - 1, true)} ${e.start.slice(0, 4)}</span>
+      <span class="ci-date"><span class="ci-day num">${+dd}</span><span class="ci-mon">${J.monthName(+m - 1, true)} ${e.start.slice(0, 4)}</span></span>
       <span class="ci-kind tag">${esc(e.kind)}</span>
       <span class="ci-t">${esc(e.title)}</span>
       <span class="ci-h small mute">${esc(e.host)}${e.end ? " · until " + J.date(e.end, "dm") : ""}</span></a></li>`; }).join("");
 
     /* news: institutional stories only (no alumni, faculty-appointment or student items) */
     const latest = I.news.filter((n) => n.image && NEWS_CATS.includes(n.category) && n.id !== I.cover.essay).slice(0, 4);
-    $("[data-newsroom]").innerHTML = latest.map((n, i) => `<article class="nr-item ${i === 0 ? "lead" : ""}">
-      <a class="nr-plate plate" href="${u.story(n.id)}" tabindex="-1" aria-hidden="true" ${i === 0 ? 'data-plate="up"' : ""}>${J.newsImg(n)}</a>
+    /* four equal stories: same photo ratio, same type, same reading line */
+    $("[data-newsroom]").innerHTML = latest.map((n) => `<article class="nr-item">
+      <a class="nr-plate plate" href="${u.story(n.id)}" tabindex="-1" aria-hidden="true">${J.newsImg(n)}</a>
       <p class="meta mute">${esc(n.category)} · ${J.date(n.date)}</p>
-      <h3 class="${i === 0 ? "h2" : "h4"}"><a class="draw" href="${u.story(n.id)}">${esc(n.title)}</a></h3>
-      ${i === 0 ? `<p class="dek">${esc(n.standfirst || "")}</p>` : ""}</article>`).join("");
+      <h3 class="nr-t"><a class="draw" href="${u.story(n.id)}">${esc(n.title)}</a></h3>
+      ${n.standfirst ? `<p class="nr-dek">${esc(n.standfirst)}</p>` : ""}
+      <a class="nr-go" href="${u.story(n.id)}" tabindex="-1" aria-hidden="true"><span>Read the story</span>${icon("arrow")}</a></article>`).join("");
 
     J.bgFilm($("[data-cover-film] video"));
   }
@@ -110,7 +112,7 @@
     g.to("[data-cover-film] video", { yPercent: 12, ease: "none", scrollTrigger: { trigger: ".cover", start: "top top", end: "bottom top", scrub: true } });
 
     /* rankings: the headline figure lands with a red rule; rows draw their rules in sequence */
-    g.fromTo(".rkg .rkc", { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.05, scrollTrigger: { trigger: ".rkg", start: "top 90%", once: true } });
+    J.rankFigIn();
     g.fromTo(".rk-row", { "--rw": 0, autoAlpha: 0, x: 24 }, { "--rw": 1, autoAlpha: 1, x: 0, duration: 0.8, ease: J.ease, stagger: 0.07, scrollTrigger: { trigger: ".rk-list", start: "top 94%", once: true } });
     g.fromTo(".adv-i", { autoAlpha: 0, y: 26 }, { autoAlpha: 1, y: 0, duration: 0.8, ease: J.ease, stagger: 0.08, scrollTrigger: { trigger: ".adv-list", start: "top 95%", once: true } });
 

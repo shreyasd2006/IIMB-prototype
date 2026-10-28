@@ -1,0 +1,746 @@
+{
+ "epgp": {
+  "videos": [],
+  "texts": []
+ },
+ "nsr-t": {
+  "videos": [],
+  "texts": [
+   {
+    "q": [
+     "The program helps Pre-doc fellows explore their research interest and prepares them for a full-fledged doctoral programme. The math clinic and writing workshop helped me understand the use of statistics in research and the science and art of academic writing, respectively."
+    ],
+    "who": "Mohammad Salman, NSR Pre-doc (2019-20), OB & HRM",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/mohammad-salman.JPG"
+   },
+   {
+    "q": [
+     "The fellowship has kindled new ideas and opened up aspects of research for me. It is helping me explore opportunities in my research career."
+    ],
+    "who": "Elizabeth George, NSR Pre-doc (2019-20), Economics & Social Sciences",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Elizabeth%20George.JPG"
+   },
+   {
+    "q": [
+     "I sought exposure at a globally respected business school when I chose this program. Among the various skills that I have acquired at IIMB in the last five months, I am learning to be more disciplined, especially regarding time management and seeking relevant information in class. I am learning to read and write research papers and work in teams."
+    ],
+    "who": "Robiul Awal, NSR Pre-doc (2019-20), Strategy",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/robiul-awal.JPG"
+   },
+   {
+    "q": [
+     "The flexible curriculum, the plethora of research resources and the expert guidance, in the form of mentorship, are the key highlights of the program. Faculty mentors at IIMB provide help the pre-doc fellows explore potential research topics. The coursework and tutorial classes help improve our subject knowledge. Our interaction with the PhD scholars here help us understand the nuances of a doctoral programme."
+    ],
+    "who": "Sahajdeep Kaur, NSR Pre-doc (2019-20), Finance & Accounting",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sahajdeep%20Kaur.JPG"
+   },
+   {
+    "q": [
+     "The programme structure and academic engagements are unique. The maths and academic writing workshops and the faculty guidance have been invaluable."
+    ],
+    "who": "Sangita Barwa, NSR Pre-doc (2019-20), OB & HRM",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sangita%20Barwa.JPG"
+   },
+   {
+    "q": [
+     "The Pre-doctoral programme at IIMB was enriching in every sense. The coursework enhanced my understanding and appreciation of Economics. My most precious takeaway from the programme is research exposure. My year at IIMB was an excellent and life-changing experience, and being part of this school has enhanced my overall personality. It has made me a better learner and a better researcher. I also value the friends that I have made during the year."
+    ],
+    "who": "Shivani Kushwaha, NSR Pre-doc (2018-19), Economics & Social Sciences",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/shivani-kushwaha.JPG"
+   },
+   {
+    "q": [
+     "Joining the programme is one of the best decisions that I have taken. The academic environment, the supportive faculty and the courses offered at IIMB are all in the best interests of aspiring research scholars."
+    ],
+    "who": "Muhammed Sadiq T, NSR Pre-doc (2018-19), Information Systems",
+    "img": "https://www.iimb.ac.in/sites/default/files/2018-05/Muhammed Sadiq T.jpg"
+   },
+   {
+    "q": [
+     "The programme has helped me gain admission into a doctoral programme at a top institute."
+    ],
+    "who": "Mrutyunjaya Sahoo, NSR Pre-doc (2018-19), Finance & Accounting",
+    "img": "https://www.iimb.ac.in/sites/default/files/2018-05/Mrutyunjaya Sahoo.jpg"
+   }
+  ]
+ },
+ "pgp-t": {
+  "videos": [
+   {
+    "id": "StV7byH_udo",
+    "who": "Anant Ashutosh Sharma, PGP 2022-24"
+   },
+   {
+    "id": "umESBV81QB4",
+    "who": "Sanya Monga, PGP 2022-24"
+   },
+   {
+    "id": "9NhplDsJ8To",
+    "who": "Stuti Jain, PGP 2022-24"
+   },
+   {
+    "id": "46hJ4vwX9Ew",
+    "who": "Vansh Lakhina, PGP 2022-24"
+   },
+   {
+    "id": "ebYYwpnapwY",
+    "who": "Aditya Bhat, PGP 2020-22"
+   },
+   {
+    "id": "EVu-uJTWCfA",
+    "who": "Mythili K, PGP 2020-22"
+   },
+   {
+    "id": "hMijVHSYk-0",
+    "who": "Vinit Kumar, PGP 2020-22"
+   },
+   {
+    "id": "URYxgzblzDI",
+    "who": "Viriezo Vizo, PGP 2020-22"
+   },
+   {
+    "id": "0uDB4kRRvIg",
+    "who": "Adithya Kantharaj, PGP 2021-23"
+   },
+   {
+    "id": "C918P-_gUfc",
+    "who": "Anurag Rathi, PGP 2021-23"
+   },
+   {
+    "id": "d4idjQW4BLw",
+    "who": "Bhargavi Prajapati, PGP 2021-23"
+   },
+   {
+    "id": "WPIZxPB54KI",
+    "who": "Bhavana Gaddam, PGP 2021-23"
+   },
+   {
+    "id": "ch8OGQhddOU",
+    "who": "Krishna Wadhwa, PGP 2021-23"
+   },
+   {
+    "id": "icMSZ00vlfE",
+    "who": "Nuhad Bardai, PGP 2021-23"
+   },
+   {
+    "id": "eOviGRr7vL4",
+    "who": "Shreyas S, PGP 2021-23"
+   },
+   {
+    "id": "tDTCtgtjsf8",
+    "who": "Siddhartha, PGP 2021-23"
+   },
+   {
+    "id": "JolLsaCOHQk",
+    "who": ""
+   }
+  ],
+  "texts": [
+   {
+    "q": [
+     "IIM Bangalore is a transformative place. You could be from any walk of life, from any background or geography, the two-year journey will be, hands down, one of the defining moments in your life. Here, you are who you want to be. The sheer number of opportunities, academic or otherwise, gives you a breadth of choice to build your dream career. And, the greatest treasure of all would be the people you meet here."
+    ],
+    "who": "Chandrasekar T, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Chandrasekar%20T.jpg"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore provides quality education which is at par with the global best. IIM Bangalore introduced me to a group of talented people from all walks of life, never making me miss the diversity I saw during my undergraduate education abroad."
+    ],
+    "who": "Pallavi Saboo, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Pallavi%20Saboo.jpg"
+   },
+   {
+    "q": [
+     "IIM Bangalore has provided me with a plethora of opportunities to grow holistically and experience new avenues beyond academics such as entrepreneurship, live projects, etc. I have been constantly pushed out of my comfort zone, only to become a better version of myself. Apart from the great mentorship and friendship that I have experienced, the beautiful green campus is a bonus. I can safely say that IIMB has provided me with the wings to fly and roots to come back to."
+    ],
+    "who": "Shreya Saraiwala, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Shreya%20Saraiwala.JPG"
+   },
+   {
+    "q": [
+     "My biggest takeaway from IIM Bangalore is to stay humble and stay foolish. IIMB provides a balance of academic rigour and freedom to pursue our extra-curricular activities. My interaction with fellow batchmates and the resultant peer learning, along with some enlightening faculty sessions, will be the highlights of my time in this beautiful green campus that is nothing short of paradise."
+    ],
+    "who": "Siddarth Iyer, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Siddarth%20Iyer.jpg"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore provided me with a multifaceted experience, both inside and outside the classroom. The biggest takeaway for me would be the insightful interactions I have had with some of the best minds in the country. From being under pressure of stringent deadlines to walking around the picturesque campus, IIMB provides an unparalleled holistic ecosystem and an experience to cherish."
+    ],
+    "who": "Sonaal Gupta, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sonaal%20Gupta.jpg"
+   },
+   {
+    "q": [
+     "At IIMB, we had the privilege of an amazing green campus with teachers and students from all over India, who were a constant source of inspiration. Moreover, friends, cultural events, group projects and a lot more made my India experience a memorable one and enhanced my personal development."
+    ],
+    "who": "Adrien Devouassoux, Exchange Student (September 2019 – November 2019)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Adrien%281%29.png"
+   },
+   {
+    "q": [
+     "Apart from living in the city with superb weather, my biggest takeaway from being part of the Post Graduate Programme is the interaction I had with the people on campus. From being taught by some of the best faculty in the country to late-night insightful conversations with my friends, this campus provided me with some great learning experiences."
+    ],
+    "who": "Kundan Thakan, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Kundan%281%29.png"
+   },
+   {
+    "q": [
+     "For me, what makes IIM Bangalore a wonderful experience is the diversity and freedom that is provided to the students to pursue what they enjoy doing apart from just academics – be it sports, club and committee activities, organizing summits and fests, etc. This truly brings the entire student community together, and builds a strong batch connect, which later translates to a robust alumni network."
+    ],
+    "who": "Hardik H Dubal, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Hardik%20H%20Dubal%281%29.png"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore has given me the opportunity to interact, in a span of two years, with more than 1500 individuals who are among the most brilliant in the country, and learn from them in an environment that forces you to test your limits and grow personally and professionally. Needless to say, the beautiful award-winning campus always acts as a stress buster."
+    ],
+    "who": "Tarunay Dayal, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Tarunay%281%29.png"
+   },
+   {
+    "q": [
+     "Coming in with three years of work experience, I found the Post Graduate Programme in Management a great platform to accelerate career growth and build a strong foundation in people management skills. The two years with the brightest minds of the country have been most fulfilling and an experience to cherish. Making friends with people from diverse backgrounds is something I would always treasure."
+    ],
+    "who": "Gunjan Sunil Tulsyan, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gunjan%20Tulsyan%281%29.png"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore has moulded me in the best way possible. The course has made me feel confident in facing any challenge - be it at the professional or at the personal front."
+    ],
+    "who": "Fathima S Hussain, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Fathima%281%29.png"
+   },
+   {
+    "q": [
+     "“My best takeaway? The friendships I made on the IIMB campus and the mentoring I received from the faculty“"
+    ],
+    "who": "Harshvardhan Hemant Samvatsar (Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/PGP-Harshvardhan.jpg"
+   },
+   {
+    "q": [
+     "“A great campus, a superb peer group, inspirational professors, and immense opportunities for personal development – all this made my two years at IIM Bangalore memorable.”"
+    ],
+    "who": "Ritikesh Kumar (Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Ritikesh%20Kumar.jpg"
+   },
+   {
+    "q": [
+     "“Coming in with three years of work experience, I found the Post Graduate Program in Management a great platform to accelerate career growth and build a strong foundation in people management skills. I was struck by the sheer variety of courses on offer. Incredibly talented peers add to the overall learning experience.”"
+    ],
+    "who": "Raghav Ghosh (PGP Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Raghav%20Ghosh.jpg"
+   },
+   {
+    "q": [
+     "“The campus is amazing. If the landscape wasn't already enough, the people inside made my experience an unforgettable one! ”",
+     "COVID-related Research & Development Works done by CFTIs",
+     "Copyright © 2009-2026 Indian Institute of Management Bangalore. All Rights Reserved."
+    ],
+    "who": "Vasco Ferreira, Católica Lisbon Exchange Student, September 2016 — March 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Vasco%20Ferreira.jpg"
+   }
+  ]
+ },
+ "pgp": {
+  "videos": [
+   {
+    "id": "StV7byH_udo",
+    "who": "Aditya Nishith Shah, PGP 2022-24"
+   },
+   {
+    "id": "umESBV81QB4",
+    "who": "Anant Ashutosh Sharma, PGP 2022-24"
+   },
+   {
+    "id": "9NhplDsJ8To",
+    "who": "Sanya Monga, PGP 2022-24"
+   },
+   {
+    "id": "46hJ4vwX9Ew",
+    "who": "Stuti Jain, PGP 2022-24"
+   },
+   {
+    "id": "ebYYwpnapwY",
+    "who": "Vansh Lakhina, PGP 2022-24"
+   },
+   {
+    "id": "EVu-uJTWCfA",
+    "who": "Aditya Bhat, PGP 2020-22"
+   },
+   {
+    "id": "hMijVHSYk-0",
+    "who": "Mythili K, PGP 2020-22"
+   },
+   {
+    "id": "URYxgzblzDI",
+    "who": "Vinit Kumar, PGP 2020-22"
+   },
+   {
+    "id": "0uDB4kRRvIg",
+    "who": "Viriezo Vizo, PGP 2020-22"
+   },
+   {
+    "id": "C918P-_gUfc",
+    "who": "Adithya Kantharaj, PGP 2021-23"
+   },
+   {
+    "id": "d4idjQW4BLw",
+    "who": "Anurag Rathi, PGP 2021-23"
+   },
+   {
+    "id": "WPIZxPB54KI",
+    "who": "Bhargavi Prajapati, PGP 2021-23"
+   },
+   {
+    "id": "ch8OGQhddOU",
+    "who": "Bhavana Gaddam, PGP 2021-23"
+   },
+   {
+    "id": "icMSZ00vlfE",
+    "who": "Krishna Wadhwa, PGP 2021-23"
+   },
+   {
+    "id": "eOviGRr7vL4",
+    "who": "Nuhad Bardai, PGP 2021-23"
+   },
+   {
+    "id": "tDTCtgtjsf8",
+    "who": "Shreyas S, PGP 2021-23"
+   },
+   {
+    "id": "JolLsaCOHQk",
+    "who": "Siddhartha, PGP 2021-23"
+   }
+  ],
+  "texts": [
+   {
+    "q": [
+     "IIM Bangalore is a transformative place. You could be from any walk of life, from any background or geography, the two-year journey will be, hands down, one of the defining moments in your life. Here, you are who you want to be. The sheer number of opportunities, academic or otherwise, gives you a breadth of choice to build your dream career. And, the greatest treasure of all would be the people you meet here."
+    ],
+    "who": "Chandrasekar T, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Chandrasekar%20T.jpg"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore provides quality education which is at par with the global best. IIM Bangalore introduced me to a group of talented people from all walks of life, never making me miss the diversity I saw during my undergraduate education abroad."
+    ],
+    "who": "Pallavi Saboo, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Pallavi%20Saboo.jpg"
+   },
+   {
+    "q": [
+     "IIM Bangalore has provided me with a plethora of opportunities to grow holistically and experience new avenues beyond academics such as entrepreneurship, live projects, etc. I have been constantly pushed out of my comfort zone, only to become a better version of myself. Apart from the great mentorship and friendship that I have experienced, the beautiful green campus is a bonus. I can safely say that IIMB has provided me with the wings to fly and roots to come back to."
+    ],
+    "who": "Shreya Saraiwala, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Shreya%20Saraiwala.JPG"
+   },
+   {
+    "q": [
+     "My biggest takeaway from IIM Bangalore is to stay humble and stay foolish. IIMB provides a balance of academic rigour and freedom to pursue our extra-curricular activities. My interaction with fellow batchmates and the resultant peer learning, along with some enlightening faculty sessions, will be the highlights of my time in this beautiful green campus that is nothing short of paradise."
+    ],
+    "who": "Siddarth Iyer, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Siddarth%20Iyer.jpg"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore provided me with a multifaceted experience, both inside and outside the classroom. The biggest takeaway for me would be the insightful interactions I have had with some of the best minds in the country. From being under pressure of stringent deadlines to walking around the picturesque campus, IIMB provides an unparalleled holistic ecosystem and an experience to cherish."
+    ],
+    "who": "Sonaal Gupta, PGP 2019-2021",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sonaal%20Gupta.jpg"
+   },
+   {
+    "q": [
+     "At IIMB, we had the privilege of an amazing green campus with teachers and students from all over India, who were a constant source of inspiration. Moreover, friends, cultural events, group projects and a lot more made my India experience a memorable one and enhanced my personal development."
+    ],
+    "who": "Adrien Devouassoux, Exchange Student (September 2019 – November 2019)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Adrien%281%29.png"
+   },
+   {
+    "q": [
+     "Apart from living in the city with superb weather, my biggest takeaway from being part of the Post Graduate Programme is the interaction I had with the people on campus. From being taught by some of the best faculty in the country to late-night insightful conversations with my friends, this campus provided me with some great learning experiences."
+    ],
+    "who": "Kundan Thakan, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Kundan%281%29.png"
+   },
+   {
+    "q": [
+     "For me, what makes IIM Bangalore a wonderful experience is the diversity and freedom that is provided to the students to pursue what they enjoy doing apart from just academics – be it sports, club and committee activities, organizing summits and fests, etc. This truly brings the entire student community together, and builds a strong batch connect, which later translates to a robust alumni network."
+    ],
+    "who": "Hardik H Dubal, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Hardik%20H%20Dubal%281%29.png"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore has given me the opportunity to interact, in a span of two years, with more than 1500 individuals who are among the most brilliant in the country, and learn from them in an environment that forces you to test your limits and grow personally and professionally. Needless to say, the beautiful award-winning campus always acts as a stress buster."
+    ],
+    "who": "Tarunay Dayal, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Tarunay%281%29.png"
+   },
+   {
+    "q": [
+     "Coming in with three years of work experience, I found the Post Graduate Programme in Management a great platform to accelerate career growth and build a strong foundation in people management skills. The two years with the brightest minds of the country have been most fulfilling and an experience to cherish. Making friends with people from diverse backgrounds is something I would always treasure."
+    ],
+    "who": "Gunjan Sunil Tulsyan, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gunjan%20Tulsyan%281%29.png"
+   },
+   {
+    "q": [
+     "The Post Graduate Programme in Management at IIM Bangalore has moulded me in the best way possible. The course has made me feel confident in facing any challenge - be it at the professional or at the personal front."
+    ],
+    "who": "Fathima S Hussain, PGP 2018-2020",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Fathima%281%29.png"
+   },
+   {
+    "q": [
+     "“My best takeaway? The friendships I made on the IIMB campus and the mentoring I received from the faculty“"
+    ],
+    "who": "Harshvardhan Hemant Samvatsar (Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/PGP-Harshvardhan.jpg"
+   },
+   {
+    "q": [
+     "“A great campus, a superb peer group, inspirational professors, and immense opportunities for personal development – all this made my two years at IIM Bangalore memorable.”"
+    ],
+    "who": "Ritikesh Kumar (Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Ritikesh%20Kumar.jpg"
+   },
+   {
+    "q": [
+     "“Coming in with three years of work experience, I found the Post Graduate Program in Management a great platform to accelerate career growth and build a strong foundation in people management skills. I was struck by the sheer variety of courses on offer. Incredibly talented peers add to the overall learning experience.”"
+    ],
+    "who": "Raghav Ghosh (PGP Class of 2015)",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Raghav%20Ghosh.jpg"
+   },
+   {
+    "q": [
+     "“The campus is amazing. If the landscape wasn't already enough, the people inside made my experience an unforgettable one! ”"
+    ],
+    "who": "Vasco Ferreira, Católica Lisbon Exchange Student, September 2016 — March 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Vasco%20Ferreira.jpg"
+   }
+  ]
+ },
+ "pgpba": {
+  "videos": [
+   {
+    "id": "7qXQjj-deKo",
+    "who": "Anusha S, PGPBA 2020-22"
+   },
+   {
+    "id": "AcLtS71oM8s",
+    "who": "Bhanavi Luthra, PGPBA 2021-23"
+   },
+   {
+    "id": "MM-H14MMHtk",
+    "who": "Srinath Vigneshwar, PGPBA 2021-23"
+   }
+  ],
+  "texts": []
+ },
+ "pgpem-t": {
+  "videos": [
+   {
+    "id": "gqfsnkZ9BGo",
+    "who": "Redefining Learning Beyond the Classroom - Siny J Fernandes’ Journey through PGPEM at IIMB"
+   },
+   {
+    "id": "9rWoaO-GcBo",
+    "who": "Rakesh's Journey at IIMB - Merging Aerospace Expertise with Strategic Leadership through PGPEM"
+   },
+   {
+    "id": "i6izLr7hiqk",
+    "who": "Unsettle to Settle for More: Priya Agarwal on Finding Her Dream Again with PGPEM at IIMB"
+   },
+   {
+    "id": "3PDnSaf-Pc4",
+    "who": "From Experience to Expertise: Dhaval Trivedi on Expanding His Leadership Vision with PGPEM"
+   },
+   {
+    "id": "QV9SHW2ooEg",
+    "who": "Sukanya Nagarajan, PGPEM 2022-24"
+   },
+   {
+    "id": "Xf-T0cCNHB4",
+    "who": "Joseph Kalidyan, PGPEM 2022-24"
+   },
+   {
+    "id": "K-F_g7ELRk4",
+    "who": "Farrel Arora, PGPEM 2022-24"
+   },
+   {
+    "id": "DCOJIuYlFqw",
+    "who": "Anil Bhat, PGPEM 2022-24"
+   },
+   {
+    "id": "H7MJ8JR3Wiw",
+    "who": "Aayushi Bansal, PGPEM 2022-24"
+   }
+  ],
+  "texts": [
+   {
+    "q": [
+     "Hello, I am Radhika, currently working as a Programme manager with years of experience. Throughout my career, I have been involved mainly with the technical side of things and so decided to take a plunge into management. In order to do so, I wanted to equip myself better and from the best. That’s when I found out about PGPEM from IIMB. I did not want to stop working, so this was a very good option. Joining PGPEM has been the best decision of my life and a life-changing experience while learning from best of the best professors, peers from diverse backgrounds, and the pedagogy. The best thing about PGPEM is applying the learnings from the classroom every day at work. Not just me, but my colleagues and managers too have been able to see the transition in my delivery of work. Being a working mother, managing home, work, and PGPEM has been hectic, but I did not feel fatigued because of the excellent learning experience. I can confidently say I am ready to take on any challenges at work and be a great manager."
+    ],
+    "who": "Radhika Praveen PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Radhika-Praveen.jpg"
+   },
+   {
+    "q": [
+     "I am Gautham CB, and I work in the Healthcare Industry. I have over 21 years of work experience. At this point of my career, I needed a formal educational upgrade and the PGPEM Program offering an MBA, from the prestigious institute, was the right catalyst to back me up for future roles in the corporate ladder. Having enrolled in the 2020 batch, the journey so far has been amazing. We have got all-round exposure to various aspects of management. At the end of the two-year course, we will, for sure, be better decision-makers and transformed leaders."
+    ],
+    "who": "Gautham CB PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gautham-CB.jpg"
+   },
+   {
+    "q": [
+     "Given my technical background, I developed a deep functional expertise on various aspects of pharma research in my professional career. However, one needed to be ready to look beyond its expertise area and develop a knack to look at the big picture. PGPEM provided me the opportunity to look at things differently and develop a holistic view with the end goal in mind. Learning from top notch professors and cross-pollination with peers builds a solid foundation to face the ever-changing business environment globally."
+    ],
+    "who": "Sanjeev Giri, Ph.D PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sanjeev-Giri.jpg"
+   },
+   {
+    "q": [
+     "I am Naren. I am a second generation entrepreneur in family interests in Hospitality, Real Estate and Manufacturing. There are three main reasons why I chose IIMB for my higher Management studies. The first is branding. IIMB has a ubiquitous brand which opens up doors inaccessible before for business opportunities. The second is networking. With its vast alumni network, knowledgeable professors and business leaders as your cohort, every hour is a learning process. The third is the learning which is essential for any educational institution. IIMB, with its long history, is very well-known for it."
+    ],
+    "who": "Naren Mohan Ramesh PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Naren%20Mohan-Ramesh.jpg"
+   },
+   {
+    "q": [
+     "Experience life-changing work and study opportunities with the two-year weekend MBA at IIMB “The PGPEM at IIMB gives you the opportunity to meet peers from different backgrounds and work experience.”"
+    ],
+    "who": "Sarita Kanchan Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sarita-Kanchan.jpg"
+   },
+   {
+    "q": [
+     "Gain international exposure and strengthen your network with the two-year weekend MBA at IIMB “IIMB is part of the Global Network for Advanced Management and as a student of the PGPEM, I can leverage this network to learn how organizations can become more global.”"
+    ],
+    "who": "Gautam Talwar Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gautam-Talwar.jpg"
+   },
+   {
+    "q": [
+     "Excel with a career progression platform like the two-year weekend MBA at IIMB “Methodologies, Networking, Organization & Management, Programme Structure, and Quality are the five important elements that make the PGPEM at IIMB ideal for mid-career managers and senior executives.”"
+    ],
+    "who": "Atul Kimtee Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Atul%20Kimtee.jpg"
+   },
+   {
+    "q": [
+     "Many of us are naturally inclined towards looking at the technical aspects of any given problem, given our technical background. During this programme, we learned to look at the other aspects of solutions. Two fabulous years of such learning is what makes it a great journey."
+    ],
+    "who": "Subha N Nair Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Subha.jpg"
+   },
+   {
+    "q": [
+     "While I got the flexibility to take a term off, I also got the opportunity to travel to Germany for a full-term exchange programme. This gave me exposure to the global business environment and its challenges"
+    ],
+    "who": "Kranti Arora Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Kranti%20Arora.jpg"
+   },
+   {
+    "q": [
+     "The PGPEM is about the joy of being back in school, rubbing shoulders with peers who are from diverse backgrounds, interacting with industry experts and academics, participating in cultural and industry events and, above all, learning in a vibrant environment."
+    ],
+    "who": "Shishank Gupta Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/shishank_gupta.jpg"
+   },
+   {
+    "q": [
+     "I am a professional singer. So when IIMB happened, I was afraid that I may have to give up my passion, but I was inspired by my peers on campus, especially the way they manage work-life-study. I not only fulfilled the programme requirements, I also pursued my dreams here on campus.",
+     "COVID-related Research & Development Works done by CFTIs",
+     "Copyright © 2009-2026 Indian Institute of Management Bangalore. All Rights Reserved."
+    ],
+    "who": "Sujay Harthi Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/1516061%281%29.jpg"
+   }
+  ]
+ },
+ "pgpem": {
+  "videos": [
+   {
+    "id": "gqfsnkZ9BGo",
+    "who": "Redefining Learning Beyond the Classroom - Siny J Fernandes’ Journey through PGPEM at IIMB"
+   },
+   {
+    "id": "9rWoaO-GcBo",
+    "who": "Rakesh's Journey at IIMB - Merging Aerospace Expertise with Strategic Leadership through PGPEM"
+   },
+   {
+    "id": "i6izLr7hiqk",
+    "who": "Unsettle to Settle for More: Priya Agarwal on Finding Her Dream Again with PGPEM at IIMB"
+   },
+   {
+    "id": "3PDnSaf-Pc4",
+    "who": "From Experience to Expertise: Dhaval Trivedi on Expanding His Leadership Vision with PGPEM"
+   }
+  ],
+  "texts": [
+   {
+    "q": [
+     "Hello, I am Radhika, currently working as a Programme manager with years of experience. Throughout my career, I have been involved mainly with the technical side of things and so decided to take a plunge into management. In order to do so, I wanted to equip myself better and from the best. That’s when I found out about PGPEM from IIMB. I did not want to stop working, so this was a very good option. Joining PGPEM has been the best decision of my life and a life-changing experience while learning from best of the best professors, peers from diverse backgrounds, and the pedagogy. The best thing about PGPEM is applying the learnings from the classroom every day at work. Not just me, but my colleagues and managers too have been able to see the transition in my delivery of work. Being a working mother, managing home, work, and PGPEM has been hectic, but I did not feel fatigued because of the excellent learning experience. I can confidently say I am ready to take on any challenges at work and be a great manager."
+    ],
+    "who": "Radhika Praveen PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Radhika-Praveen.jpg"
+   },
+   {
+    "q": [
+     "I am Gautham CB, and I work in the Healthcare Industry. I have over 21 years of work experience. At this point of my career, I needed a formal educational upgrade and the PGPEM Program offering an MBA, from the prestigious institute, was the right catalyst to back me up for future roles in the corporate ladder. Having enrolled in the 2020 batch, the journey so far has been amazing. We have got all-round exposure to various aspects of management. At the end of the two-year course, we will, for sure, be better decision-makers and transformed leaders."
+    ],
+    "who": "Gautham CB PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gautham-CB.jpg"
+   },
+   {
+    "q": [
+     "Given my technical background, I developed a deep functional expertise on various aspects of pharma research in my professional career. However, one needed to be ready to look beyond its expertise area and develop a knack to look at the big picture. PGPEM provided me the opportunity to look at things differently and develop a holistic view with the end goal in mind. Learning from top notch professors and cross-pollination with peers builds a solid foundation to face the ever-changing business environment globally."
+    ],
+    "who": "Sanjeev Giri, Ph.D PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sanjeev-Giri.jpg"
+   },
+   {
+    "q": [
+     "I am Naren. I am a second generation entrepreneur in family interests in Hospitality, Real Estate and Manufacturing. There are three main reasons why I chose IIMB for my higher Management studies. The first is branding. IIMB has a ubiquitous brand which opens up doors inaccessible before for business opportunities. The second is networking. With its vast alumni network, knowledgeable professors and business leaders as your cohort, every hour is a learning process. The third is the learning which is essential for any educational institution. IIMB, with its long history, is very well-known for it."
+    ],
+    "who": "Naren Mohan Ramesh PGPEM 2020-22",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Naren%20Mohan-Ramesh.jpg"
+   },
+   {
+    "q": [
+     "Experience life-changing work and study opportunities with the two-year weekend MBA at IIMB “The PGPEM at IIMB gives you the opportunity to meet peers from different backgrounds and work experience.”"
+    ],
+    "who": "Sarita Kanchan Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sarita-Kanchan.jpg"
+   },
+   {
+    "q": [
+     "Gain international exposure and strengthen your network with the two-year weekend MBA at IIMB “IIMB is part of the Global Network for Advanced Management and as a student of the PGPEM, I can leverage this network to learn how organizations can become more global.”"
+    ],
+    "who": "Gautam Talwar Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Gautam-Talwar.jpg"
+   },
+   {
+    "q": [
+     "Excel with a career progression platform like the two-year weekend MBA at IIMB “Methodologies, Networking, Organization & Management, Programme Structure, and Quality are the five important elements that make the PGPEM at IIMB ideal for mid-career managers and senior executives.”"
+    ],
+    "who": "Atul Kimtee Class of 2018-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Atul%20Kimtee.jpg"
+   },
+   {
+    "q": [
+     "Many of us are naturally inclined towards looking at the technical aspects of any given problem, given our technical background. During this programme, we learned to look at the other aspects of solutions. Two fabulous years of such learning is what makes it a great journey."
+    ],
+    "who": "Subha N Nair Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Subha.jpg"
+   },
+   {
+    "q": [
+     "While I got the flexibility to take a term off, I also got the opportunity to travel to Germany for a full-term exchange programme. This gave me exposure to the global business environment and its challenges"
+    ],
+    "who": "Kranti Arora Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Kranti%20Arora.jpg"
+   },
+   {
+    "q": [
+     "The PGPEM is about the joy of being back in school, rubbing shoulders with peers who are from diverse backgrounds, interacting with industry experts and academics, participating in cultural and industry events and, above all, learning in a vibrant environment."
+    ],
+    "who": "Shishank Gupta Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/shishank_gupta.jpg"
+   },
+   {
+    "q": [
+     "I am a professional singer. So when IIMB happened, I was afraid that I may have to give up my passion, but I was inspired by my peers on campus, especially the way they manage work-life-study. I not only fulfilled the programme requirements, I also pursued my dreams here on campus.",
+     "The PGPEM is focused on mid-career and senior executives. The programme design acknowledges that executives with work experience have different needs and a different appreciation of management education.",
+     "The Post Graduate Programme in Management (PGP) has a focus on professionals at the entry levels. While some participants have work experience, a majority of the participants are freshers. The programme design for the PGP recognizes the lack of work experience among participants and is geared to providing relevant knowledge for entry level positions in a variety of industries.",
+     "The PGPEM and Executive Post Graduate Programme in Management (EPGP) are targeted at mid-career and senior executives. They are similar in rigor, with minor differences in curricula to reflect the different requirements of participants in the two programmes.",
+     "The EPGP is a full-time programme, and requires you to take a sabbatical or quit their current roles to be able to be part of the programme. Whereas, the PGPEM does not require you to quit the job. In fact, it builds on the premise that PGPEM participants can use classroom learning and inputs to their professional advantage.",
+     "The EPGP provides placement services unlike the PGPEM. If you are happy with your current employer and/or industry and looking for a change in role, PGPEM is the most appropriate programme for you. You can continue to work and attend classes on weekends.",
+     "The PGPEM is a Degree granting programme like the PGP, the EPGP and the PGPPM (PGP in Public Policy and Management).",
+     "Whereas, the Executive General Management Programme (EGMP) is a certificate (executive education) programme with less than 50% percent contact hours relative to the core courses of the PGPEM. The EGMP has no electives. Hence, in terms of depth of learning and rigor, the PGPEM and EGMP are not comparable.",
+     "The following table provides a quick comparison among various programmes of IIMB:"
+    ],
+    "who": "Sujay Harthi Class of 2017",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/1516061%281%29.jpg"
+   }
+  ]
+ },
+ "pgppm": {
+  "videos": [
+   {
+    "id": "DTnYkQy2o8w",
+    "who": ""
+   },
+   {
+    "id": "JCoXHVB582U",
+    "who": ""
+   }
+  ],
+  "texts": [
+   {
+    "q": [
+     "“The Public Policy and Management Programme at IIMB is unique in terms of the wide range of electives it offers. The International and Rural Immersion modules provide participants unique perspectives.”"
+    ],
+    "who": "Sarika Mohan, from the Indian Civil Services and PGPPM 2019-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sarika-Mohan.jpg"
+   },
+   {
+    "q": [
+     "“The programme is relevant to development, industry and society at large. It helps participants develop a holistic approach in devising area-specific policies.”"
+    ],
+    "who": "Amit Verma, IFS officer and PGPPM 2019-20",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Amit-Verma.jpg"
+   },
+   {
+    "q": [
+     "“Ours was the first batch of the PGPPM at IIMB. From being pampered officers, we went on to become committed students. We became part of rigorous academic activities and stimulating intellectual discussions. We learnt about new economic and managerial ecosystems, social and technological innovations, organizational behavior, regulatory regimes, and market mechanisms required for growth and development of a new India. There was plenty of emphasis on personal development through yoga, meditation and introspection. New ways of pedagogy, such as snap examinations, quizzes, case studies, group assignments and a dissertation, proved enriching. For public servants like us nothing could be more satisfying than the PGPPM at a mid-career level. My colleagues pursuing management programs in various international universities found the PGPPM at IIMB ahead of similar contemporary courses. The PGPPM has helped me design better policies and implement programs in a more nuanced manner. It has inculcated in me rationality and accommodation. It has helped me in making evidence-based decisions.”"
+    ],
+    "who": "Dr. A. K. Verma, Joint Secretary, Ministry of Power, Govt. of India, and PGPPM Class of 2004",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/verma.jpg"
+   },
+   {
+    "q": [
+     "“Enrolling for the PGPPM at IIMB was an extremely useful decision for my career. I learnt the frameworks of policy making and developed the ability to validate my decisions using analytical skills developed during the program. The diverse and interesting cohort proved to be an excellent peer learning platform. I learnt to analyze, evaluate, unlearn and refocus my role in public service applying contemporary concepts and practices of public policy management in India and abroad. I strongly recommend the program for people who want to learn the art and science of Policy making.”"
+    ],
+    "who": "Ms. Jyotsna Sitling, Joint Secretary, Ministry of Skill Development & Entrepreneurship (MoSDE), Govt. of India, and PGPPM Class of 2011",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Jyotsana%20Sitling.JPG"
+   },
+   {
+    "q": [
+     "“The program and the faculty at IIMB gave me a new paradigm of learning. I came to study Public Policy and Management at IIMB after 20 years in the Indian Administrative Services (IAS). It was quite a humbling experience. Like most IAS officers, I thought only experience counts in the making of public policy. But I was completely wrong. My biggest learning from the program at IIMB was that one should not make any policy or program without proper analysis of relevant data. When I chose to come to IIMB, I had many options before me, including the option of studying at a foreign university. But it was my conviction that the study of public policy is more relevant if it is done in the Indian context with the help of Indian case studies. I therefore chose IIMB. I believe all prestigious management institutions in India should offer an exclusive public policy program and the government should create a policy environment that encourages civil servants to join such programs.”"
+    ],
+    "who": "Dr. Hasmukh Adhia, Former Revenue Secretary, Govt. of India, Present Non Executive Chairman of Bank of Baroda, and PGPPM Class of 2004",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Dr.%20Hasmukh%20Adhia.jpeg"
+   },
+   {
+    "q": [
+     "“The PGPPM at IIMB broadened my horizons and honed my leadership skills. It put me in the right direction in terms of my career roadmap. The well-designed courses, the faculty who encourage out-of-the-box thinking, the diverse cohort and the fabulous campus made my time at IIMB memorable. The brand itself provides the extra edge, which can catapult you to great heights, professionally.”"
+    ],
+    "who": "Sharmistha Mukherjee, AVP, Barclays, and PGPPM Class of 2014",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Sharmistha%20Mukherjee.JPG"
+   },
+   {
+    "q": [
+     "“Twenty years in the future, when I think back on my professional journey, I know IIMB will be a key contributor to my growth. Hailing from a technical background and having worked in the consulting sector, I decided to pursue the PGPPM at IIMB for its data-driven approach and interdisciplinary design on policy making, with an India-centric focus. The program empowers students with the necessary exposure and expertise to excel in public policy and allied sectors. The faculty at IIMB helped me understand possible solutions to policy challenges of today, with a larger vision for tomorrow. With students from diverse backgrounds, I was provided with the unique opportunity of learning from the experience of my colleagues.”"
+    ],
+    "who": "Aroopjyoti Tripathy, Government Reforms & Infrastructure Development, PwC India, and PGPPM Class of 2015",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Aroopjyoti%20Tripathy.jpg"
+   },
+   {
+    "q": [
+     "“The public policy and management programme at IIM Bangalore has the right blend of concepts. The programme is designed in an innovative manner and delivered in a way that strengthens the public policy maker with enhanced managerial skills. The programme benefits professionals from government as well as non-government sectors as it offers innovative tools and techniques on public policies which is the need of the hour. The curriculum and the vibrant learning environment at IIMB helped me sharpen my administrative skills and offered me new perspectives. I recommend the programme to all those working in the government sector and the corporate world.”"
+    ],
+    "who": "Shri Hari Ranjan Rao, IAS, PGPPM Class of 2005 Secretary to the Chief Minister, & Secretary, Departments of Information Technology & Public Service Management, Govt. of Madhya Pradesh Managing Director, M.P. State Electronics Development Corporation, CEO, Madhya Pradesh Agency for Promotion of Information Technology",
+    "img": "https://www.iimb.ac.in/sites/default/files/inline-images/Shri%20Hari%20Ranjan%20Rao%20IAS.jpg"
+   }
+  ]
+ },
+ "phd": {
+  "videos": [],
+  "texts": []
+ }
+}

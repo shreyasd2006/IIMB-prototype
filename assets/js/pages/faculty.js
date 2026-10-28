@@ -5,19 +5,22 @@
   const people = I.faculty.map((f) => ({ ...f, sur: surname(f.name), hay: `${f.name} ${f.title} ${f.areas.join(" ")} ${f.roles.join(" ")} ${f.summary}`.toLowerCase() })).sort((a, b) => a.sur.localeCompare(b.sur));
   const areas = [...new Set(I.faculty.flatMap((f) => f.areas))].sort();
   const state = { q: "", area: "all", chairs: false, pubs: false };
+  /* Only the "Chairpersons and heads" view shows the red rule and the chair designation; otherwise a card is name, designation and field */
+  const LEAD = /^(chairperson|dean|officiating dean|director|head)\b/i; // named chairs (e.g. "Research Chair") are honours, not posts
+  const chairRole = (f) => f.roles.find((r) => LEAD.test(r));
 
   const card = (f, q) => `<li class="fcard" data-key="${f.id}"><a href="${u.person(f.id)}">
       ${J.face(f.id, { cls: "fc-face" })}
       <span class="fc-name">${q ? J.mark(f.name, q) : esc(f.name)}</span>
       <span class="fc-title">${esc(f.title)}</span>
       <span class="fc-areas">${esc(f.areas.join(" · "))}</span>
-      ${f.roles.length ? `<span class="fc-role">${esc(f.roles[0].replace(/^Chairperson, /, "Chair, "))}</span>` : ""}
+      ${state.chairs && chairRole(f) ? `<span class="fc-role">${esc(chairRole(f).replace(/^Chairperson, /, "Chair, "))}</span>` : ""}
     </a></li>`;
 
   function filtered() {
     const terms = state.q.toLowerCase().trim().split(/\s+/).filter(Boolean);
     return people.filter((f) => (state.area === "all" || f.areas.some((a) => J.slug(a) === state.area))
-      && (!state.chairs || f.roles.some((r) => /chair|dean|director|head/i.test(r)))
+      && (!state.chairs || f.roles.some((r) => LEAD.test(r)))
       && (!state.pubs || f.pubs.length)
       && terms.every((t) => f.hay.includes(t)));
   }

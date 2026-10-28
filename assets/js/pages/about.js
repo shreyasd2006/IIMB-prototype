@@ -62,7 +62,6 @@
     $("[data-accred]").textContent = A.accreditation;
     $("[data-equis]").textContent = "The EFMD Quality Improvement System is a leading international system of quality assessment, improvement and accreditation of business schools, run by the European Foundation for Management Development.";
     $("[data-gnam]").textContent = A.gnam;
-    $("[data-ab-ranks]").innerHTML = J.rankGrid(I.rankCards || [], "rkg-home");
     const C = I.campus;
     $("[data-su-lede]").textContent = "Central to the Institute’s vision is a deep emphasis on creating a greener, more sustainable future.";
     $("[data-su-facts]").innerHTML = C.sustainability.map((x) => `<div><dt class="num">${esc(x.v)}</dt><dd>${esc(x.l)}</dd></div>`).join("");

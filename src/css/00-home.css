@@ -193,12 +193,7 @@ kbd { font: 600 .72rem/1 var(--f-sans); border: 1px solid currentColor; padding:
 .nr-plate { display: block; aspect-ratio: 3 / 2; }
 .nr-plate img { transition: transform 1.1s var(--ease); }
 .nr-item:hover .nr-plate img { transform: scale(1.04); }
-@media (min-width: 900px) {
-  .nr-grid { grid-template-columns: 6fr 3fr 3fr; grid-template-rows: auto auto; }
-  .nr-item.lead { grid-row: span 2; }
-  .nr-item:nth-child(4) { grid-column: 2 / span 2; grid-template-columns: 1fr 1fr; column-gap: var(--g); }
-  .nr-item:nth-child(4) .nr-plate { grid-row: span 3; }
-}
+
 
 /* close band */
 .close-in { display: grid; gap: 2rem; justify-items: start; }

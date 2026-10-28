@@ -88,7 +88,7 @@
   function render() {
     /* carousel, at a glance, degree grid, steps, UG list, FAQ */
     $("[data-pc-track]").innerHTML = I.programmes.map(J.progCard).join("");
-    $("[data-pr-ranks]").innerHTML = J.rankGrid(I.rankCards || [], "rkg-home");
+    $("[data-pr-ranks]").innerHTML = J.rankFigure();
     $("[data-glance]").innerHTML = [[DEGREES.length, "Degree-granting programmes"], [UG.length, "Undergraduate and certificate programmes"], [11, "Academic areas teaching across them"], [1973, "Teaching management since"]].map(([v, l]) => `<div class="gl-i"><dt class="num" data-count>${v}</dt><dd>${l}</dd></div>`).join("");
     $("[data-degrees]").innerHTML = DEGREES.map(J.prog).map((p, i) => { const D = (I.progDetail || {})[p.id] || {}, img = D.hero && J.photo(D.hero) ? D.hero : p.img; return `<li class="dg-card"><a href="${u.prog(p.id)}">
         <span class="dg-img">${J.img(img, { want: 800, sizes: "(min-width: 1100px) 32vw, (min-width: 700px) 50vw, 100vw", alt: "" })}</span>
@@ -168,6 +168,7 @@
     J.defaultIntro(delay);
     const g = J.gsap; if (!g) return;
     J.carousel($(".pcar-sec"));
+    J.rankFigIn();
     g.fromTo(".dg-img", { clipPath: "inset(0% 0% 100% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.15, ease: "expo.inOut", stagger: { each: 0.1, grid: "auto" }, clearProps: "clipPath", scrollTrigger: { trigger: ".dgrid", start: "top 85%", once: true } });
     g.fromTo(".pr-keys li", { autoAlpha: 0, x: 24 }, { autoAlpha: 1, x: 0, duration: 0.7, ease: J.ease, stagger: 0.06, delay: delay + 0.4 });
     /* degree grid: cards rise in a diagonal wave; outline numerals fill on hover (CSS) */

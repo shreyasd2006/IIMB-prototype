@@ -619,6 +619,19 @@
     return `<div class="rkl${f ? " has-feature" : ""}" data-bars>${f ? `<aside class="rkl-feature"><p class="rkl-f-by">${J.esc(f.by)} · ${f.year}</p><p class="rkl-f-n"><span class="rkl-f-pre">${J.esc(f.pre || "")}</span><span class="num" data-count>${f.n}</span></p><h3 class="rkl-f-what">${J.esc(f.what)}</h3><p class="rkl-f-note">${J.esc(f.scope)}</p>${fsrc ? `<p class="rkl-f-src">Source: <a href="${fsrc.u}">${J.esc(fsrc.t)}</a></p>` : ""}</aside>` : ""}<ol class="rkl-list">${rest.map(J.rankRow).join("")}</ol></div>`;
   };
   J.rankGrid = (list) => J.rankLedger(list);
+  /* The official rankings and accreditation graphic, as published on iimb.ac.in (28 Oct 2026: replaces the ledger) */
+  const RANK_ALT = "IIMB rankings and recognition: #1 in India; QS MiM 2027 #31 globally; QS Global MBA 2027 #8 APAC and #64 globally; QS Master’s in Business Analytics 2027 #60 globally; QS EMBA 2026 #12 APAC; FT MiM 2026 #21 globally; Bloomberg 2026 #2 APAC; Eduniversal 2025 #1 Central Asia; Positive Impact Rating 2026 level 5; FT Global MBA (EPGP) 2026 #34; FT Executive Education 2026 #35 custom programmes; NIRF 2025 #2 in India; EQUIS accredited.";
+  J.rankFigure = ({ cls = "", caption = "Accreditation and rankings, as published on iimb.ac.in." } = {}) =>
+    `<figure class="rank-fig ${cls}" data-rank-fig><span class="rank-fig-img"><img src="assets/img/accreditation-rankings-2025.jpg" width="1921" height="1081" loading="lazy" decoding="async" alt="${J.esc(RANK_ALT)}"></span><figcaption class="caption">${J.esc(caption)} Source: <a class="ulink" href="https://www.iimb.ac.in/about-institute">About IIMB, iimb.ac.in</a></figcaption></figure>`;
+  /* The graphic opens from the top like a plate being lifted, then settles from a slight zoom */
+  J.rankFigIn = () => {
+    const g = J.gsap; if (!g || J.rm.matches) return;
+    J.$$("[data-rank-fig]").forEach((fig) => {
+      const box = J.$(".rank-fig-img", fig), img = J.$("img", fig);
+      g.fromTo(box, { clipPath: "inset(0% 0% 100% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.3, ease: "expo.inOut", clearProps: "clipPath", scrollTrigger: { trigger: fig, start: "top 85%", once: true } });
+      g.fromTo(img, { scale: 1.12 }, { scale: 1, duration: 1.8, ease: J.ease, clearProps: "transform", scrollTrigger: { trigger: fig, start: "top 85%", once: true } });
+    });
+  };
   J.ranksFor = (progId) => (I.rankCards || []).filter((r) => (progId ? r.prog === progId : true));
 
   /* Gradual ink: each word goes from a faint trace to full ink, tied to the scroll, finished well before the next section. */
