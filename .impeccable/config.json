@@ -7,6 +7,15 @@
         "rule": "overused-font",
         "value": "inter",
         "createdAt": "2026-10-26T15:42:17.900Z"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "assets/css/pages.css"
+        ],
+        "createdAt": "2026-10-29T14:17:57.650Z",
+        "reason": "False positive: .pp-summary box has square corners; the adjacent rounded .pp-back pill has a uniform 1.5px outline, no accent edge. pages.css is generated from src/css."
       }
     ]
   }

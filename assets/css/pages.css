@@ -1677,3 +1677,17 @@ body { word-spacing: .015em; }
   .pp-side { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); column-gap: var(--g); }
 }
 .pp-lede p { font-size: clamp(1.08rem, 1rem + .3vw, 1.22rem); line-height: 1.7; max-width: 64ch; }
+
+/* 29 Oct: profile text in a box; a visible way back to the directory; round A-Z marker */
+.pp-summary { background: var(--cream-2); border: 1px solid var(--rule); border-top: 3px solid var(--red); padding: clamp(1.6rem, 4vw, 3.2rem) clamp(1.3rem, 4vw, 3.6rem); }
+.pp-summary .pp-lede p + p { margin-top: 1.1rem; }
+.pp-summary .src { margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.pp-back { display: inline-flex; align-items: center; gap: .6rem; justify-self: start; width: fit-content; padding: .6rem 1.1rem .6rem .9rem; border: 1.5px solid var(--ink); border-radius: 999px; font: 600 .9rem/1 var(--f-sans); color: var(--ink); text-decoration: none; transition: background var(--d-mid), color var(--d-mid), border-color var(--d-mid); }
+.pp-back .ico { width: 16px; height: 16px; transform: scaleX(-1); color: var(--red); transition: transform .45s var(--ease), color var(--d-mid); }
+.pp-back:hover, .pp-back:focus-visible { background: var(--burgundy); border-color: var(--burgundy); color: var(--white); }
+.pp-back:hover .ico, .pp-back:focus-visible .ico { color: var(--white); transform: scaleX(-1) translateX(4px); }
+.pp-back:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; }
+.pp-id > .pp-back { margin-bottom: .4rem; }
+.pp-back-row { margin: 0; display: flex; justify-content: center; }
+@media (min-width: 1000px) { .pp-back-row { grid-column: 1 / -1; } }
+@media (min-width: 900px) { .az a { width: 24px; height: 24px; justify-self: center; } }

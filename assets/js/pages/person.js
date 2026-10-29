@@ -24,6 +24,7 @@
     $("[data-pp-area-crumb]").textContent = f.areas[0];
     $("[data-pp-area-crumb]").href = `faculty.html?area=${J.slug(f.areas[0])}`;
     $("[data-pp-name]").textContent = f.name;
+    try { const r = new URL(document.referrer); if (r.origin === location.origin && /faculty\.html$/.test(r.pathname)) $$("[data-pp-back]").forEach((a) => (a.href = "faculty.html" + r.search + r.hash)); } catch (_) {}
     $("[data-pp-title]").textContent = f.title;
     $("[data-pp-areas]").innerHTML = f.areas.map((a) => `<li><a class="chip" href="faculty.html?area=${J.slug(a)}">${esc(a)}</a></li>`).join("");
     const roles = rolesOf(f);
